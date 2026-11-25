@@ -1,0 +1,6 @@
+!assets/
+!assets/**
+!build/
+!build/**
+.DS_Store
+*.log

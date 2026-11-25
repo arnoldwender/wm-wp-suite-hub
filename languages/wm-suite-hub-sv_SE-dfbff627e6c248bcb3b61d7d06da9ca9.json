@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "sv_SE",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Enterprise Cockpit)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Register och statusöversikt över WM Suite-tilläggen, en programvaruförteckning enligt CycloneDX 1.6 och en revisionstabell vars poster är kedjade med HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "WM Enterprise Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Cockpit & status"
+      ],
+      "Cockpit & Status": [
+        "Cockpit & status"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Lösningspaket"
+      ],
+      "Solution Packs": [
+        "Lösningspaket"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Revisionslogg"
+      ],
+      "Audit-Log": [
+        "Revisionslogg"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Du har inte tillräcklig behörighet för att öppna den här sidan."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Enterprise Suite Cockpit"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Moduler per regelverk"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Enterprise Suite Cockpit"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Revisionskedjan intakt: %d poster kontrollerade"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Revisionskedjan bruten vid post #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Varje post är bunden till den föregående med HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Aktiva moduler"
+      ],
+      "Health Score": [
+        "Hälsopoäng"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Aktiva satellitmoduler från WM Suite"
+      ],
+      "%d Bereitgestellt": [
+        "%d driftsatta"
+      ],
+      "Suite Cockpit öffnen": [
+        "Öppna svitcockpit"
+      ],
+      "Nicht aktiv": [
+        "Inte aktiv"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Helt aktiv (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Delvis aktiv (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d moduler tillgängliga"
+      ],
+      "Zustand der zuständigen Module": [
+        "Status för de ansvariga modulerna"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Visar vilket WM Suite-tillägg som är aktivt och vilken status det rapporterar. Ingen bedömning av överensstämmelse."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Hoppa till huvudinnehåll"
+      ],
+      "WM Suite Hub Command Console": [
+        "WM Suite Hub-kommandokonsol"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Status för de registrerade WM Suite-tilläggen, programvaruförteckning (CycloneDX 1.6) och en revisionstabell kedjad med HMAC-SHA256."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Uppdatera flottstatus"
+      ],
+      "Aktualisieren": [
+        "Uppdatera"
+      ],
+      "Audit-Integrität prüfen": [
+        "Kontrollera revisionsintegritet"
+      ],
+      "Cockpit Navigation": [
+        "Cockpitnavigering"
+      ],
+      "Cockpit Übersicht": [
+        "Cockpitöversikt"
+      ],
+      "Satelliten-Flotte": [
+        "Satellitflotta"
+      ],
+      "Audit-Protokoll": [
+        "Revisionslogg"
+      ],
+      "Design & Themes": [
+        "Design & teman"
+      ],
+      "Suite Theme:": [
+        "Svittema:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Välj WM Suite-tema"
+      ],
+      "Schnellnavigation": [
+        "Snabbnavigering"
+      ],
+      "Direkt zu:": [
+        "Gå till:"
+      ],
+      "Kurzanleitung": [
+        "Snabbguide"
+      ],
+      "Metriken & Status": [
+        "Mätvärden & status"
+      ],
+      "Theme-Einstellungen": [
+        "Temainställningar"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Vad är WM Suite Hub och hur styr du dina tillägg?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub är den centrala"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "styr- och kontrollcentralen för alla WordPress-tillägg från WM Suite"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Den visar den status som de registrerade modulerna rapporterar, skapar en mjukvaruförteckning i formatet CycloneDX 1.6 och kedjar ihop händelserna som rapporteras till den med HMAC-SHA256: ändringar utan webbplatsens nyckel blir upptäckbara. Den bedömer inte rättslig efterlevnad."
+      ],
+      "Schnellzugriff:": [
+        "Snabbåtkomst:"
+      ],
+      "Aktive Module prüfen": [
+        "Granska aktiva moduler"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Visa revisionslogg"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Byt tema & utseende"
+      ],
+      "Systemmetriken": [
+        "Systemmätvärden"
+      ],
+      "GESAMTSTATUS": [
+        "ÖVERGRIPANDE STATUS"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Viktad status för de registrerade modulerna (frisk 100, begränsad 60, inte konfigurerad 30, fel 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "SATELLITINVENTARIUM"
+      ],
+      "Registriert": [
+        "Registrerad"
+      ],
+      "Gesund": [
+        "Frisk"
+      ],
+      "Warnungen": [
+        "Varningar"
+      ],
+      "Kritisch": [
+        "Kritisk"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "KÖRMILJÖ"
+      ],
+      "ja": [
+        "ja"
+      ],
+      "nein": [
+        "nej"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Beständig objektcache"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Flottstatus & satellitmoduler"
+      ],
+      "Module aktiv": [
+        "moduler aktiva"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Inga satellitmoduler registrerade"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Så snart WM Suite-tillägg aktiveras ansluter de automatiskt via filtret wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Beroenden:"
+      ],
+      "Konfiguration": [
+        "Konfiguration"
+      ],
+      "Selbsttest": [
+        "Självtest"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Kedjeintegritet: Ej kontrollerad (klicka på Kontrollera revisionsintegritet)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Tabell för revisionslogg"
+      ],
+      "Zeitstempel": [
+        "Tidsstämpel"
+      ],
+      "Modul": [
+        "Modul"
+      ],
+      "Ereignistyp": [
+        "Händelsetyp"
+      ],
+      "Benutzer": [
+        "Användare"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "SHA-256 HMAC-signatur"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Läser in revisionsloggar..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Designsystem & temaval"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Välj globalt färgschema för cockpiten och alla satellittillägg i WM Suite. Som standard används CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Standard"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Mörk Obsidian Midnight-kommandobanner kombinerad med inbyggda WordPress-adminkort och tydlig kontrast."
+      ],
+      "Als Standard aktivieren": [
+        "Aktivera som standard"
+      ],
+      "Klassisch": [
+        "Klassisk"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: inbyggd färgpalett för WordPress Admin (#2271b1 blå, #f0f0f1 bakgrund, standardformulär)."
+      ],
+      "Aktivieren": [
+        "Aktivera"
+      ],
+      "Dark Mode": [
+        "Mörkt läge"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Helmörkt läge (#050811 bakgrund) med glaskort och blå accenter."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Rent svart, vitt och säkerhetsgult för hög kontrast."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Datalagring & avinstallation"
+      ],
+      "Aufbewahrungsschutz": [
+        "Lagringsskydd"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Ta bort alla tilläggsdata permanent vid borttagning"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "Som standard bevarar WM Suite Hub HMAC-SHA256-revisionstabellen, roller och inställningar vid avinstallation. Aktivera endast detta val om allt ska raderas permanent."
+      ],
+      "Audit-Verifikation": [
+        "Revisionsverifiering"
+      ],
+      "Schließen": [
+        "Stäng"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Tematiska paket av WM Suite-tillägg: Kahns topologiska sortering avgör ordningen på deras beroenden, och förkontrollen granskar servern först. Den här versionen har ingen installation; tilläggen installeras ett i taget."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Deduplicering på den här sidan:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "%1$d skript och %2$d stilmallar borttagna (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Paketinnehåll & modularkitektur (%d):"
+      ],
+      "Aktiviert": [
+        "Aktiverad"
+      ],
+      "Im Paket enthalten": [
+        "Ingår i paketet"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Matematisk DAG-installationsföljd (Kahns sortering):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Inget av dessa tillägg kräver något annat; installationsordningen är fri."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Starta förkontroll för %s"
+      ],
+      "Pre-Flight Check": [
+        "Förkontroll"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Kontrollerar PHP-version, Sodium-tillägg, minnesgräns, skrivbehörigheter och OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Torrkörningssimulering"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Åtkomst nekad. Otillräcklig behörighet för WM Suite Cockpit."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Modulen \"%s\" är inte registrerad eller är inaktiv."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Modulåtgärd misslyckades: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Telemetricachen har tömts."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Ogiltigt tema valt."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Temat har uppdaterats."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Standard)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Klassisk"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Mörk"
+      ],
+      "High-Contrast": [
+        "Hög kontrast"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Avinstallationsinställning uppdaterad."
+      ],
+      "Bundle nicht gefunden.": [
+        "Paketet hittades inte."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Förkontrollen misslyckades."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Torrkörning klar: %d paket lösta i ordning."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Installation av lösningspaket är inte tillgänglig i den här versionen. Använd dry_run=true för att beräkna ordningen."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Samtyckessynkronisering avvisad: säkerhetstoken saknas eller har gått ut."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "För många samtyckeshändelser. Försök igen om en minut."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Inget läsbart samtyckesbeslut."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Samtycket kunde inte registreras."
+      ],
+      "Externer Dienst": [
+        "Extern tjänst"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Blockerat externt innehåll: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Innehåll från %s blockerat"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Läs in och aktivera %s en gång"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Ditt samtycke enligt § 25 TDDDG och GDPR krävs för att läsa in detta innehåll."
+      ],
+      "Inhalt laden & entsperren": [
+        "Läs in & lås upp innehåll"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Genom att läsa in godkänner du dataöverföring till tredjepartsleverantören."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Ett fel uppstod vid kommunikation med Hubben."
+      ],
+      "HTTP-Fehler %s": [
+        "HTTP-fel %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Tema ändrat."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Fel när temat sparades: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Inga revisionshändelser registrerade."
+      ],
+      "Benutzer #%s": [
+        "Användare #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Fel när loggarna lästes in: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Revisionskedjan kontrolleras…"
+      ],
+      "Audit-Kette intakt": [
+        "Revisionskedjan intakt"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Alla %d poster stämmer med sin HMAC-SHA256-signatur och sin föregångare: ingen har ändrats, raderats eller sorterats om utan webbplatsens nyckel."
+      ],
+      "Letzter Hash: %s": [
+        "Senaste hash: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Revisionskedjan bruten"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Kontroll av revisionskedjan"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Kontrollen misslyckades"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Telemetridata uppdaterade."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Fel vid uppdatering: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Förkontroll: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Fel i förkontrollen:"
+      ],
+      "Prüfpunkt": [
+        "Kontrollpunkt"
+      ],
+      "Soll": [
+        "Förväntat"
+      ],
+      "Ist": [
+        "Faktiskt"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "Erfüllt": [
+        "Uppfyllt"
+      ],
+      "Nicht erfüllt": [
+        "Inte uppfyllt"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Beräknad installationsordning:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Inga beroenden deklarerade, fri ordning:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Torrkörning för %s pågår…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Torrkörningen är klar."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Torrkörningen misslyckades: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Avinstallationsinställningen har sparats."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Fel när ändringarna sparades: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Resultat för %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Åtgärd utförd."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Fel vid modulåtgärd: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Utan det aktiva tillägget ”%s” visar det här blocket ingenting för besökare."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Inte konfigurerat ännu – fyll i ”%s” i blockinställningarna. Fram till dess ser besökare inte blocket."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Tillgänglighetsinställningar"
+      ],
+      "Kontrast": [
+        "Kontrast"
+      ],
+      "Leseschrift": [
+        "Läsbarhetstypsnitt"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Integritetsinställningar"
+      ],
+      "SBOM-Download-URL": [
+        "URL för SBOM-nedladdning"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Mjukvaruförteckning (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Ladda ner CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Bokningssida (URL)"
+      ],
+      "Zur Buchung": [
+        "Till bokningen"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Evenemangskortet är inte konfigurerat ännu – ange titel och evenemangsuppgifter i blockinställningarna."
+      ],
+      "Ausgebucht": [
+        "Fullbokad"
+      ],
+      "Nur noch %d Plätze": [
+        "Endast %d platser kvar"
+      ],
+      "%d freie Plätze": [
+        "%d lediga platser"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "”%s” rapporterar inga aktiva evenemang; fram till dess ser besökare inte blocket."
+      ],
+      "Max. %d Plätze": [
+        "Max. %d platser"
+      ],
+      "Zur Veranstaltung": [
+        "Till evenemanget"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Inga verifierade LkSG-nyckeltal har angetts ännu – ange värdena i blockinställningarna."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Tillbörlig aktsamhet i leveranskedjan (LkSG & CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Mänskliga rättigheter"
+      ],
+      "Umweltschutz": [
+        "Miljöskydd"
+      ],
+      "Gute Governance": [
+        "God styrning"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Den här behållaren tar inte emot något innehåll i redigeraren och påverkar inte sidan; besökare ser den inte."
+      ],
+      "Ticker-Meldungen": [
+        "Tickerrubriker"
+      ],
+      "Nachrichten-Ticker": [
+        "Nyhetsticker"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Pausa eller återuppta ticker"
+      ],
+      "Pausieren": [
+        "Pausa"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Kontrollerar i webbläsaren om identifieraren följer formatet Schema:ID (t.ex. 0208:0843657437). Om deltagaren kan nås i Peppol-nätverket kontrollerar det här blocket inte."
+      ],
+      "Peppol ID": [
+        "Peppol-ID"
+      ],
+      "Prüfen": [
+        "Kontrollera"
+      ],
+      "Ziel-Element-ID": [
+        "Målelement-ID"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "När detta innehåll laddas överförs data till leverantören."
+      ],
+      "Inhalt einmalig laden": [
+        "Läs in innehåll en gång"
+      ],
+      "Hinweis abgeben": [
+        "Lämna en rapport"
+      ],
+      "WM Suite Hub Telemetry": [
+        "WM Suite Hub-telemetri"
+      ],
+      "Telemetry Field": [
+        "Telemetrifält"
+      ],
+      "Health Score (%)": [
+        "Hälsopoäng (%)"
+      ],
+      "Global Status": [
+        "Övergripande status"
+      ],
+      "Active Spokes Count": [
+        "Antal aktiva satelliter"
+      ],
+      "Hub Version": [
+        "Hub-version"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Giltigt format (Schema:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Ogiltigt ID-format"
+      ],
+      "Pausiert": [
+        "Pausad"
+      ],
+      "Läuft": [
+        "Körs"
+      ],
+      "Compliance Officer (DPO)": [
+        "Efterlevnadsansvarig (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Post #%d pekar inte på sin föregångare: en tidigare post har raderats, infogats eller ändrats."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Signaturen för post #%d stämmer inte: posten har ändrats, eller webbplatsens nyckel (AUTH_SALT) är inte längre den som den skrevs med."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Revisionstabellen är tom."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "%d poster kontrollerade, kedjan är obruten."
+      ],
+      "Eingeschränkt": [
+        "Begränsad"
+      ],
+      "Nicht konfiguriert": [
+        "Inte konfigurerad"
+      ],
+      "Fehler": [
+        "Fel"
+      ],
+      "Warnung": [
+        "Varning"
+      ],
+      "Unbekannt": [
+        "Okänd"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub kräver PHP 8.2 eller senare. Uppgradera din PHP-miljö."
+      ],
+      "Block-Einstellungen": [
+        "Blockinställningar"
+      ],
+      "Spaltenanzahl": [
+        "Antal kolumner"
+      ],
+      "Maximale Einträge": [
+        "Max antal poster"
+      ],
+      "Veranstaltungstitel": [
+        "Evenemangstitel"
+      ],
+      "Kategorie": [
+        "Kategori"
+      ],
+      "Datum": [
+        "Datum"
+      ],
+      "Veranstaltungsort": [
+        "Plats"
+      ],
+      "Freie Plätze": [
+        "Lediga platser"
+      ],
+      "Preis": [
+        "Pris"
+      ],
+      "Button-Beschriftung": [
+        "Knapptext"
+      ],
+      "Hinweis unter dem Button": [
+        "Notering under knappen"
+      ],
+      "Überschrift": [
+        "Rubrik"
+      ],
+      "Platzhaltertext": [
+        "Platshållartext"
+      ],
+      "Badge-Beschriftung": [
+        "Märkestext"
+      ],
+      "Dienstname": [
+        "Tjänstens namn"
+      ],
+      "Unternehmensname": [
+        "Företagsnamn"
+      ],
+      "Link zur Meldestelle": [
+        "Länk till rapporteringskanalen"
+      ],
+      "Menschenrechte (%)": [
+        "Mänskliga rättigheter (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Miljö (%)"
+      ],
+      "Governance (%)": [
+        "Styrning (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Versionsetikett"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Visa knapp för hög kontrast"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Visa knapp för lästypsnitt"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Visa knappar för textstorlek"
+      ],
+      "Badge-Text": [
+        "Etikettext"
+      ],
+      "Skalierungsfaktor": [
+        "Skalfaktor"
+      ],
+      "Basisschriftgröße": [
+        "Basstorlek för text"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "WM Tillgänglighetsverktygsfält"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Knappar för hög kontrast i WM Suite-blocken, ett lästypsnitt som är installerat på besökarens enhet och större text. Valet stannar i webbläsaren."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "tillgänglighet"
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004dyslexia": [
+        "dyslexi"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "WM Tillgänglighetsredogörelse"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Visar den tillgänglighetsredogörelse som WM BFSG Compliance Dashboard skapar utifrån dina inställningar. Utan det tillägget ser besökare ingenting."
+      ],
+      "block keyword\u0004erklaerung": [
+        "redogörelse"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "WM Märke för samtyckesinställningar"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Märkeslänk som öppnar samtyckesdialogen i WM Sovereign Consent Vault. Utan det tillägget ser besökare ingenting."
+      ],
+      "block keyword\u0004privacy": [
+        "personuppgifter"
+      ],
+      "block keyword\u0004consent": [
+        "samtycke"
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "kakor"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "WM SBOM-nedladdning"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Nedladdningslänk för den CycloneDX-SBOM som wp wm-hub sbom skriver. Besökare ser ingenting förrän en URL har angetts."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "säkerhet"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "WM Bokningsknapp för evenemang"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Knapp till den bokningssida du anger, med en valfri notering under. Besökare ser ingenting förrän en URL har angetts."
+      ],
+      "block keyword\u0004booking": [
+        "bokning"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "knapp"
+      ],
+      "block keyword\u0004tickets": [
+        "biljetter"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "WM Evenemangskort"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Evenemangskort med titel, datum, plats, pris och lediga platser som du skriver in, och en knapp till den angivna bokningssidan. Ingenting läses live."
+      ],
+      "block keyword\u0004event": [
+        "evenemang"
+      ],
+      "block keyword\u0004card": [
+        "kort"
+      ],
+      "block keyword\u0004ticket": [
+        "biljett"
+      ],
+      "block keyword\u0004conference": [
+        "konferens"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "WM Evenemangsrutnät"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Listar de aktiva evenemangen i WM Cyber Events Core, vart och ett med en länk till sin sida. Utan det tillägget ser besökare ingenting."
+      ],
+      "block keyword\u0004grid": [
+        "rutnät"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "WM LkSG- & ESG-styrkort"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Tre procentsatser som du skriver in (mänskliga rättigheter, miljö, styrning) under en rubrik om leveranskedjan. Blocket beräknar och kontrollerar ingenting."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "leveranskedja"
+      ],
+      "block keyword\u0004compliance": [
+        "regelefterlevnad"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "WM Flytande typografibehållare"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Behållare för en modulär typografisk skala. I den här versionen tar den inga inre block och ingen stilmall läser dess inställningar, så den påverkar inte sidan."
+      ],
+      "block keyword\u0004typography": [
+        "typografi"
+      ],
+      "block keyword\u0004fluid": [
+        "flytande"
+      ],
+      "block keyword\u0004modular scale": [
+        "modulär skala"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "WM Nyhetsticker"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Rullande rad med din egen text och en pausknapp. Den stannar när muspekaren är över den och står still för besökare som begär reducerad rörelse."
+      ],
+      "block keyword\u0004ticker": [
+        "ticker"
+      ],
+      "block keyword\u0004marquee": [
+        "nyhetslist"
+      ],
+      "block keyword\u0004news": [
+        "nyheter"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "extra nyheter"
+      ],
+      "block keyword\u0004accessibility": [
+        "tillgänglighet"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "WM Formatkontroll för Peppol-ID"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Kontrollerar i webbläsaren om ett ID har Peppol-formen Schema:ID. Blocket slår inte upp deltagaren i Peppol-nätverket."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "e-fakturering"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "WM Suveränt integritetscenter"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Rubrik och knappen som öppnar samtyckesdialogen i WM Sovereign Consent Vault. Utan det tillägget ser besökare ingenting."
+      ],
+      "block keyword\u0004preferences": [
+        "inställningar"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "WM GDPR art. 17-raderingsformulär"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Visar formuläret för raderingsbegäranden från WM DSGVO Privacy Eraser. Utan det tillägget ser besökare ingenting."
+      ],
+      "block keyword\u0004eraser": [
+        "radering"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "borttagning"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "WM Platshållare för externt innehåll"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Platshållare med en laddningsknapp. Lägg inbäddningen i ett template-element med mål-ID:t: inget därinne laddas före klicket."
+      ],
+      "block keyword\u0004media": [
+        "medier"
+      ],
+      "block keyword\u0004placeholder": [
+        "platshållare"
+      ],
+      "block keyword\u0004blocker": [
+        "blockerare"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "WM HinSchG-visselblåsarkort"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Länkkort till rapporteringskanalen: portalblocket på samma sida eller en adress du anger."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-lag"
+      ],
+      "block keyword\u0004whistleblower": [
+        "visselblasare"
+      ],
+      "block keyword\u0004meldung": [
+        "anmälan"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "rapportering"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "WM HinSchG-visselblåsarportal"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Visar rapporteringsportalen i WM HinSchG Whistleblower Desk. Utan det tillägget ser besökare ingenting."
+      ],
+      "block keyword\u0004wizard": [
+        "guide"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/peppol-id-verifier",
+	"version": "1.2.6",
+	"title": "WM Peppol ID Format Check",
+	"category": "wm-suite",
+	"icon": "money-alt",
+	"description": "Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.",
+	"keywords": ["peppol", "xrechnung", "zugferd", "geba", "e-invoicing"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor",
+	"attributes": {
+		"heading": {
+			"type": "string",
+			"default": "Peppol E-Rechnung Identifikator prüfen"
+		},
+		"placeholder": {
+			"type": "string",
+			"default": "z.B. 0208:0843657437 oder 9958:DE..."
+		}
+	}
+}

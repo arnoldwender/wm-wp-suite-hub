@@ -1,0 +1,158 @@
+{
+  "title": "WM Suite Solution Packs",
+  "bundles": [
+    {
+      "bundle_id": "security-legal",
+      "suite_name": "Security & Legal Suite",
+      "description": "Plugins zu Software-Inventar, Zugangsschranken, Aktivitätsprotokoll, Hinweisgebermeldungen und zur Schwärzung personenbezogener Daten vor KI-Anfragen.",
+      "required_php": "8.2.0",
+      "compliance_tags": ["CRA", "HinSchG", "GeschGehG"],
+      "packages": [
+        {
+          "slug": "wm-cra-sbom-beacon",
+          "name": "WM CRA SBOM Beacon",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-prototype-nda-gate",
+          "name": "WM Prototype NDA Gate",
+          "version_constraint": ">=1.1.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-activity-sentinel",
+          "name": "WM Activity Sentinel",
+          "version_constraint": ">=1.3.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-hinschg-whistleblower",
+          "name": "WM HinSchG Whistleblower Desk",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-kanzlei-ai-sanitizer",
+          "name": "WM Kanzlei AI Sanitizer",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "bundle_id": "bfsg-2025",
+      "suite_name": "Accessibility Suite",
+      "description": "Plugins zu Kontrast, Bewegung, HTML-Struktur und zur Erklärung zur Barrierefreiheit, dazu lokal ausgelieferte Schriften und Skripte.",
+      "required_php": "8.2.0",
+      "compliance_tags": ["BFSG", "WCAG"],
+      "packages": [
+        {
+          "slug": "wm-zero-cdn-asset-localizer",
+          "name": "WM Zero-CDN Asset Localizer",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-a11y-sensory-governor",
+          "name": "WM A11y Sensory Governor",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-bfsg-ast-remediator",
+          "name": "WM BFSG AST Remediator",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-bfsg-compliance-dashboard",
+          "name": "WM BFSG Compliance Dashboard",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "bundle_id": "sovereign-privacy",
+      "suite_name": "Privacy Suite",
+      "description": "Plugins zu Einwilligungen, Löschanfragen nach Art. 17 DSGVO und Newsletter-Anmeldungen mit Double Opt-in.",
+      "required_php": "8.2.0",
+      "compliance_tags": ["DSGVO", "TDDDG"],
+      "packages": [
+        {
+          "slug": "wm-sovereign-consent-vault",
+          "name": "WM Sovereign Consent Vault",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-dsgvo-privacy-eraser",
+          "name": "WM DSGVO Privacy Eraser",
+          "version_constraint": ">=1.2.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-dsgvo-newsletter-suite",
+          "name": "WM DSGVO Newsletter Suite",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "bundle_id": "corporate-governance",
+      "suite_name": "Governance Suite",
+      "description": "Plugins zum IKT-Drittparteienregister nach DORA und zur Risikobewertung von Lieferanten nach LkSG.",
+      "required_php": "8.2.0",
+      "compliance_tags": ["DORA", "LkSG"],
+      "packages": [
+        {
+          "slug": "wm-dora-ict-register",
+          "name": "WM DORA ICT Register",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-lksg-supply-auditor",
+          "name": "WM LkSG Supply Chain Auditor",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "bundle_id": "enterprise-commerce-events",
+      "suite_name": "Events & E-Invoicing Suite",
+      "description": "Plugins für Veranstaltungen und Buchungen, Peppol-E-Rechnungen, typografische Skalen und einen Newsticker.",
+      "required_php": "8.3.0",
+      "compliance_tags": ["E-Rechnung", "Peppol"],
+      "packages": [
+        {
+          "slug": "wm-cyber-events-core",
+          "name": "WM Cyber Events Core",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-peppol-as4-gateway",
+          "name": "WM Peppol AS4 Gateway",
+          "version_constraint": ">=1.0.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-modularscale",
+          "name": "WM Modular Scale",
+          "version_constraint": ">=1.2.0",
+          "dependencies": []
+        },
+        {
+          "slug": "wm-newsticker",
+          "name": "WM Newsticker",
+          "version_constraint": ">=1.4.6",
+          "dependencies": []
+        }
+      ]
+    }
+  ]
+}

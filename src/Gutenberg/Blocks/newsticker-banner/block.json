@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/newsticker-banner",
+	"version": "1.2.6",
+	"title": "WM Newsticker",
+	"category": "wm-suite",
+	"icon": "rss",
+	"description": "Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.",
+	"keywords": ["ticker", "marquee", "news", "eilmeldung", "accessibility"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor",
+	"attributes": {
+		"badgeText": {
+			"type": "string",
+			"default": "EILMELDUNG"
+		},
+		"tickerText": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

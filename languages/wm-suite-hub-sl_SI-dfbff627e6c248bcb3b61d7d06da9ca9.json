@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "sl_SI",
+        "plural-forms": "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Poslovna nadzorna plošča)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Register in pregled stanja vtičnikov WM Suite, seznam programskih komponent po CycloneDX 1.6 in revizijska tabela, katere vnosi so verižno povezani s HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "Poslovna zbirka WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Nadzorna plošča in stanje"
+      ],
+      "Cockpit & Status": [
+        "Plošča in stanje"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Paketi rešitev"
+      ],
+      "Solution Packs": [
+        "Paketi rešitev"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Revizijski dnevnik"
+      ],
+      "Audit-Log": [
+        "Revizijski dnevnik"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Nimate zadostnih dovoljenj za dostop do te strani."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Nadzorna plošča poslovne zbirke"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Moduli po predpisih"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Nadzorna plošča poslovne zbirke"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Revizijska veriga nedotaknjena: preverjenih vnosov: %d"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Revizijska veriga prekinjena pri vnosu #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Vsak vnos je s prejšnjim povezan s HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Aktivni moduli"
+      ],
+      "Health Score": [
+        "Ocena zdravja"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Aktivni satelitski moduli WM Suite"
+      ],
+      "%d Bereitgestellt": [
+        "%d nameščenih"
+      ],
+      "Suite Cockpit öffnen": [
+        "Odpri nadzorno ploščo"
+      ],
+      "Nicht aktiv": [
+        "Ni aktivno"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Popolnoma aktivno (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Delno aktivno (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d razpoložljivih modulov"
+      ],
+      "Zustand der zuständigen Module": [
+        "Stanje pristojnih modulov"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Prikazuje, kateri vtičnik WM Suite je aktiven in kakšno stanje sporoča. Ni ocena skladnosti."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Preskoči na glavno vsebino"
+      ],
+      "WM Suite Hub Command Console": [
+        "Ukazna konzola WM Suite Hub"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Stanje registriranih vtičnikov WM Suite, seznam programskih komponent (CycloneDX 1.6) in revizijska tabela, verižno povezana s HMAC-SHA256."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Osveži stanje flote"
+      ],
+      "Aktualisieren": [
+        "Osveži"
+      ],
+      "Audit-Integrität prüfen": [
+        "Preveri celovitost revizije"
+      ],
+      "Cockpit Navigation": [
+        "Navigacija plošče"
+      ],
+      "Cockpit Übersicht": [
+        "Pregled plošče"
+      ],
+      "Satelliten-Flotte": [
+        "Satelitska flota"
+      ],
+      "Audit-Protokoll": [
+        "Revizijski dnevnik"
+      ],
+      "Design & Themes": [
+        "Oblikovanje in teme"
+      ],
+      "Suite Theme:": [
+        "Tema zbirke:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Izberi temo WM Suite"
+      ],
+      "Schnellnavigation": [
+        "Hitra navigacija"
+      ],
+      "Direkt zu:": [
+        "Skoči na:"
+      ],
+      "Kurzanleitung": [
+        "Kratek vodnik"
+      ],
+      "Metriken & Status": [
+        "Meritve in stanje"
+      ],
+      "Theme-Einstellungen": [
+        "Nastavitve teme"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Kaj je WM Suite Hub in kako upravljate vtičnike?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub je osrednje"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "upravljavsko in nadzorno središče vseh WordPress vtičnikov WM Suite"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Prikazuje stanje, ki ga sporočajo registrirani moduli, ustvari kosovnico programske opreme v formatu CycloneDX 1.6 in s HMAC-SHA256 poveže v verigo dogodke, ki so mu sporočeni: spremembe brez ključa spletnega mesta postanejo zaznavne. Ne ocenjuje pravne skladnosti."
+      ],
+      "Schnellzugriff:": [
+        "Hitri dostop:"
+      ],
+      "Aktive Module prüfen": [
+        "Preveri aktivne module"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Prikaži revizijski dnevnik"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Zamenjaj temo in videz"
+      ],
+      "Systemmetriken": [
+        "Sistemske meritve"
+      ],
+      "GESAMTSTATUS": [
+        "SKUPNO STANJE"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Uteženo stanje registriranih modulov (brezhibno 100, omejeno 60, ni konfigurirano 30, napaka 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "SEZNAM SATELITOV"
+      ],
+      "Registriert": [
+        "Registrirano"
+      ],
+      "Gesund": [
+        "Brezhibno"
+      ],
+      "Warnungen": [
+        "Opozorila"
+      ],
+      "Kritisch": [
+        "Kritično"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "IZVAJALNO OKOLJE"
+      ],
+      "ja": [
+        "da"
+      ],
+      "nein": [
+        "ne"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Trajni predpomnilnik objektov"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Stanje flote in satelitski moduli"
+      ],
+      "Module aktiv": [
+        "aktivnih modulov"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Ni registriranih satelitskih modulov"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Takoj ko so vtičniki WM Suite aktivirani, se samodejno povežejo prek filtra wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Odvisnosti:"
+      ],
+      "Konfiguration": [
+        "Nastavitve"
+      ],
+      "Selbsttest": [
+        "Samopreizkus"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Celovitost verige: Ni preverjena (kliknite Preveri celovitost revizije)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Tabela revizijskega dnevnika"
+      ],
+      "Zeitstempel": [
+        "Časovni žig"
+      ],
+      "Modul": [
+        "Modul"
+      ],
+      "Ereignistyp": [
+        "Vrsta dogodka"
+      ],
+      "Benutzer": [
+        "Uporabnik"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "Podpis HMAC SHA-256"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Nalaganje revizijskih dnevnikov..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Oblikovalski sistem in nastavitve teme"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Izberite globalno barvno shemo za nadzorno ploščo in vse satelitske vtičnike WM Suite. Privzeto je aktivna CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Privzeto"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Temna pasica Obsidian Midnight v kombinaciji z izvornimi karticami skrbništva WordPress in jasnimi kontrasti."
+      ],
+      "Als Standard aktivieren": [
+        "Nastavi kot privzeto"
+      ],
+      "Klassisch": [
+        "Klasično"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: izvorna barvna paleta WordPress Admin (#2271b1 modra, #f0f0f1 ozadje, standardni obrazci WP)."
+      ],
+      "Aktivieren": [
+        "Aktiviraj"
+      ],
+      "Dark Mode": [
+        "Temni način"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Popoln temni način (#050811 ozadje) s prosojnimi karticami in modrimi poudarki."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Čista črna, bela in varnostno rumena za visok kontrast."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Hramba podatkov in odstranitev"
+      ],
+      "Aufbewahrungsschutz": [
+        "Zaščita hrambe"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Nepovratno izbriši vse podatke ob odstranitvi vtičnika"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "WM Suite Hub privzeto ohrani revizijsko tabelo HMAC-SHA256, vloge in nastavitve ob odstranitvi. To možnost vključite le, če želite dokončno izbrisati vse tabele in možnosti."
+      ],
+      "Audit-Verifikation": [
+        "Preverjanje revizije"
+      ],
+      "Schließen": [
+        "Zapri"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Tematski paketi vtičnikov WM Suite: vrstni red njihovih odvisnosti določi Kahnovo topološko razvrščanje, predhodni pregled pa najprej preveri strežnik. Ta različica nima namestitve; vtičniki se nameščajo posamično."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Odstranjevanje podvojitev na tej strani:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "Odstranjenih %1$d skriptov in %2$d slogovnih datotek (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Vsebina paketa in arhitektura modulov (%d):"
+      ],
+      "Aktiviert": [
+        "Aktivirano"
+      ],
+      "Im Paket enthalten": [
+        "Vključeno v paket"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Matematični vrstni red namestitve DAG (Kahnovo razvrščanje):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Noben od teh vtičnikov ne zahteva drugega; vrstni red namestitve je poljuben."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Zaženi predhodni pregled za %s"
+      ],
+      "Pre-Flight Check": [
+        "Predhodni pregled"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Preverjanje različice PHP, razširitve Sodium, omejitve pomnilnika, pravic za pisanje in OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Poskusna simulacija"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Dostop zavrnjen. Nezadostna dovoljenja za nadzorno ploščo WM Suite."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Modul \"%s\" ni registriran ali ni aktiven."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Izvedba dejanja modula ni uspela: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Predpomnilnik telemetrije je bil izpraznjen."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Izbrana je neveljavna tema."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Tema je bila posodobljena."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Privzeto)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Izvorno Klasično"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Temno"
+      ],
+      "High-Contrast": [
+        "Visok kontrast"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Nastavitev odstranitve je posodobljena."
+      ],
+      "Bundle nicht gefunden.": [
+        "Paket ni bil najden."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Predhodni pregled ni uspel."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Simulacija uspešna: %d paketov razrešenih po vrsti."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Namestitev paketov rešitev v tej različici ni na voljo. Uporabite dry_run=true za izračun vrstnega reda."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Sinhronizacija soglasja zavrnjena: manjkajoč ali pretečen varnostni žeton."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Preveč dogodkov soglasja. Poskusite znova čez eno minuto."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Ni berljive odločitve o privolitvi."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Privolitve ni bilo mogoče zabeležiti."
+      ],
+      "Externer Dienst": [
+        "Zunanja storitev"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Blokirana zunanja vsebina: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Vsebina iz %s je blokirana"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Naloži in omogoči %s enkrat"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Za nalaganje te vsebine je potrebno vaše soglasje v skladu s § 25 TDDDG in GDPR."
+      ],
+      "Inhalt laden & entsperren": [
+        "Naloži in odkleni vsebino"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Z nalaganjem soglašate s prenosom podatkov tretjemu ponudniku."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Pri komunikaciji s Hubom je prišlo do napake."
+      ],
+      "HTTP-Fehler %s": [
+        "Napaka HTTP %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Tema je bila spremenjena."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Napaka pri shranjevanju teme: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Ni zabeleženih revizijskih dogodkov."
+      ],
+      "Benutzer #%s": [
+        "Uporabnik #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Napaka pri nalaganju dnevnikov: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Preverjanje revizijske verige…"
+      ],
+      "Audit-Kette intakt": [
+        "Revizijska veriga nedotaknjena"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Vsi vnosi (%d) se ujemajo s svojim podpisom HMAC-SHA256 in s predhodnikom: nobeden ni bil spremenjen, izbrisan ali prerazvrščen brez ključa spletnega mesta."
+      ],
+      "Letzter Hash: %s": [
+        "Zadnji hash: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Revizijska veriga prekinjena"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Preverjanje revizijske verige"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Preverjanje ni uspelo"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Telemetrični podatki so posodobljeni."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Napaka pri osveževanju: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Predhodni pregled: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Napaka pri predhodnem pregledu:"
+      ],
+      "Prüfpunkt": [
+        "Kontrolna točka"
+      ],
+      "Soll": [
+        "Pričakovano"
+      ],
+      "Ist": [
+        "Dejansko"
+      ],
+      "Status": [
+        "Stanje"
+      ],
+      "Erfüllt": [
+        "Izpolnjeno"
+      ],
+      "Nicht erfüllt": [
+        "Ni izpolnjeno"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Izračunani vrstni red namestitve:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Ni deklariranih odvisnosti, vrstni red je prost:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Poskusna simulacija za %s poteka…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Poskusna simulacija končana."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Poskusna simulacija ni uspela: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Nastavitev odstranitve shranjena."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Napaka pri shranjevanju: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Rezultat za %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Dejanje je bilo izvedeno."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Napaka dejanja modula: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Brez aktivnega vtičnika »%s« ta blok obiskovalcem ne prikaže ničesar."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Še ni konfigurirano – izpolnite »%s« v nastavitvah bloka. Do takrat obiskovalci bloka ne vidijo."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Nastavitve dostopnosti"
+      ],
+      "Kontrast": [
+        "Kontrast"
+      ],
+      "Leseschrift": [
+        "Pisava za branje"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Nastavitve zasebnosti"
+      ],
+      "SBOM-Download-URL": [
+        "URL za prenos SBOM"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Kosovnica programske opreme (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Prenesi CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Stran za rezervacijo (URL)"
+      ],
+      "Zur Buchung": [
+        "Na rezervacijo"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Kartica dogodka še ni konfigurirana – vnesite naslov in podatke o dogodku v nastavitvah bloka."
+      ],
+      "Ausgebucht": [
+        "Zasedeno"
+      ],
+      "Nur noch %d Plätze": [
+        "Samo še %d mest"
+      ],
+      "%d freie Plätze": [
+        "%d prostih mest"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "»%s« ne sporoča aktivnih dogodkov; do takrat obiskovalci bloka ne vidijo."
+      ],
+      "Max. %d Plätze": [
+        "Največ %d mest"
+      ],
+      "Zur Veranstaltung": [
+        "Na dogodek"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Preverjeni kazalniki LkSG še niso vneseni – vnesite vrednosti v nastavitvah bloka."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Skrbnost v dobavni verigi (LkSG in CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Človekove pravice"
+      ],
+      "Umweltschutz": [
+        "Varstvo okolja"
+      ],
+      "Gute Governance": [
+        "Dobro upravljanje"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Ta vsebnik v urejevalniku ne sprejema vsebine in nima vpliva na stran; obiskovalci ga ne vidijo."
+      ],
+      "Ticker-Meldungen": [
+        "Novice na traku"
+      ],
+      "Nachrichten-Ticker": [
+        "Trak z novicami"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Začasno ustavi ali nadaljuj trak"
+      ],
+      "Pausieren": [
+        "Premor"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "V brskalniku preveri, ali identifikator ustreza formatu Shema:ID (npr. 0208:0843657437). Ali je udeleženec dosegljiv v omrežju Peppol, ta blok ne preverja."
+      ],
+      "Peppol ID": [
+        "Peppol ID"
+      ],
+      "Prüfen": [
+        "Preveri"
+      ],
+      "Ziel-Element-ID": [
+        "ID ciljnega elementa"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Ob nalaganju te vsebine se podatki posredujejo ponudniku."
+      ],
+      "Inhalt einmalig laden": [
+        "Naloži vsebino enkrat"
+      ],
+      "Hinweis abgeben": [
+        "Oddaj prijavo"
+      ],
+      "WM Suite Hub Telemetry": [
+        "Telemetrija WM Suite Hub"
+      ],
+      "Telemetry Field": [
+        "Polje telemetrije"
+      ],
+      "Health Score (%)": [
+        "Ocena zdravja (%)"
+      ],
+      "Global Status": [
+        "Skupno stanje"
+      ],
+      "Active Spokes Count": [
+        "Število aktivnih satelitov"
+      ],
+      "Hub Version": [
+        "Različica Huba"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Format veljaven (Shema:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Neveljavna oblika ID-ja"
+      ],
+      "Pausiert": [
+        "Zaustavljeno"
+      ],
+      "Läuft": [
+        "Deluje"
+      ],
+      "Compliance Officer (DPO)": [
+        "Pooblaščenec za skladnost (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Vnos #%d ne kaže na svojega predhodnika: prejšnji vnos je bil izbrisan, vstavljen ali spremenjen."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Podpis vnosa #%d se ne ujema: vnos je bil spremenjen ali ključ spletnega mesta (AUTH_SALT) ni več tisti, s katerim je bil zapisan."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Revizijska tabela je prazna."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "Preverjenih vnosov: %d, veriga je neprekinjena."
+      ],
+      "Eingeschränkt": [
+        "Omejeno"
+      ],
+      "Nicht konfiguriert": [
+        "Ni konfigurirano"
+      ],
+      "Fehler": [
+        "Napaka"
+      ],
+      "Warnung": [
+        "Opozorilo"
+      ],
+      "Unbekannt": [
+        "Neznano"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub zahteva PHP 8.2 ali novejšega. Posodobite okolje PHP."
+      ],
+      "Block-Einstellungen": [
+        "Nastavitve bloka"
+      ],
+      "Spaltenanzahl": [
+        "Število stolpcev"
+      ],
+      "Maximale Einträge": [
+        "Največje število vnosov"
+      ],
+      "Veranstaltungstitel": [
+        "Naslov dogodka"
+      ],
+      "Kategorie": [
+        "Kategorija"
+      ],
+      "Datum": [
+        "Datum"
+      ],
+      "Veranstaltungsort": [
+        "Prizorišče"
+      ],
+      "Freie Plätze": [
+        "Prosta mesta"
+      ],
+      "Preis": [
+        "Cena"
+      ],
+      "Button-Beschriftung": [
+        "Napis gumba"
+      ],
+      "Hinweis unter dem Button": [
+        "Opomba pod gumbom"
+      ],
+      "Überschrift": [
+        "Naslov bloka"
+      ],
+      "Platzhaltertext": [
+        "Namig v polju"
+      ],
+      "Badge-Beschriftung": [
+        "Napis značke"
+      ],
+      "Dienstname": [
+        "Ime storitve"
+      ],
+      "Unternehmensname": [
+        "Ime podjetja"
+      ],
+      "Link zur Meldestelle": [
+        "Povezava do kanala za prijavo"
+      ],
+      "Menschenrechte (%)": [
+        "Človekove pravice (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Okolje (%)"
+      ],
+      "Governance (%)": [
+        "Upravljanje (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Oznaka različice"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Prikaži stikalo visokega kontrasta"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Prikaži stikalo pisave za branje"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Prikaži gumbe za velikost besedila"
+      ],
+      "Badge-Text": [
+        "Besedilo oznake"
+      ],
+      "Skalierungsfaktor": [
+        "Razmerje merila"
+      ],
+      "Basisschriftgröße": [
+        "Osnovna velikost pisave"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "WM Orodna vrstica za dostopnost"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Gumbi za visok kontrast v blokih WM Suite, pisava za branje, nameščena v napravi obiskovalca, in večje besedilo. Izbira ostane v brskalniku."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "dostopnost"
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004dyslexia": [
+        "disleksija"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "WM Izjava o dostopnosti"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Prikazuje izjavo o dostopnosti, ki jo WM BFSG Compliance Dashboard pripravi iz vaših nastavitev. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+      ],
+      "block keyword\u0004erklaerung": [
+        "izjava"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "WM Značka za nastavitve privolitve"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Povezava v obliki značke, ki odpre pogovorno okno za privolitev WM Sovereign Consent Vault. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+      ],
+      "block keyword\u0004privacy": [
+        "osebni-podatki"
+      ],
+      "block keyword\u0004consent": [
+        "soglasje"
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "piškotki"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "WM Prenos SBOM"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Povezava za prenos kosovnice CycloneDX SBOM, ki jo zapiše wp wm-hub sbom. Obiskovalci ne vidijo ničesar, dokler ni vnesen URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "varnost"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "WM Gumb za rezervacijo dogodka"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Gumb do strani za rezervacijo, ki jo vnesete, z neobvezno opombo pod njim. Obiskovalci ne vidijo ničesar, dokler ni vnesen URL."
+      ],
+      "block keyword\u0004booking": [
+        "rezervacija"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "gumb"
+      ],
+      "block keyword\u0004tickets": [
+        "vstopnice"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "WM Atomska kartica dogodka"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Kartica dogodka z naslovom, datumom, krajem, ceno in prostimi mesti, ki jih vnesete, ter gumbom do navedene strani za rezervacijo. Nič se ne bere v živo."
+      ],
+      "block keyword\u0004event": [
+        "dogodek"
+      ],
+      "block keyword\u0004card": [
+        "kartica"
+      ],
+      "block keyword\u0004ticket": [
+        "vstopnica"
+      ],
+      "block keyword\u0004conference": [
+        "konferenca"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "WM Mreža dogodkov"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Navede aktivne dogodke iz WM Cyber Events Core, vsakega s povezavo do njegove strani. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+      ],
+      "block keyword\u0004grid": [
+        "mreža"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "WM LkSG in ESG kartica kazalnikov"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Trije odstotki, ki jih vnesete (človekove pravice, okolje, upravljanje), pod naslovom o dobavni verigi. Blok ničesar ne izračuna in ne preveri."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "dobavna veriga"
+      ],
+      "block keyword\u0004compliance": [
+        "skladnost"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "WM Vsebnik tekoče tipografije"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Vsebnik za modularno tipografsko lestvico. V tej različici ne sprejema notranjih blokov in nobena slogovna datoteka ne bere njegovih nastavitev, zato nima vpliva na stran."
+      ],
+      "block keyword\u0004typography": [
+        "tipografija"
+      ],
+      "block keyword\u0004fluid": [
+        "tekoče"
+      ],
+      "block keyword\u0004modular scale": [
+        "modularna lestvica"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "WM Novičarski trak"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Drseča vrstica z vašim besedilom in gumbom za premor. Ustavi se, ko je miška nad njo, in miruje za obiskovalce, ki želijo zmanjšano gibanje."
+      ],
+      "block keyword\u0004ticker": [
+        "pasica"
+      ],
+      "block keyword\u0004marquee": [
+        "drseče besedilo"
+      ],
+      "block keyword\u0004news": [
+        "novice"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "nujno"
+      ],
+      "block keyword\u0004accessibility": [
+        "dostopnost"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "WM Preverjanje formata ID Peppol"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "V brskalniku preveri, ali ima ID obliko Peppol Shema:ID. Udeleženca v omrežju Peppol ne išče."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "e-fakturiranje"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "WM Suvereno središče zasebnosti"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Naslov in gumb, ki odpre pogovorno okno za privolitev WM Sovereign Consent Vault. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+      ],
+      "block keyword\u0004preferences": [
+        "nastavitve"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "WM GDPR 17. člen obrazec za izbris"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Prikazuje obrazec za zahteve za izbris iz WM DSGVO Privacy Eraser. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+      ],
+      "block keyword\u0004eraser": [
+        "izbris"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "odstranitev"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "WM Ograda za zunanjo vsebino"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Ograda z gumbom za nalaganje. Vdelavo postavite v element template s ciljnim ID-jem: nič v njem se ne naloži pred klikom."
+      ],
+      "block keyword\u0004media": [
+        "mediji"
+      ],
+      "block keyword\u0004placeholder": [
+        "označevalnik"
+      ],
+      "block keyword\u0004blocker": [
+        "blokator"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "WM HinSchG kartica portala za prijavitelje"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Kartica s povezavo do kanala za prijavo: blok portala na isti strani ali naslov, ki ga vnesete."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-zakon"
+      ],
+      "block keyword\u0004whistleblower": [
+        "zvizgac"
+      ],
+      "block keyword\u0004meldung": [
+        "prijava"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "prijavitelj"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "WM Portal za prijavitelje HinSchG"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Prikazuje portal za prijave WM HinSchG Whistleblower Desk. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+      ],
+      "block keyword\u0004wizard": [
+        "čarovnik"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/bfsg-statement-embed",
+	"version": "1.2.6",
+	"title": "WM Accessibility Statement",
+	"category": "wm-suite",
+	"icon": "clipboard",
+	"description": "Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.",
+	"keywords": ["bfsg", "barrierefreiheit", "erklaerung", "wcag", "mlbf"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor"
+}

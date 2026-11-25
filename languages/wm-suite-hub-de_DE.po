@@ -1,0 +1,1824 @@
+# Translation of wm-suite-hub in de_DE
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-suite-hub 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-suite-hub\n"
+"POT-Creation-Date: 2026-11-21T12:46:17+00:00\n"
+"PO-Revision-Date: 2026-11-21 10:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-suite-hub\n"
+
+#. Plugin Name of the plugin
+#: wm-suite-hub.php
+msgid "WM Suite Hub (Enterprise Cockpit)"
+msgstr "WM Suite Hub (Enterprise-Cockpit)"
+
+#. Plugin URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+
+#. Description of the plugin
+#: wm-suite-hub.php
+msgid ""
+"Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 "
+"software bill of materials and an audit table whose entries are chained with "
+"HMAC-SHA256."
+msgstr ""
+"Registry und Zustandsübersicht der WM-Suite-Plugins, eine Software-"
+"Stückliste nach CycloneDX 1.6 und eine Audit-Tabelle, deren Einträge mit "
+"HMAC-SHA256 verkettet sind."
+
+#. Author of the plugin
+#: wm-suite-hub.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Admin/Admin_Menu.php:258 src/Gutenberg/Block_Manager.php:127
+msgid "WM Enterprise Suite"
+msgstr "WM Enterprise-Suite"
+
+#: src/Admin/Admin_Menu.php:259
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: src/Admin/Admin_Menu.php:272
+msgid "WM Suite — Cockpit & Status"
+msgstr "WM Suite – Cockpit & Status"
+
+#: src/Admin/Admin_Menu.php:273
+msgid "Cockpit & Status"
+msgstr "Cockpit & Systemstatus"
+
+#: src/Admin/Admin_Menu.php:282
+msgid "WM Suite — Solution Packs"
+msgstr "WM Suite – Lösungspakete"
+
+#: src/Admin/Admin_Menu.php:283 src/Admin/Dashboard_Widgets.php:518
+#: src/Admin/Dashboard_Widgets.php:561 src/Admin/Views/cockpit-view.php:86
+#: src/Admin/Views/marketplace-view.php:38
+msgid "Solution Packs"
+msgstr "Lösungspakete"
+
+#: src/Admin/Admin_Menu.php:291
+msgid "WM Suite — Audit-Protokoll"
+msgstr "WM Suite — Audit-Protokoll"
+
+#: src/Admin/Admin_Menu.php:292 src/Admin/Dashboard_Widgets.php:564
+msgid "Audit-Log"
+msgstr "Audit-Protokoll"
+
+#: src/Admin/Admin_Menu.php:680
+msgid ""
+"Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite."
+msgstr ""
+"Sie verfügen nicht über ausreichende Berechtigungen für den Zugriff auf "
+"diese Seite."
+
+#: src/Admin/Dashboard_Widgets.php:438
+msgid "WM Suite — Enterprise Suite Cockpit"
+msgstr "WM Suite – Enterprise-Suite-Cockpit"
+
+#: src/Admin/Dashboard_Widgets.php:449 src/Admin/Dashboard_Widgets.php:633
+msgid "WM Suite — Module nach Regelwerk"
+msgstr "WM Suite – Module nach Regelwerk"
+
+#: src/Admin/Dashboard_Widgets.php:481
+msgid "Enterprise Suite Cockpit"
+msgstr "Enterprise-Suite-Cockpit"
+
+#: src/Admin/Dashboard_Widgets.php:489 src/Telemetry/Audit_Chainer.php:215
+msgid "Die Audit-Tabelle ist leer."
+msgstr "Die Audit-Tabelle ist leer."
+
+#. translators: %d: number of audit entries checked
+#: src/Admin/Dashboard_Widgets.php:492 src/Core/Hub_Orchestrator.php:267
+#, php-format
+msgid "Audit-Kette intakt: %d Einträge geprüft"
+msgstr "Audit-Kette intakt: %d Einträge geprüft"
+
+#. translators: %d: id of the first audit entry that does not verify
+#: src/Admin/Dashboard_Widgets.php:497 src/Core/Hub_Orchestrator.php:274
+#, php-format
+msgid "Audit-Kette unterbrochen bei Eintrag #%d"
+msgstr "Audit-Kette unterbrochen bei Eintrag #%d"
+
+#: src/Admin/Dashboard_Widgets.php:502
+msgid "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden."
+msgstr "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden."
+
+#: src/Admin/Dashboard_Widgets.php:510
+msgid "Aktive Module"
+msgstr "Aktive Module"
+
+#: src/Admin/Dashboard_Widgets.php:514
+msgid "Health Score"
+msgstr "Zustandswert"
+
+#: src/Admin/Dashboard_Widgets.php:524
+msgid "Aktive WM Suite Spoke-Module"
+msgstr "Aktive WM-Suite-Spoke-Module"
+
+#. translators: %d: number of active spoke modules
+#: src/Admin/Dashboard_Widgets.php:527
+#, php-format
+msgid "%d Bereitgestellt"
+msgstr "%d bereitgestellt"
+
+#: src/Admin/Dashboard_Widgets.php:558
+msgid "Suite Cockpit öffnen"
+msgstr "Suite-Cockpit öffnen"
+
+#: src/Admin/Dashboard_Widgets.php:596
+msgid "Nicht aktiv"
+msgstr "Nicht aktiv"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:622 src/Admin/Views/marketplace-view.php:97
+#, php-format
+msgid "Vollständig aktiv (%1$d/%2$d)"
+msgstr "Vollständig aktiv (%1$d/%2$d)"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:625 src/Admin/Views/marketplace-view.php:101
+#, php-format
+msgid "Teilweise aktiv (%1$d/%2$d)"
+msgstr "Teilweise aktiv (%1$d/%2$d)"
+
+#. translators: %d: number of plugins listed
+#. translators: %d: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:628 src/Admin/Views/marketplace-view.php:105
+#, php-format
+msgid "%d Module verfügbar"
+msgstr "%d Module verfügbar"
+
+#: src/Admin/Dashboard_Widgets.php:635
+msgid "Zustand der zuständigen Module"
+msgstr "Zustand der zuständigen Module"
+
+#: src/Admin/Dashboard_Widgets.php:646
+msgid ""
+"Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. "
+"Keine Konformitätsbewertung."
+msgstr ""
+"Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. "
+"Keine Konformitätsbewertung."
+
+#: src/Admin/Views/cockpit-view.php:37
+msgid "Zum Hauptinhalt springen"
+msgstr "Zum Hauptinhalt springen"
+
+#: src/Admin/Views/cockpit-view.php:46
+msgid "WM Suite Hub Command Console"
+msgstr "WM Suite Hub Steuerkonsole"
+
+#: src/Admin/Views/cockpit-view.php:50
+msgid ""
+"Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX "
+"1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle."
+msgstr ""
+"Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX "
+"1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle."
+
+#: src/Admin/Views/cockpit-view.php:65
+msgid "Flottenstatus aktualisieren"
+msgstr "Flottenstatus aktualisieren"
+
+#: src/Admin/Views/cockpit-view.php:67
+msgid "Aktualisieren"
+msgstr "Aktualisieren"
+
+#: src/Admin/Views/cockpit-view.php:72
+msgid "Audit-Integrität prüfen"
+msgstr "Audit-Integrität prüfen"
+
+#: src/Admin/Views/cockpit-view.php:79
+msgid "Cockpit Navigation"
+msgstr "Cockpit-Navigation"
+
+#: src/Admin/Views/cockpit-view.php:82
+msgid "Cockpit Übersicht"
+msgstr "Cockpit-Übersicht"
+
+#: src/Admin/Views/cockpit-view.php:90 src/Admin/Views/cockpit-view.php:127
+msgid "Satelliten-Flotte"
+msgstr "Satelliten-Flotte"
+
+#: src/Admin/Views/cockpit-view.php:94 src/Admin/Views/cockpit-view.php:128
+#: src/Admin/Views/cockpit-view.php:301
+msgid "Audit-Protokoll"
+msgstr "Audit-Protokoll"
+
+#: src/Admin/Views/cockpit-view.php:98
+msgid "Design & Themes"
+msgstr "Design & Farbschemata"
+
+#: src/Admin/Views/cockpit-view.php:104
+msgid "Suite Theme:"
+msgstr "Suite-Farbschema:"
+
+#: src/Admin/Views/cockpit-view.php:105
+msgid "WM Suite Theme auswählen"
+msgstr "WM-Suite-Farbschema auswählen"
+
+#: src/Admin/Views/cockpit-view.php:123
+msgid "Schnellnavigation"
+msgstr "Schnellnavigation"
+
+#: src/Admin/Views/cockpit-view.php:124
+msgid "Direkt zu:"
+msgstr "Direkt zu:"
+
+#: src/Admin/Views/cockpit-view.php:125
+msgid "Kurzanleitung"
+msgstr "Kurzanleitung"
+
+#: src/Admin/Views/cockpit-view.php:126
+msgid "Metriken & Status"
+msgstr "Kennzahlen & Status"
+
+#: src/Admin/Views/cockpit-view.php:129
+msgid "Theme-Einstellungen"
+msgstr "Farbschema-Einstellungen"
+
+#: src/Admin/Views/cockpit-view.php:135
+msgid "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?"
+msgstr "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Das WM Suite Hub ist die zentrale"
+msgstr "Das WM Suite Hub bildet die zentrale"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins"
+msgstr "Steuerungs- und Kontrollzentrale aller WordPress-Plugins von WM Suite"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid ""
+". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine "
+"Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, "
+"die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der "
+"Website werden erkennbar. Es bewertet keine Rechtskonformität."
+msgstr ""
+". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine "
+"Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, "
+"die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der "
+"Website werden erkennbar. Es bewertet keine Rechtskonformität."
+
+#: src/Admin/Views/cockpit-view.php:141
+msgid "Schnellzugriff:"
+msgstr "Schnellzugriff:"
+
+#: src/Admin/Views/cockpit-view.php:143
+msgid "Aktive Module prüfen"
+msgstr "Aktive Module prüfen"
+
+#: src/Admin/Views/cockpit-view.php:146
+msgid "Audit-Protokoll ansehen"
+msgstr "Audit-Protokoll ansehen"
+
+#: src/Admin/Views/cockpit-view.php:149
+msgid "Theme & Erscheinungsbild wechseln"
+msgstr "Farbschema & Darstellung wechseln"
+
+#: src/Admin/Views/cockpit-view.php:157
+msgid "Systemmetriken"
+msgstr "Systemkennzahlen"
+
+#: src/Admin/Views/cockpit-view.php:161
+msgid "GESAMTSTATUS"
+msgstr "GESAMTSTATUS"
+
+#: src/Admin/Views/cockpit-view.php:174
+msgid ""
+"Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, "
+"nicht konfiguriert 30, Fehler 0)."
+msgstr ""
+"Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, "
+"nicht konfiguriert 30, Fehler 0)."
+
+#: src/Admin/Views/cockpit-view.php:181
+msgid "SATELLITEN-INVENTAR"
+msgstr "SATELLITEN-BESTAND"
+
+#: src/Admin/Views/cockpit-view.php:187
+msgid "Registriert"
+msgstr "Registriert"
+
+#: src/Admin/Views/cockpit-view.php:191 src/Telemetry/Health_Matrix.php:106
+msgid "Gesund"
+msgstr "Gesund"
+
+#: src/Admin/Views/cockpit-view.php:195
+msgid "Warnungen"
+msgstr "Warnhinweise"
+
+#: src/Admin/Views/cockpit-view.php:199 src/Telemetry/Health_Matrix.php:111
+msgid "Kritisch"
+msgstr "Kritisch"
+
+#: src/Admin/Views/cockpit-view.php:212
+msgid "LAUFZEITUMGEBUNG"
+msgstr "LAUFZEITUMGEBUNG"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "ja"
+msgstr "ja"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "nein"
+msgstr "nein"
+
+#: src/Admin/Views/cockpit-view.php:230
+msgid "Persistenter Objekt-Cache"
+msgstr "Persistenter Objekt-Cache"
+
+#: src/Admin/Views/cockpit-view.php:243
+msgid "Flottenstatus & Satelliten-Module"
+msgstr "Flottenstatus & Satelliten-Module"
+
+#: src/Admin/Views/cockpit-view.php:245
+msgid "Module aktiv"
+msgstr "Module aktiv"
+
+#: src/Admin/Views/cockpit-view.php:251
+msgid "Keine Satelliten-Module registriert"
+msgstr "Keine Satelliten-Module registriert"
+
+#: src/Admin/Views/cockpit-view.php:252
+msgid ""
+"Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch "
+"über den Filter wm_register_suite_module."
+msgstr ""
+"Sobald Plugins von WM Suite aktiviert werden, melden sie sich automatisch "
+"über den Filter wm_register_suite_module an."
+
+#: src/Admin/Views/cockpit-view.php:274
+msgid "Abhängigkeiten:"
+msgstr "Abhängigkeiten:"
+
+#: src/Admin/Views/cockpit-view.php:283
+msgid "Konfiguration"
+msgstr "Einstellungen"
+
+#: src/Admin/Views/cockpit-view.php:288
+msgid "Selbsttest"
+msgstr "Selbsttest"
+
+#: src/Admin/Views/cockpit-view.php:305
+msgid ""
+"Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)"
+msgstr ""
+"Kettenintegrität: Noch nicht geprüft (bitte auf Audit-Integrität prüfen "
+"klicken)"
+
+#: src/Admin/Views/cockpit-view.php:309
+msgid "Audit-Log-Tabelle"
+msgstr "Audit-Protokolltabelle"
+
+#: src/Admin/Views/cockpit-view.php:312
+msgid "Zeitstempel"
+msgstr "Zeitstempel"
+
+#: src/Admin/Views/cockpit-view.php:313
+msgid "Modul"
+msgstr "Modul"
+
+#: src/Admin/Views/cockpit-view.php:314
+msgid "Ereignistyp"
+msgstr "Ereignistyp"
+
+#: src/Admin/Views/cockpit-view.php:315
+msgid "Benutzer"
+msgstr "Benutzer"
+
+#: src/Admin/Views/cockpit-view.php:316
+msgid "SHA-256 HMAC Signatur"
+msgstr "SHA-256-HMAC-Signatur"
+
+#: src/Admin/Views/cockpit-view.php:322
+msgid "Lade Audit-Protokolle..."
+msgstr "Audit-Protokolle werden geladen …"
+
+#: src/Admin/Views/cockpit-view.php:334
+msgid "Design-System & Theme-Präferenzen"
+msgstr "Design-System & Farbschema-Einstellungen"
+
+#: src/Admin/Views/cockpit-view.php:338
+msgid ""
+"Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite "
+"Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents "
+"verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt."
+msgstr ""
+"Wählen Sie das globale Farbschema für das Cockpit und alle Satelliten-"
+"Plugins von WM Suite. Standardmäßig ist CyberEvents Enterprise aktiv."
+
+#: src/Admin/Views/cockpit-view.php:344
+msgid "Standard"
+msgstr "Standard"
+
+#: src/Admin/Views/cockpit-view.php:347
+msgid ""
+"Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress "
+"Admin Oberflächenkarten und klaren Kontrasten."
+msgstr ""
+"Dunkles Kommando-Banner kombiniert mit hellen WordPress-Admin-Karten und "
+"geprüften Kontrasten."
+
+#: src/Admin/Views/cockpit-view.php:350
+msgid "Als Standard aktivieren"
+msgstr "Als Standard festlegen"
+
+#: src/Admin/Views/cockpit-view.php:356
+msgid "Klassisch"
+msgstr "Klassisch"
+
+#: src/Admin/Views/cockpit-view.php:359
+msgid ""
+"100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, "
+"standardisierte WP Formulare)."
+msgstr ""
+"100%: native WordPress-Admin-Farbpalette (#2271b1 Blau, #f0f0f1 Hintergrund, "
+"klassische WP-Formulare)."
+
+#: src/Admin/Views/cockpit-view.php:362 src/Admin/Views/cockpit-view.php:374
+#: src/Admin/Views/cockpit-view.php:385
+msgid "Aktivieren"
+msgstr "Aktivieren"
+
+#: src/Admin/Views/cockpit-view.php:368
+msgid "Dark Mode"
+msgstr "Dunkelmodus"
+
+#: src/Admin/Views/cockpit-view.php:371
+msgid ""
+"Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und "
+"blauen Akzenten."
+msgstr ""
+"Durchgehender Dunkelmodus (#050811 Hintergrund) mit abgedunkelten Karten und "
+"blauen Akzenten."
+
+#: src/Admin/Views/cockpit-view.php:382
+msgid "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast."
+msgstr "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast."
+
+#: src/Admin/Views/cockpit-view.php:395
+msgid "Datenaufbewahrung & Deinstallation"
+msgstr "Datenaufbewahrung & Deinstallation"
+
+#: src/Admin/Views/cockpit-view.php:397
+msgid "Aufbewahrungsschutz"
+msgstr "Aufbewahrungsschutz"
+
+#: src/Admin/Views/cockpit-view.php:410
+msgid "Alle Daten beim Löschen des Plugins unwiderruflich entfernen"
+msgstr "Alle Plugin-Daten beim Löschen unwiderruflich entfernen"
+
+#: src/Admin/Views/cockpit-view.php:413
+msgid ""
+"Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und "
+"Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, "
+"wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig "
+"gelöscht werden sollen."
+msgstr ""
+"Standardmäßig behält WM Suite Hub die HMAC-SHA256-Protokolltabelle, Rollen "
+"und Optionen bei einer Deinstallation. Aktivieren Sie diese Einstellung nur "
+"für eine vollständige Bereinigung."
+
+#: src/Admin/Views/cockpit-view.php:425
+msgid "Audit-Verifikation"
+msgstr "Audit-Überprüfung"
+
+#: src/Admin/Views/cockpit-view.php:426 src/Admin/Views/cockpit-view.php:435
+#: src/Admin/Views/marketplace-view.php:213
+msgid "Schließen"
+msgstr "Schließen"
+
+#: src/Admin/Views/marketplace-view.php:41
+msgid ""
+"Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer "
+"Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight "
+"Check prüft vorab den Server. Eine Installation gibt es in dieser Version "
+"nicht; die Plugins werden einzeln installiert."
+msgstr ""
+"Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer "
+"Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight "
+"Check prüft vorab den Server. Eine Installation gibt es in dieser Version "
+"nicht; die Plugins werden einzeln installiert."
+
+#: src/Admin/Views/marketplace-view.php:49
+msgid "Deduplizierung auf dieser Seite:"
+msgstr "Deduplizierung auf dieser Seite:"
+
+#. translators: 1: dropped duplicate scripts, 2: dropped duplicate stylesheets, 3: size of the dropped files in KB
+#: src/Admin/Views/marketplace-view.php:53
+#, php-format
+msgid "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)"
+msgstr "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)"
+
+#. translators: %d: modules in the pack
+#: src/Admin/Views/marketplace-view.php:123
+#, php-format
+msgid "Paketinhalt & Modul-Architektur (%d):"
+msgstr "Paketinhalt & Modul-Architektur (%d):"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Aktiviert"
+msgstr "Aktiv"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Im Paket enthalten"
+msgstr "Im Paket enthalten"
+
+#: src/Admin/Views/marketplace-view.php:176
+msgid "Mathematische DAG-Installationsfolge (Kahn-Sortierung):"
+msgstr "Berechnete DAG-Installationsreihenfolge (Kahn-Algorithmus):"
+
+#: src/Admin/Views/marketplace-view.php:181
+msgid ""
+"Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der "
+"Installation ist frei."
+msgstr ""
+"Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der "
+"Installation ist frei."
+
+#. translators: %s: suite name
+#: src/Admin/Views/marketplace-view.php:189
+#, php-format
+msgid "Pre-Flight Check für %s starten"
+msgstr "Vorabprüfung für %s starten"
+
+#: src/Admin/Views/marketplace-view.php:194
+#: src/Admin/Views/marketplace-view.php:211
+msgid "Pre-Flight Check"
+msgstr "Vorabprüfung"
+
+#: src/Admin/Views/marketplace-view.php:221
+msgid ""
+"Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und "
+"OPcache …"
+msgstr ""
+"Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und "
+"OPcache …"
+
+#: src/Admin/Views/marketplace-view.php:231
+msgid "Dry-Run Simulation"
+msgstr "Trockenlauf-Simulation"
+
+#: src/API/API_Controller.php:266
+msgid ""
+"Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit."
+msgstr ""
+"Zugriff verweigert. Keine ausreichende Berechtigung für das WM-Suite-Cockpit."
+
+#. translators: %s: module slug
+#: src/API/API_Controller.php:346
+#, php-format
+msgid "Modul \"%s\" ist nicht registriert oder inaktiv."
+msgstr "Das Modul \"%s\" ist nicht registriert oder inaktiv."
+
+#. translators: %s: exception message
+#: src/API/API_Controller.php:375
+#, php-format
+msgid "Ausführung der Modulaktion fehlgeschlagen: %s"
+msgstr "Modulaktion fehlgeschlagen: %s"
+
+#: src/API/API_Controller.php:392
+msgid "Telemetrie-Zwischenspeicher erfolgreich geleert."
+msgstr "Telemetrie-Zwischenspeicher wurde geleert."
+
+#: src/API/API_Controller.php:410
+msgid "Ungültiges Theme ausgewählt."
+msgstr "Ungültiges Farbschema übergeben."
+
+#: src/API/API_Controller.php:433
+msgid "Theme erfolgreich aktualisiert."
+msgstr "Farbschema wurde gespeichert."
+
+#: src/API/API_Controller.php:449
+msgid "CyberEvents Enterprise (Standard)"
+msgstr "CyberEvents Enterprise (Standard)"
+
+#: src/API/API_Controller.php:450
+msgid "WordPress Native Classic"
+msgstr "WordPress Native Klassisch"
+
+#: src/API/API_Controller.php:451
+msgid "Obsidian Midnight Dark"
+msgstr "Obsidian Midnight Dunkel"
+
+#: src/API/API_Controller.php:452
+msgid "High-Contrast"
+msgstr "Hoher Kontrast"
+
+#: src/API/API_Controller.php:477
+msgid "Deinstallations-Einstellung aktualisiert."
+msgstr "Einstellung zur Datenaufbewahrung gespeichert."
+
+#: src/API/API_Controller.php:545 src/API/API_Controller.php:575
+msgid "Bundle nicht gefunden."
+msgstr "Lösungspaket wurde nicht gefunden."
+
+#: src/API/API_Controller.php:584
+msgid "Pre-Flight Überprüfung fehlgeschlagen."
+msgstr "Vorabprüfung der Systemumgebung nicht bestanden."
+
+#. translators: %d: number of packages in the resolved install order
+#: src/API/API_Controller.php:593
+#, php-format
+msgid "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst."
+msgstr "Trockenlauf abgeschlossen: %d Pakete in Reihenfolge aufgelöst."
+
+#: src/API/API_Controller.php:609
+msgid ""
+"Die Installation von Solution Packs ist in dieser Version noch nicht "
+"verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge."
+msgstr ""
+"Die Direktinstallation von Lösungspaketen ist in dieser Version deaktiviert. "
+"Verwenden Sie dry_run=true zur Reihenfolgeprüfung."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:179
+msgid ""
+"Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr ""
+"Einwilligungs-Abgleich abgelehnt: Sicherheitstoken fehlt oder ist abgelaufen."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:188
+msgid "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen."
+msgstr ""
+"Zu viele Anfragen zur Einwilligungs-Synchronisierung. Bitte in einer Minute "
+"erneut versuchen."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:305
+msgid "Keine lesbare Einwilligungsentscheidung."
+msgstr "Keine lesbare Einwilligungsentscheidung."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:346
+msgid "Die Einwilligung konnte nicht protokolliert werden."
+msgstr "Die Einwilligung konnte nicht protokolliert werden."
+
+#: src/Compliance/Developer_SDK_Bridge.php:238
+msgid "Externer Dienst"
+msgstr "Externer Dienst"
+
+#. translators: %s: name of the blocked third-party service (YouTube, Google Maps, …)
+#: src/Compliance/Developer_SDK_Bridge.php:249
+#, php-format
+msgid "Blockierter externer Inhalt: %s"
+msgstr "Blockierter Drittanbieter-Inhalt: %s"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:251
+#, php-format
+msgid "Inhalt von %s blockiert"
+msgstr "Inhalt von %s wurde blockiert"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:253
+#, php-format
+msgid "%s einmalig laden und aktivieren"
+msgstr "%s einmalig laden und freigeben"
+
+#: src/Compliance/Developer_SDK_Bridge.php:270
+msgid ""
+"Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO "
+"erforderlich."
+msgstr ""
+"Zum Nachladen dieses Inhalts ist Ihre Einwilligung nach § 25 TDDDG und DSGVO "
+"erforderlich."
+
+#: src/Compliance/Developer_SDK_Bridge.php:273
+msgid "Inhalt laden & entsperren"
+msgstr "Inhalt freigeben & laden"
+
+#: src/Compliance/Developer_SDK_Bridge.php:274
+msgid ""
+"Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter."
+msgstr ""
+"Mit dem Laden willigen Sie in die Datenübermittlung an den Drittanbieter ein."
+
+#: src/Core/Hub_Orchestrator.php:254
+msgid "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten."
+msgstr "Bei der Verbindung zum Hub ist ein Fehler aufgetreten."
+
+#. translators: %s: HTTP status code
+#: src/Core/Hub_Orchestrator.php:256
+#, php-format
+msgid "HTTP-Fehler %s"
+msgstr "HTTP-Fehler %s"
+
+#: src/Core/Hub_Orchestrator.php:257
+msgid "Theme erfolgreich gewechselt."
+msgstr "Farbschema wurde umgestellt."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:259
+#, php-format
+msgid "Fehler beim Speichern des Themes: %s"
+msgstr "Fehler beim Speichern des Themes: %s"
+
+#: src/Core/Hub_Orchestrator.php:260
+msgid "Keine Audit-Ereignisse protokolliert."
+msgstr "Keine Audit-Ereignisse protokolliert."
+
+#. translators: %s: WordPress user id
+#: src/Core/Hub_Orchestrator.php:262
+#, php-format
+msgid "Benutzer #%s"
+msgstr "Benutzer #%s"
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:264
+#, php-format
+msgid "Fehler beim Laden der Logs: %s"
+msgstr "Fehler beim Laden der Logs: %s"
+
+#: src/Core/Hub_Orchestrator.php:265
+msgid "Die Audit-Kette wird geprüft …"
+msgstr "Die Audit-Kette wird geprüft …"
+
+#: src/Core/Hub_Orchestrator.php:268
+msgid "Audit-Kette intakt"
+msgstr "Audit-Kette intakt"
+
+#. translators: %d: number of audit entries checked
+#: src/Core/Hub_Orchestrator.php:270
+#, php-format
+msgid ""
+"Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem "
+"Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht "
+"oder umsortiert."
+msgstr ""
+"Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem "
+"Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht "
+"oder umsortiert."
+
+#. translators: %s: hexadecimal digest of the latest audit entry
+#: src/Core/Hub_Orchestrator.php:272
+#, php-format
+msgid "Letzter Hash: %s"
+msgstr "Letzter Hash: %s"
+
+#: src/Core/Hub_Orchestrator.php:275
+msgid "Audit-Kette unterbrochen"
+msgstr "Audit-Kette unterbrochen"
+
+#: src/Core/Hub_Orchestrator.php:276
+msgid "Prüfung der Audit-Kette"
+msgstr "Prüfung der Audit-Kette"
+
+#: src/Core/Hub_Orchestrator.php:277
+msgid "Prüfung fehlgeschlagen"
+msgstr "Prüfung fehlgeschlagen"
+
+#: src/Core/Hub_Orchestrator.php:278
+msgid "Telemetriedaten erfolgreich aktualisiert."
+msgstr "Telemetriedaten wurden aktualisiert."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:280
+#, php-format
+msgid "Fehler beim Aktualisieren: %s"
+msgstr "Fehler beim Aktualisieren: %s"
+
+#. translators: %s: name of the solution pack
+#: src/Core/Hub_Orchestrator.php:282
+#, php-format
+msgid "Pre-Flight: %s"
+msgstr "Vorabprüfung: %s"
+
+#: src/Core/Hub_Orchestrator.php:283
+msgid "Fehler bei der Pre-Flight-Prüfung:"
+msgstr "Fehler bei der Vorabprüfung:"
+
+#: src/Core/Hub_Orchestrator.php:284
+msgid "Prüfpunkt"
+msgstr "Prüfpunkt"
+
+#: src/Core/Hub_Orchestrator.php:285
+msgid "Soll"
+msgstr "Soll"
+
+#: src/Core/Hub_Orchestrator.php:286
+msgid "Ist"
+msgstr "Ist"
+
+#: src/Core/Hub_Orchestrator.php:287
+msgid "Status"
+msgstr "Status"
+
+#: src/Core/Hub_Orchestrator.php:288
+msgid "Erfüllt"
+msgstr "Erfüllt"
+
+#: src/Core/Hub_Orchestrator.php:289
+msgid "Nicht erfüllt"
+msgstr "Nicht erfüllt"
+
+#: src/Core/Hub_Orchestrator.php:290
+msgid "Berechnete Installationsreihenfolge:"
+msgstr "Berechnete Installationsreihenfolge:"
+
+#: src/Core/Hub_Orchestrator.php:291
+msgid "Keine Abhängigkeiten deklariert, Reihenfolge frei:"
+msgstr "Keine Abhängigkeiten deklariert, Reihenfolge frei:"
+
+#. translators: %s: id of the solution pack
+#: src/Core/Hub_Orchestrator.php:293
+#, php-format
+msgid "Dry-Run für %s läuft …"
+msgstr "Trockenlauf für %s läuft …"
+
+#: src/Core/Hub_Orchestrator.php:294
+msgid "Dry-Run abgeschlossen."
+msgstr "Trockenlauf abgeschlossen."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:296
+#, php-format
+msgid "Dry-Run fehlgeschlagen: %s"
+msgstr "Trockenlauf fehlgeschlagen: %s"
+
+#: src/Core/Hub_Orchestrator.php:297
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Deinstallations-Einstellung gespeichert."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:299
+#, php-format
+msgid "Fehler beim Speichern: %s"
+msgstr "Fehler beim Speichern: %s"
+
+#. translators: 1: module slug, 2: message the module returned
+#: src/Core/Hub_Orchestrator.php:301
+#, php-format
+msgid "Ergebnis für %1$s: %2$s"
+msgstr "Ergebnis für %1$s: %2$s"
+
+#: src/Core/Hub_Orchestrator.php:302
+msgid "Aktion erfolgreich ausgeführt."
+msgstr "Aktion wurde ausgeführt."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:304
+#, php-format
+msgid "Fehler bei der Modulaktion: %s"
+msgstr "Fehler bei der Modulaktion: %s"
+
+#. translators: %s: name of the WordPress plugin the block needs
+#: src/Gutenberg/block-notice.php:45
+#, php-format
+msgid "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an."
+msgstr "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an."
+
+#. translators: %s: label of a field in the block inspector
+#: src/Gutenberg/block-notice.php:59
+#, php-format
+msgid ""
+"Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher "
+"sehen den Block bis dahin nicht."
+msgstr ""
+"Noch nicht konfiguriert – bitte „%s“ im Block-Inspektor eintragen. Besucher "
+"sehen den Block bis dahin nicht."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:19
+msgid "Barrierefreiheits-Einstellungen"
+msgstr "Einstellungen zur Barrierefreiheit"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:22
+msgid "Kontrast"
+msgstr "Kontrastmodus"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:28
+msgid "Leseschrift"
+msgstr "Leseschrift"
+
+#: src/Gutenberg/Blocks/consent-badge/render.php:27
+#: src/Gutenberg/Blocks/privacy-center/render.php:28
+msgid "Datenschutz-Einstellungen"
+msgstr "Datenschutz-Einstellungen"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:27
+#: blocks-src/index.js:164
+msgid "SBOM-Download-URL"
+msgstr "URL zur SBOM-Datei"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:34
+msgid "Software-Stückliste (SBOM)"
+msgstr "Software-Stückliste (SBOM)"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:37
+msgid "CycloneDX 1.6 SBOM herunterladen"
+msgstr "CycloneDX-1.6-SBOM herunterladen"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:22 blocks-src/index.js:120
+#: blocks-src/index.js:124
+msgid "Buchungsseite (URL)"
+msgstr "Buchungsseite (URL)"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:28
+#: src/Gutenberg/Blocks/event-card/render.php:77
+msgid "Zur Buchung"
+msgstr "Zur Buchung"
+
+#: src/Gutenberg/Blocks/event-card/render.php:30
+msgid ""
+"Veranstaltungskarte noch nicht konfiguriert — bitte Titel und "
+"Veranstaltungsdaten im Block-Inspektor eintragen."
+msgstr ""
+"Veranstaltungskarte noch nicht konfiguriert – bitte Titel und "
+"Veranstaltungsdaten im Block-Inspektor eintragen."
+
+#: src/Gutenberg/Blocks/event-card/render.php:38
+#: src/Gutenberg/Blocks/event-grid/render.php:112
+msgid "Ausgebucht"
+msgstr "Ausgebucht"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:42
+#: src/Gutenberg/Blocks/event-grid/render.php:116
+#, php-format
+msgid "Nur noch %d Plätze"
+msgstr "Nur noch %d Plätze frei"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:46
+#: src/Gutenberg/Blocks/event-grid/render.php:120
+#, php-format
+msgid "%d freie Plätze"
+msgstr "%d Plätze verfügbar"
+
+#. translators: %s: name of the events plugin
+#: src/Gutenberg/Blocks/event-grid/render.php:52
+#, php-format
+msgid ""
+"„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis "
+"dahin nicht."
+msgstr ""
+"„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis "
+"dahin nicht."
+
+#. translators: %d: maximum total capacity
+#: src/Gutenberg/Blocks/event-grid/render.php:134
+#, php-format
+msgid "Max. %d Plätze"
+msgstr "Max. %d Plätze"
+
+#: src/Gutenberg/Blocks/event-grid/render.php:142
+msgid "Zur Veranstaltung"
+msgstr "Zur Veranstaltung"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:30
+msgid ""
+"Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-"
+"Inspektor hinterlegen."
+msgstr ""
+"Noch keine geprüften LkSG-Kennzahlen eingetragen – bitte Werte im Block-"
+"Inspektor hinterlegen."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:44
+msgid "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)"
+msgstr "Sorgfaltspflichten in der Lieferkette (LkSG & CSDDD)"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:50
+msgid "Menschenrechte"
+msgstr "Menschenrechte"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:54
+msgid "Umweltschutz"
+msgstr "Umweltschutz"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:58
+msgid "Gute Governance"
+msgstr "Unternehmensführung"
+
+#: src/Gutenberg/Blocks/modular-type-container/render.php:21
+msgid ""
+"Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die "
+"Seite; Besucher sehen ihn nicht."
+msgstr ""
+"Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die "
+"Seite; Besucher sehen ihn nicht."
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:21 blocks-src/index.js:177
+msgid "Ticker-Meldungen"
+msgstr "Lauftext-Einträge"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:27
+msgid "Nachrichten-Ticker"
+msgstr "Nachrichten-Ticker"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:38
+msgid "Ticker anhalten oder fortsetzen"
+msgstr "Ticker pausieren oder fortsetzen"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:39
+msgid "Pausieren"
+msgstr "Anhalten"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:27
+msgid ""
+"Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. "
+"0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft "
+"dieser Block nicht."
+msgstr ""
+"Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. "
+"0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft "
+"dieser Block nicht."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:30
+msgid "Peppol ID"
+msgstr "Peppol-Kennung"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:31
+msgid "Prüfen"
+msgstr "Kennung prüfen"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:23
+#: blocks-src/index.js:146
+msgid "Ziel-Element-ID"
+msgstr "Ziel-Element-Kennung"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:36
+msgid "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen."
+msgstr "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen."
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:39
+msgid "Inhalt einmalig laden"
+msgstr "Einmalig nachladen"
+
+#: src/Gutenberg/Blocks/whistleblower-card/render.php:33
+msgid "Hinweis abgeben"
+msgstr "Hinweis abgeben"
+
+#: src/Gutenberg/Telemetry_Bridge.php:83 src/Gutenberg/Telemetry_Bridge.php:93
+msgid "WM Suite Hub Telemetry"
+msgstr "WM Suite Hub Telemetrie"
+
+#: src/Gutenberg/Telemetry_Bridge.php:100
+msgid "Telemetry Field"
+msgstr "Telemetrie-Feld"
+
+#: src/Gutenberg/Telemetry_Bridge.php:103
+msgid "Health Score (%)"
+msgstr "Zustandswert (%)"
+
+#: src/Gutenberg/Telemetry_Bridge.php:107
+msgid "Global Status"
+msgstr "Gesamtstatus"
+
+#: src/Gutenberg/Telemetry_Bridge.php:111
+msgid "Active Spokes Count"
+msgstr "Anzahl aktiver Spokes"
+
+#: src/Gutenberg/Telemetry_Bridge.php:115
+msgid "Hub Version"
+msgstr "Hub-Version"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:138
+msgid "Format gültig (Schema:ID)"
+msgstr "Format gültig (Schema:ID)"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:139
+msgid "Ungültiges ID-Format"
+msgstr "Ungültiges Kennungsformat"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:140
+msgid "Pausiert"
+msgstr "Angehalten"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:141
+msgid "Läuft"
+msgstr "Aktiv"
+
+#: src/Setup/Activator.php:84
+msgid "Compliance Officer (DPO)"
+msgstr "Compliance-Beauftragter (DSB)"
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:187
+#, php-format
+msgid ""
+"Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde "
+"gelöscht, eingefügt oder geändert."
+msgstr ""
+"Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde "
+"gelöscht, eingefügt oder geändert."
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:202
+#, php-format
+msgid ""
+"Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder "
+"der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er "
+"geschrieben wurde."
+msgstr ""
+"Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder "
+"der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er "
+"geschrieben wurde."
+
+#. translators: %d: number of audit entries checked
+#: src/Telemetry/Audit_Chainer.php:217
+#, php-format
+msgid "%d Einträge geprüft, die Kette ist lückenlos."
+msgstr "%d Einträge geprüft, die Kette ist lückenlos."
+
+#: src/Telemetry/Health_Matrix.php:107
+msgid "Eingeschränkt"
+msgstr "Eingeschränkt"
+
+#: src/Telemetry/Health_Matrix.php:108
+msgid "Nicht konfiguriert"
+msgstr "Nicht konfiguriert"
+
+#: src/Telemetry/Health_Matrix.php:109
+msgid "Fehler"
+msgstr "Fehler"
+
+#: src/Telemetry/Health_Matrix.php:110
+msgid "Warnung"
+msgstr "Warnung"
+
+#: src/Telemetry/Health_Matrix.php:112
+msgid "Unbekannt"
+msgstr "Unbekannt"
+
+#: wm-suite-hub.php:51
+msgid ""
+"WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime."
+msgstr ""
+"WM Suite Hub benötigt mindestens PHP 8.2. Bitte aktualisieren Sie Ihre PHP-"
+"Laufzeitumgebung."
+
+#: blocks-src/index.js:84
+msgid "Block-Einstellungen"
+msgstr "Block-Optionen"
+
+#: blocks-src/index.js:109
+msgid "Spaltenanzahl"
+msgstr "Anzahl der Spalten"
+
+#: blocks-src/index.js:110
+msgid "Maximale Einträge"
+msgstr "Maximale Anzahl"
+
+#: blocks-src/index.js:114
+msgid "Veranstaltungstitel"
+msgstr "Titel der Veranstaltung"
+
+#: blocks-src/index.js:115
+msgid "Kategorie"
+msgstr "Veranstaltungskategorie"
+
+#: blocks-src/index.js:116
+msgid "Datum"
+msgstr "Veranstaltungsdatum"
+
+#: blocks-src/index.js:117
+msgid "Veranstaltungsort"
+msgstr "Ort der Veranstaltung"
+
+#: blocks-src/index.js:118
+msgid "Freie Plätze"
+msgstr "Verfügbare Plätze"
+
+#: blocks-src/index.js:119
+msgid "Preis"
+msgstr "Teilnahmepreis"
+
+#: blocks-src/index.js:125
+msgid "Button-Beschriftung"
+msgstr "Beschriftung des Buttons"
+
+#: blocks-src/index.js:126
+msgid "Hinweis unter dem Button"
+msgstr "Hinweis unter dem Button"
+
+#: blocks-src/index.js:130 blocks-src/index.js:139
+msgid "Überschrift"
+msgstr "Abschnittsüberschrift"
+
+#: blocks-src/index.js:131
+msgid "Platzhaltertext"
+msgstr "Eingabe-Platzhalter"
+
+#: blocks-src/index.js:135
+msgid "Badge-Beschriftung"
+msgstr "Abzeichen-Text"
+
+#: blocks-src/index.js:145
+msgid "Dienstname"
+msgstr "Name des Dienstes"
+
+#: blocks-src/index.js:150
+msgid "Unternehmensname"
+msgstr "Name der Organisation"
+
+#: blocks-src/index.js:151
+msgid "Link zur Meldestelle"
+msgstr "Link zur Meldestelle"
+
+#: blocks-src/index.js:157
+msgid "Menschenrechte (%)"
+msgstr "Menschenrechte in % (%)"
+
+#: blocks-src/index.js:158
+msgid "Umweltschutz (%)"
+msgstr "Umweltschutz in % (%)"
+
+#: blocks-src/index.js:159
+msgid "Governance (%)"
+msgstr "Governance in % (%)"
+
+#: blocks-src/index.js:163
+msgid "Versionskennzeichnung"
+msgstr "Versionsangabe"
+
+#: blocks-src/index.js:168
+msgid "Kontrastschalter anzeigen"
+msgstr "Kontrast-Schaltfläche anzeigen"
+
+#: blocks-src/index.js:169
+msgid "Leseschrift-Schalter anzeigen"
+msgstr "Leseschrift-Schaltfläche anzeigen"
+
+#: blocks-src/index.js:170
+msgid "Schriftgrößen-Schalter anzeigen"
+msgstr "Schriftgrößen-Schaltflächen anzeigen"
+
+#: blocks-src/index.js:176
+msgid "Badge-Text"
+msgstr "Kennzeichnungstext"
+
+#: blocks-src/index.js:181
+msgid "Skalierungsfaktor"
+msgstr "Typografischer Skalierungsfaktor"
+
+#: blocks-src/index.js:182
+msgid "Basisschriftgröße"
+msgstr "Grundschriftgröße"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block title"
+msgid "WM Accessibility Toolbar"
+msgstr "WM Barrierefreiheits-Werkzeugleiste"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block description"
+msgid ""
+"Buttons for high contrast in the WM Suite blocks, a reading font installed "
+"on the visitor's device, and larger text. The choice stays in the browser."
+msgstr ""
+"Schaltflächen für hohen Kontrast in den WM-Suite-Blöcken, eine auf dem Gerät "
+"des Besuchers installierte Leseschrift und größere Schrift. Die Auswahl "
+"bleibt im Browser."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "Barrierefreiheit-Kürzel"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "bfsg"
+msgstr "bfsg"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "barrierefreiheit"
+msgstr "Barrierefreiheit"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "Kontrast"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "dyslexia"
+msgstr "Lesehilfe"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block title"
+msgid "WM Accessibility Statement"
+msgstr "WM Erklärung zur Barrierefreiheit"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block description"
+msgid ""
+"Shows the accessibility statement that WM BFSG Compliance Dashboard builds "
+"from your settings. Without that plugin, visitors see nothing."
+msgstr ""
+"Zeigt die Erklärung zur Barrierefreiheit, die WM BFSG Compliance Dashboard "
+"aus Ihren Einstellungen erstellt. Ohne dieses Plugin sehen Besucher nichts."
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "erklaerung"
+msgstr "Erklärung"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "wcag"
+msgstr "wcag"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "mlbf"
+msgstr "mlbf"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block title"
+msgid "WM Consent Settings Badge"
+msgstr "WM Badge für Datenschutz-Einstellungen"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge link that opens the consent dialog of WM Sovereign Consent Vault. "
+"Without that plugin, visitors see nothing."
+msgstr ""
+"Badge-Link, der den Einwilligungsdialog von WM Sovereign Consent Vault "
+"öffnet. Ohne dieses Plugin sehen Besucher nichts."
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "privacy"
+msgstr "privatsphäre"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "consent"
+msgstr "Einwilligung"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "dsgvo"
+msgstr "dsgvo"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "tdddg"
+msgstr "tdddg"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "cookies"
+msgstr "Cookies"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block title"
+msgid "WM SBOM Download"
+msgstr "WM SBOM-Download"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block description"
+msgid ""
+"Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors "
+"see nothing until a URL is entered."
+msgstr ""
+"Download-Link für die CycloneDX-SBOM, die wp wm-hub sbom schreibt. Besucher "
+"sehen nichts, bis eine URL eingetragen ist."
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cra"
+msgstr "CRA"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "sbom"
+msgstr "SBOM"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cyclonedx"
+msgstr "cyclonedx"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "bsi"
+msgstr "bsi"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "security"
+msgstr "Sicherheit"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block title"
+msgid "WM Event Booking CTA Button"
+msgstr "WM Buchungs-Button"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block description"
+msgid ""
+"Button to the booking page you enter, with an optional note under it. "
+"Visitors see nothing until a URL is entered."
+msgstr ""
+"Button zu der von Ihnen eingetragenen Buchungsseite, mit optionalem Hinweis "
+"darunter. Besucher sehen nichts, bis eine URL eingetragen ist."
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "booking"
+msgstr "Buchung"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "cta"
+msgstr "Handlungsaufruf"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "Schaltfläche"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "tickets"
+msgstr "Tickets"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block title"
+msgid "WM Atomic Event Card"
+msgstr "WM Veranstaltungs-Karte"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block description"
+msgid ""
+"Event card with the title, date, place, price and free seats you type in, "
+"and a button to the booking page you enter. Nothing is read live."
+msgstr ""
+"Veranstaltungskarte mit Titel, Datum, Ort, Preis und freien Plätzen, die Sie "
+"eintragen, und einem Button zu der von Ihnen eingetragenen Buchungsseite. "
+"Nichts wird live gelesen."
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "event"
+msgstr "veranstaltung"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "card"
+msgstr "Karte"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "ticket"
+msgstr "Ticket"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "conference"
+msgstr "Konferenz"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block title"
+msgid "WM Event Grid Container"
+msgstr "WM Veranstaltungs-Raster"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block description"
+msgid ""
+"Lists the active events of WM Cyber Events Core, each with a link to its "
+"event page. Without that plugin, visitors see nothing."
+msgstr ""
+"Listet die aktiven Veranstaltungen von WM Cyber Events Core, jede mit einem "
+"Link zu ihrer Veranstaltungsseite. Ohne dieses Plugin sehen Besucher nichts."
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "Raster"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "wm suite"
+msgstr "wm suite"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block title"
+msgid "WM LkSG ESG Supply Chain Scorecard"
+msgstr "WM LkSG- & ESG-Kennzahlenkarte"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block description"
+msgid ""
+"Three percentages you type in (human rights, environment, governance) under "
+"a supply chain heading. The block computes and checks nothing."
+msgstr ""
+"Drei Prozentwerte, die Sie eintragen (Menschenrechte, Umwelt, Governance), "
+"unter einer Überschrift zur Lieferkette. Der Block berechnet und prüft "
+"nichts."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lksg"
+msgstr "lksg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "esg"
+msgstr "esg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "csddd"
+msgstr "csddd"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lieferkette"
+msgstr "Lieferkette"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "compliance"
+msgstr "Compliance-Meldung"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block title"
+msgid "WM Modular Scale Fluid Type Container"
+msgstr "WM Container für proportionale Typografie"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for a modular type scale. In this version it takes no inner blocks "
+"and no stylesheet reads its settings, so it has no effect on the page."
+msgstr ""
+"Container für eine modulare Typografie-Skala. In dieser Version nimmt er "
+"keine inneren Blöcke auf und kein Stylesheet liest seine Einstellungen, "
+"daher wirkt er nicht auf die Seite."
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "Typografie"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "fließend"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "modular scale"
+msgstr "Typografische Skala"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "clamp"
+msgstr "Skalierung"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "container queries"
+msgstr "Container-Abfragen"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block title"
+msgid "WM Newsticker"
+msgstr "WM Newsticker"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block description"
+msgid ""
+"Scrolling line of your own text with a pause button. It stops on hover and "
+"stands still for visitors who ask for reduced motion."
+msgstr ""
+"Laufzeile mit Ihrem eigenen Text und einer Pause-Schaltfläche. Sie hält an, "
+"solange die Maus darüber steht, und steht still für Besucher, die reduzierte "
+"Bewegung wünschen."
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "Ticker"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "marquee"
+msgstr "Laufschrift"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "Nachrichten"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "eilmeldung"
+msgstr "Eilmeldung"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "Barrierefreiheit"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block title"
+msgid "WM Peppol ID Format Check"
+msgstr "WM Peppol-ID-Formatprüfung"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block description"
+msgid ""
+"Checks in the browser whether an ID has the Peppol form Scheme:ID. It does "
+"not look the participant up in the Peppol network."
+msgstr ""
+"Prüft im Browser, ob eine Kennung die Peppol-Form Schema:ID hat. Ob der "
+"Teilnehmer im Peppol-Netz existiert, schlägt der Block nicht nach."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "xrechnung"
+msgstr "xrechnung"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "zugferd"
+msgstr "zugferd"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "geba"
+msgstr "geba"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "e-invoicing"
+msgstr "Elektronische Rechnung"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block title"
+msgid "WM Sovereign Privacy Center"
+msgstr "WM Datenschutz- & Einwilligungszentrale"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block description"
+msgid ""
+"Heading and the button that opens the consent dialog of WM Sovereign Consent "
+"Vault. Without that plugin, visitors see nothing."
+msgstr ""
+"Überschrift und die Schaltfläche, die den Einwilligungsdialog von WM "
+"Sovereign Consent Vault öffnet. Ohne dieses Plugin sehen Besucher nichts."
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "preferences"
+msgstr "Präferenzen"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block title"
+msgid "WM DSGVO Art. 17 Privacy Eraser Form"
+msgstr "WM Formular für Löschanfragen (Art. 17 DSGVO)"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block description"
+msgid ""
+"Shows the erasure request form of WM DSGVO Privacy Eraser. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Zeigt das Formular für Löschanträge von WM DSGVO Privacy Eraser. Ohne dieses "
+"Plugin sehen Besucher nichts."
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "eraser"
+msgstr "Löschung"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "art17"
+msgstr "art17"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "loeschung"
+msgstr "Datenlöschung"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block title"
+msgid "WM External Content Placeholder"
+msgstr "WM Platzhalter für externe Inhalte"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block description"
+msgid ""
+"Placeholder with a load button. Put the embed into a template element with "
+"the target ID: nothing in it loads before the click."
+msgstr ""
+"Platzhalter mit einer Lade-Schaltfläche. Legen Sie die Einbettung in ein "
+"template-Element mit der Ziel-ID: Nichts darin wird vor dem Klick geladen."
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "media"
+msgstr "Medien"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "placeholder"
+msgstr "Platzhalter"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "blocker"
+msgstr "Skriptsperre"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal Card"
+msgstr "WM Hinweisgeber-Portalkarte (HinSchG)"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block description"
+msgid ""
+"Link card to the reporting channel: the portal block on the same page, or an "
+"address you enter."
+msgstr ""
+"Link-Karte zur Meldestelle: der Portal-Block auf derselben Seite oder eine "
+"Adresse, die Sie eintragen."
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "hinschg"
+msgstr "HinSchG"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "whistleblower"
+msgstr "Hinweisgeber"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "meldung"
+msgstr "Meldung"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "hinweisgeber"
+msgstr "Hinweisgeber"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal"
+msgstr "WM HinSchG-Hinweisgeberportal"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block description"
+msgid ""
+"Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Zeigt das Meldeportal von WM HinSchG Whistleblower Desk. Ohne dieses Plugin "
+"sehen Besucher nichts."
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "wizard"
+msgstr "Assistent"

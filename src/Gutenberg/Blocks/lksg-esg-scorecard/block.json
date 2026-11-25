@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/lksg-esg-scorecard",
+	"version": "1.2.6",
+	"title": "WM LkSG ESG Supply Chain Scorecard",
+	"category": "wm-suite",
+	"icon": "chart-pie",
+	"description": "Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.",
+	"keywords": ["lksg", "esg", "csddd", "lieferkette", "compliance"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor",
+	"attributes": {
+		"humanRightsScore": {
+			"type": "number",
+			"default": -1
+		},
+		"environmentScore": {
+			"type": "number",
+			"default": -1
+		},
+		"governanceScore": {
+			"type": "number",
+			"default": -1
+		}
+	}
+}

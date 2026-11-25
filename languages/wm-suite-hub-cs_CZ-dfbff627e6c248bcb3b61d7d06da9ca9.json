@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "cs_CZ",
+        "plural-forms": "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Podnikový kokpit)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Registr a přehled stavu pluginů WM Suite, soupis softwarových komponent podle CycloneDX 1.6 a auditní tabulka, jejíž záznamy jsou zřetězeny pomocí HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "Podniková sada WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Kokpit a stav"
+      ],
+      "Cockpit & Status": [
+        "Kokpit a stav"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Balíčky řešení"
+      ],
+      "Solution Packs": [
+        "Balíčky řešení"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Auditní protokol"
+      ],
+      "Audit-Log": [
+        "Auditní protokol"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Nemáte dostatečná oprávnění pro přístup na tuto stránku."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Kokpit podnikové sady"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Moduly podle předpisů"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Kokpit podnikové sady"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Auditní řetězec neporušen: zkontrolováno záznamů: %d"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Auditní řetězec přerušen u záznamu #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Každý záznam je s předchozím svázán pomocí HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Aktivní moduly"
+      ],
+      "Health Score": [
+        "Skóre kondice"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Aktivní satelitní moduly WM Suite"
+      ],
+      "%d Bereitgestellt": [
+        "%d nasazeno"
+      ],
+      "Suite Cockpit öffnen": [
+        "Otevřít kokpit sady"
+      ],
+      "Nicht aktiv": [
+        "Neaktivní"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Plně aktivní (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Částečně aktivní (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d dostupných modulů"
+      ],
+      "Zustand der zuständigen Module": [
+        "Stav příslušných modulů"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Ukazuje, který plugin WM Suite je aktivní a jaký stav hlásí. Nejde o posouzení shody."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Přejít na hlavní obsah"
+      ],
+      "WM Suite Hub Command Console": [
+        "Řídicí konzole WM Suite Hub"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Stav registrovaných pluginů WM Suite, soupis softwarových komponent (CycloneDX 1.6) a auditní tabulka zřetězená pomocí HMAC-SHA256."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Obnovit stav flotily"
+      ],
+      "Aktualisieren": [
+        "Obnovit"
+      ],
+      "Audit-Integrität prüfen": [
+        "Zkontrolovat integritu auditu"
+      ],
+      "Cockpit Navigation": [
+        "Navigace kokpitu"
+      ],
+      "Cockpit Übersicht": [
+        "Přehled kokpitu"
+      ],
+      "Satelliten-Flotte": [
+        "Satelitní flotila"
+      ],
+      "Audit-Protokoll": [
+        "Auditní protokol"
+      ],
+      "Design & Themes": [
+        "Design a motivy"
+      ],
+      "Suite Theme:": [
+        "Motiv sady:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Vybrat motiv WM Suite"
+      ],
+      "Schnellnavigation": [
+        "Rychlá navigace"
+      ],
+      "Direkt zu:": [
+        "Přejít na:"
+      ],
+      "Kurzanleitung": [
+        "Rychlý návod"
+      ],
+      "Metriken & Status": [
+        "Metriky a stav"
+      ],
+      "Theme-Einstellungen": [
+        "Nastavení motivu"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Co je WM Suite Hub a jak spravujete své pluginy?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub je centrální"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "řídicí a kontrolní středisko všech WordPress pluginů WM Suite"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Zobrazuje stav, který hlásí registrované moduly, vytváří softwarový kusovník ve formátu CycloneDX 1.6 a řetězí jemu hlášené události pomocí HMAC-SHA256: změny provedené bez klíče webu jsou zjistitelné. Neposuzuje právní shodu."
+      ],
+      "Schnellzugriff:": [
+        "Rychlý přístup:"
+      ],
+      "Aktive Module prüfen": [
+        "Zkontrolovat aktivní moduly"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Zobrazit auditní protokol"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Změnit motiv a vzhled"
+      ],
+      "Systemmetriken": [
+        "Systémové metriky"
+      ],
+      "GESAMTSTATUS": [
+        "CELKOVÝ STAV"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Vážený stav registrovaných modulů (v pořádku 100, omezený 60, nenakonfigurovaný 30, chyba 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "INVENTÁŘ SATELITŮ"
+      ],
+      "Registriert": [
+        "Registrováno"
+      ],
+      "Gesund": [
+        "V pořádku"
+      ],
+      "Warnungen": [
+        "Varování"
+      ],
+      "Kritisch": [
+        "Kritické"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "BĚHOVÉ PROSTŘEDÍ"
+      ],
+      "ja": [
+        "ano"
+      ],
+      "nein": [
+        "ne"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Trvalá mezipaměť objektů"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Stav flotily a satelitní moduly"
+      ],
+      "Module aktiv": [
+        "aktivních modulů"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Žádné registrované satelitní moduly"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Jakmile jsou pluginy WM Suite aktivovány, automaticky se připojí přes filtr wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Závislosti:"
+      ],
+      "Konfiguration": [
+        "Konfigurace"
+      ],
+      "Selbsttest": [
+        "Autotest"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Integrita řetězce: Neověřeno (klikněte na Zkontrolovat integritu auditu)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Tabulka auditního protokolu"
+      ],
+      "Zeitstempel": [
+        "Časové razítko"
+      ],
+      "Modul": [
+        "Modul"
+      ],
+      "Ereignistyp": [
+        "Typ události"
+      ],
+      "Benutzer": [
+        "Uživatel"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "Podpis HMAC SHA-256"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Načítání auditních záznamů..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Designový systém a předvolby motivu"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Zvolte globální barevné schéma pro kokpit a všechny satelitní pluginy WM Suite. Ve výchozím stavu se používá CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Výchozí"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Tmavý banner Obsidian Midnight spojený s nativními kartami administrace WordPressu a jasným kontrastem."
+      ],
+      "Als Standard aktivieren": [
+        "Nastavit jako výchozí"
+      ],
+      "Klassisch": [
+        "Klasický"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: nativní barevná paleta WordPress Admin (#2271b1 modrá, #f0f0f1 plátno, standardní formuláře WP)."
+      ],
+      "Aktivieren": [
+        "Aktivovat"
+      ],
+      "Dark Mode": [
+        "Tmavý režim"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Plný tmavý režim (#050811 plátno) s poloprůhlednými kartami a modrými akcenty."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Čistá černá, bílá a bezpečnostní žlutá pro vysoký kontrast."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Uchovávání dat a odinstalace"
+      ],
+      "Aufbewahrungsschutz": [
+        "Ochrana uchovávání"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Při odstranění pluginu nenávratně smazat všechna data"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "Ve výchozím nastavení WM Suite Hub při odinstalaci zachová tabulku auditu HMAC-SHA256, role i nastavení. Tuto volbu zapněte pouze tehdy, chcete-li vše trvale odstranit."
+      ],
+      "Audit-Verifikation": [
+        "Ověření auditu"
+      ],
+      "Schließen": [
+        "Zavřít"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Tematické balíčky pluginů WM Suite: pořadí jejich závislostí určuje Kahnovo topologické řazení a předběžná kontrola nejprve prověří server. Tato verze instalaci nenabízí; pluginy se instalují jednotlivě."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Deduplikace na této stránce:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "Odstraněno %1$d skriptů a %2$d stylů (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Obsah balíčku a architektura modulů (%d):"
+      ],
+      "Aktiviert": [
+        "Aktivováno"
+      ],
+      "Im Paket enthalten": [
+        "Součást balíčku"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Matematické pořadí instalace DAG (Kahnův algoritmus):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Žádný z těchto pluginů nevyžaduje jiný; pořadí instalace je libovolné."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Spustit předběžnou kontrolu pro %s"
+      ],
+      "Pre-Flight Check": [
+        "Předběžná kontrola"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Kontrola verze PHP, rozšíření Sodium, limitu paměti, oprávnění k zápisu a OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Zkušební simulace"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Přístup odepřen. Nedostatečná oprávnění pro kokpit WM Suite."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Modul \"%s\" není registrován nebo je neaktivní."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Provedení akce modulu selhalo: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Mezipaměť telemetrie byla vyprázdněna."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Byl vybrán neplatný motiv."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Motiv byl aktualizován."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Výchozí)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Nativní Klasický"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Tmavý"
+      ],
+      "High-Contrast": [
+        "Vysoký kontrast"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Nastavení odinstalace bylo aktualizováno."
+      ],
+      "Bundle nicht gefunden.": [
+        "Balíček nebyl nalezen."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Předběžná kontrola selhala."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Simulace úspěšná: %d balíčků vyřešeno v pořadí."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Instalace balíčků řešení není v této verzi dostupná. Použijte dry_run=true pro výpočet pořadí."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Synchronizace souhlasu odmítnuta: chybějící nebo vypršelý bezpečnostní token."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Příliš mnoho událostí souhlasu. Zkuste to znovu za minutu."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Žádné čitelné rozhodnutí o souhlasu."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Souhlas se nepodařilo zaznamenat."
+      ],
+      "Externer Dienst": [
+        "Externí služba"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Blokovaný externí obsah: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Obsah z %s zablokován"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Načíst a povolit %s jednorázově"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Pro načtení tohoto obsahu je vyžadován váš souhlas podle § 25 TDDDG a GDPR."
+      ],
+      "Inhalt laden & entsperren": [
+        "Načíst a odemknout obsah"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Načtením souhlasíte s přenosem dat poskytovateli třetí strany."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Při komunikaci s Hubem došlo k chybě."
+      ],
+      "HTTP-Fehler %s": [
+        "Chyba HTTP %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Motiv byl změněn."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Chyba při ukládání motivu: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Nebyly zaznamenány žádné auditní události."
+      ],
+      "Benutzer #%s": [
+        "Uživatel #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Chyba při načítání protokolů: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Kontroluje se auditní řetězec…"
+      ],
+      "Audit-Kette intakt": [
+        "Auditní řetězec neporušen"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Všechny záznamy (%d) odpovídají svému podpisu HMAC-SHA256 i předchozímu záznamu: žádný nebyl bez klíče webu změněn, smazán ani přeřazen."
+      ],
+      "Letzter Hash: %s": [
+        "Poslední hash: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Auditní řetězec přerušen"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Kontrola auditního řetězce"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Kontrola selhala"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Telemetrická data byla aktualizována."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Chyba při obnovování: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Předběžná kontrola: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Chyba předběžné kontroly:"
+      ],
+      "Prüfpunkt": [
+        "Kontrolní bod"
+      ],
+      "Soll": [
+        "Očekáváno"
+      ],
+      "Ist": [
+        "Skutečnost"
+      ],
+      "Status": [
+        "Stav"
+      ],
+      "Erfüllt": [
+        "Splněno"
+      ],
+      "Nicht erfüllt": [
+        "Nesplněno"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Vypočtené pořadí instalace:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Nejsou deklarovány žádné závislosti, pořadí je libovolné:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Probíhá zkušební simulace pro %s…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Zkušební simulace dokončena."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Zkušební simulace selhala: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Nastavení odinstalace uloženo."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Chyba při ukládání: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Výsledek pro %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Akce byla provedena."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Chyba akce modulu: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Bez aktivního pluginu „%s“ tento blok návštěvníkům nic nezobrazí."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Zatím nenakonfigurováno – vyplňte „%s“ v nastavení bloku. Do té doby návštěvníci blok neuvidí."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Nastavení přístupnosti"
+      ],
+      "Kontrast": [
+        "Kontrast"
+      ],
+      "Leseschrift": [
+        "Čtecí písmo"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Nastavení soukromí"
+      ],
+      "SBOM-Download-URL": [
+        "URL ke stažení SBOM"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Softwarový kusovník (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Stáhnout CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Stránka rezervace (URL)"
+      ],
+      "Zur Buchung": [
+        "K rezervaci"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Karta akce zatím není nakonfigurována – zadejte název a údaje o akci v nastavení bloku."
+      ],
+      "Ausgebucht": [
+        "Plně obsazeno"
+      ],
+      "Nur noch %d Plätze": [
+        "Zbývá jen %d míst"
+      ],
+      "%d freie Plätze": [
+        "%d volných míst"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "„%s“ nehlásí žádné aktivní akce; do té doby návštěvníci blok neuvidí."
+      ],
+      "Max. %d Plätze": [
+        "Max. %d míst"
+      ],
+      "Zur Veranstaltung": [
+        "K akci"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Zatím nejsou zadány ověřené ukazatele LkSG – zadejte hodnoty v nastavení bloku."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Náležitá péče v dodavatelském řetězci (LkSG a CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Lidská práva"
+      ],
+      "Umweltschutz": [
+        "Ochrana životního prostředí"
+      ],
+      "Gute Governance": [
+        "Řádná správa"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Tento kontejner v editoru nepřijímá obsah a nemá na stránku žádný vliv; návštěvníci ho nevidí."
+      ],
+      "Ticker-Meldungen": [
+        "Zprávy informační lišty"
+      ],
+      "Nachrichten-Ticker": [
+        "Informační lišta"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Pozastavit nebo spustit lištu"
+      ],
+      "Pausieren": [
+        "Pozastavit"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Kontroluje v prohlížeči, zda identifikátor odpovídá formátu Schéma:ID (např. 0208:0843657437). Zda je účastník v síti Peppol dosažitelný, tento blok nekontroluje."
+      ],
+      "Peppol ID": [
+        "Peppol ID"
+      ],
+      "Prüfen": [
+        "Ověřit"
+      ],
+      "Ziel-Element-ID": [
+        "ID cílového prvku"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Při načtení tohoto obsahu se předávají data poskytovateli."
+      ],
+      "Inhalt einmalig laden": [
+        "Načíst obsah jednorázově"
+      ],
+      "Hinweis abgeben": [
+        "Podat oznámení"
+      ],
+      "WM Suite Hub Telemetry": [
+        "Telemetrie WM Suite Hub"
+      ],
+      "Telemetry Field": [
+        "Pole telemetrie"
+      ],
+      "Health Score (%)": [
+        "Skóre kondice (%)"
+      ],
+      "Global Status": [
+        "Celkový stav"
+      ],
+      "Active Spokes Count": [
+        "Počet aktivních satelitů"
+      ],
+      "Hub Version": [
+        "Verze Hubu"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Formát platný (Schéma:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Neplatný formát ID"
+      ],
+      "Pausiert": [
+        "Pozastaveno"
+      ],
+      "Läuft": [
+        "Běží"
+      ],
+      "Compliance Officer (DPO)": [
+        "Pověřenec pro compliance (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Záznam #%d neodkazuje na svého předchůdce: dřívější záznam byl smazán, vložen nebo změněn."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Podpis záznamu #%d nesouhlasí: záznam byl změněn, nebo klíč webu (AUTH_SALT) už není ten, kterým byl zapsán."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Auditní tabulka je prázdná."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "Zkontrolováno záznamů: %d, řetězec je souvislý."
+      ],
+      "Eingeschränkt": [
+        "Omezené"
+      ],
+      "Nicht konfiguriert": [
+        "Nenakonfigurováno"
+      ],
+      "Fehler": [
+        "Chyba"
+      ],
+      "Warnung": [
+        "Varování"
+      ],
+      "Unbekannt": [
+        "Neznámé"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub vyžaduje PHP 8.2 nebo vyšší. Aktualizujte prosím běhové prostředí PHP."
+      ],
+      "Block-Einstellungen": [
+        "Nastavení bloku"
+      ],
+      "Spaltenanzahl": [
+        "Počet sloupců"
+      ],
+      "Maximale Einträge": [
+        "Maximální počet položek"
+      ],
+      "Veranstaltungstitel": [
+        "Název akce"
+      ],
+      "Kategorie": [
+        "Kategorie (jedn.)"
+      ],
+      "Datum": [
+        "Datum"
+      ],
+      "Veranstaltungsort": [
+        "Místo"
+      ],
+      "Freie Plätze": [
+        "Volná místa"
+      ],
+      "Preis": [
+        "Cena"
+      ],
+      "Button-Beschriftung": [
+        "Popisek tlačítka"
+      ],
+      "Hinweis unter dem Button": [
+        "Poznámka pod tlačítkem"
+      ],
+      "Überschrift": [
+        "Nadpis"
+      ],
+      "Platzhaltertext": [
+        "Zástupný text"
+      ],
+      "Badge-Beschriftung": [
+        "Popisek štítku"
+      ],
+      "Dienstname": [
+        "Název služby"
+      ],
+      "Unternehmensname": [
+        "Název společnosti"
+      ],
+      "Link zur Meldestelle": [
+        "Odkaz na oznamovací kanál"
+      ],
+      "Menschenrechte (%)": [
+        "Lidská práva (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Životní prostředí (%)"
+      ],
+      "Governance (%)": [
+        "Správa a řízení (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Označení verze"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Zobrazit přepínač vysokého kontrastu"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Zobrazit přepínač čtecího písma"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Zobrazit tlačítka velikosti písma"
+      ],
+      "Badge-Text": [
+        "Text štítku"
+      ],
+      "Skalierungsfaktor": [
+        "Poměr škálování"
+      ],
+      "Basisschriftgröße": [
+        "Základní velikost písma"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "Panel přístupnosti WM"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Tlačítka pro vysoký kontrast v blocích WM Suite, písmo pro čtení nainstalované v zařízení návštěvníka a větší text. Volba zůstává v prohlížeči."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "přístupnost"
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004dyslexia": [
+        "dyslexie"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "Prohlášení o přístupnosti WM"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Zobrazuje prohlášení o přístupnosti, které WM BFSG Compliance Dashboard sestaví z vašich nastavení. Bez tohoto pluginu návštěvníci nic neuvidí."
+      ],
+      "block keyword\u0004erklaerung": [
+        "prohlášení"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "Odznak nastavení souhlasu WM"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Odkaz v podobě odznaku, který otevírá dialog souhlasu WM Sovereign Consent Vault. Bez tohoto pluginu návštěvníci nic neuvidí."
+      ],
+      "block keyword\u0004privacy": [
+        "osobni-udaje"
+      ],
+      "block keyword\u0004consent": [
+        "souhlas"
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "cookies"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "Stažení SBOM WM"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Odkaz ke stažení CycloneDX SBOM, který zapisuje wp wm-hub sbom. Návštěvníci nic neuvidí, dokud není zadána URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "bezpečnost"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "Rezervační tlačítko akce WM"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Tlačítko na vámi zadanou stránku rezervace s volitelnou poznámkou pod ním. Návštěvníci nic neuvidí, dokud není zadána URL."
+      ],
+      "block keyword\u0004booking": [
+        "rezervace"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "tlačítko"
+      ],
+      "block keyword\u0004tickets": [
+        "vstupenky"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "Atomická karta akce WM"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Karta akce s názvem, datem, místem, cenou a volnými místy, které zadáte, a tlačítkem na zadanou stránku rezervace. Nic se nenačítá živě."
+      ],
+      "block keyword\u0004event": [
+        "událost"
+      ],
+      "block keyword\u0004card": [
+        "karta"
+      ],
+      "block keyword\u0004ticket": [
+        "vstupenka"
+      ],
+      "block keyword\u0004conference": [
+        "konference"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "Mřížka akcí WM"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Vypisuje aktivní akce z WM Cyber Events Core, každou s odkazem na její stránku. Bez tohoto pluginu návštěvníci nic neuvidí."
+      ],
+      "block keyword\u0004grid": [
+        "mřížka"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "Přehled ukazatelů ESG a LkSG WM"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Tři vámi zadaná procenta (lidská práva, životní prostředí, správa) pod nadpisem o dodavatelském řetězci. Blok nic nepočítá ani nekontroluje."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "dodavatelský řetězec"
+      ],
+      "block keyword\u0004compliance": [
+        "soulad"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "Kontejner plynulé typografie WM"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Kontejner pro modulární typografickou škálu. V této verzi nepřijímá vnitřní bloky a žádný styl nečte jeho nastavení, takže nemá na stránku vliv."
+      ],
+      "block keyword\u0004typography": [
+        "typografie"
+      ],
+      "block keyword\u0004fluid": [
+        "plynulý"
+      ],
+      "block keyword\u0004modular scale": [
+        "modulární škála"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "Zpravodajský pás WM"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Posuvný řádek s vaším vlastním textem a tlačítkem pozastavení. Zastaví se, když je nad ním myš, a stojí pro návštěvníky, kteří požadují omezený pohyb."
+      ],
+      "block keyword\u0004ticker": [
+        "lišta"
+      ],
+      "block keyword\u0004marquee": [
+        "běžící text"
+      ],
+      "block keyword\u0004news": [
+        "zprávy"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "blesková zpráva"
+      ],
+      "block keyword\u0004accessibility": [
+        "přístupnost"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "Kontrola formátu Peppol ID WM"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Kontroluje v prohlížeči, zda má ID podobu Peppol Schéma:ID. Účastníka v síti Peppol nevyhledává."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "e-fakturace"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "Suverénní centrum soukromí WM"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Nadpis a tlačítko, které otevírá dialog souhlasu WM Sovereign Consent Vault. Bez tohoto pluginu návštěvníci nic neuvidí."
+      ],
+      "block keyword\u0004preferences": [
+        "předvolby"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "Formulář výmazu údajů čl. 17 GDPR WM"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Zobrazuje formulář žádostí o výmaz z WM DSGVO Privacy Eraser. Bez tohoto pluginu návštěvníci nic neuvidí."
+      ],
+      "block keyword\u0004eraser": [
+        "výmaz"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "odstranění"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "Zástupný prvek pro externí obsah WM"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Zástupný prvek s tlačítkem načtení. Vložte vložený obsah do elementu template s cílovým ID: nic uvnitř se nenačte před kliknutím."
+      ],
+      "block keyword\u0004media": [
+        "média"
+      ],
+      "block keyword\u0004placeholder": [
+        "zástupný prvek"
+      ],
+      "block keyword\u0004blocker": [
+        "blokátor"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "Karta portálu oznamovatelů HinSchG WM"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Karta s odkazem na oznamovací kanál: blok portálu na stejné stránce nebo vámi zadaná adresa."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-zakon"
+      ],
+      "block keyword\u0004whistleblower": [
+        "oznamovatel"
+      ],
+      "block keyword\u0004meldung": [
+        "oznámení"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "whistleblowing"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "Portál oznamovatelů HinSchG WM"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Zobrazuje oznamovací portál WM HinSchG Whistleblower Desk. Bez tohoto pluginu návštěvníci nic neuvidí."
+      ],
+      "block keyword\u0004wizard": [
+        "průvodce"
+      ]
+    }
+  }
+}

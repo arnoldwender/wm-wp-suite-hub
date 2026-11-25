@@ -1,0 +1,1808 @@
+# Translation of wm-suite-hub in sl_SI
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-suite-hub 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-suite-hub\n"
+"POT-Creation-Date: 2026-11-21T12:46:17+00:00\n"
+"PO-Revision-Date: 2026-11-21 10:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-suite-hub\n"
+
+#. Plugin Name of the plugin
+#: wm-suite-hub.php
+msgid "WM Suite Hub (Enterprise Cockpit)"
+msgstr "WM Suite Hub (Poslovna nadzorna plošča)"
+
+#. Plugin URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+
+#. Description of the plugin
+#: wm-suite-hub.php
+msgid ""
+"Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 "
+"software bill of materials and an audit table whose entries are chained with "
+"HMAC-SHA256."
+msgstr ""
+"Register in pregled stanja vtičnikov WM Suite, seznam programskih komponent "
+"po CycloneDX 1.6 in revizijska tabela, katere vnosi so verižno povezani s "
+"HMAC-SHA256."
+
+#. Author of the plugin
+#: wm-suite-hub.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Admin/Admin_Menu.php:258 src/Gutenberg/Block_Manager.php:127
+msgid "WM Enterprise Suite"
+msgstr "Poslovna zbirka WM Suite"
+
+#: src/Admin/Admin_Menu.php:259
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: src/Admin/Admin_Menu.php:272
+msgid "WM Suite — Cockpit & Status"
+msgstr "WM Suite — Nadzorna plošča in stanje"
+
+#: src/Admin/Admin_Menu.php:273
+msgid "Cockpit & Status"
+msgstr "Plošča in stanje"
+
+#: src/Admin/Admin_Menu.php:282
+msgid "WM Suite — Solution Packs"
+msgstr "WM Suite — Paketi rešitev"
+
+#: src/Admin/Admin_Menu.php:283 src/Admin/Dashboard_Widgets.php:518
+#: src/Admin/Dashboard_Widgets.php:561 src/Admin/Views/cockpit-view.php:86
+#: src/Admin/Views/marketplace-view.php:38
+msgid "Solution Packs"
+msgstr "Paketi rešitev"
+
+#: src/Admin/Admin_Menu.php:291
+msgid "WM Suite — Audit-Protokoll"
+msgstr "WM Suite — Revizijski dnevnik"
+
+#: src/Admin/Admin_Menu.php:292 src/Admin/Dashboard_Widgets.php:564
+msgid "Audit-Log"
+msgstr "Revizijski dnevnik"
+
+#: src/Admin/Admin_Menu.php:680
+msgid ""
+"Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite."
+msgstr "Nimate zadostnih dovoljenj za dostop do te strani."
+
+#: src/Admin/Dashboard_Widgets.php:438
+msgid "WM Suite — Enterprise Suite Cockpit"
+msgstr "WM Suite — Nadzorna plošča poslovne zbirke"
+
+#: src/Admin/Dashboard_Widgets.php:449 src/Admin/Dashboard_Widgets.php:633
+msgid "WM Suite — Module nach Regelwerk"
+msgstr "WM Suite — Moduli po predpisih"
+
+#: src/Admin/Dashboard_Widgets.php:481
+msgid "Enterprise Suite Cockpit"
+msgstr "Nadzorna plošča poslovne zbirke"
+
+#: src/Admin/Dashboard_Widgets.php:489 src/Telemetry/Audit_Chainer.php:215
+msgid "Die Audit-Tabelle ist leer."
+msgstr "Revizijska tabela je prazna."
+
+#. translators: %d: number of audit entries checked
+#: src/Admin/Dashboard_Widgets.php:492 src/Core/Hub_Orchestrator.php:267
+#, php-format
+msgid "Audit-Kette intakt: %d Einträge geprüft"
+msgstr "Revizijska veriga nedotaknjena: preverjenih vnosov: %d"
+
+#. translators: %d: id of the first audit entry that does not verify
+#: src/Admin/Dashboard_Widgets.php:497 src/Core/Hub_Orchestrator.php:274
+#, php-format
+msgid "Audit-Kette unterbrochen bei Eintrag #%d"
+msgstr "Revizijska veriga prekinjena pri vnosu #%d"
+
+#: src/Admin/Dashboard_Widgets.php:502
+msgid "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden."
+msgstr "Vsak vnos je s prejšnjim povezan s HMAC-SHA256."
+
+#: src/Admin/Dashboard_Widgets.php:510
+msgid "Aktive Module"
+msgstr "Aktivni moduli"
+
+#: src/Admin/Dashboard_Widgets.php:514
+msgid "Health Score"
+msgstr "Ocena zdravja"
+
+#: src/Admin/Dashboard_Widgets.php:524
+msgid "Aktive WM Suite Spoke-Module"
+msgstr "Aktivni satelitski moduli WM Suite"
+
+#. translators: %d: number of active spoke modules
+#: src/Admin/Dashboard_Widgets.php:527
+#, php-format
+msgid "%d Bereitgestellt"
+msgstr "%d nameščenih"
+
+#: src/Admin/Dashboard_Widgets.php:558
+msgid "Suite Cockpit öffnen"
+msgstr "Odpri nadzorno ploščo"
+
+#: src/Admin/Dashboard_Widgets.php:596
+msgid "Nicht aktiv"
+msgstr "Ni aktivno"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:622 src/Admin/Views/marketplace-view.php:97
+#, php-format
+msgid "Vollständig aktiv (%1$d/%2$d)"
+msgstr "Popolnoma aktivno (%1$d/%2$d)"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:625 src/Admin/Views/marketplace-view.php:101
+#, php-format
+msgid "Teilweise aktiv (%1$d/%2$d)"
+msgstr "Delno aktivno (%1$d/%2$d)"
+
+#. translators: %d: number of plugins listed
+#. translators: %d: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:628 src/Admin/Views/marketplace-view.php:105
+#, php-format
+msgid "%d Module verfügbar"
+msgstr "%d razpoložljivih modulov"
+
+#: src/Admin/Dashboard_Widgets.php:635
+msgid "Zustand der zuständigen Module"
+msgstr "Stanje pristojnih modulov"
+
+#: src/Admin/Dashboard_Widgets.php:646
+msgid ""
+"Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. "
+"Keine Konformitätsbewertung."
+msgstr ""
+"Prikazuje, kateri vtičnik WM Suite je aktiven in kakšno stanje sporoča. Ni "
+"ocena skladnosti."
+
+#: src/Admin/Views/cockpit-view.php:37
+msgid "Zum Hauptinhalt springen"
+msgstr "Preskoči na glavno vsebino"
+
+#: src/Admin/Views/cockpit-view.php:46
+msgid "WM Suite Hub Command Console"
+msgstr "Ukazna konzola WM Suite Hub"
+
+#: src/Admin/Views/cockpit-view.php:50
+msgid ""
+"Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX "
+"1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle."
+msgstr ""
+"Stanje registriranih vtičnikov WM Suite, seznam programskih komponent "
+"(CycloneDX 1.6) in revizijska tabela, verižno povezana s HMAC-SHA256."
+
+#: src/Admin/Views/cockpit-view.php:65
+msgid "Flottenstatus aktualisieren"
+msgstr "Osveži stanje flote"
+
+#: src/Admin/Views/cockpit-view.php:67
+msgid "Aktualisieren"
+msgstr "Osveži"
+
+#: src/Admin/Views/cockpit-view.php:72
+msgid "Audit-Integrität prüfen"
+msgstr "Preveri celovitost revizije"
+
+#: src/Admin/Views/cockpit-view.php:79
+msgid "Cockpit Navigation"
+msgstr "Navigacija plošče"
+
+#: src/Admin/Views/cockpit-view.php:82
+msgid "Cockpit Übersicht"
+msgstr "Pregled plošče"
+
+#: src/Admin/Views/cockpit-view.php:90 src/Admin/Views/cockpit-view.php:127
+msgid "Satelliten-Flotte"
+msgstr "Satelitska flota"
+
+#: src/Admin/Views/cockpit-view.php:94 src/Admin/Views/cockpit-view.php:128
+#: src/Admin/Views/cockpit-view.php:301
+msgid "Audit-Protokoll"
+msgstr "Revizijski dnevnik"
+
+#: src/Admin/Views/cockpit-view.php:98
+msgid "Design & Themes"
+msgstr "Oblikovanje in teme"
+
+#: src/Admin/Views/cockpit-view.php:104
+msgid "Suite Theme:"
+msgstr "Tema zbirke:"
+
+#: src/Admin/Views/cockpit-view.php:105
+msgid "WM Suite Theme auswählen"
+msgstr "Izberi temo WM Suite"
+
+#: src/Admin/Views/cockpit-view.php:123
+msgid "Schnellnavigation"
+msgstr "Hitra navigacija"
+
+#: src/Admin/Views/cockpit-view.php:124
+msgid "Direkt zu:"
+msgstr "Skoči na:"
+
+#: src/Admin/Views/cockpit-view.php:125
+msgid "Kurzanleitung"
+msgstr "Kratek vodnik"
+
+#: src/Admin/Views/cockpit-view.php:126
+msgid "Metriken & Status"
+msgstr "Meritve in stanje"
+
+#: src/Admin/Views/cockpit-view.php:129
+msgid "Theme-Einstellungen"
+msgstr "Nastavitve teme"
+
+#: src/Admin/Views/cockpit-view.php:135
+msgid "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?"
+msgstr "Kaj je WM Suite Hub in kako upravljate vtičnike?"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Das WM Suite Hub ist die zentrale"
+msgstr "WM Suite Hub je osrednje"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins"
+msgstr "upravljavsko in nadzorno središče vseh WordPress vtičnikov WM Suite"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid ""
+". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine "
+"Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, "
+"die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der "
+"Website werden erkennbar. Es bewertet keine Rechtskonformität."
+msgstr ""
+". Prikazuje stanje, ki ga sporočajo registrirani moduli, ustvari kosovnico "
+"programske opreme v formatu CycloneDX 1.6 in s HMAC-SHA256 poveže v verigo "
+"dogodke, ki so mu sporočeni: spremembe brez ključa spletnega mesta postanejo "
+"zaznavne. Ne ocenjuje pravne skladnosti."
+
+#: src/Admin/Views/cockpit-view.php:141
+msgid "Schnellzugriff:"
+msgstr "Hitri dostop:"
+
+#: src/Admin/Views/cockpit-view.php:143
+msgid "Aktive Module prüfen"
+msgstr "Preveri aktivne module"
+
+#: src/Admin/Views/cockpit-view.php:146
+msgid "Audit-Protokoll ansehen"
+msgstr "Prikaži revizijski dnevnik"
+
+#: src/Admin/Views/cockpit-view.php:149
+msgid "Theme & Erscheinungsbild wechseln"
+msgstr "Zamenjaj temo in videz"
+
+#: src/Admin/Views/cockpit-view.php:157
+msgid "Systemmetriken"
+msgstr "Sistemske meritve"
+
+#: src/Admin/Views/cockpit-view.php:161
+msgid "GESAMTSTATUS"
+msgstr "SKUPNO STANJE"
+
+#: src/Admin/Views/cockpit-view.php:174
+msgid ""
+"Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, "
+"nicht konfiguriert 30, Fehler 0)."
+msgstr ""
+"Uteženo stanje registriranih modulov (brezhibno 100, omejeno 60, ni "
+"konfigurirano 30, napaka 0)."
+
+#: src/Admin/Views/cockpit-view.php:181
+msgid "SATELLITEN-INVENTAR"
+msgstr "SEZNAM SATELITOV"
+
+#: src/Admin/Views/cockpit-view.php:187
+msgid "Registriert"
+msgstr "Registrirano"
+
+#: src/Admin/Views/cockpit-view.php:191 src/Telemetry/Health_Matrix.php:106
+msgid "Gesund"
+msgstr "Brezhibno"
+
+#: src/Admin/Views/cockpit-view.php:195
+msgid "Warnungen"
+msgstr "Opozorila"
+
+#: src/Admin/Views/cockpit-view.php:199 src/Telemetry/Health_Matrix.php:111
+msgid "Kritisch"
+msgstr "Kritično"
+
+#: src/Admin/Views/cockpit-view.php:212
+msgid "LAUFZEITUMGEBUNG"
+msgstr "IZVAJALNO OKOLJE"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "ja"
+msgstr "da"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "nein"
+msgstr "ne"
+
+#: src/Admin/Views/cockpit-view.php:230
+msgid "Persistenter Objekt-Cache"
+msgstr "Trajni predpomnilnik objektov"
+
+#: src/Admin/Views/cockpit-view.php:243
+msgid "Flottenstatus & Satelliten-Module"
+msgstr "Stanje flote in satelitski moduli"
+
+#: src/Admin/Views/cockpit-view.php:245
+msgid "Module aktiv"
+msgstr "aktivnih modulov"
+
+#: src/Admin/Views/cockpit-view.php:251
+msgid "Keine Satelliten-Module registriert"
+msgstr "Ni registriranih satelitskih modulov"
+
+#: src/Admin/Views/cockpit-view.php:252
+msgid ""
+"Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch "
+"über den Filter wm_register_suite_module."
+msgstr ""
+"Takoj ko so vtičniki WM Suite aktivirani, se samodejno povežejo prek filtra "
+"wm_register_suite_module."
+
+#: src/Admin/Views/cockpit-view.php:274
+msgid "Abhängigkeiten:"
+msgstr "Odvisnosti:"
+
+#: src/Admin/Views/cockpit-view.php:283
+msgid "Konfiguration"
+msgstr "Nastavitve"
+
+#: src/Admin/Views/cockpit-view.php:288
+msgid "Selbsttest"
+msgstr "Samopreizkus"
+
+#: src/Admin/Views/cockpit-view.php:305
+msgid ""
+"Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)"
+msgstr ""
+"Celovitost verige: Ni preverjena (kliknite Preveri celovitost revizije)"
+
+#: src/Admin/Views/cockpit-view.php:309
+msgid "Audit-Log-Tabelle"
+msgstr "Tabela revizijskega dnevnika"
+
+#: src/Admin/Views/cockpit-view.php:312
+msgid "Zeitstempel"
+msgstr "Časovni žig"
+
+#: src/Admin/Views/cockpit-view.php:313
+msgid "Modul"
+msgstr "Modul"
+
+#: src/Admin/Views/cockpit-view.php:314
+msgid "Ereignistyp"
+msgstr "Vrsta dogodka"
+
+#: src/Admin/Views/cockpit-view.php:315
+msgid "Benutzer"
+msgstr "Uporabnik"
+
+#: src/Admin/Views/cockpit-view.php:316
+msgid "SHA-256 HMAC Signatur"
+msgstr "Podpis HMAC SHA-256"
+
+#: src/Admin/Views/cockpit-view.php:322
+msgid "Lade Audit-Protokolle..."
+msgstr "Nalaganje revizijskih dnevnikov..."
+
+#: src/Admin/Views/cockpit-view.php:334
+msgid "Design-System & Theme-Präferenzen"
+msgstr "Oblikovalski sistem in nastavitve teme"
+
+#: src/Admin/Views/cockpit-view.php:338
+msgid ""
+"Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite "
+"Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents "
+"verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt."
+msgstr ""
+"Izberite globalno barvno shemo za nadzorno ploščo in vse satelitske vtičnike "
+"WM Suite. Privzeto je aktivna CyberEvents Enterprise."
+
+#: src/Admin/Views/cockpit-view.php:344
+msgid "Standard"
+msgstr "Privzeto"
+
+#: src/Admin/Views/cockpit-view.php:347
+msgid ""
+"Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress "
+"Admin Oberflächenkarten und klaren Kontrasten."
+msgstr ""
+"Temna pasica Obsidian Midnight v kombinaciji z izvornimi karticami "
+"skrbništva WordPress in jasnimi kontrasti."
+
+#: src/Admin/Views/cockpit-view.php:350
+msgid "Als Standard aktivieren"
+msgstr "Nastavi kot privzeto"
+
+#: src/Admin/Views/cockpit-view.php:356
+msgid "Klassisch"
+msgstr "Klasično"
+
+#: src/Admin/Views/cockpit-view.php:359
+msgid ""
+"100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, "
+"standardisierte WP Formulare)."
+msgstr ""
+"100%: izvorna barvna paleta WordPress Admin (#2271b1 modra, #f0f0f1 ozadje, "
+"standardni obrazci WP)."
+
+#: src/Admin/Views/cockpit-view.php:362 src/Admin/Views/cockpit-view.php:374
+#: src/Admin/Views/cockpit-view.php:385
+msgid "Aktivieren"
+msgstr "Aktiviraj"
+
+#: src/Admin/Views/cockpit-view.php:368
+msgid "Dark Mode"
+msgstr "Temni način"
+
+#: src/Admin/Views/cockpit-view.php:371
+msgid ""
+"Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und "
+"blauen Akzenten."
+msgstr ""
+"Popoln temni način (#050811 ozadje) s prosojnimi karticami in modrimi "
+"poudarki."
+
+#: src/Admin/Views/cockpit-view.php:382
+msgid "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast."
+msgstr "Čista črna, bela in varnostno rumena za visok kontrast."
+
+#: src/Admin/Views/cockpit-view.php:395
+msgid "Datenaufbewahrung & Deinstallation"
+msgstr "Hramba podatkov in odstranitev"
+
+#: src/Admin/Views/cockpit-view.php:397
+msgid "Aufbewahrungsschutz"
+msgstr "Zaščita hrambe"
+
+#: src/Admin/Views/cockpit-view.php:410
+msgid "Alle Daten beim Löschen des Plugins unwiderruflich entfernen"
+msgstr "Nepovratno izbriši vse podatke ob odstranitvi vtičnika"
+
+#: src/Admin/Views/cockpit-view.php:413
+msgid ""
+"Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und "
+"Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, "
+"wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig "
+"gelöscht werden sollen."
+msgstr ""
+"WM Suite Hub privzeto ohrani revizijsko tabelo HMAC-SHA256, vloge in "
+"nastavitve ob odstranitvi. To možnost vključite le, če želite dokončno "
+"izbrisati vse tabele in možnosti."
+
+#: src/Admin/Views/cockpit-view.php:425
+msgid "Audit-Verifikation"
+msgstr "Preverjanje revizije"
+
+#: src/Admin/Views/cockpit-view.php:426 src/Admin/Views/cockpit-view.php:435
+#: src/Admin/Views/marketplace-view.php:213
+msgid "Schließen"
+msgstr "Zapri"
+
+#: src/Admin/Views/marketplace-view.php:41
+msgid ""
+"Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer "
+"Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight "
+"Check prüft vorab den Server. Eine Installation gibt es in dieser Version "
+"nicht; die Plugins werden einzeln installiert."
+msgstr ""
+"Tematski paketi vtičnikov WM Suite: vrstni red njihovih odvisnosti določi "
+"Kahnovo topološko razvrščanje, predhodni pregled pa najprej preveri "
+"strežnik. Ta različica nima namestitve; vtičniki se nameščajo posamično."
+
+#: src/Admin/Views/marketplace-view.php:49
+msgid "Deduplizierung auf dieser Seite:"
+msgstr "Odstranjevanje podvojitev na tej strani:"
+
+#. translators: 1: dropped duplicate scripts, 2: dropped duplicate stylesheets, 3: size of the dropped files in KB
+#: src/Admin/Views/marketplace-view.php:53
+#, php-format
+msgid "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)"
+msgstr "Odstranjenih %1$d skriptov in %2$d slogovnih datotek (%3$s KB)"
+
+#. translators: %d: modules in the pack
+#: src/Admin/Views/marketplace-view.php:123
+#, php-format
+msgid "Paketinhalt & Modul-Architektur (%d):"
+msgstr "Vsebina paketa in arhitektura modulov (%d):"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Aktiviert"
+msgstr "Aktivirano"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Im Paket enthalten"
+msgstr "Vključeno v paket"
+
+#: src/Admin/Views/marketplace-view.php:176
+msgid "Mathematische DAG-Installationsfolge (Kahn-Sortierung):"
+msgstr "Matematični vrstni red namestitve DAG (Kahnovo razvrščanje):"
+
+#: src/Admin/Views/marketplace-view.php:181
+msgid ""
+"Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der "
+"Installation ist frei."
+msgstr ""
+"Noben od teh vtičnikov ne zahteva drugega; vrstni red namestitve je poljuben."
+
+#. translators: %s: suite name
+#: src/Admin/Views/marketplace-view.php:189
+#, php-format
+msgid "Pre-Flight Check für %s starten"
+msgstr "Zaženi predhodni pregled za %s"
+
+#: src/Admin/Views/marketplace-view.php:194
+#: src/Admin/Views/marketplace-view.php:211
+msgid "Pre-Flight Check"
+msgstr "Predhodni pregled"
+
+#: src/Admin/Views/marketplace-view.php:221
+msgid ""
+"Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und "
+"OPcache …"
+msgstr ""
+"Preverjanje različice PHP, razširitve Sodium, omejitve pomnilnika, pravic za "
+"pisanje in OPcache …"
+
+#: src/Admin/Views/marketplace-view.php:231
+msgid "Dry-Run Simulation"
+msgstr "Poskusna simulacija"
+
+#: src/API/API_Controller.php:266
+msgid ""
+"Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit."
+msgstr "Dostop zavrnjen. Nezadostna dovoljenja za nadzorno ploščo WM Suite."
+
+#. translators: %s: module slug
+#: src/API/API_Controller.php:346
+#, php-format
+msgid "Modul \"%s\" ist nicht registriert oder inaktiv."
+msgstr "Modul \"%s\" ni registriran ali ni aktiven."
+
+#. translators: %s: exception message
+#: src/API/API_Controller.php:375
+#, php-format
+msgid "Ausführung der Modulaktion fehlgeschlagen: %s"
+msgstr "Izvedba dejanja modula ni uspela: %s"
+
+#: src/API/API_Controller.php:392
+msgid "Telemetrie-Zwischenspeicher erfolgreich geleert."
+msgstr "Predpomnilnik telemetrije je bil izpraznjen."
+
+#: src/API/API_Controller.php:410
+msgid "Ungültiges Theme ausgewählt."
+msgstr "Izbrana je neveljavna tema."
+
+#: src/API/API_Controller.php:433
+msgid "Theme erfolgreich aktualisiert."
+msgstr "Tema je bila posodobljena."
+
+#: src/API/API_Controller.php:449
+msgid "CyberEvents Enterprise (Standard)"
+msgstr "CyberEvents Enterprise (Privzeto)"
+
+#: src/API/API_Controller.php:450
+msgid "WordPress Native Classic"
+msgstr "WordPress Izvorno Klasično"
+
+#: src/API/API_Controller.php:451
+msgid "Obsidian Midnight Dark"
+msgstr "Obsidian Midnight Temno"
+
+#: src/API/API_Controller.php:452
+msgid "High-Contrast"
+msgstr "Visok kontrast"
+
+#: src/API/API_Controller.php:477
+msgid "Deinstallations-Einstellung aktualisiert."
+msgstr "Nastavitev odstranitve je posodobljena."
+
+#: src/API/API_Controller.php:545 src/API/API_Controller.php:575
+msgid "Bundle nicht gefunden."
+msgstr "Paket ni bil najden."
+
+#: src/API/API_Controller.php:584
+msgid "Pre-Flight Überprüfung fehlgeschlagen."
+msgstr "Predhodni pregled ni uspel."
+
+#. translators: %d: number of packages in the resolved install order
+#: src/API/API_Controller.php:593
+#, php-format
+msgid "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst."
+msgstr "Simulacija uspešna: %d paketov razrešenih po vrsti."
+
+#: src/API/API_Controller.php:609
+msgid ""
+"Die Installation von Solution Packs ist in dieser Version noch nicht "
+"verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge."
+msgstr ""
+"Namestitev paketov rešitev v tej različici ni na voljo. Uporabite "
+"dry_run=true za izračun vrstnega reda."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:179
+msgid ""
+"Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr ""
+"Sinhronizacija soglasja zavrnjena: manjkajoč ali pretečen varnostni žeton."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:188
+msgid "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen."
+msgstr "Preveč dogodkov soglasja. Poskusite znova čez eno minuto."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:305
+msgid "Keine lesbare Einwilligungsentscheidung."
+msgstr "Ni berljive odločitve o privolitvi."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:346
+msgid "Die Einwilligung konnte nicht protokolliert werden."
+msgstr "Privolitve ni bilo mogoče zabeležiti."
+
+#: src/Compliance/Developer_SDK_Bridge.php:238
+msgid "Externer Dienst"
+msgstr "Zunanja storitev"
+
+#. translators: %s: name of the blocked third-party service (YouTube, Google Maps, …)
+#: src/Compliance/Developer_SDK_Bridge.php:249
+#, php-format
+msgid "Blockierter externer Inhalt: %s"
+msgstr "Blokirana zunanja vsebina: %s"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:251
+#, php-format
+msgid "Inhalt von %s blockiert"
+msgstr "Vsebina iz %s je blokirana"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:253
+#, php-format
+msgid "%s einmalig laden und aktivieren"
+msgstr "Naloži in omogoči %s enkrat"
+
+#: src/Compliance/Developer_SDK_Bridge.php:270
+msgid ""
+"Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO "
+"erforderlich."
+msgstr ""
+"Za nalaganje te vsebine je potrebno vaše soglasje v skladu s § 25 TDDDG in "
+"GDPR."
+
+#: src/Compliance/Developer_SDK_Bridge.php:273
+msgid "Inhalt laden & entsperren"
+msgstr "Naloži in odkleni vsebino"
+
+#: src/Compliance/Developer_SDK_Bridge.php:274
+msgid ""
+"Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter."
+msgstr "Z nalaganjem soglašate s prenosom podatkov tretjemu ponudniku."
+
+#: src/Core/Hub_Orchestrator.php:254
+msgid "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten."
+msgstr "Pri komunikaciji s Hubom je prišlo do napake."
+
+#. translators: %s: HTTP status code
+#: src/Core/Hub_Orchestrator.php:256
+#, php-format
+msgid "HTTP-Fehler %s"
+msgstr "Napaka HTTP %s"
+
+#: src/Core/Hub_Orchestrator.php:257
+msgid "Theme erfolgreich gewechselt."
+msgstr "Tema je bila spremenjena."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:259
+#, php-format
+msgid "Fehler beim Speichern des Themes: %s"
+msgstr "Napaka pri shranjevanju teme: %s"
+
+#: src/Core/Hub_Orchestrator.php:260
+msgid "Keine Audit-Ereignisse protokolliert."
+msgstr "Ni zabeleženih revizijskih dogodkov."
+
+#. translators: %s: WordPress user id
+#: src/Core/Hub_Orchestrator.php:262
+#, php-format
+msgid "Benutzer #%s"
+msgstr "Uporabnik #%s"
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:264
+#, php-format
+msgid "Fehler beim Laden der Logs: %s"
+msgstr "Napaka pri nalaganju dnevnikov: %s"
+
+#: src/Core/Hub_Orchestrator.php:265
+msgid "Die Audit-Kette wird geprüft …"
+msgstr "Preverjanje revizijske verige…"
+
+#: src/Core/Hub_Orchestrator.php:268
+msgid "Audit-Kette intakt"
+msgstr "Revizijska veriga nedotaknjena"
+
+#. translators: %d: number of audit entries checked
+#: src/Core/Hub_Orchestrator.php:270
+#, php-format
+msgid ""
+"Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem "
+"Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht "
+"oder umsortiert."
+msgstr ""
+"Vsi vnosi (%d) se ujemajo s svojim podpisom HMAC-SHA256 in s predhodnikom: "
+"nobeden ni bil spremenjen, izbrisan ali prerazvrščen brez ključa spletnega "
+"mesta."
+
+#. translators: %s: hexadecimal digest of the latest audit entry
+#: src/Core/Hub_Orchestrator.php:272
+#, php-format
+msgid "Letzter Hash: %s"
+msgstr "Zadnji hash: %s"
+
+#: src/Core/Hub_Orchestrator.php:275
+msgid "Audit-Kette unterbrochen"
+msgstr "Revizijska veriga prekinjena"
+
+#: src/Core/Hub_Orchestrator.php:276
+msgid "Prüfung der Audit-Kette"
+msgstr "Preverjanje revizijske verige"
+
+#: src/Core/Hub_Orchestrator.php:277
+msgid "Prüfung fehlgeschlagen"
+msgstr "Preverjanje ni uspelo"
+
+#: src/Core/Hub_Orchestrator.php:278
+msgid "Telemetriedaten erfolgreich aktualisiert."
+msgstr "Telemetrični podatki so posodobljeni."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:280
+#, php-format
+msgid "Fehler beim Aktualisieren: %s"
+msgstr "Napaka pri osveževanju: %s"
+
+#. translators: %s: name of the solution pack
+#: src/Core/Hub_Orchestrator.php:282
+#, php-format
+msgid "Pre-Flight: %s"
+msgstr "Predhodni pregled: %s"
+
+#: src/Core/Hub_Orchestrator.php:283
+msgid "Fehler bei der Pre-Flight-Prüfung:"
+msgstr "Napaka pri predhodnem pregledu:"
+
+#: src/Core/Hub_Orchestrator.php:284
+msgid "Prüfpunkt"
+msgstr "Kontrolna točka"
+
+#: src/Core/Hub_Orchestrator.php:285
+msgid "Soll"
+msgstr "Pričakovano"
+
+#: src/Core/Hub_Orchestrator.php:286
+msgid "Ist"
+msgstr "Dejansko"
+
+#: src/Core/Hub_Orchestrator.php:287
+msgid "Status"
+msgstr "Stanje"
+
+#: src/Core/Hub_Orchestrator.php:288
+msgid "Erfüllt"
+msgstr "Izpolnjeno"
+
+#: src/Core/Hub_Orchestrator.php:289
+msgid "Nicht erfüllt"
+msgstr "Ni izpolnjeno"
+
+#: src/Core/Hub_Orchestrator.php:290
+msgid "Berechnete Installationsreihenfolge:"
+msgstr "Izračunani vrstni red namestitve:"
+
+#: src/Core/Hub_Orchestrator.php:291
+msgid "Keine Abhängigkeiten deklariert, Reihenfolge frei:"
+msgstr "Ni deklariranih odvisnosti, vrstni red je prost:"
+
+#. translators: %s: id of the solution pack
+#: src/Core/Hub_Orchestrator.php:293
+#, php-format
+msgid "Dry-Run für %s läuft …"
+msgstr "Poskusna simulacija za %s poteka…"
+
+#: src/Core/Hub_Orchestrator.php:294
+msgid "Dry-Run abgeschlossen."
+msgstr "Poskusna simulacija končana."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:296
+#, php-format
+msgid "Dry-Run fehlgeschlagen: %s"
+msgstr "Poskusna simulacija ni uspela: %s"
+
+#: src/Core/Hub_Orchestrator.php:297
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Nastavitev odstranitve shranjena."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:299
+#, php-format
+msgid "Fehler beim Speichern: %s"
+msgstr "Napaka pri shranjevanju: %s"
+
+#. translators: 1: module slug, 2: message the module returned
+#: src/Core/Hub_Orchestrator.php:301
+#, php-format
+msgid "Ergebnis für %1$s: %2$s"
+msgstr "Rezultat za %1$s: %2$s"
+
+#: src/Core/Hub_Orchestrator.php:302
+msgid "Aktion erfolgreich ausgeführt."
+msgstr "Dejanje je bilo izvedeno."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:304
+#, php-format
+msgid "Fehler bei der Modulaktion: %s"
+msgstr "Napaka dejanja modula: %s"
+
+#. translators: %s: name of the WordPress plugin the block needs
+#: src/Gutenberg/block-notice.php:45
+#, php-format
+msgid "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an."
+msgstr "Brez aktivnega vtičnika »%s« ta blok obiskovalcem ne prikaže ničesar."
+
+#. translators: %s: label of a field in the block inspector
+#: src/Gutenberg/block-notice.php:59
+#, php-format
+msgid ""
+"Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher "
+"sehen den Block bis dahin nicht."
+msgstr ""
+"Še ni konfigurirano – izpolnite »%s« v nastavitvah bloka. Do takrat "
+"obiskovalci bloka ne vidijo."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:19
+msgid "Barrierefreiheits-Einstellungen"
+msgstr "Nastavitve dostopnosti"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:22
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:28
+msgid "Leseschrift"
+msgstr "Pisava za branje"
+
+#: src/Gutenberg/Blocks/consent-badge/render.php:27
+#: src/Gutenberg/Blocks/privacy-center/render.php:28
+msgid "Datenschutz-Einstellungen"
+msgstr "Nastavitve zasebnosti"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:27
+#: blocks-src/index.js:164
+msgid "SBOM-Download-URL"
+msgstr "URL za prenos SBOM"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:34
+msgid "Software-Stückliste (SBOM)"
+msgstr "Kosovnica programske opreme (SBOM)"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:37
+msgid "CycloneDX 1.6 SBOM herunterladen"
+msgstr "Prenesi CycloneDX 1.6 SBOM"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:22 blocks-src/index.js:120
+#: blocks-src/index.js:124
+msgid "Buchungsseite (URL)"
+msgstr "Stran za rezervacijo (URL)"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:28
+#: src/Gutenberg/Blocks/event-card/render.php:77
+msgid "Zur Buchung"
+msgstr "Na rezervacijo"
+
+#: src/Gutenberg/Blocks/event-card/render.php:30
+msgid ""
+"Veranstaltungskarte noch nicht konfiguriert — bitte Titel und "
+"Veranstaltungsdaten im Block-Inspektor eintragen."
+msgstr ""
+"Kartica dogodka še ni konfigurirana – vnesite naslov in podatke o dogodku v "
+"nastavitvah bloka."
+
+#: src/Gutenberg/Blocks/event-card/render.php:38
+#: src/Gutenberg/Blocks/event-grid/render.php:112
+msgid "Ausgebucht"
+msgstr "Zasedeno"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:42
+#: src/Gutenberg/Blocks/event-grid/render.php:116
+#, php-format
+msgid "Nur noch %d Plätze"
+msgstr "Samo še %d mest"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:46
+#: src/Gutenberg/Blocks/event-grid/render.php:120
+#, php-format
+msgid "%d freie Plätze"
+msgstr "%d prostih mest"
+
+#. translators: %s: name of the events plugin
+#: src/Gutenberg/Blocks/event-grid/render.php:52
+#, php-format
+msgid ""
+"„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis "
+"dahin nicht."
+msgstr ""
+"»%s« ne sporoča aktivnih dogodkov; do takrat obiskovalci bloka ne vidijo."
+
+#. translators: %d: maximum total capacity
+#: src/Gutenberg/Blocks/event-grid/render.php:134
+#, php-format
+msgid "Max. %d Plätze"
+msgstr "Največ %d mest"
+
+#: src/Gutenberg/Blocks/event-grid/render.php:142
+msgid "Zur Veranstaltung"
+msgstr "Na dogodek"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:30
+msgid ""
+"Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-"
+"Inspektor hinterlegen."
+msgstr ""
+"Preverjeni kazalniki LkSG še niso vneseni – vnesite vrednosti v nastavitvah "
+"bloka."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:44
+msgid "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)"
+msgstr "Skrbnost v dobavni verigi (LkSG in CSDDD)"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:50
+msgid "Menschenrechte"
+msgstr "Človekove pravice"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:54
+msgid "Umweltschutz"
+msgstr "Varstvo okolja"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:58
+msgid "Gute Governance"
+msgstr "Dobro upravljanje"
+
+#: src/Gutenberg/Blocks/modular-type-container/render.php:21
+msgid ""
+"Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die "
+"Seite; Besucher sehen ihn nicht."
+msgstr ""
+"Ta vsebnik v urejevalniku ne sprejema vsebine in nima vpliva na stran; "
+"obiskovalci ga ne vidijo."
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:21 blocks-src/index.js:177
+msgid "Ticker-Meldungen"
+msgstr "Novice na traku"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:27
+msgid "Nachrichten-Ticker"
+msgstr "Trak z novicami"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:38
+msgid "Ticker anhalten oder fortsetzen"
+msgstr "Začasno ustavi ali nadaljuj trak"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:39
+msgid "Pausieren"
+msgstr "Premor"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:27
+msgid ""
+"Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. "
+"0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft "
+"dieser Block nicht."
+msgstr ""
+"V brskalniku preveri, ali identifikator ustreza formatu Shema:ID (npr. "
+"0208:0843657437). Ali je udeleženec dosegljiv v omrežju Peppol, ta blok ne "
+"preverja."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:30
+msgid "Peppol ID"
+msgstr "Peppol ID"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:31
+msgid "Prüfen"
+msgstr "Preveri"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:23
+#: blocks-src/index.js:146
+msgid "Ziel-Element-ID"
+msgstr "ID ciljnega elementa"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:36
+msgid "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen."
+msgstr "Ob nalaganju te vsebine se podatki posredujejo ponudniku."
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:39
+msgid "Inhalt einmalig laden"
+msgstr "Naloži vsebino enkrat"
+
+#: src/Gutenberg/Blocks/whistleblower-card/render.php:33
+msgid "Hinweis abgeben"
+msgstr "Oddaj prijavo"
+
+#: src/Gutenberg/Telemetry_Bridge.php:83 src/Gutenberg/Telemetry_Bridge.php:93
+msgid "WM Suite Hub Telemetry"
+msgstr "Telemetrija WM Suite Hub"
+
+#: src/Gutenberg/Telemetry_Bridge.php:100
+msgid "Telemetry Field"
+msgstr "Polje telemetrije"
+
+#: src/Gutenberg/Telemetry_Bridge.php:103
+msgid "Health Score (%)"
+msgstr "Ocena zdravja (%)"
+
+#: src/Gutenberg/Telemetry_Bridge.php:107
+msgid "Global Status"
+msgstr "Skupno stanje"
+
+#: src/Gutenberg/Telemetry_Bridge.php:111
+msgid "Active Spokes Count"
+msgstr "Število aktivnih satelitov"
+
+#: src/Gutenberg/Telemetry_Bridge.php:115
+msgid "Hub Version"
+msgstr "Različica Huba"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:138
+msgid "Format gültig (Schema:ID)"
+msgstr "Format veljaven (Shema:ID)"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:139
+msgid "Ungültiges ID-Format"
+msgstr "Neveljavna oblika ID-ja"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:140
+msgid "Pausiert"
+msgstr "Zaustavljeno"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:141
+msgid "Läuft"
+msgstr "Deluje"
+
+#: src/Setup/Activator.php:84
+msgid "Compliance Officer (DPO)"
+msgstr "Pooblaščenec za skladnost (DPO)"
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:187
+#, php-format
+msgid ""
+"Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde "
+"gelöscht, eingefügt oder geändert."
+msgstr ""
+"Vnos #%d ne kaže na svojega predhodnika: prejšnji vnos je bil izbrisan, "
+"vstavljen ali spremenjen."
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:202
+#, php-format
+msgid ""
+"Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder "
+"der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er "
+"geschrieben wurde."
+msgstr ""
+"Podpis vnosa #%d se ne ujema: vnos je bil spremenjen ali ključ spletnega "
+"mesta (AUTH_SALT) ni več tisti, s katerim je bil zapisan."
+
+#. translators: %d: number of audit entries checked
+#: src/Telemetry/Audit_Chainer.php:217
+#, php-format
+msgid "%d Einträge geprüft, die Kette ist lückenlos."
+msgstr "Preverjenih vnosov: %d, veriga je neprekinjena."
+
+#: src/Telemetry/Health_Matrix.php:107
+msgid "Eingeschränkt"
+msgstr "Omejeno"
+
+#: src/Telemetry/Health_Matrix.php:108
+msgid "Nicht konfiguriert"
+msgstr "Ni konfigurirano"
+
+#: src/Telemetry/Health_Matrix.php:109
+msgid "Fehler"
+msgstr "Napaka"
+
+#: src/Telemetry/Health_Matrix.php:110
+msgid "Warnung"
+msgstr "Opozorilo"
+
+#: src/Telemetry/Health_Matrix.php:112
+msgid "Unbekannt"
+msgstr "Neznano"
+
+#: wm-suite-hub.php:51
+msgid ""
+"WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime."
+msgstr "WM Suite Hub zahteva PHP 8.2 ali novejšega. Posodobite okolje PHP."
+
+#: blocks-src/index.js:84
+msgid "Block-Einstellungen"
+msgstr "Nastavitve bloka"
+
+#: blocks-src/index.js:109
+msgid "Spaltenanzahl"
+msgstr "Število stolpcev"
+
+#: blocks-src/index.js:110
+msgid "Maximale Einträge"
+msgstr "Največje število vnosov"
+
+#: blocks-src/index.js:114
+msgid "Veranstaltungstitel"
+msgstr "Naslov dogodka"
+
+#: blocks-src/index.js:115
+msgid "Kategorie"
+msgstr "Kategorija"
+
+#: blocks-src/index.js:116
+msgid "Datum"
+msgstr "Datum"
+
+#: blocks-src/index.js:117
+msgid "Veranstaltungsort"
+msgstr "Prizorišče"
+
+#: blocks-src/index.js:118
+msgid "Freie Plätze"
+msgstr "Prosta mesta"
+
+#: blocks-src/index.js:119
+msgid "Preis"
+msgstr "Cena"
+
+#: blocks-src/index.js:125
+msgid "Button-Beschriftung"
+msgstr "Napis gumba"
+
+#: blocks-src/index.js:126
+msgid "Hinweis unter dem Button"
+msgstr "Opomba pod gumbom"
+
+#: blocks-src/index.js:130 blocks-src/index.js:139
+msgid "Überschrift"
+msgstr "Naslov bloka"
+
+#: blocks-src/index.js:131
+msgid "Platzhaltertext"
+msgstr "Namig v polju"
+
+#: blocks-src/index.js:135
+msgid "Badge-Beschriftung"
+msgstr "Napis značke"
+
+#: blocks-src/index.js:145
+msgid "Dienstname"
+msgstr "Ime storitve"
+
+#: blocks-src/index.js:150
+msgid "Unternehmensname"
+msgstr "Ime podjetja"
+
+#: blocks-src/index.js:151
+msgid "Link zur Meldestelle"
+msgstr "Povezava do kanala za prijavo"
+
+#: blocks-src/index.js:157
+msgid "Menschenrechte (%)"
+msgstr "Človekove pravice (%)"
+
+#: blocks-src/index.js:158
+msgid "Umweltschutz (%)"
+msgstr "Okolje (%)"
+
+#: blocks-src/index.js:159
+msgid "Governance (%)"
+msgstr "Upravljanje (%)"
+
+#: blocks-src/index.js:163
+msgid "Versionskennzeichnung"
+msgstr "Oznaka različice"
+
+#: blocks-src/index.js:168
+msgid "Kontrastschalter anzeigen"
+msgstr "Prikaži stikalo visokega kontrasta"
+
+#: blocks-src/index.js:169
+msgid "Leseschrift-Schalter anzeigen"
+msgstr "Prikaži stikalo pisave za branje"
+
+#: blocks-src/index.js:170
+msgid "Schriftgrößen-Schalter anzeigen"
+msgstr "Prikaži gumbe za velikost besedila"
+
+#: blocks-src/index.js:176
+msgid "Badge-Text"
+msgstr "Besedilo oznake"
+
+#: blocks-src/index.js:181
+msgid "Skalierungsfaktor"
+msgstr "Razmerje merila"
+
+#: blocks-src/index.js:182
+msgid "Basisschriftgröße"
+msgstr "Osnovna velikost pisave"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block title"
+msgid "WM Accessibility Toolbar"
+msgstr "WM Orodna vrstica za dostopnost"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block description"
+msgid ""
+"Buttons for high contrast in the WM Suite blocks, a reading font installed "
+"on the visitor's device, and larger text. The choice stays in the browser."
+msgstr ""
+"Gumbi za visok kontrast v blokih WM Suite, pisava za branje, nameščena v "
+"napravi obiskovalca, in večje besedilo. Izbira ostane v brskalniku."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "bfsg"
+msgstr "bfsg"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "barrierefreiheit"
+msgstr "dostopnost"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kontrast"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "dyslexia"
+msgstr "disleksija"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block title"
+msgid "WM Accessibility Statement"
+msgstr "WM Izjava o dostopnosti"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block description"
+msgid ""
+"Shows the accessibility statement that WM BFSG Compliance Dashboard builds "
+"from your settings. Without that plugin, visitors see nothing."
+msgstr ""
+"Prikazuje izjavo o dostopnosti, ki jo WM BFSG Compliance Dashboard pripravi "
+"iz vaših nastavitev. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "erklaerung"
+msgstr "izjava"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "wcag"
+msgstr "wcag"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "mlbf"
+msgstr "mlbf"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block title"
+msgid "WM Consent Settings Badge"
+msgstr "WM Značka za nastavitve privolitve"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge link that opens the consent dialog of WM Sovereign Consent Vault. "
+"Without that plugin, visitors see nothing."
+msgstr ""
+"Povezava v obliki značke, ki odpre pogovorno okno za privolitev WM Sovereign "
+"Consent Vault. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "privacy"
+msgstr "osebni-podatki"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "consent"
+msgstr "soglasje"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "dsgvo"
+msgstr "gdpr"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "tdddg"
+msgstr "tdddg"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "cookies"
+msgstr "piškotki"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block title"
+msgid "WM SBOM Download"
+msgstr "WM Prenos SBOM"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block description"
+msgid ""
+"Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors "
+"see nothing until a URL is entered."
+msgstr ""
+"Povezava za prenos kosovnice CycloneDX SBOM, ki jo zapiše wp wm-hub sbom. "
+"Obiskovalci ne vidijo ničesar, dokler ni vnesen URL."
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cra"
+msgstr "cra"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "sbom"
+msgstr "sbom"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cyclonedx"
+msgstr "cyclonedx"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "bsi"
+msgstr "bsi"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "security"
+msgstr "varnost"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block title"
+msgid "WM Event Booking CTA Button"
+msgstr "WM Gumb za rezervacijo dogodka"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block description"
+msgid ""
+"Button to the booking page you enter, with an optional note under it. "
+"Visitors see nothing until a URL is entered."
+msgstr ""
+"Gumb do strani za rezervacijo, ki jo vnesete, z neobvezno opombo pod njim. "
+"Obiskovalci ne vidijo ničesar, dokler ni vnesen URL."
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "booking"
+msgstr "rezervacija"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "cta"
+msgstr "cta"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "gumb"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "tickets"
+msgstr "vstopnice"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block title"
+msgid "WM Atomic Event Card"
+msgstr "WM Atomska kartica dogodka"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block description"
+msgid ""
+"Event card with the title, date, place, price and free seats you type in, "
+"and a button to the booking page you enter. Nothing is read live."
+msgstr ""
+"Kartica dogodka z naslovom, datumom, krajem, ceno in prostimi mesti, ki jih "
+"vnesete, ter gumbom do navedene strani za rezervacijo. Nič se ne bere v živo."
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "event"
+msgstr "dogodek"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "card"
+msgstr "kartica"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "ticket"
+msgstr "vstopnica"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "conference"
+msgstr "konferenca"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block title"
+msgid "WM Event Grid Container"
+msgstr "WM Mreža dogodkov"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block description"
+msgid ""
+"Lists the active events of WM Cyber Events Core, each with a link to its "
+"event page. Without that plugin, visitors see nothing."
+msgstr ""
+"Navede aktivne dogodke iz WM Cyber Events Core, vsakega s povezavo do "
+"njegove strani. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "mreža"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "wm suite"
+msgstr "wm suite"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block title"
+msgid "WM LkSG ESG Supply Chain Scorecard"
+msgstr "WM LkSG in ESG kartica kazalnikov"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block description"
+msgid ""
+"Three percentages you type in (human rights, environment, governance) under "
+"a supply chain heading. The block computes and checks nothing."
+msgstr ""
+"Trije odstotki, ki jih vnesete (človekove pravice, okolje, upravljanje), pod "
+"naslovom o dobavni verigi. Blok ničesar ne izračuna in ne preveri."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lksg"
+msgstr "lksg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "esg"
+msgstr "esg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "csddd"
+msgstr "csddd"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lieferkette"
+msgstr "dobavna veriga"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "compliance"
+msgstr "skladnost"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block title"
+msgid "WM Modular Scale Fluid Type Container"
+msgstr "WM Vsebnik tekoče tipografije"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for a modular type scale. In this version it takes no inner blocks "
+"and no stylesheet reads its settings, so it has no effect on the page."
+msgstr ""
+"Vsebnik za modularno tipografsko lestvico. V tej različici ne sprejema "
+"notranjih blokov in nobena slogovna datoteka ne bere njegovih nastavitev, "
+"zato nima vpliva na stran."
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "tipografija"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "tekoče"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "modular scale"
+msgstr "modularna lestvica"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "clamp"
+msgstr "clamp"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "container queries"
+msgstr "container queries"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block title"
+msgid "WM Newsticker"
+msgstr "WM Novičarski trak"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block description"
+msgid ""
+"Scrolling line of your own text with a pause button. It stops on hover and "
+"stands still for visitors who ask for reduced motion."
+msgstr ""
+"Drseča vrstica z vašim besedilom in gumbom za premor. Ustavi se, ko je miška "
+"nad njo, in miruje za obiskovalce, ki želijo zmanjšano gibanje."
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "pasica"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "marquee"
+msgstr "drseče besedilo"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "novice"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "eilmeldung"
+msgstr "nujno"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "dostopnost"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block title"
+msgid "WM Peppol ID Format Check"
+msgstr "WM Preverjanje formata ID Peppol"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block description"
+msgid ""
+"Checks in the browser whether an ID has the Peppol form Scheme:ID. It does "
+"not look the participant up in the Peppol network."
+msgstr ""
+"V brskalniku preveri, ali ima ID obliko Peppol Shema:ID. Udeleženca v "
+"omrežju Peppol ne išče."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "xrechnung"
+msgstr "xrechnung"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "zugferd"
+msgstr "zugferd"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "geba"
+msgstr "geba"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "e-invoicing"
+msgstr "e-fakturiranje"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block title"
+msgid "WM Sovereign Privacy Center"
+msgstr "WM Suvereno središče zasebnosti"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block description"
+msgid ""
+"Heading and the button that opens the consent dialog of WM Sovereign Consent "
+"Vault. Without that plugin, visitors see nothing."
+msgstr ""
+"Naslov in gumb, ki odpre pogovorno okno za privolitev WM Sovereign Consent "
+"Vault. Brez tega vtičnika obiskovalci ne vidijo ničesar."
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "preferences"
+msgstr "nastavitve"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block title"
+msgid "WM DSGVO Art. 17 Privacy Eraser Form"
+msgstr "WM GDPR 17. člen obrazec za izbris"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block description"
+msgid ""
+"Shows the erasure request form of WM DSGVO Privacy Eraser. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Prikazuje obrazec za zahteve za izbris iz WM DSGVO Privacy Eraser. Brez tega "
+"vtičnika obiskovalci ne vidijo ničesar."
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "eraser"
+msgstr "izbris"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "art17"
+msgstr "art17"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "loeschung"
+msgstr "odstranitev"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block title"
+msgid "WM External Content Placeholder"
+msgstr "WM Ograda za zunanjo vsebino"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block description"
+msgid ""
+"Placeholder with a load button. Put the embed into a template element with "
+"the target ID: nothing in it loads before the click."
+msgstr ""
+"Ograda z gumbom za nalaganje. Vdelavo postavite v element template s ciljnim "
+"ID-jem: nič v njem se ne naloži pred klikom."
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "media"
+msgstr "mediji"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "placeholder"
+msgstr "označevalnik"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "blocker"
+msgstr "blokator"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal Card"
+msgstr "WM HinSchG kartica portala za prijavitelje"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block description"
+msgid ""
+"Link card to the reporting channel: the portal block on the same page, or an "
+"address you enter."
+msgstr ""
+"Kartica s povezavo do kanala za prijavo: blok portala na isti strani ali "
+"naslov, ki ga vnesete."
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "hinschg"
+msgstr "hinschg-zakon"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "whistleblower"
+msgstr "zvizgac"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "meldung"
+msgstr "prijava"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "hinweisgeber"
+msgstr "prijavitelj"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal"
+msgstr "WM Portal za prijavitelje HinSchG"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block description"
+msgid ""
+"Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Prikazuje portal za prijave WM HinSchG Whistleblower Desk. Brez tega "
+"vtičnika obiskovalci ne vidijo ničesar."
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "wizard"
+msgstr "čarovnik"

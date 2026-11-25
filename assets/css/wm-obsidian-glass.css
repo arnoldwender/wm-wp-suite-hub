@@ -1,0 +1,1681 @@
+/**
+ * WM Suite Hub — Enterprise Design System & Multi-Theme Architecture
+ * 
+ * Default: CyberEvents Enterprise Design System (matching wm-cyber-events-core)
+ * Supported Themes:
+ *  - cyber-events   : Enterprise Obsidian Command Header + Native WP Admin Surface Cards (Default)
+ *  - wp-native      : 100% WordPress Admin Classic Palette
+ *  - obsidian-dark  : Midnight Blue Glassmorphism Dark Mode
+ *  - high-contrast  : pure black, white and safety yellow
+ *
+ * Contrast is measured per token pair by wp-plugin-fleet-token-contrast.py (minimum 4.5:1); this
+ * sheet makes no conformity statement. Until 1.2.2 this header called it "BFSG 2025 & WCAG 2.2 AAA".
+ * No CDN: all fonts, variables and styles are resolved locally.
+ *
+ * @package ArnoldWender\SuiteHub
+ * @since   1.0.0
+ */
+
+/* ==========================================================================
+   1. Theme Palettes & CSS Custom Properties
+   ========================================================================== */
+
+/* 1.1 CyberEvents Enterprise (Default) */
+:root,
+.wm-cockpit-wrap,
+[data-wm-theme="cyber-events"] {
+    --wm-bg-canvas: #f0f0f1;
+    --wm-bg-surface: #ffffff;
+    --wm-bg-surface-subtle: #f8fafc;
+    --wm-bg-surface-elevated: #ffffff;
+    
+    /* Signature Obsidian Command Banner */
+    --wm-bg-banner: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    --wm-border-banner: #334155;
+    --wm-text-banner-title: #ffffff;
+    --wm-text-banner-sub: #94a3b8;
+    --wm-badge-banner-bg: rgba(56, 189, 248, 0.15);
+    --wm-badge-banner-color: #38bdf8;
+    --wm-badge-banner-border: rgba(56, 189, 248, 0.3);
+
+    /* Borders & Accents */
+    --wm-border-subtle: #dcdcde;
+    --wm-border-focus: #0284c7;
+    --wm-accent-primary: #0284c7;
+    --wm-accent-hover: #0369a1;
+    --wm-accent-active: #075985;
+    --wm-accent-light: #f0f9ff;
+    --wm-accent-border: #bae6fd;
+
+    /* States */
+    --wm-success: #007017;
+    --wm-success-bg: #e7f5ea;
+    --wm-success-border: #92d89e;
+    --wm-warning: #996800;
+    --wm-warning-bg: #fcf9e8;
+    --wm-warning-border: #f0d164;
+    --wm-danger: #d63638;
+    --wm-danger-bg: #fcf0f1;
+    --wm-danger-border: #f8b9bb;
+
+    /* Typography */
+    --wm-text-primary: #1d2327;
+    --wm-text-secondary: #334155;
+    --wm-text-muted: #64748b;
+    --wm-text-light: #8c8f94;
+
+    /* Shadows & Radius */
+    --wm-shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05);
+    --wm-shadow-banner: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    --wm-shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* 1.2 WordPress Admin Native Classic */
+[data-wm-theme="wp-native"] {
+    --wm-bg-canvas: #f0f0f1;
+    --wm-bg-surface: #ffffff;
+    --wm-bg-surface-subtle: #f6f7f7;
+    --wm-bg-surface-elevated: #ffffff;
+
+    --wm-bg-banner: #ffffff;
+    --wm-border-banner: #c3c4c7;
+    --wm-text-banner-title: #1d2327;
+    --wm-text-banner-sub: #50575e;
+    --wm-badge-banner-bg: #f0f6fc;
+    --wm-badge-banner-color: #2271b1;
+    --wm-badge-banner-border: #c8d8ea;
+
+    --wm-border-subtle: #c3c4c7;
+    --wm-border-focus: #2271b1;
+    --wm-accent-primary: #2271b1;
+    --wm-accent-hover: #135e96;
+    --wm-accent-active: #0a4b78;
+    --wm-accent-light: #f0f6fc;
+    --wm-accent-border: #c8d8ea;
+
+    --wm-success: #007017;
+    --wm-success-bg: #edfaef;
+    --wm-success-border: #007017;
+    --wm-warning: #996800;
+    --wm-warning-bg: #fcf9e8;
+    --wm-warning-border: #dba617;
+    --wm-danger: #d63638;
+    --wm-danger-bg: #fcf0f1;
+    --wm-danger-border: #d63638;
+
+    --wm-text-primary: #1d2327;
+    --wm-text-secondary: #2c3338;
+    --wm-text-muted: #646970;
+    --wm-text-light: #8c8f94;
+
+    --wm-shadow-card: 0 1px 1px rgba(0, 0, 0, 0.04);
+    --wm-shadow-banner: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --wm-shadow-elevated: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* 1.3 Obsidian Midnight Dark */
+[data-wm-theme="obsidian-dark"] {
+    --wm-bg-canvas: #050811;
+    --wm-bg-surface: rgba(13, 20, 36, 0.85);
+    --wm-bg-surface-subtle: rgba(15, 23, 42, 0.6);
+    --wm-bg-surface-elevated: rgba(20, 30, 52, 0.95);
+
+    --wm-bg-banner: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
+    --wm-border-banner: rgba(255, 255, 255, 0.12);
+    --wm-text-banner-title: #f8fafc;
+    --wm-text-banner-sub: #94a3b8;
+    --wm-badge-banner-bg: rgba(59, 130, 246, 0.15);
+    --wm-badge-banner-color: #60a5fa;
+    --wm-badge-banner-border: rgba(59, 130, 246, 0.3);
+
+    --wm-border-subtle: rgba(255, 255, 255, 0.08);
+    --wm-border-focus: #3b82f6;
+    --wm-accent-primary: #3b82f6;
+    --wm-accent-hover: #2563eb;
+    --wm-accent-active: #1d4ed8;
+    --wm-accent-light: rgba(59, 130, 246, 0.12);
+    --wm-accent-border: rgba(59, 130, 246, 0.3);
+
+    --wm-success: #10b981;
+    --wm-success-bg: rgba(16, 185, 129, 0.15);
+    --wm-success-border: rgba(16, 185, 129, 0.3);
+    --wm-warning: #f59e0b;
+    --wm-warning-bg: rgba(245, 158, 11, 0.15);
+    --wm-warning-border: rgba(245, 158, 11, 0.3);
+    --wm-danger: #ef4444;
+    --wm-danger-bg: rgba(239, 68, 68, 0.15);
+    --wm-danger-border: rgba(239, 68, 68, 0.3);
+
+    --wm-text-primary: #f8fafc;
+    --wm-text-secondary: #cbd5e1;
+    --wm-text-muted: #94a3b8;
+    --wm-text-light: #64748b;
+
+    --wm-shadow-card: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+    --wm-shadow-banner: 0 12px 30px rgba(0, 0, 0, 0.5);
+    --wm-shadow-elevated: 0 12px 36px rgba(0, 0, 0, 0.6);
+}
+
+/* 1.4 High Contrast (black, white, safety yellow) */
+[data-wm-theme="high-contrast"] {
+    --wm-bg-canvas: #000000;
+    --wm-bg-surface: #111111;
+    --wm-bg-surface-subtle: #222222;
+    --wm-bg-surface-elevated: #1a1a1a;
+
+    --wm-bg-banner: #000000;
+    --wm-border-banner: #ffffff;
+    --wm-text-banner-title: #ffff00;
+    --wm-text-banner-sub: #ffffff;
+    --wm-badge-banner-bg: #ffff00;
+    --wm-badge-banner-color: #000000;
+    --wm-badge-banner-border: #ffffff;
+
+    --wm-border-subtle: #ffffff;
+    --wm-border-focus: #ffff00;
+    --wm-accent-primary: #ffff00;
+    --wm-accent-hover: #ffffff;
+    --wm-accent-active: #ffffaa;
+    --wm-accent-light: #222200;
+    --wm-accent-border: #ffff00;
+
+    --wm-success: #00ff00;
+    --wm-success-bg: #002200;
+    --wm-success-border: #00ff00;
+    --wm-warning: #ffff00;
+    --wm-warning-bg: #333300;
+    --wm-warning-border: #ffff00;
+    --wm-danger: #ff4444;
+    --wm-danger-bg: #330000;
+    --wm-danger-border: #ff4444;
+
+    --wm-text-primary: #ffffff;
+    --wm-text-secondary: #ffff00;
+    --wm-text-muted: #e2e8f0;
+    --wm-text-light: #ffffff;
+
+    --wm-shadow-card: none;
+    --wm-shadow-banner: none;
+    --wm-shadow-elevated: none;
+}
+
+/* Shared Dimensions & Typography */
+:root {
+  /* WM Suite Canonical Brand Identity Tokens */
+  --wm-navy: #002D5B;
+  --wm-brand-blue: #0072BB;
+  --wm-brand-medium: #004C91;
+  --wm-brand-light: #339AD8;
+  --wm-gold: #FFD700;
+  --wm-gold-dark: #FFA500;
+  --wm-magenta: #D1006C;
+    --wm-text-on-accent: #ffffff;
+    --wm-pill-cra: #ef4444;
+    --wm-pill-bfsg: #10b981;
+    --wm-pill-dora: #f59e0b;
+    --wm-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --wm-target-min: 44px;
+    --wm-radius-sm: 6px;
+    --wm-radius-md: 8px;
+    --wm-radius-lg: 12px;
+}
+
+/* ==========================================================================
+   2. Cockpit Layout Wrapper
+   ========================================================================== */
+
+.wm-cockpit-wrap {
+    max-width: 1440px;
+    margin: 20px 20px 40px 0;
+    font-family: var(--wm-font-stack);
+    color: var(--wm-text-primary);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.wm-cockpit-wrap *,
+.wm-cockpit-wrap *::before,
+.wm-cockpit-wrap *::after {
+    box-sizing: border-box;
+}
+
+/* A11Y Skip Link */
+.wm-skip-link {
+    position: absolute;
+    top: -100px;
+    left: 20px;
+    background: var(--wm-accent-primary);
+    color: var(--wm-text-on-accent);
+    padding: 12px 20px;
+    z-index: 100000;
+    font-weight: 600;
+    border-radius: var(--wm-radius-sm);
+    text-decoration: none;
+    transition: top 0.2s ease-in-out;
+}
+
+.wm-skip-link:focus {
+    top: 20px;
+    outline: 3px solid var(--wm-border-focus);
+}
+
+/* ==========================================================================
+   3. Enterprise Top Command Header (CyberEvents Signature Banner)
+   ========================================================================== */
+
+.wm-enterprise-banner {
+    background: var(--wm-bg-banner);
+    border: 1px solid var(--wm-border-banner);
+    border-radius: var(--wm-radius-lg);
+    padding: 24px 28px;
+    color: var(--wm-text-banner-title);
+    box-shadow: var(--wm-shadow-banner);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.wm-banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.wm-banner-title h1 {
+    color: var(--wm-text-banner-title) !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wm-banner-icon {
+    font-size: 22px;
+    line-height: 1;
+    display: inline-flex;
+}
+
+.wm-version-tag {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    background: var(--wm-badge-banner-bg);
+    color: var(--wm-badge-banner-color);
+    border: 1px solid var(--wm-badge-banner-border);
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.wm-banner-title p {
+    color: var(--wm-text-banner-sub) !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+.wm-banner-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.wm-system-status-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    background: var(--wm-success-bg);
+    color: var(--wm-success);
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--wm-success-border);
+}
+
+/* The pill follows the global status: green only when it is HEALTHY (cockpit-view.php sets the class). */
+.wm-system-status-badge.is-warning {
+    background: var(--wm-warning-bg);
+    color: var(--wm-warning);
+    border-color: var(--wm-warning-border);
+}
+
+.wm-system-status-badge.is-critical {
+    background: var(--wm-danger-bg);
+    color: var(--wm-danger);
+    border-color: var(--wm-danger-border);
+}
+
+.wm-status-dot-pulse {
+    width: 8px;
+    height: 8px;
+    background-color: var(--wm-success);
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 6px var(--wm-success);
+}
+
+/* ==========================================================================
+   4. Navigation Tabs & Quick Jump Bar (CyberEvents Standard)
+   ========================================================================== */
+
+.wm-nav-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--wm-border-subtle);
+    padding-bottom: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wm-tab-link {
+    color: var(--wm-text-secondary);
+    text-decoration: none;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 9px 18px;
+    border-radius: var(--wm-radius-sm);
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    transition: all 0.15s ease-in-out;
+    box-shadow: var(--wm-shadow-card);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    min-height: var(--wm-target-min);
+}
+
+.wm-tab-link:hover,
+.wm-tab-link:focus {
+    color: var(--wm-accent-primary);
+    background: var(--wm-accent-light);
+    border-color: var(--wm-accent-border);
+    transform: translateY(-1px);
+}
+
+.wm-tab-link.active,
+.wm-tab-link.is-active {
+    color: var(--wm-text-on-accent) !important;
+    background: var(--wm-accent-primary) !important;
+    border-color: var(--wm-accent-primary) !important;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+}
+
+/* Theme Switcher Widget in Header / Tabs */
+.wm-theme-switcher-wrap {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--wm-bg-surface);
+    padding: 4px 10px;
+    border-radius: var(--wm-radius-sm);
+    border: 1px solid var(--wm-border-subtle);
+}
+
+.wm-theme-switcher-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--wm-text-muted);
+}
+
+.wm-theme-select {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--wm-text-primary);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.wm-theme-select:focus-visible {
+    outline: 2px solid var(--wm-border-focus);
+    outline-offset: 2px;
+}
+
+/* Quick Jump Anchors */
+.wm-jump-nav {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--wm-bg-surface);
+    padding: 10px 16px;
+    border-radius: var(--wm-radius-md);
+    border: 1px solid var(--wm-border-subtle);
+    box-shadow: var(--wm-shadow-card);
+}
+
+.wm-jump-nav-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--wm-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-right: 4px;
+}
+
+.wm-jump-link {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--wm-accent-primary);
+    background: var(--wm-accent-light);
+    border: 1px solid var(--wm-accent-border);
+    padding: 5px 13px;
+    border-radius: 14px;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 1.35;
+}
+
+.wm-jump-link:hover,
+.wm-jump-link:focus {
+    background: var(--wm-accent-primary);
+    color: var(--wm-text-on-accent) !important;
+    border-color: var(--wm-accent-primary);
+    box-shadow: 0 2px 6px rgba(2, 132, 199, 0.2);
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   5. Usability Quick Guide (CyberEvents Plain Language)
+   ========================================================================== */
+
+.wm-quick-guide {
+    background: var(--wm-accent-light);
+    border: 1px solid var(--wm-accent-border);
+    border-left: 4px solid var(--wm-accent-primary);
+    border-radius: var(--wm-radius-md);
+    padding: 18px 22px;
+    margin: 16px 0 24px 0;
+    box-shadow: var(--wm-shadow-card);
+}
+
+.wm-quick-guide-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--wm-text-primary);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.4;
+}
+
+.wm-quick-guide-desc {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--wm-text-secondary);
+    margin: 0 0 12px 0;
+}
+
+.wm-quick-guide-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.wm-quick-guide-actions > strong {
+    color: var(--wm-text-primary);
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 4px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.wm-preset-pill-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-accent-primary);
+    color: var(--wm-accent-primary);
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 12.5px;
+    font-weight: 600;
+    line-height: 1.35;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.wm-preset-pill-btn:focus-visible {
+    outline: 2px solid var(--wm-border-focus);
+    outline-offset: 2px;
+}
+
+.wm-preset-pill-btn:hover,
+.wm-preset-pill-btn:focus {
+    background: var(--wm-accent-primary);
+    color: var(--wm-text-on-accent) !important;
+    border-color: var(--wm-accent-primary);
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+.wm-preset-pill-btn:active {
+    transform: translateY(0);
+}
+
+/* ==========================================================================
+   6. Metrics Grid & Summary Cards
+   ========================================================================== */
+
+.wm-metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    margin-bottom: 28px;
+}
+
+.wm-card {
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    padding: 22px;
+    box-shadow: var(--wm-shadow-card);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wm-card:hover {
+    box-shadow: var(--wm-shadow-elevated);
+}
+
+.wm-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.wm-card-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--wm-text-muted);
+}
+
+.wm-score-display {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.wm-score-value {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--wm-text-primary);
+    letter-spacing: -0.02em;
+}
+
+.wm-score-unit {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--wm-text-muted);
+}
+
+.wm-score-bar-bg {
+    width: 100%;
+    height: 8px;
+    background: var(--wm-bg-surface-subtle);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    border: 1px solid var(--wm-border-subtle);
+}
+
+.wm-score-bar-fill {
+    height: 100%;
+    background: var(--wm-accent-primary);
+    border-radius: 4px;
+    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.wm-card-caption {
+    font-size: 12.5px;
+    color: var(--wm-text-muted);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.wm-count-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.wm-count-item {
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    padding: 12px 14px;
+    border-radius: var(--wm-radius-sm);
+    display: flex;
+    flex-direction: column;
+}
+
+.wm-count-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--wm-text-primary);
+    line-height: 1.1;
+    margin-bottom: 2px;
+}
+
+.wm-count-label {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--wm-text-muted);
+}
+
+.wm-count-success .wm-count-num { color: var(--wm-success); }
+.wm-count-warning .wm-count-num { color: var(--wm-warning); }
+.wm-count-danger .wm-count-num { color: var(--wm-danger); }
+
+.wm-security-checklist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wm-security-checklist li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--wm-text-secondary);
+    margin: 0;
+}
+
+.wm-check-ok {
+    color: var(--wm-success);
+    font-size: 18px;
+}
+
+/* Used by the runtime card (no HTTPS) and the pre-flight table; it had no rule until 1.2.3. */
+.wm-check-warn {
+    color: var(--wm-warning);
+    font-size: 18px;
+}
+
+/* A value without a verdict gets a neutral marker, not a green tick. */
+.wm-runtime-list .dashicons-info-outline {
+    color: var(--wm-text-muted);
+    font-size: 18px;
+}
+
+/* ==========================================================================
+   7. Fleet Modules Grid & Cards
+   ========================================================================== */
+
+.wm-section {
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    padding: 24px;
+    box-shadow: var(--wm-shadow-card);
+    margin-bottom: 28px;
+}
+
+.wm-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--wm-border-subtle);
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.wm-section-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--wm-text-primary);
+}
+
+.wm-section-badge {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 12px;
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    color: var(--wm-text-secondary);
+}
+
+.wm-modules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 18px;
+}
+
+.wm-module-card {
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.wm-module-card:hover {
+    border-color: var(--wm-accent-border);
+    box-shadow: var(--wm-shadow-elevated);
+    transform: translateY(-2px);
+}
+
+.wm-module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.wm-module-name {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+    color: var(--wm-text-primary);
+}
+
+.wm-module-slug {
+    font-size: 12px;
+    color: var(--wm-text-muted);
+}
+
+.wm-module-slug code {
+    background: var(--wm-bg-surface-subtle);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    color: var(--wm-accent-primary);
+    border: 1px solid var(--wm-border-subtle);
+}
+
+.wm-module-desc {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--wm-text-secondary);
+    margin: 0 0 14px 0;
+    flex-grow: 1;
+}
+
+.wm-module-deps {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--wm-border-subtle);
+}
+
+.wm-dep-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--wm-text-muted);
+}
+
+.wm-dep-tag {
+    font-size: 11px;
+    background: var(--wm-accent-light);
+    color: var(--wm-accent-primary);
+    border: 1px solid var(--wm-accent-border);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.wm-module-footer {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 6px;
+}
+
+/* Status Badges & Pills */
+.wm-status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 1;
+}
+
+.wm-status-healthy,
+.wm-status-pill.wm-status-healthy {
+    background: var(--wm-success-bg);
+    color: var(--wm-success);
+    border: 1px solid var(--wm-success-border);
+}
+
+.wm-status-degraded,
+.wm-status-pill.wm-status-degraded,
+.wm-status-needs_config,
+.wm-status-pill.wm-status-needs_config {
+    background: var(--wm-warning-bg);
+    color: var(--wm-warning);
+    border: 1px solid var(--wm-warning-border);
+}
+
+.wm-status-error,
+.wm-status-pill.wm-status-error {
+    background: var(--wm-danger-bg);
+    color: var(--wm-danger);
+    border: 1px solid var(--wm-danger-border);
+}
+
+/* ==========================================================================
+   8. Buttons & Controls (BFSG 2025: Min 44x44px Touch Targets)
+   ========================================================================== */
+
+.wm-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: var(--wm-target-min);
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: var(--wm-radius-sm);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    border: 1px solid transparent;
+    line-height: 1.4;
+}
+
+.wm-btn:focus-visible {
+    outline: 2px solid var(--wm-border-focus);
+    outline-offset: 2px;
+}
+
+.wm-btn-primary {
+    background: var(--wm-accent-primary);
+    color: var(--wm-text-on-accent) !important;
+    border-color: var(--wm-accent-primary);
+    box-shadow: 0 2px 4px rgba(2, 132, 199, 0.2);
+}
+
+.wm-btn-primary:hover,
+.wm-btn-primary:focus {
+    background: var(--wm-accent-hover);
+    border-color: var(--wm-accent-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(2, 132, 199, 0.3);
+}
+
+.wm-btn-secondary {
+    background: var(--wm-bg-surface);
+    color: var(--wm-text-primary);
+    border-color: var(--wm-border-subtle);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.wm-btn-secondary:hover,
+.wm-btn-secondary:focus {
+    background: var(--wm-accent-light);
+    color: var(--wm-accent-primary);
+    border-color: var(--wm-accent-border);
+}
+
+.wm-btn-outline {
+    background: transparent;
+    color: var(--wm-text-secondary);
+    border-color: var(--wm-border-subtle);
+    font-size: 12px;
+    padding: 6px 14px;
+    min-height: 38px;
+}
+
+.wm-btn-outline:hover,
+.wm-btn-outline:focus {
+    color: var(--wm-accent-primary);
+    border-color: var(--wm-accent-primary);
+    background: var(--wm-accent-light);
+}
+
+/* ==========================================================================
+   9. Cryptographic Audit Table
+   ========================================================================== */
+
+.wm-audit-verification-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    color: var(--wm-text-secondary);
+}
+
+.wm-audit-verification-status.wm-audit-intact {
+    background: var(--wm-success-bg);
+    color: var(--wm-success);
+    border-color: var(--wm-success-border);
+}
+
+.wm-audit-verification-status.wm-audit-broken {
+    background: var(--wm-danger-bg);
+    color: var(--wm-danger);
+    border-color: var(--wm-danger-border);
+}
+
+.wm-audit-table-container {
+    overflow-x: auto;
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    background: var(--wm-bg-surface);
+}
+
+.wm-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: left;
+}
+
+.wm-table th {
+    background: var(--wm-bg-surface-subtle);
+    color: var(--wm-text-primary);
+    font-weight: 700;
+    padding: 12px 16px;
+    border-bottom: 2px solid var(--wm-border-subtle);
+}
+
+.wm-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--wm-border-subtle);
+    color: var(--wm-text-secondary);
+    vertical-align: middle;
+}
+
+.wm-table tr:hover td {
+    background: var(--wm-accent-light);
+}
+
+.wm-hash-badge {
+    font-family: monospace;
+    font-size: 11px;
+    background: var(--wm-bg-surface-subtle);
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--wm-border-subtle);
+    color: var(--wm-accent-primary);
+}
+
+.wm-table-loading {
+    text-align: center;
+    padding: 30px !important;
+    color: var(--wm-text-muted);
+    font-style: italic;
+}
+
+/* Audit chain result and pre-flight table inside the dialogs. Until 1.2.3 the script wrote this
+   markup with inline colours, so the four themes did not reach it. */
+.wm-verify-result {
+    text-align: center;
+}
+
+.wm-verify-icon {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+}
+
+.wm-verify-icon--ok {
+    color: var(--wm-success);
+}
+
+.wm-verify-icon--broken {
+    color: var(--wm-danger);
+}
+
+.wm-verify-title {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    color: var(--wm-text-primary);
+}
+
+.wm-verify-text {
+    margin: 0 0 16px 0;
+}
+
+.wm-verify-hash {
+    font-family: monospace;
+    font-size: 11px;
+    word-break: break-all;
+    padding: 8px 12px;
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-sm);
+    color: var(--wm-text-secondary);
+}
+
+/* After .wm-verify-title on purpose: same specificity, the later rule wins. */
+.wm-text-danger {
+    color: var(--wm-danger);
+}
+
+.wm-preflight-loader {
+    text-align: center;
+    padding: 20px;
+}
+
+.wm-preflight-loader .dashicons {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+}
+
+.wm-preflight-table-wrap {
+    overflow-x: auto;
+    margin-bottom: 16px;
+}
+
+.wm-preflight-table td .dashicons {
+    vertical-align: middle;
+}
+
+.wm-dag-box {
+    padding: 12px 16px;
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-sm);
+}
+
+.wm-dag-box code {
+    overflow-wrap: anywhere;
+}
+
+/* Busy icon (refresh button, pre-flight loader); it had no rule until 1.2.3 and never turned. */
+.wm-spin {
+    animation: wmSpin 1s linear infinite;
+}
+
+@keyframes wmSpin {
+    to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .wm-spin {
+        animation: none;
+    }
+}
+
+.wm-empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--wm-text-muted);
+}
+
+.wm-empty-state .dashicons {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+    color: var(--wm-accent-primary);
+}
+
+.wm-empty-state h3 {
+    margin: 0 0 6px 0;
+    color: var(--wm-text-primary);
+}
+
+/* ==========================================================================
+   10. Accessible Modal (BFSG 2025 Focus Trap)
+   ========================================================================== */
+
+.wm-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(4px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    padding: 20px;
+}
+
+.wm-modal-overlay.is-active {
+    display: flex;
+}
+
+.wm-modal-container {
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-lg);
+    width: 100%;
+    max-width: 600px;
+    box-shadow: var(--wm-shadow-elevated);
+    overflow: hidden;
+    animation: wmModalIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes wmModalIn {
+    from { opacity: 0; transform: scale(0.96) translateY(10px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.wm-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--wm-border-subtle);
+    background: var(--wm-bg-surface-subtle);
+}
+
+.wm-modal-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--wm-text-primary);
+}
+
+.wm-modal-close {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: var(--wm-text-muted);
+    cursor: pointer;
+    line-height: 1;
+    padding: 4px;
+}
+
+.wm-modal-close:hover {
+    color: var(--wm-danger);
+}
+
+.wm-modal-body {
+    padding: 24px;
+    max-height: 60vh;
+    overflow-y: auto;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--wm-text-secondary);
+}
+
+.wm-modal-footer {
+    padding: 16px 24px;
+    border-top: 1px solid var(--wm-border-subtle);
+    display: flex;
+    justify-content: flex-end;
+    background: var(--wm-bg-surface-subtle);
+}
+
+/* ==========================================================================
+   11. Toast Notifications
+   ========================================================================== */
+
+.wm-toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: var(--wm-bg-surface);
+    color: var(--wm-text-primary);
+    border: 1px solid var(--wm-border-subtle);
+    border-left: 4px solid var(--wm-accent-primary);
+    padding: 14px 20px;
+    border-radius: var(--wm-radius-sm);
+    box-shadow: var(--wm-shadow-elevated);
+    z-index: 1000000;
+    font-size: 13.5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: wmToastIn 0.25s ease-out;
+}
+
+.wm-toast.wm-toast-success { border-left-color: var(--wm-success); }
+.wm-toast.wm-toast-error { border-left-color: var(--wm-danger); }
+
+@keyframes wmToastIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   12. Solution Packs and deduplication counters
+   ========================================================================== */
+
+.wm-telemetry-badge-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    padding: 12px 18px;
+    font-size: 13px;
+    color: var(--wm-text-secondary);
+}
+
+.wm-telemetry-badge-card .dashicons {
+    font-size: 22px;
+    width: 22px;
+    height: 22px;
+    color: var(--wm-accent-primary);
+}
+
+.wm-bundles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.wm-bundle-card {
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--wm-shadow-card);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.wm-bundle-card:hover {
+    border-color: var(--wm-accent-primary);
+    box-shadow: var(--wm-shadow-elevated);
+}
+
+.wm-bundle-badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.wm-compliance-pill {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 12px;
+    background: rgba(2, 132, 199, 0.12);
+    color: var(--wm-accent-primary);
+    border: 1px solid rgba(2, 132, 199, 0.25);
+}
+
+.wm-compliance-pill.wm-tag-cra {
+    background: rgba(239, 68, 68, 0.12);
+    color: var(--wm-pill-cra);
+    border-color: rgba(239, 68, 68, 0.25);
+}
+
+.wm-compliance-pill.wm-tag-bfsg {
+    background: rgba(16, 185, 129, 0.12);
+    color: var(--wm-pill-bfsg);
+    border-color: rgba(16, 185, 129, 0.25);
+}
+
+.wm-compliance-pill.wm-tag-dora {
+    background: rgba(245, 158, 11, 0.12);
+    color: var(--wm-pill-dora);
+    border-color: rgba(245, 158, 11, 0.25);
+}
+
+.wm-bundle-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.wm-bundle-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--wm-text-primary);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.wm-bundle-status-badge {
+    font-size: 11.5px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+
+.wm-bundle-status-badge.wm-status-full {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--wm-pill-bfsg);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.wm-bundle-status-badge.wm-status-partial {
+    background: rgba(2, 132, 199, 0.15);
+    color: var(--wm-accent-primary);
+    border: 1px solid rgba(2, 132, 199, 0.3);
+}
+
+.wm-bundle-status-badge.wm-status-available {
+    background: var(--wm-bg-surface-subtle);
+    color: var(--wm-text-muted);
+    border: 1px solid var(--wm-border-subtle);
+}
+
+.wm-bundle-desc {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--wm-text-secondary);
+    margin-bottom: 18px;
+}
+
+.wm-bundle-packages-summary {
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.wm-packages-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12.5px;
+    color: var(--wm-text-muted);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    border-bottom: 1px solid var(--wm-border-subtle);
+    padding-bottom: 8px;
+}
+
+.wm-modules-breakdown-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.wm-module-item-card {
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    border-left: 3.5px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-sm);
+    padding: 14px 16px;
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.wm-module-item-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-color: var(--wm-accent-primary);
+}
+
+.wm-module-item-card.is-active-module {
+    border-left-color: var(--wm-pill-bfsg);
+    background: rgba(16, 185, 129, 0.02);
+}
+
+.wm-module-item-card.is-pending-module {
+    border-left-color: var(--wm-accent-primary);
+}
+
+.wm-module-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.wm-module-item-title-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.wm-module-icon {
+    color: var(--wm-accent-primary);
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+}
+
+.wm-module-item-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--wm-text-primary);
+    display: block;
+    line-height: 1.3;
+}
+
+.wm-module-item-tagline {
+    font-size: 12px;
+    color: var(--wm-accent-primary);
+    font-weight: 600;
+    display: block;
+    margin-top: 2px;
+}
+
+.wm-module-item-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.wm-module-status-pill {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.wm-module-status-pill.pill-active {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--wm-pill-bfsg);
+}
+
+.wm-module-status-pill.pill-available {
+    background: var(--wm-bg-surface-subtle);
+    color: var(--wm-text-muted);
+}
+
+.wm-pkg-version {
+    font-family: var(--wm-font-mono);
+    font-size: 11px;
+    color: var(--wm-text-muted);
+    background: rgba(0, 0, 0, 0.04);
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.wm-module-item-desc {
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: var(--wm-text-secondary);
+    margin: 8px 0 10px 0;
+}
+
+.wm-module-specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 8px 14px;
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: 4px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+}
+
+.wm-spec-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.wm-spec-item.wm-spec-full {
+    grid-column: 1 / -1;
+}
+
+.wm-spec-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--wm-text-muted);
+}
+
+.wm-spec-value {
+    font-size: 12px;
+    color: var(--wm-text-primary);
+    line-height: 1.4;
+}
+
+.wm-module-features-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.wm-feature-chip {
+    font-size: 11px;
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: 4px;
+    padding: 2px 8px;
+    color: var(--wm-text-secondary);
+    font-weight: 500;
+}
+
+.wm-dag-preview {
+    font-size: 11.5px;
+    color: var(--wm-text-muted);
+    margin-bottom: 18px;
+    padding: 10px 14px;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: var(--wm-radius-sm);
+    border: 1px solid var(--wm-border-subtle);
+}
+
+.wm-dag-label {
+    font-weight: 600;
+    color: var(--wm-text-secondary);
+}
+
+.wm-dag-sequence {
+    display: block;
+    margin-top: 6px;
+    font-family: var(--wm-font-mono);
+    font-size: 11.5px;
+    color: var(--wm-accent-primary);
+    word-break: break-all;
+    background: var(--wm-bg-surface);
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 1px solid var(--wm-border-subtle);
+}
+
+.wm-bundle-card-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+}
+
+.wm-bundle-card-actions .wm-btn {
+    flex: 1;
+    justify-content: center;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   Inline SVG icons (wm_suite_hub_icon, 1.2.1)
+   The shapes that replaced the emoji of the cockpit and the marketplace: 1em wide and coloured with
+   currentColor, so they follow the type they precede; centred on that line of text.
+   ========================================================================== */
+
+.wm-cockpit-wrap .wm-block-icon {
+    vertical-align: middle;
+    flex: none;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints & Mobile Adaptation
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    .wm-count-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wm-bundle-card-actions {
+        flex-direction: column;
+    }
+
+    .wm-card-grid,
+    .wm-grid-2,
+    .wm-grid-3,
+    .wm-grid-4 {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .wm-dashboard-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}

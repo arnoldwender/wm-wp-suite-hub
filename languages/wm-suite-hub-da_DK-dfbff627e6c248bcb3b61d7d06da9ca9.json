@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "da_DK",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Enterprise Cockpit)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Register og statusoversigt over WM Suite-plugins, en softwarestykliste efter CycloneDX 1.6 og en revisionstabel, hvis poster er kædet sammen med HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "WM Enterprise Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Cockpit & status"
+      ],
+      "Cockpit & Status": [
+        "Cockpit & status"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Løsningspakker"
+      ],
+      "Solution Packs": [
+        "Løsningspakker"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Revisionslog"
+      ],
+      "Audit-Log": [
+        "Revisionslog"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Du har ikke tilstrækkelige rettigheder til at tilgå denne side."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Enterprise Suite Cockpit"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Moduler efter regelsæt"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Enterprise Suite Cockpit"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Revisionskæde intakt: %d poster kontrolleret"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Revisionskæde brudt ved post #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Hver post er bundet til den forrige med HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Aktive moduler"
+      ],
+      "Health Score": [
+        "Sundhedsscore"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Aktive WM Suite-satellitmoduler"
+      ],
+      "%d Bereitgestellt": [
+        "%d klargjort"
+      ],
+      "Suite Cockpit öffnen": [
+        "Åbn suite-cockpit"
+      ],
+      "Nicht aktiv": [
+        "Ikke aktiv"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Fuldt aktiv (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Delvist aktiv (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d moduler tilgængelige"
+      ],
+      "Zustand der zuständigen Module": [
+        "Status for de ansvarlige moduler"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Viser, hvilket WM Suite-plugin der er aktivt, og hvilken status det melder. Ingen overensstemmelsesvurdering."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Spring til hovedindhold"
+      ],
+      "WM Suite Hub Command Console": [
+        "WM Suite Hub-kommandokonsol"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Status for de registrerede WM Suite-plugins, softwarestykliste (CycloneDX 1.6) og en revisionstabel kædet sammen med HMAC-SHA256."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Opdater flådestatus"
+      ],
+      "Aktualisieren": [
+        "Opdater"
+      ],
+      "Audit-Integrität prüfen": [
+        "Kontrollér auditintegritet"
+      ],
+      "Cockpit Navigation": [
+        "Cockpitnavigation"
+      ],
+      "Cockpit Übersicht": [
+        "Cockpitoversigt"
+      ],
+      "Satelliten-Flotte": [
+        "Satellitflåde"
+      ],
+      "Audit-Protokoll": [
+        "Revisionslog"
+      ],
+      "Design & Themes": [
+        "Design & temaer"
+      ],
+      "Suite Theme:": [
+        "Suitetema:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Vælg WM Suite-tema"
+      ],
+      "Schnellnavigation": [
+        "Hurtig navigation"
+      ],
+      "Direkt zu:": [
+        "Gå til:"
+      ],
+      "Kurzanleitung": [
+        "Lynvejledning"
+      ],
+      "Metriken & Status": [
+        "Nøgletal & status"
+      ],
+      "Theme-Einstellungen": [
+        "Temaindstillinger"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Hvad er WM Suite Hub, og hvordan styrer du dine plugins?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub er den centrale"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "styrings- og kontrolcentral for alle WM Suite WordPress-plugins"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Den viser den status, som de registrerede moduler melder, genererer en softwarestykliste i CycloneDX 1.6-format og kæder de hændelser, der meldes til den, sammen med HMAC-SHA256: ændringer uden webstedets nøgle bliver synlige. Den vurderer ikke juridisk overensstemmelse."
+      ],
+      "Schnellzugriff:": [
+        "Hurtig adgang:"
+      ],
+      "Aktive Module prüfen": [
+        "Tjek aktive moduler"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Vis revisionslog"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Skift tema & udseende"
+      ],
+      "Systemmetriken": [
+        "Systemmålinger"
+      ],
+      "GESAMTSTATUS": [
+        "SAMLET STATUS"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Vægtet status for de registrerede moduler (sund 100, begrænset 60, ikke konfigureret 30, fejl 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "SATELLITOVERSIGT"
+      ],
+      "Registriert": [
+        "Registreret"
+      ],
+      "Gesund": [
+        "Sund"
+      ],
+      "Warnungen": [
+        "Advarsler"
+      ],
+      "Kritisch": [
+        "Kritisk"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "KØRSELSMILJØ"
+      ],
+      "ja": [
+        "ja"
+      ],
+      "nein": [
+        "nej"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Vedvarende objektcache"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Flådestatus & satellitmoduler"
+      ],
+      "Module aktiv": [
+        "moduler aktive"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Ingen satellitmoduler registreret"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Så snart WM Suite-plugins aktiveres, tilsluttes de automatisk via filteret wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Afhængigheder:"
+      ],
+      "Konfiguration": [
+        "Konfiguration"
+      ],
+      "Selbsttest": [
+        "Selvtest"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Kædeintegritet: Ikke kontrolleret (klik på Kontrollér auditintegritet)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Auditlogtabel"
+      ],
+      "Zeitstempel": [
+        "Tidsstempel"
+      ],
+      "Modul": [
+        "Modul"
+      ],
+      "Ereignistyp": [
+        "Begivenhedstype"
+      ],
+      "Benutzer": [
+        "Bruger"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "SHA-256 HMAC-signatur"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Indlæser auditlog..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Designsystem & temapræferencer"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Vælg det globale farveskema til cockpittet og alle WM Suite-satellitplugins. Som standard anvendes CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Standard"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Mørkt Obsidian Midnight-banner kombineret med klassiske WordPress-adminkort og tydelige kontraster."
+      ],
+      "Als Standard aktivieren": [
+        "Aktivér som standard"
+      ],
+      "Klassisch": [
+        "Klassisk"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: indbygget WordPress Admin-farvepalet (#2271b1 blå, #f0f0f1 baggrund, standard WP-formularer)."
+      ],
+      "Aktivieren": [
+        "Aktivér"
+      ],
+      "Dark Mode": [
+        "Mørk tilstand"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Fuld mørk tilstand (#050811 baggrund) med glaskort og blå accenter."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Rent sort, hvidt og sikkerhedsgult for høj kontrast."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Dataopbevaring & afinstallation"
+      ],
+      "Aufbewahrungsschutz": [
+        "Opbevaringsbeskyttelse"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Slet alle plugindata permanent ved afinstallation"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "Som standard bevarer WM Suite Hub HMAC-SHA256-audittabellen, roller og indstillinger ved afinstallation. Aktivér kun denne indstilling, hvis alt skal slettes permanent."
+      ],
+      "Audit-Verifikation": [
+        "Auditverifikation"
+      ],
+      "Schließen": [
+        "Luk"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Tematiske pakker af WM Suite-plugins: Kahns topologiske sortering bestemmer rækkefølgen af deres afhængigheder, og forhåndstjekket undersøger først serveren. Denne version har ingen installation; plugins installeres enkeltvis."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Deduplikering på denne side:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "%1$d scripts og %2$d stylesheets fjernet (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Pakkeindhold & modularkitektur (%d):"
+      ],
+      "Aktiviert": [
+        "Aktiveret"
+      ],
+      "Im Paket enthalten": [
+        "Inkluderet i pakken"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Matematisk DAG-installationsrækkefølge (Kahns sortering):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Ingen af disse plugins forudsætter et andet; installationsrækkefølgen er fri."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Start forhåndstjek for %s"
+      ],
+      "Pre-Flight Check": [
+        "Forhåndstjek"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Kontrollerer PHP-version, Sodium-udvidelse, hukommelsesgrænse, skriverettigheder og OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Tørkørselssimulering"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Adgang nægtet. Utilstrækkelige rettigheder til WM Suite Cockpit."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Modulet \"%s\" er ikke registreret eller er inaktivt."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Modulhandling mislykkedes: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Telemetricache blev tømt."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Ugyldigt tema valgt."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Tema opdateret."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Standard)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Klassisk"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Mørk"
+      ],
+      "High-Contrast": [
+        "Høj kontrast"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Indstilling for afinstallation opdateret."
+      ],
+      "Bundle nicht gefunden.": [
+        "Pakke ikke fundet."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Forhåndstjek mislykkedes."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Tørkørsel gennemført: %d pakker løst i rækkefølge."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Installation af løsningspakker er ikke tilgængelig i denne version. Brug dry_run=true til at beregne rækkefølgen."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Samtykkesynkronisering afvist: manglende eller udløbet sikkerhedstoken."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "For mange samtykkehændelser. Prøv igen om et minut."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Ingen læsbar samtykkebeslutning."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Samtykket kunne ikke registreres."
+      ],
+      "Externer Dienst": [
+        "Ekstern tjeneste"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Blokeret eksternt indhold: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Indhold fra %s blokeret"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Indlæs og aktivér %s én gang"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Dit samtykke i henhold til § 25 TDDDG og GDPR kræves for at indlæse dette indhold."
+      ],
+      "Inhalt laden & entsperren": [
+        "Indlæs & lås indhold op"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Ved indlæsning accepterer du dataoverførsel til tredjepartsudbyderen."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Der opstod en fejl under kommunikationen med Hubben."
+      ],
+      "HTTP-Fehler %s": [
+        "HTTP-fejl %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Tema skiftet."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Fejl ved lagring af temaet: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Ingen revisionshændelser registreret."
+      ],
+      "Benutzer #%s": [
+        "Bruger #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Fejl ved indlæsning af loggene: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Revisionskæden kontrolleres…"
+      ],
+      "Audit-Kette intakt": [
+        "Revisionskæde intakt"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Alle %d poster passer til deres HMAC-SHA256-signatur og til deres forgænger: Ingen er ændret, slettet eller omsorteret uden webstedets nøgle."
+      ],
+      "Letzter Hash: %s": [
+        "Seneste hash: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Revisionskæde brudt"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Kontrol af revisionskæden"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Kontrollen mislykkedes"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Telemetridata opdateret."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Fejl ved opdatering: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Forhåndstjek: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Fejl ved forhåndstjekket:"
+      ],
+      "Prüfpunkt": [
+        "Kontrolpunkt"
+      ],
+      "Soll": [
+        "Forventet"
+      ],
+      "Ist": [
+        "Faktisk"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "Erfüllt": [
+        "Opfyldt"
+      ],
+      "Nicht erfüllt": [
+        "Ikke opfyldt"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Beregnet installationsrækkefølge:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Ingen afhængigheder erklæret, rækkefølgen er fri:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Tørkørsel for %s er i gang…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Tørkørsel fuldført."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Tørkørsel mislykkedes: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Afinstallationsindstilling gemt."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Fejl ved lagring: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Resultat for %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Handling udført."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Fejl ved modulhandling: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Uden det aktive plugin »%s« viser denne blok intet til besøgende."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Endnu ikke konfigureret – udfyld »%s« i blokindstillingerne. Indtil da ser besøgende ikke blokken."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Tilgængelighedsindstillinger"
+      ],
+      "Kontrast": [
+        "Kontrast"
+      ],
+      "Leseschrift": [
+        "Læseskrift"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Privatlivsindstillinger"
+      ],
+      "SBOM-Download-URL": [
+        "SBOM-download-URL"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Softwarestykliste (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Hent CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Bookingside (URL)"
+      ],
+      "Zur Buchung": [
+        "Til booking"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Arrangementskortet er endnu ikke konfigureret – angiv titel og arrangementsdata i blokindstillingerne."
+      ],
+      "Ausgebucht": [
+        "Fuldt booket"
+      ],
+      "Nur noch %d Plätze": [
+        "Kun %d pladser tilbage"
+      ],
+      "%d freie Plätze": [
+        "%d ledige pladser"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "»%s« melder ingen aktive arrangementer; indtil da ser besøgende ikke blokken."
+      ],
+      "Max. %d Plätze": [
+        "Maks. %d pladser"
+      ],
+      "Zur Veranstaltung": [
+        "Til arrangementet"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Der er endnu ikke angivet verificerede LkSG-nøgletal – angiv værdierne i blokindstillingerne."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Rettidig omhu i leverandørkæden (LkSG & CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Menneskerettigheder"
+      ],
+      "Umweltschutz": [
+        "Miljøbeskyttelse"
+      ],
+      "Gute Governance": [
+        "God selskabsledelse"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Denne container tager intet indhold i editoren og har ingen virkning på siden; besøgende ser den ikke."
+      ],
+      "Ticker-Meldungen": [
+        "Ticker-overskrifter"
+      ],
+      "Nachrichten-Ticker": [
+        "Nyhedsticker"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Sæt ticker på pause eller genoptag"
+      ],
+      "Pausieren": [
+        "Pause"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Kontrollerer i browseren, om identifikatoren følger formatet Skema:ID (f.eks. 0208:0843657437). Om deltageren kan nås i Peppol-netværket, kontrollerer denne blok ikke."
+      ],
+      "Peppol ID": [
+        "Peppol-ID"
+      ],
+      "Prüfen": [
+        "Kontrollér"
+      ],
+      "Ziel-Element-ID": [
+        "Mål-element-ID"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Når dette indhold indlæses, overføres data til udbyderen."
+      ],
+      "Inhalt einmalig laden": [
+        "Indlæs indhold én gang"
+      ],
+      "Hinweis abgeben": [
+        "Indsend en indberetning"
+      ],
+      "WM Suite Hub Telemetry": [
+        "WM Suite Hub-telemetri"
+      ],
+      "Telemetry Field": [
+        "Telemetrifelt"
+      ],
+      "Health Score (%)": [
+        "Sundhedsscore (%)"
+      ],
+      "Global Status": [
+        "Samlet status"
+      ],
+      "Active Spokes Count": [
+        "Antal aktive satellitter"
+      ],
+      "Hub Version": [
+        "Hub-version"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Format gyldigt (Skema:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Ugyldigt ID-format"
+      ],
+      "Pausiert": [
+        "Sat på pause"
+      ],
+      "Läuft": [
+        "Kører"
+      ],
+      "Compliance Officer (DPO)": [
+        "Complianceansvarlig (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Post #%d henviser ikke til sin forgænger: En tidligere post er slettet, indsat eller ændret."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Signaturen for post #%d stemmer ikke: Posten er ændret, eller webstedets nøgle (AUTH_SALT) er ikke længere den, den blev skrevet med."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Revisionstabellen er tom."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "%d poster kontrolleret, kæden er uden huller."
+      ],
+      "Eingeschränkt": [
+        "Begrænset"
+      ],
+      "Nicht konfiguriert": [
+        "Ikke konfigureret"
+      ],
+      "Fehler": [
+        "Fejl"
+      ],
+      "Warnung": [
+        "Advarsel"
+      ],
+      "Unbekannt": [
+        "Ukendt"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub kræver PHP 8.2 eller nyere. Opgrader venligst din PHP-version."
+      ],
+      "Block-Einstellungen": [
+        "Blokindstillinger"
+      ],
+      "Spaltenanzahl": [
+        "Antal kolonner"
+      ],
+      "Maximale Einträge": [
+        "Maks. antal elementer"
+      ],
+      "Veranstaltungstitel": [
+        "Arrangementstitel"
+      ],
+      "Kategorie": [
+        "Kategori"
+      ],
+      "Datum": [
+        "Dato"
+      ],
+      "Veranstaltungsort": [
+        "Mødested"
+      ],
+      "Freie Plätze": [
+        "Ledige pladser"
+      ],
+      "Preis": [
+        "Pris"
+      ],
+      "Button-Beschriftung": [
+        "Knaptekst"
+      ],
+      "Hinweis unter dem Button": [
+        "Note under knappen"
+      ],
+      "Überschrift": [
+        "Overskrift"
+      ],
+      "Platzhaltertext": [
+        "Pladsholdertekst"
+      ],
+      "Badge-Beschriftung": [
+        "Badgetekst"
+      ],
+      "Dienstname": [
+        "Tjenestenavn"
+      ],
+      "Unternehmensname": [
+        "Virksomhedsnavn"
+      ],
+      "Link zur Meldestelle": [
+        "Link til indberetningskanalen"
+      ],
+      "Menschenrechte (%)": [
+        "Menneskerettigheder (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Miljø (%)"
+      ],
+      "Governance (%)": [
+        "Ledelse (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Versionsmærke"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Vis højkontrastknap"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Vis læseskriftknap"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Vis tekststørrelsesknapper"
+      ],
+      "Badge-Text": [
+        "Mærketekst"
+      ],
+      "Skalierungsfaktor": [
+        "Skaleringsfaktor"
+      ],
+      "Basisschriftgröße": [
+        "Basisskriftstørrelse"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "WM Tilgængelighedsværktøjslinje"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Knapper til høj kontrast i WM Suite-blokkene, en læseskrift installeret på den besøgendes enhed og større tekst. Valget bliver i browseren."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "tilgængelighed"
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004dyslexia": [
+        "ordblindhed"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "WM Tilgængelighedserklæring"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Viser den tilgængelighedserklæring, som WM BFSG Compliance Dashboard laver ud fra dine indstillinger. Uden det plugin ser besøgende intet."
+      ],
+      "block keyword\u0004erklaerung": [
+        "erklæring"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "WM Badge til samtykkeindstillinger"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Badge-link, der åbner samtykkedialogen i WM Sovereign Consent Vault. Uden det plugin ser besøgende intet."
+      ],
+      "block keyword\u0004privacy": [
+        "persondata"
+      ],
+      "block keyword\u0004consent": [
+        "samtykke"
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "cookies"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "WM SBOM-download"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Downloadlink til den CycloneDX-SBOM, som wp wm-hub sbom skriver. Besøgende ser intet, før der er angivet en URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "sikkerhed"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "WM Tilmeldingsknap til arrangementer"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Knap til den bookingside, du angiver, med en valgfri note nedenunder. Besøgende ser intet, før der er angivet en URL."
+      ],
+      "block keyword\u0004booking": [
+        "tilmelding"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "knap"
+      ],
+      "block keyword\u0004tickets": [
+        "billetter"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "WM Arrangementskort"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Arrangementskort med titel, dato, sted, pris og ledige pladser, som du indtaster, og en knap til den angivne bookingside. Intet læses live."
+      ],
+      "block keyword\u0004event": [
+        "begivenhed"
+      ],
+      "block keyword\u0004card": [
+        "kort"
+      ],
+      "block keyword\u0004ticket": [
+        "billet"
+      ],
+      "block keyword\u0004conference": [
+        "konference"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "WM Arrangementsgitter"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Viser de aktive arrangementer fra WM Cyber Events Core, hver med et link til sin side. Uden det plugin ser besøgende intet."
+      ],
+      "block keyword\u0004grid": [
+        "gitter"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "WM LkSG & ESG-scorekort"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Tre procentsatser, som du indtaster (menneskerettigheder, miljø, governance), under en overskrift om forsyningskæden. Blokken beregner og kontrollerer intet."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "leverandørkæde"
+      ],
+      "block keyword\u0004compliance": [
+        "overholdelse"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "WM Flydende typograficontainer"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Container til en modulær typografisk skala. I denne version tager den ingen indre blokke, og intet stylesheet læser dens indstillinger, så den har ingen virkning på siden."
+      ],
+      "block keyword\u0004typography": [
+        "typografi"
+      ],
+      "block keyword\u0004fluid": [
+        "flydende"
+      ],
+      "block keyword\u0004modular scale": [
+        "modulær skala"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "WM Nyhedsticker"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Rullende linje med din egen tekst og en pauseknap. Den stopper, når musen holdes over den, og står stille for besøgende, der ønsker reduceret bevægelse."
+      ],
+      "block keyword\u0004ticker": [
+        "ticker"
+      ],
+      "block keyword\u0004marquee": [
+        "nyhedsbånd"
+      ],
+      "block keyword\u0004news": [
+        "nyheder"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "seneste nyt"
+      ],
+      "block keyword\u0004accessibility": [
+        "tilgængelighed"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "WM Peppol-ID-formattjek"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Kontrollerer i browseren, om et ID har Peppol-formen Skema:ID. Blokken slår ikke deltageren op i Peppol-netværket."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "e-fakturering"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "WM Suverænt privatlivscenter"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Overskrift og den knap, der åbner samtykkedialogen i WM Sovereign Consent Vault. Uden det plugin ser besøgende intet."
+      ],
+      "block keyword\u0004preferences": [
+        "præferencer"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "WM GDPR art. 17-sletteformular"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Viser formularen til sletteanmodninger fra WM DSGVO Privacy Eraser. Uden det plugin ser besøgende intet."
+      ],
+      "block keyword\u0004eraser": [
+        "sletning"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "fjernelse"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "WM Pladsholder til eksternt indhold"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Pladsholder med en indlæsningsknap. Læg indlejringen i et template-element med mål-ID'et: intet derinde indlæses før klikket."
+      ],
+      "block keyword\u0004media": [
+        "medier"
+      ],
+      "block keyword\u0004placeholder": [
+        "pladsholder"
+      ],
+      "block keyword\u0004blocker": [
+        "blokering"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "WM HinSchG-whistleblowerkort"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Linkkort til indberetningskanalen: portalblokken på samme side eller en adresse, du angiver."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-lov"
+      ],
+      "block keyword\u0004whistleblower": [
+        "whistleblower-kanal"
+      ],
+      "block keyword\u0004meldung": [
+        "indberetning"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "anmelder"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "WM HinSchG-whistleblowerportal"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Viser indberetningsportalen fra WM HinSchG Whistleblower Desk. Uden det plugin ser besøgende intet."
+      ],
+      "block keyword\u0004wizard": [
+        "guide"
+      ]
+    }
+  }
+}

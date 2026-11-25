@@ -1,0 +1,46 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Author: Arnold Wender
+
+    Built with: an agentic workflow (AI coding agents)
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+ / 7.x
+    PHP 8.2+ (Strict Types)
+    MySQL InnoDB — one table: {prefix}wm_suite_audit_log
+    Native WP-CLI Tooling (wp wm-hub, wp wm-sdk) & REST API Controllers
+
+    ## Frontend
+    16 server-rendered Gutenberg blocks (Block API v3)
+    Vanilla JavaScript in the cockpit; no React
+    Self-Hosted Assets (no CDN)
+
+    ## Quality
+    HMAC-SHA256 chained audit log with tamper detection
+    Standalone test suites and a mutation check on PHP 8.2 and 8.3
+
+# SITE & PROJECT
+
+    Plugin: wm-suite-hub
+    Stack: WordPress Enterprise Extension
+    Standards: 100% Zero External Dependencies
+
+# CONTACT
+
+    Author Website: https://arnoldwender.com
+    Repository: https://github.com/arnoldwender/wm-wp-suite-hub
+    Support: Zero support — reproducible bugs on GitHub Issues only (SUPPORT.md)
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.

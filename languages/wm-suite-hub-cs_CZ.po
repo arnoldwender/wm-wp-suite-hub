@@ -1,0 +1,1805 @@
+# Translation of wm-suite-hub in cs_CZ
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-suite-hub 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-suite-hub\n"
+"POT-Creation-Date: 2026-11-21T12:46:17+00:00\n"
+"PO-Revision-Date: 2026-11-21 10:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-suite-hub\n"
+
+#. Plugin Name of the plugin
+#: wm-suite-hub.php
+msgid "WM Suite Hub (Enterprise Cockpit)"
+msgstr "WM Suite Hub (Podnikový kokpit)"
+
+#. Plugin URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+
+#. Description of the plugin
+#: wm-suite-hub.php
+msgid ""
+"Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 "
+"software bill of materials and an audit table whose entries are chained with "
+"HMAC-SHA256."
+msgstr ""
+"Registr a přehled stavu pluginů WM Suite, soupis softwarových komponent "
+"podle CycloneDX 1.6 a auditní tabulka, jejíž záznamy jsou zřetězeny pomocí "
+"HMAC-SHA256."
+
+#. Author of the plugin
+#: wm-suite-hub.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Admin/Admin_Menu.php:258 src/Gutenberg/Block_Manager.php:127
+msgid "WM Enterprise Suite"
+msgstr "Podniková sada WM Suite"
+
+#: src/Admin/Admin_Menu.php:259
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: src/Admin/Admin_Menu.php:272
+msgid "WM Suite — Cockpit & Status"
+msgstr "WM Suite — Kokpit a stav"
+
+#: src/Admin/Admin_Menu.php:273
+msgid "Cockpit & Status"
+msgstr "Kokpit a stav"
+
+#: src/Admin/Admin_Menu.php:282
+msgid "WM Suite — Solution Packs"
+msgstr "WM Suite — Balíčky řešení"
+
+#: src/Admin/Admin_Menu.php:283 src/Admin/Dashboard_Widgets.php:518
+#: src/Admin/Dashboard_Widgets.php:561 src/Admin/Views/cockpit-view.php:86
+#: src/Admin/Views/marketplace-view.php:38
+msgid "Solution Packs"
+msgstr "Balíčky řešení"
+
+#: src/Admin/Admin_Menu.php:291
+msgid "WM Suite — Audit-Protokoll"
+msgstr "WM Suite — Auditní protokol"
+
+#: src/Admin/Admin_Menu.php:292 src/Admin/Dashboard_Widgets.php:564
+msgid "Audit-Log"
+msgstr "Auditní protokol"
+
+#: src/Admin/Admin_Menu.php:680
+msgid ""
+"Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite."
+msgstr "Nemáte dostatečná oprávnění pro přístup na tuto stránku."
+
+#: src/Admin/Dashboard_Widgets.php:438
+msgid "WM Suite — Enterprise Suite Cockpit"
+msgstr "WM Suite — Kokpit podnikové sady"
+
+#: src/Admin/Dashboard_Widgets.php:449 src/Admin/Dashboard_Widgets.php:633
+msgid "WM Suite — Module nach Regelwerk"
+msgstr "WM Suite — Moduly podle předpisů"
+
+#: src/Admin/Dashboard_Widgets.php:481
+msgid "Enterprise Suite Cockpit"
+msgstr "Kokpit podnikové sady"
+
+#: src/Admin/Dashboard_Widgets.php:489 src/Telemetry/Audit_Chainer.php:215
+msgid "Die Audit-Tabelle ist leer."
+msgstr "Auditní tabulka je prázdná."
+
+#. translators: %d: number of audit entries checked
+#: src/Admin/Dashboard_Widgets.php:492 src/Core/Hub_Orchestrator.php:267
+#, php-format
+msgid "Audit-Kette intakt: %d Einträge geprüft"
+msgstr "Auditní řetězec neporušen: zkontrolováno záznamů: %d"
+
+#. translators: %d: id of the first audit entry that does not verify
+#: src/Admin/Dashboard_Widgets.php:497 src/Core/Hub_Orchestrator.php:274
+#, php-format
+msgid "Audit-Kette unterbrochen bei Eintrag #%d"
+msgstr "Auditní řetězec přerušen u záznamu #%d"
+
+#: src/Admin/Dashboard_Widgets.php:502
+msgid "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden."
+msgstr "Každý záznam je s předchozím svázán pomocí HMAC-SHA256."
+
+#: src/Admin/Dashboard_Widgets.php:510
+msgid "Aktive Module"
+msgstr "Aktivní moduly"
+
+#: src/Admin/Dashboard_Widgets.php:514
+msgid "Health Score"
+msgstr "Skóre kondice"
+
+#: src/Admin/Dashboard_Widgets.php:524
+msgid "Aktive WM Suite Spoke-Module"
+msgstr "Aktivní satelitní moduly WM Suite"
+
+#. translators: %d: number of active spoke modules
+#: src/Admin/Dashboard_Widgets.php:527
+#, php-format
+msgid "%d Bereitgestellt"
+msgstr "%d nasazeno"
+
+#: src/Admin/Dashboard_Widgets.php:558
+msgid "Suite Cockpit öffnen"
+msgstr "Otevřít kokpit sady"
+
+#: src/Admin/Dashboard_Widgets.php:596
+msgid "Nicht aktiv"
+msgstr "Neaktivní"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:622 src/Admin/Views/marketplace-view.php:97
+#, php-format
+msgid "Vollständig aktiv (%1$d/%2$d)"
+msgstr "Plně aktivní (%1$d/%2$d)"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:625 src/Admin/Views/marketplace-view.php:101
+#, php-format
+msgid "Teilweise aktiv (%1$d/%2$d)"
+msgstr "Částečně aktivní (%1$d/%2$d)"
+
+#. translators: %d: number of plugins listed
+#. translators: %d: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:628 src/Admin/Views/marketplace-view.php:105
+#, php-format
+msgid "%d Module verfügbar"
+msgstr "%d dostupných modulů"
+
+#: src/Admin/Dashboard_Widgets.php:635
+msgid "Zustand der zuständigen Module"
+msgstr "Stav příslušných modulů"
+
+#: src/Admin/Dashboard_Widgets.php:646
+msgid ""
+"Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. "
+"Keine Konformitätsbewertung."
+msgstr ""
+"Ukazuje, který plugin WM Suite je aktivní a jaký stav hlásí. Nejde o "
+"posouzení shody."
+
+#: src/Admin/Views/cockpit-view.php:37
+msgid "Zum Hauptinhalt springen"
+msgstr "Přejít na hlavní obsah"
+
+#: src/Admin/Views/cockpit-view.php:46
+msgid "WM Suite Hub Command Console"
+msgstr "Řídicí konzole WM Suite Hub"
+
+#: src/Admin/Views/cockpit-view.php:50
+msgid ""
+"Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX "
+"1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle."
+msgstr ""
+"Stav registrovaných pluginů WM Suite, soupis softwarových komponent "
+"(CycloneDX 1.6) a auditní tabulka zřetězená pomocí HMAC-SHA256."
+
+#: src/Admin/Views/cockpit-view.php:65
+msgid "Flottenstatus aktualisieren"
+msgstr "Obnovit stav flotily"
+
+#: src/Admin/Views/cockpit-view.php:67
+msgid "Aktualisieren"
+msgstr "Obnovit"
+
+#: src/Admin/Views/cockpit-view.php:72
+msgid "Audit-Integrität prüfen"
+msgstr "Zkontrolovat integritu auditu"
+
+#: src/Admin/Views/cockpit-view.php:79
+msgid "Cockpit Navigation"
+msgstr "Navigace kokpitu"
+
+#: src/Admin/Views/cockpit-view.php:82
+msgid "Cockpit Übersicht"
+msgstr "Přehled kokpitu"
+
+#: src/Admin/Views/cockpit-view.php:90 src/Admin/Views/cockpit-view.php:127
+msgid "Satelliten-Flotte"
+msgstr "Satelitní flotila"
+
+#: src/Admin/Views/cockpit-view.php:94 src/Admin/Views/cockpit-view.php:128
+#: src/Admin/Views/cockpit-view.php:301
+msgid "Audit-Protokoll"
+msgstr "Auditní protokol"
+
+#: src/Admin/Views/cockpit-view.php:98
+msgid "Design & Themes"
+msgstr "Design a motivy"
+
+#: src/Admin/Views/cockpit-view.php:104
+msgid "Suite Theme:"
+msgstr "Motiv sady:"
+
+#: src/Admin/Views/cockpit-view.php:105
+msgid "WM Suite Theme auswählen"
+msgstr "Vybrat motiv WM Suite"
+
+#: src/Admin/Views/cockpit-view.php:123
+msgid "Schnellnavigation"
+msgstr "Rychlá navigace"
+
+#: src/Admin/Views/cockpit-view.php:124
+msgid "Direkt zu:"
+msgstr "Přejít na:"
+
+#: src/Admin/Views/cockpit-view.php:125
+msgid "Kurzanleitung"
+msgstr "Rychlý návod"
+
+#: src/Admin/Views/cockpit-view.php:126
+msgid "Metriken & Status"
+msgstr "Metriky a stav"
+
+#: src/Admin/Views/cockpit-view.php:129
+msgid "Theme-Einstellungen"
+msgstr "Nastavení motivu"
+
+#: src/Admin/Views/cockpit-view.php:135
+msgid "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?"
+msgstr "Co je WM Suite Hub a jak spravujete své pluginy?"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Das WM Suite Hub ist die zentrale"
+msgstr "WM Suite Hub je centrální"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins"
+msgstr "řídicí a kontrolní středisko všech WordPress pluginů WM Suite"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid ""
+". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine "
+"Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, "
+"die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der "
+"Website werden erkennbar. Es bewertet keine Rechtskonformität."
+msgstr ""
+". Zobrazuje stav, který hlásí registrované moduly, vytváří softwarový "
+"kusovník ve formátu CycloneDX 1.6 a řetězí jemu hlášené události pomocí HMAC-"
+"SHA256: změny provedené bez klíče webu jsou zjistitelné. Neposuzuje právní "
+"shodu."
+
+#: src/Admin/Views/cockpit-view.php:141
+msgid "Schnellzugriff:"
+msgstr "Rychlý přístup:"
+
+#: src/Admin/Views/cockpit-view.php:143
+msgid "Aktive Module prüfen"
+msgstr "Zkontrolovat aktivní moduly"
+
+#: src/Admin/Views/cockpit-view.php:146
+msgid "Audit-Protokoll ansehen"
+msgstr "Zobrazit auditní protokol"
+
+#: src/Admin/Views/cockpit-view.php:149
+msgid "Theme & Erscheinungsbild wechseln"
+msgstr "Změnit motiv a vzhled"
+
+#: src/Admin/Views/cockpit-view.php:157
+msgid "Systemmetriken"
+msgstr "Systémové metriky"
+
+#: src/Admin/Views/cockpit-view.php:161
+msgid "GESAMTSTATUS"
+msgstr "CELKOVÝ STAV"
+
+#: src/Admin/Views/cockpit-view.php:174
+msgid ""
+"Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, "
+"nicht konfiguriert 30, Fehler 0)."
+msgstr ""
+"Vážený stav registrovaných modulů (v pořádku 100, omezený 60, "
+"nenakonfigurovaný 30, chyba 0)."
+
+#: src/Admin/Views/cockpit-view.php:181
+msgid "SATELLITEN-INVENTAR"
+msgstr "INVENTÁŘ SATELITŮ"
+
+#: src/Admin/Views/cockpit-view.php:187
+msgid "Registriert"
+msgstr "Registrováno"
+
+#: src/Admin/Views/cockpit-view.php:191 src/Telemetry/Health_Matrix.php:106
+msgid "Gesund"
+msgstr "V pořádku"
+
+#: src/Admin/Views/cockpit-view.php:195
+msgid "Warnungen"
+msgstr "Varování"
+
+#: src/Admin/Views/cockpit-view.php:199 src/Telemetry/Health_Matrix.php:111
+msgid "Kritisch"
+msgstr "Kritické"
+
+#: src/Admin/Views/cockpit-view.php:212
+msgid "LAUFZEITUMGEBUNG"
+msgstr "BĚHOVÉ PROSTŘEDÍ"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "ja"
+msgstr "ano"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "nein"
+msgstr "ne"
+
+#: src/Admin/Views/cockpit-view.php:230
+msgid "Persistenter Objekt-Cache"
+msgstr "Trvalá mezipaměť objektů"
+
+#: src/Admin/Views/cockpit-view.php:243
+msgid "Flottenstatus & Satelliten-Module"
+msgstr "Stav flotily a satelitní moduly"
+
+#: src/Admin/Views/cockpit-view.php:245
+msgid "Module aktiv"
+msgstr "aktivních modulů"
+
+#: src/Admin/Views/cockpit-view.php:251
+msgid "Keine Satelliten-Module registriert"
+msgstr "Žádné registrované satelitní moduly"
+
+#: src/Admin/Views/cockpit-view.php:252
+msgid ""
+"Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch "
+"über den Filter wm_register_suite_module."
+msgstr ""
+"Jakmile jsou pluginy WM Suite aktivovány, automaticky se připojí přes filtr "
+"wm_register_suite_module."
+
+#: src/Admin/Views/cockpit-view.php:274
+msgid "Abhängigkeiten:"
+msgstr "Závislosti:"
+
+#: src/Admin/Views/cockpit-view.php:283
+msgid "Konfiguration"
+msgstr "Konfigurace"
+
+#: src/Admin/Views/cockpit-view.php:288
+msgid "Selbsttest"
+msgstr "Autotest"
+
+#: src/Admin/Views/cockpit-view.php:305
+msgid ""
+"Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)"
+msgstr ""
+"Integrita řetězce: Neověřeno (klikněte na Zkontrolovat integritu auditu)"
+
+#: src/Admin/Views/cockpit-view.php:309
+msgid "Audit-Log-Tabelle"
+msgstr "Tabulka auditního protokolu"
+
+#: src/Admin/Views/cockpit-view.php:312
+msgid "Zeitstempel"
+msgstr "Časové razítko"
+
+#: src/Admin/Views/cockpit-view.php:313
+msgid "Modul"
+msgstr "Modul"
+
+#: src/Admin/Views/cockpit-view.php:314
+msgid "Ereignistyp"
+msgstr "Typ události"
+
+#: src/Admin/Views/cockpit-view.php:315
+msgid "Benutzer"
+msgstr "Uživatel"
+
+#: src/Admin/Views/cockpit-view.php:316
+msgid "SHA-256 HMAC Signatur"
+msgstr "Podpis HMAC SHA-256"
+
+#: src/Admin/Views/cockpit-view.php:322
+msgid "Lade Audit-Protokolle..."
+msgstr "Načítání auditních záznamů..."
+
+#: src/Admin/Views/cockpit-view.php:334
+msgid "Design-System & Theme-Präferenzen"
+msgstr "Designový systém a předvolby motivu"
+
+#: src/Admin/Views/cockpit-view.php:338
+msgid ""
+"Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite "
+"Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents "
+"verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt."
+msgstr ""
+"Zvolte globální barevné schéma pro kokpit a všechny satelitní pluginy WM "
+"Suite. Ve výchozím stavu se používá CyberEvents Enterprise."
+
+#: src/Admin/Views/cockpit-view.php:344
+msgid "Standard"
+msgstr "Výchozí"
+
+#: src/Admin/Views/cockpit-view.php:347
+msgid ""
+"Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress "
+"Admin Oberflächenkarten und klaren Kontrasten."
+msgstr ""
+"Tmavý banner Obsidian Midnight spojený s nativními kartami administrace "
+"WordPressu a jasným kontrastem."
+
+#: src/Admin/Views/cockpit-view.php:350
+msgid "Als Standard aktivieren"
+msgstr "Nastavit jako výchozí"
+
+#: src/Admin/Views/cockpit-view.php:356
+msgid "Klassisch"
+msgstr "Klasický"
+
+#: src/Admin/Views/cockpit-view.php:359
+msgid ""
+"100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, "
+"standardisierte WP Formulare)."
+msgstr ""
+"100%: nativní barevná paleta WordPress Admin (#2271b1 modrá, #f0f0f1 plátno, "
+"standardní formuláře WP)."
+
+#: src/Admin/Views/cockpit-view.php:362 src/Admin/Views/cockpit-view.php:374
+#: src/Admin/Views/cockpit-view.php:385
+msgid "Aktivieren"
+msgstr "Aktivovat"
+
+#: src/Admin/Views/cockpit-view.php:368
+msgid "Dark Mode"
+msgstr "Tmavý režim"
+
+#: src/Admin/Views/cockpit-view.php:371
+msgid ""
+"Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und "
+"blauen Akzenten."
+msgstr ""
+"Plný tmavý režim (#050811 plátno) s poloprůhlednými kartami a modrými "
+"akcenty."
+
+#: src/Admin/Views/cockpit-view.php:382
+msgid "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast."
+msgstr "Čistá černá, bílá a bezpečnostní žlutá pro vysoký kontrast."
+
+#: src/Admin/Views/cockpit-view.php:395
+msgid "Datenaufbewahrung & Deinstallation"
+msgstr "Uchovávání dat a odinstalace"
+
+#: src/Admin/Views/cockpit-view.php:397
+msgid "Aufbewahrungsschutz"
+msgstr "Ochrana uchovávání"
+
+#: src/Admin/Views/cockpit-view.php:410
+msgid "Alle Daten beim Löschen des Plugins unwiderruflich entfernen"
+msgstr "Při odstranění pluginu nenávratně smazat všechna data"
+
+#: src/Admin/Views/cockpit-view.php:413
+msgid ""
+"Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und "
+"Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, "
+"wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig "
+"gelöscht werden sollen."
+msgstr ""
+"Ve výchozím nastavení WM Suite Hub při odinstalaci zachová tabulku auditu "
+"HMAC-SHA256, role i nastavení. Tuto volbu zapněte pouze tehdy, chcete-li vše "
+"trvale odstranit."
+
+#: src/Admin/Views/cockpit-view.php:425
+msgid "Audit-Verifikation"
+msgstr "Ověření auditu"
+
+#: src/Admin/Views/cockpit-view.php:426 src/Admin/Views/cockpit-view.php:435
+#: src/Admin/Views/marketplace-view.php:213
+msgid "Schließen"
+msgstr "Zavřít"
+
+#: src/Admin/Views/marketplace-view.php:41
+msgid ""
+"Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer "
+"Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight "
+"Check prüft vorab den Server. Eine Installation gibt es in dieser Version "
+"nicht; die Plugins werden einzeln installiert."
+msgstr ""
+"Tematické balíčky pluginů WM Suite: pořadí jejich závislostí určuje Kahnovo "
+"topologické řazení a předběžná kontrola nejprve prověří server. Tato verze "
+"instalaci nenabízí; pluginy se instalují jednotlivě."
+
+#: src/Admin/Views/marketplace-view.php:49
+msgid "Deduplizierung auf dieser Seite:"
+msgstr "Deduplikace na této stránce:"
+
+#. translators: 1: dropped duplicate scripts, 2: dropped duplicate stylesheets, 3: size of the dropped files in KB
+#: src/Admin/Views/marketplace-view.php:53
+#, php-format
+msgid "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)"
+msgstr "Odstraněno %1$d skriptů a %2$d stylů (%3$s KB)"
+
+#. translators: %d: modules in the pack
+#: src/Admin/Views/marketplace-view.php:123
+#, php-format
+msgid "Paketinhalt & Modul-Architektur (%d):"
+msgstr "Obsah balíčku a architektura modulů (%d):"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Aktiviert"
+msgstr "Aktivováno"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Im Paket enthalten"
+msgstr "Součást balíčku"
+
+#: src/Admin/Views/marketplace-view.php:176
+msgid "Mathematische DAG-Installationsfolge (Kahn-Sortierung):"
+msgstr "Matematické pořadí instalace DAG (Kahnův algoritmus):"
+
+#: src/Admin/Views/marketplace-view.php:181
+msgid ""
+"Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der "
+"Installation ist frei."
+msgstr "Žádný z těchto pluginů nevyžaduje jiný; pořadí instalace je libovolné."
+
+#. translators: %s: suite name
+#: src/Admin/Views/marketplace-view.php:189
+#, php-format
+msgid "Pre-Flight Check für %s starten"
+msgstr "Spustit předběžnou kontrolu pro %s"
+
+#: src/Admin/Views/marketplace-view.php:194
+#: src/Admin/Views/marketplace-view.php:211
+msgid "Pre-Flight Check"
+msgstr "Předběžná kontrola"
+
+#: src/Admin/Views/marketplace-view.php:221
+msgid ""
+"Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und "
+"OPcache …"
+msgstr ""
+"Kontrola verze PHP, rozšíření Sodium, limitu paměti, oprávnění k zápisu a "
+"OPcache …"
+
+#: src/Admin/Views/marketplace-view.php:231
+msgid "Dry-Run Simulation"
+msgstr "Zkušební simulace"
+
+#: src/API/API_Controller.php:266
+msgid ""
+"Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit."
+msgstr "Přístup odepřen. Nedostatečná oprávnění pro kokpit WM Suite."
+
+#. translators: %s: module slug
+#: src/API/API_Controller.php:346
+#, php-format
+msgid "Modul \"%s\" ist nicht registriert oder inaktiv."
+msgstr "Modul \"%s\" není registrován nebo je neaktivní."
+
+#. translators: %s: exception message
+#: src/API/API_Controller.php:375
+#, php-format
+msgid "Ausführung der Modulaktion fehlgeschlagen: %s"
+msgstr "Provedení akce modulu selhalo: %s"
+
+#: src/API/API_Controller.php:392
+msgid "Telemetrie-Zwischenspeicher erfolgreich geleert."
+msgstr "Mezipaměť telemetrie byla vyprázdněna."
+
+#: src/API/API_Controller.php:410
+msgid "Ungültiges Theme ausgewählt."
+msgstr "Byl vybrán neplatný motiv."
+
+#: src/API/API_Controller.php:433
+msgid "Theme erfolgreich aktualisiert."
+msgstr "Motiv byl aktualizován."
+
+#: src/API/API_Controller.php:449
+msgid "CyberEvents Enterprise (Standard)"
+msgstr "CyberEvents Enterprise (Výchozí)"
+
+#: src/API/API_Controller.php:450
+msgid "WordPress Native Classic"
+msgstr "WordPress Nativní Klasický"
+
+#: src/API/API_Controller.php:451
+msgid "Obsidian Midnight Dark"
+msgstr "Obsidian Midnight Tmavý"
+
+#: src/API/API_Controller.php:452
+msgid "High-Contrast"
+msgstr "Vysoký kontrast"
+
+#: src/API/API_Controller.php:477
+msgid "Deinstallations-Einstellung aktualisiert."
+msgstr "Nastavení odinstalace bylo aktualizováno."
+
+#: src/API/API_Controller.php:545 src/API/API_Controller.php:575
+msgid "Bundle nicht gefunden."
+msgstr "Balíček nebyl nalezen."
+
+#: src/API/API_Controller.php:584
+msgid "Pre-Flight Überprüfung fehlgeschlagen."
+msgstr "Předběžná kontrola selhala."
+
+#. translators: %d: number of packages in the resolved install order
+#: src/API/API_Controller.php:593
+#, php-format
+msgid "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst."
+msgstr "Simulace úspěšná: %d balíčků vyřešeno v pořadí."
+
+#: src/API/API_Controller.php:609
+msgid ""
+"Die Installation von Solution Packs ist in dieser Version noch nicht "
+"verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge."
+msgstr ""
+"Instalace balíčků řešení není v této verzi dostupná. Použijte dry_run=true "
+"pro výpočet pořadí."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:179
+msgid ""
+"Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr ""
+"Synchronizace souhlasu odmítnuta: chybějící nebo vypršelý bezpečnostní token."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:188
+msgid "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen."
+msgstr "Příliš mnoho událostí souhlasu. Zkuste to znovu za minutu."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:305
+msgid "Keine lesbare Einwilligungsentscheidung."
+msgstr "Žádné čitelné rozhodnutí o souhlasu."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:346
+msgid "Die Einwilligung konnte nicht protokolliert werden."
+msgstr "Souhlas se nepodařilo zaznamenat."
+
+#: src/Compliance/Developer_SDK_Bridge.php:238
+msgid "Externer Dienst"
+msgstr "Externí služba"
+
+#. translators: %s: name of the blocked third-party service (YouTube, Google Maps, …)
+#: src/Compliance/Developer_SDK_Bridge.php:249
+#, php-format
+msgid "Blockierter externer Inhalt: %s"
+msgstr "Blokovaný externí obsah: %s"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:251
+#, php-format
+msgid "Inhalt von %s blockiert"
+msgstr "Obsah z %s zablokován"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:253
+#, php-format
+msgid "%s einmalig laden und aktivieren"
+msgstr "Načíst a povolit %s jednorázově"
+
+#: src/Compliance/Developer_SDK_Bridge.php:270
+msgid ""
+"Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO "
+"erforderlich."
+msgstr ""
+"Pro načtení tohoto obsahu je vyžadován váš souhlas podle § 25 TDDDG a GDPR."
+
+#: src/Compliance/Developer_SDK_Bridge.php:273
+msgid "Inhalt laden & entsperren"
+msgstr "Načíst a odemknout obsah"
+
+#: src/Compliance/Developer_SDK_Bridge.php:274
+msgid ""
+"Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter."
+msgstr "Načtením souhlasíte s přenosem dat poskytovateli třetí strany."
+
+#: src/Core/Hub_Orchestrator.php:254
+msgid "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten."
+msgstr "Při komunikaci s Hubem došlo k chybě."
+
+#. translators: %s: HTTP status code
+#: src/Core/Hub_Orchestrator.php:256
+#, php-format
+msgid "HTTP-Fehler %s"
+msgstr "Chyba HTTP %s"
+
+#: src/Core/Hub_Orchestrator.php:257
+msgid "Theme erfolgreich gewechselt."
+msgstr "Motiv byl změněn."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:259
+#, php-format
+msgid "Fehler beim Speichern des Themes: %s"
+msgstr "Chyba při ukládání motivu: %s"
+
+#: src/Core/Hub_Orchestrator.php:260
+msgid "Keine Audit-Ereignisse protokolliert."
+msgstr "Nebyly zaznamenány žádné auditní události."
+
+#. translators: %s: WordPress user id
+#: src/Core/Hub_Orchestrator.php:262
+#, php-format
+msgid "Benutzer #%s"
+msgstr "Uživatel #%s"
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:264
+#, php-format
+msgid "Fehler beim Laden der Logs: %s"
+msgstr "Chyba při načítání protokolů: %s"
+
+#: src/Core/Hub_Orchestrator.php:265
+msgid "Die Audit-Kette wird geprüft …"
+msgstr "Kontroluje se auditní řetězec…"
+
+#: src/Core/Hub_Orchestrator.php:268
+msgid "Audit-Kette intakt"
+msgstr "Auditní řetězec neporušen"
+
+#. translators: %d: number of audit entries checked
+#: src/Core/Hub_Orchestrator.php:270
+#, php-format
+msgid ""
+"Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem "
+"Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht "
+"oder umsortiert."
+msgstr ""
+"Všechny záznamy (%d) odpovídají svému podpisu HMAC-SHA256 i předchozímu "
+"záznamu: žádný nebyl bez klíče webu změněn, smazán ani přeřazen."
+
+#. translators: %s: hexadecimal digest of the latest audit entry
+#: src/Core/Hub_Orchestrator.php:272
+#, php-format
+msgid "Letzter Hash: %s"
+msgstr "Poslední hash: %s"
+
+#: src/Core/Hub_Orchestrator.php:275
+msgid "Audit-Kette unterbrochen"
+msgstr "Auditní řetězec přerušen"
+
+#: src/Core/Hub_Orchestrator.php:276
+msgid "Prüfung der Audit-Kette"
+msgstr "Kontrola auditního řetězce"
+
+#: src/Core/Hub_Orchestrator.php:277
+msgid "Prüfung fehlgeschlagen"
+msgstr "Kontrola selhala"
+
+#: src/Core/Hub_Orchestrator.php:278
+msgid "Telemetriedaten erfolgreich aktualisiert."
+msgstr "Telemetrická data byla aktualizována."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:280
+#, php-format
+msgid "Fehler beim Aktualisieren: %s"
+msgstr "Chyba při obnovování: %s"
+
+#. translators: %s: name of the solution pack
+#: src/Core/Hub_Orchestrator.php:282
+#, php-format
+msgid "Pre-Flight: %s"
+msgstr "Předběžná kontrola: %s"
+
+#: src/Core/Hub_Orchestrator.php:283
+msgid "Fehler bei der Pre-Flight-Prüfung:"
+msgstr "Chyba předběžné kontroly:"
+
+#: src/Core/Hub_Orchestrator.php:284
+msgid "Prüfpunkt"
+msgstr "Kontrolní bod"
+
+#: src/Core/Hub_Orchestrator.php:285
+msgid "Soll"
+msgstr "Očekáváno"
+
+#: src/Core/Hub_Orchestrator.php:286
+msgid "Ist"
+msgstr "Skutečnost"
+
+#: src/Core/Hub_Orchestrator.php:287
+msgid "Status"
+msgstr "Stav"
+
+#: src/Core/Hub_Orchestrator.php:288
+msgid "Erfüllt"
+msgstr "Splněno"
+
+#: src/Core/Hub_Orchestrator.php:289
+msgid "Nicht erfüllt"
+msgstr "Nesplněno"
+
+#: src/Core/Hub_Orchestrator.php:290
+msgid "Berechnete Installationsreihenfolge:"
+msgstr "Vypočtené pořadí instalace:"
+
+#: src/Core/Hub_Orchestrator.php:291
+msgid "Keine Abhängigkeiten deklariert, Reihenfolge frei:"
+msgstr "Nejsou deklarovány žádné závislosti, pořadí je libovolné:"
+
+#. translators: %s: id of the solution pack
+#: src/Core/Hub_Orchestrator.php:293
+#, php-format
+msgid "Dry-Run für %s läuft …"
+msgstr "Probíhá zkušební simulace pro %s…"
+
+#: src/Core/Hub_Orchestrator.php:294
+msgid "Dry-Run abgeschlossen."
+msgstr "Zkušební simulace dokončena."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:296
+#, php-format
+msgid "Dry-Run fehlgeschlagen: %s"
+msgstr "Zkušební simulace selhala: %s"
+
+#: src/Core/Hub_Orchestrator.php:297
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Nastavení odinstalace uloženo."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:299
+#, php-format
+msgid "Fehler beim Speichern: %s"
+msgstr "Chyba při ukládání: %s"
+
+#. translators: 1: module slug, 2: message the module returned
+#: src/Core/Hub_Orchestrator.php:301
+#, php-format
+msgid "Ergebnis für %1$s: %2$s"
+msgstr "Výsledek pro %1$s: %2$s"
+
+#: src/Core/Hub_Orchestrator.php:302
+msgid "Aktion erfolgreich ausgeführt."
+msgstr "Akce byla provedena."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:304
+#, php-format
+msgid "Fehler bei der Modulaktion: %s"
+msgstr "Chyba akce modulu: %s"
+
+#. translators: %s: name of the WordPress plugin the block needs
+#: src/Gutenberg/block-notice.php:45
+#, php-format
+msgid "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an."
+msgstr "Bez aktivního pluginu „%s“ tento blok návštěvníkům nic nezobrazí."
+
+#. translators: %s: label of a field in the block inspector
+#: src/Gutenberg/block-notice.php:59
+#, php-format
+msgid ""
+"Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher "
+"sehen den Block bis dahin nicht."
+msgstr ""
+"Zatím nenakonfigurováno – vyplňte „%s“ v nastavení bloku. Do té doby "
+"návštěvníci blok neuvidí."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:19
+msgid "Barrierefreiheits-Einstellungen"
+msgstr "Nastavení přístupnosti"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:22
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:28
+msgid "Leseschrift"
+msgstr "Čtecí písmo"
+
+#: src/Gutenberg/Blocks/consent-badge/render.php:27
+#: src/Gutenberg/Blocks/privacy-center/render.php:28
+msgid "Datenschutz-Einstellungen"
+msgstr "Nastavení soukromí"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:27
+#: blocks-src/index.js:164
+msgid "SBOM-Download-URL"
+msgstr "URL ke stažení SBOM"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:34
+msgid "Software-Stückliste (SBOM)"
+msgstr "Softwarový kusovník (SBOM)"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:37
+msgid "CycloneDX 1.6 SBOM herunterladen"
+msgstr "Stáhnout CycloneDX 1.6 SBOM"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:22 blocks-src/index.js:120
+#: blocks-src/index.js:124
+msgid "Buchungsseite (URL)"
+msgstr "Stránka rezervace (URL)"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:28
+#: src/Gutenberg/Blocks/event-card/render.php:77
+msgid "Zur Buchung"
+msgstr "K rezervaci"
+
+#: src/Gutenberg/Blocks/event-card/render.php:30
+msgid ""
+"Veranstaltungskarte noch nicht konfiguriert — bitte Titel und "
+"Veranstaltungsdaten im Block-Inspektor eintragen."
+msgstr ""
+"Karta akce zatím není nakonfigurována – zadejte název a údaje o akci v "
+"nastavení bloku."
+
+#: src/Gutenberg/Blocks/event-card/render.php:38
+#: src/Gutenberg/Blocks/event-grid/render.php:112
+msgid "Ausgebucht"
+msgstr "Plně obsazeno"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:42
+#: src/Gutenberg/Blocks/event-grid/render.php:116
+#, php-format
+msgid "Nur noch %d Plätze"
+msgstr "Zbývá jen %d míst"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:46
+#: src/Gutenberg/Blocks/event-grid/render.php:120
+#, php-format
+msgid "%d freie Plätze"
+msgstr "%d volných míst"
+
+#. translators: %s: name of the events plugin
+#: src/Gutenberg/Blocks/event-grid/render.php:52
+#, php-format
+msgid ""
+"„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis "
+"dahin nicht."
+msgstr "„%s“ nehlásí žádné aktivní akce; do té doby návštěvníci blok neuvidí."
+
+#. translators: %d: maximum total capacity
+#: src/Gutenberg/Blocks/event-grid/render.php:134
+#, php-format
+msgid "Max. %d Plätze"
+msgstr "Max. %d míst"
+
+#: src/Gutenberg/Blocks/event-grid/render.php:142
+msgid "Zur Veranstaltung"
+msgstr "K akci"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:30
+msgid ""
+"Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-"
+"Inspektor hinterlegen."
+msgstr ""
+"Zatím nejsou zadány ověřené ukazatele LkSG – zadejte hodnoty v nastavení "
+"bloku."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:44
+msgid "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)"
+msgstr "Náležitá péče v dodavatelském řetězci (LkSG a CSDDD)"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:50
+msgid "Menschenrechte"
+msgstr "Lidská práva"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:54
+msgid "Umweltschutz"
+msgstr "Ochrana životního prostředí"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:58
+msgid "Gute Governance"
+msgstr "Řádná správa"
+
+#: src/Gutenberg/Blocks/modular-type-container/render.php:21
+msgid ""
+"Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die "
+"Seite; Besucher sehen ihn nicht."
+msgstr ""
+"Tento kontejner v editoru nepřijímá obsah a nemá na stránku žádný vliv; "
+"návštěvníci ho nevidí."
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:21 blocks-src/index.js:177
+msgid "Ticker-Meldungen"
+msgstr "Zprávy informační lišty"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:27
+msgid "Nachrichten-Ticker"
+msgstr "Informační lišta"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:38
+msgid "Ticker anhalten oder fortsetzen"
+msgstr "Pozastavit nebo spustit lištu"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:39
+msgid "Pausieren"
+msgstr "Pozastavit"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:27
+msgid ""
+"Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. "
+"0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft "
+"dieser Block nicht."
+msgstr ""
+"Kontroluje v prohlížeči, zda identifikátor odpovídá formátu Schéma:ID (např. "
+"0208:0843657437). Zda je účastník v síti Peppol dosažitelný, tento blok "
+"nekontroluje."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:30
+msgid "Peppol ID"
+msgstr "Peppol ID"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:31
+msgid "Prüfen"
+msgstr "Ověřit"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:23
+#: blocks-src/index.js:146
+msgid "Ziel-Element-ID"
+msgstr "ID cílového prvku"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:36
+msgid "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen."
+msgstr "Při načtení tohoto obsahu se předávají data poskytovateli."
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:39
+msgid "Inhalt einmalig laden"
+msgstr "Načíst obsah jednorázově"
+
+#: src/Gutenberg/Blocks/whistleblower-card/render.php:33
+msgid "Hinweis abgeben"
+msgstr "Podat oznámení"
+
+#: src/Gutenberg/Telemetry_Bridge.php:83 src/Gutenberg/Telemetry_Bridge.php:93
+msgid "WM Suite Hub Telemetry"
+msgstr "Telemetrie WM Suite Hub"
+
+#: src/Gutenberg/Telemetry_Bridge.php:100
+msgid "Telemetry Field"
+msgstr "Pole telemetrie"
+
+#: src/Gutenberg/Telemetry_Bridge.php:103
+msgid "Health Score (%)"
+msgstr "Skóre kondice (%)"
+
+#: src/Gutenberg/Telemetry_Bridge.php:107
+msgid "Global Status"
+msgstr "Celkový stav"
+
+#: src/Gutenberg/Telemetry_Bridge.php:111
+msgid "Active Spokes Count"
+msgstr "Počet aktivních satelitů"
+
+#: src/Gutenberg/Telemetry_Bridge.php:115
+msgid "Hub Version"
+msgstr "Verze Hubu"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:138
+msgid "Format gültig (Schema:ID)"
+msgstr "Formát platný (Schéma:ID)"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:139
+msgid "Ungültiges ID-Format"
+msgstr "Neplatný formát ID"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:140
+msgid "Pausiert"
+msgstr "Pozastaveno"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:141
+msgid "Läuft"
+msgstr "Běží"
+
+#: src/Setup/Activator.php:84
+msgid "Compliance Officer (DPO)"
+msgstr "Pověřenec pro compliance (DPO)"
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:187
+#, php-format
+msgid ""
+"Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde "
+"gelöscht, eingefügt oder geändert."
+msgstr ""
+"Záznam #%d neodkazuje na svého předchůdce: dřívější záznam byl smazán, "
+"vložen nebo změněn."
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:202
+#, php-format
+msgid ""
+"Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder "
+"der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er "
+"geschrieben wurde."
+msgstr ""
+"Podpis záznamu #%d nesouhlasí: záznam byl změněn, nebo klíč webu (AUTH_SALT) "
+"už není ten, kterým byl zapsán."
+
+#. translators: %d: number of audit entries checked
+#: src/Telemetry/Audit_Chainer.php:217
+#, php-format
+msgid "%d Einträge geprüft, die Kette ist lückenlos."
+msgstr "Zkontrolováno záznamů: %d, řetězec je souvislý."
+
+#: src/Telemetry/Health_Matrix.php:107
+msgid "Eingeschränkt"
+msgstr "Omezené"
+
+#: src/Telemetry/Health_Matrix.php:108
+msgid "Nicht konfiguriert"
+msgstr "Nenakonfigurováno"
+
+#: src/Telemetry/Health_Matrix.php:109
+msgid "Fehler"
+msgstr "Chyba"
+
+#: src/Telemetry/Health_Matrix.php:110
+msgid "Warnung"
+msgstr "Varování"
+
+#: src/Telemetry/Health_Matrix.php:112
+msgid "Unbekannt"
+msgstr "Neznámé"
+
+#: wm-suite-hub.php:51
+msgid ""
+"WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime."
+msgstr ""
+"WM Suite Hub vyžaduje PHP 8.2 nebo vyšší. Aktualizujte prosím běhové "
+"prostředí PHP."
+
+#: blocks-src/index.js:84
+msgid "Block-Einstellungen"
+msgstr "Nastavení bloku"
+
+#: blocks-src/index.js:109
+msgid "Spaltenanzahl"
+msgstr "Počet sloupců"
+
+#: blocks-src/index.js:110
+msgid "Maximale Einträge"
+msgstr "Maximální počet položek"
+
+#: blocks-src/index.js:114
+msgid "Veranstaltungstitel"
+msgstr "Název akce"
+
+#: blocks-src/index.js:115
+msgid "Kategorie"
+msgstr "Kategorie (jedn.)"
+
+#: blocks-src/index.js:116
+msgid "Datum"
+msgstr "Datum"
+
+#: blocks-src/index.js:117
+msgid "Veranstaltungsort"
+msgstr "Místo"
+
+#: blocks-src/index.js:118
+msgid "Freie Plätze"
+msgstr "Volná místa"
+
+#: blocks-src/index.js:119
+msgid "Preis"
+msgstr "Cena"
+
+#: blocks-src/index.js:125
+msgid "Button-Beschriftung"
+msgstr "Popisek tlačítka"
+
+#: blocks-src/index.js:126
+msgid "Hinweis unter dem Button"
+msgstr "Poznámka pod tlačítkem"
+
+#: blocks-src/index.js:130 blocks-src/index.js:139
+msgid "Überschrift"
+msgstr "Nadpis"
+
+#: blocks-src/index.js:131
+msgid "Platzhaltertext"
+msgstr "Zástupný text"
+
+#: blocks-src/index.js:135
+msgid "Badge-Beschriftung"
+msgstr "Popisek štítku"
+
+#: blocks-src/index.js:145
+msgid "Dienstname"
+msgstr "Název služby"
+
+#: blocks-src/index.js:150
+msgid "Unternehmensname"
+msgstr "Název společnosti"
+
+#: blocks-src/index.js:151
+msgid "Link zur Meldestelle"
+msgstr "Odkaz na oznamovací kanál"
+
+#: blocks-src/index.js:157
+msgid "Menschenrechte (%)"
+msgstr "Lidská práva (%)"
+
+#: blocks-src/index.js:158
+msgid "Umweltschutz (%)"
+msgstr "Životní prostředí (%)"
+
+#: blocks-src/index.js:159
+msgid "Governance (%)"
+msgstr "Správa a řízení (%)"
+
+#: blocks-src/index.js:163
+msgid "Versionskennzeichnung"
+msgstr "Označení verze"
+
+#: blocks-src/index.js:168
+msgid "Kontrastschalter anzeigen"
+msgstr "Zobrazit přepínač vysokého kontrastu"
+
+#: blocks-src/index.js:169
+msgid "Leseschrift-Schalter anzeigen"
+msgstr "Zobrazit přepínač čtecího písma"
+
+#: blocks-src/index.js:170
+msgid "Schriftgrößen-Schalter anzeigen"
+msgstr "Zobrazit tlačítka velikosti písma"
+
+#: blocks-src/index.js:176
+msgid "Badge-Text"
+msgstr "Text štítku"
+
+#: blocks-src/index.js:181
+msgid "Skalierungsfaktor"
+msgstr "Poměr škálování"
+
+#: blocks-src/index.js:182
+msgid "Basisschriftgröße"
+msgstr "Základní velikost písma"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block title"
+msgid "WM Accessibility Toolbar"
+msgstr "Panel přístupnosti WM"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block description"
+msgid ""
+"Buttons for high contrast in the WM Suite blocks, a reading font installed "
+"on the visitor's device, and larger text. The choice stays in the browser."
+msgstr ""
+"Tlačítka pro vysoký kontrast v blocích WM Suite, písmo pro čtení "
+"nainstalované v zařízení návštěvníka a větší text. Volba zůstává v "
+"prohlížeči."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "bfsg"
+msgstr "bfsg"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "barrierefreiheit"
+msgstr "přístupnost"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kontrast"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "dyslexia"
+msgstr "dyslexie"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block title"
+msgid "WM Accessibility Statement"
+msgstr "Prohlášení o přístupnosti WM"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block description"
+msgid ""
+"Shows the accessibility statement that WM BFSG Compliance Dashboard builds "
+"from your settings. Without that plugin, visitors see nothing."
+msgstr ""
+"Zobrazuje prohlášení o přístupnosti, které WM BFSG Compliance Dashboard "
+"sestaví z vašich nastavení. Bez tohoto pluginu návštěvníci nic neuvidí."
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "erklaerung"
+msgstr "prohlášení"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "wcag"
+msgstr "wcag"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "mlbf"
+msgstr "mlbf"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block title"
+msgid "WM Consent Settings Badge"
+msgstr "Odznak nastavení souhlasu WM"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge link that opens the consent dialog of WM Sovereign Consent Vault. "
+"Without that plugin, visitors see nothing."
+msgstr ""
+"Odkaz v podobě odznaku, který otevírá dialog souhlasu WM Sovereign Consent "
+"Vault. Bez tohoto pluginu návštěvníci nic neuvidí."
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "privacy"
+msgstr "osobni-udaje"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "consent"
+msgstr "souhlas"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "dsgvo"
+msgstr "gdpr"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "tdddg"
+msgstr "tdddg"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "cookies"
+msgstr "cookies"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block title"
+msgid "WM SBOM Download"
+msgstr "Stažení SBOM WM"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block description"
+msgid ""
+"Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors "
+"see nothing until a URL is entered."
+msgstr ""
+"Odkaz ke stažení CycloneDX SBOM, který zapisuje wp wm-hub sbom. Návštěvníci "
+"nic neuvidí, dokud není zadána URL."
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cra"
+msgstr "cra"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "sbom"
+msgstr "sbom"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cyclonedx"
+msgstr "cyclonedx"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "bsi"
+msgstr "bsi"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "security"
+msgstr "bezpečnost"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block title"
+msgid "WM Event Booking CTA Button"
+msgstr "Rezervační tlačítko akce WM"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block description"
+msgid ""
+"Button to the booking page you enter, with an optional note under it. "
+"Visitors see nothing until a URL is entered."
+msgstr ""
+"Tlačítko na vámi zadanou stránku rezervace s volitelnou poznámkou pod ním. "
+"Návštěvníci nic neuvidí, dokud není zadána URL."
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "booking"
+msgstr "rezervace"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "cta"
+msgstr "cta"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "tlačítko"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "tickets"
+msgstr "vstupenky"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block title"
+msgid "WM Atomic Event Card"
+msgstr "Atomická karta akce WM"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block description"
+msgid ""
+"Event card with the title, date, place, price and free seats you type in, "
+"and a button to the booking page you enter. Nothing is read live."
+msgstr ""
+"Karta akce s názvem, datem, místem, cenou a volnými místy, které zadáte, a "
+"tlačítkem na zadanou stránku rezervace. Nic se nenačítá živě."
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "event"
+msgstr "událost"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "card"
+msgstr "karta"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "ticket"
+msgstr "vstupenka"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "conference"
+msgstr "konference"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block title"
+msgid "WM Event Grid Container"
+msgstr "Mřížka akcí WM"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block description"
+msgid ""
+"Lists the active events of WM Cyber Events Core, each with a link to its "
+"event page. Without that plugin, visitors see nothing."
+msgstr ""
+"Vypisuje aktivní akce z WM Cyber Events Core, každou s odkazem na její "
+"stránku. Bez tohoto pluginu návštěvníci nic neuvidí."
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "mřížka"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "wm suite"
+msgstr "wm suite"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block title"
+msgid "WM LkSG ESG Supply Chain Scorecard"
+msgstr "Přehled ukazatelů ESG a LkSG WM"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block description"
+msgid ""
+"Three percentages you type in (human rights, environment, governance) under "
+"a supply chain heading. The block computes and checks nothing."
+msgstr ""
+"Tři vámi zadaná procenta (lidská práva, životní prostředí, správa) pod "
+"nadpisem o dodavatelském řetězci. Blok nic nepočítá ani nekontroluje."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lksg"
+msgstr "lksg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "esg"
+msgstr "esg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "csddd"
+msgstr "csddd"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lieferkette"
+msgstr "dodavatelský řetězec"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "compliance"
+msgstr "soulad"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block title"
+msgid "WM Modular Scale Fluid Type Container"
+msgstr "Kontejner plynulé typografie WM"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for a modular type scale. In this version it takes no inner blocks "
+"and no stylesheet reads its settings, so it has no effect on the page."
+msgstr ""
+"Kontejner pro modulární typografickou škálu. V této verzi nepřijímá vnitřní "
+"bloky a žádný styl nečte jeho nastavení, takže nemá na stránku vliv."
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "typografie"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "plynulý"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "modular scale"
+msgstr "modulární škála"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "clamp"
+msgstr "clamp"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "container queries"
+msgstr "container queries"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block title"
+msgid "WM Newsticker"
+msgstr "Zpravodajský pás WM"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block description"
+msgid ""
+"Scrolling line of your own text with a pause button. It stops on hover and "
+"stands still for visitors who ask for reduced motion."
+msgstr ""
+"Posuvný řádek s vaším vlastním textem a tlačítkem pozastavení. Zastaví se, "
+"když je nad ním myš, a stojí pro návštěvníky, kteří požadují omezený pohyb."
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "lišta"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "marquee"
+msgstr "běžící text"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "zprávy"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "eilmeldung"
+msgstr "blesková zpráva"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "přístupnost"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block title"
+msgid "WM Peppol ID Format Check"
+msgstr "Kontrola formátu Peppol ID WM"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block description"
+msgid ""
+"Checks in the browser whether an ID has the Peppol form Scheme:ID. It does "
+"not look the participant up in the Peppol network."
+msgstr ""
+"Kontroluje v prohlížeči, zda má ID podobu Peppol Schéma:ID. Účastníka v síti "
+"Peppol nevyhledává."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "xrechnung"
+msgstr "xrechnung"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "zugferd"
+msgstr "zugferd"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "geba"
+msgstr "geba"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "e-invoicing"
+msgstr "e-fakturace"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block title"
+msgid "WM Sovereign Privacy Center"
+msgstr "Suverénní centrum soukromí WM"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block description"
+msgid ""
+"Heading and the button that opens the consent dialog of WM Sovereign Consent "
+"Vault. Without that plugin, visitors see nothing."
+msgstr ""
+"Nadpis a tlačítko, které otevírá dialog souhlasu WM Sovereign Consent Vault. "
+"Bez tohoto pluginu návštěvníci nic neuvidí."
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "preferences"
+msgstr "předvolby"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block title"
+msgid "WM DSGVO Art. 17 Privacy Eraser Form"
+msgstr "Formulář výmazu údajů čl. 17 GDPR WM"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block description"
+msgid ""
+"Shows the erasure request form of WM DSGVO Privacy Eraser. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Zobrazuje formulář žádostí o výmaz z WM DSGVO Privacy Eraser. Bez tohoto "
+"pluginu návštěvníci nic neuvidí."
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "eraser"
+msgstr "výmaz"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "art17"
+msgstr "art17"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "loeschung"
+msgstr "odstranění"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block title"
+msgid "WM External Content Placeholder"
+msgstr "Zástupný prvek pro externí obsah WM"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block description"
+msgid ""
+"Placeholder with a load button. Put the embed into a template element with "
+"the target ID: nothing in it loads before the click."
+msgstr ""
+"Zástupný prvek s tlačítkem načtení. Vložte vložený obsah do elementu "
+"template s cílovým ID: nic uvnitř se nenačte před kliknutím."
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "media"
+msgstr "média"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "placeholder"
+msgstr "zástupný prvek"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "blocker"
+msgstr "blokátor"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal Card"
+msgstr "Karta portálu oznamovatelů HinSchG WM"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block description"
+msgid ""
+"Link card to the reporting channel: the portal block on the same page, or an "
+"address you enter."
+msgstr ""
+"Karta s odkazem na oznamovací kanál: blok portálu na stejné stránce nebo "
+"vámi zadaná adresa."
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "hinschg"
+msgstr "hinschg-zakon"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "whistleblower"
+msgstr "oznamovatel"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "meldung"
+msgstr "oznámení"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "hinweisgeber"
+msgstr "whistleblowing"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal"
+msgstr "Portál oznamovatelů HinSchG WM"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block description"
+msgid ""
+"Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Zobrazuje oznamovací portál WM HinSchG Whistleblower Desk. Bez tohoto "
+"pluginu návštěvníci nic neuvidí."
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "wizard"
+msgstr "průvodce"

@@ -1,0 +1,1822 @@
+# Translation of wm-suite-hub in ga
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-suite-hub 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-suite-hub\n"
+"POT-Creation-Date: 2026-11-21T12:46:17+00:00\n"
+"PO-Revision-Date: 2026-11-21 10:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-suite-hub\n"
+
+#. Plugin Name of the plugin
+#: wm-suite-hub.php
+msgid "WM Suite Hub (Enterprise Cockpit)"
+msgstr "WM Suite Hub (Deais Fiontair)"
+
+#. Plugin URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+
+#. Description of the plugin
+#: wm-suite-hub.php
+msgid ""
+"Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 "
+"software bill of materials and an audit table whose entries are chained with "
+"HMAC-SHA256."
+msgstr ""
+"Clárlann agus forbhreathnú sláinte ar bhreiseáin WM Suite, bille ábhar "
+"bogearraí CycloneDX 1.6 agus tábla iniúchta a bhfuil a iontrálacha "
+"slabhraithe le HMAC-SHA256."
+
+#. Author of the plugin
+#: wm-suite-hub.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Admin/Admin_Menu.php:258 src/Gutenberg/Block_Manager.php:127
+msgid "WM Enterprise Suite"
+msgstr "Sraith Fiontair WM Suite"
+
+#: src/Admin/Admin_Menu.php:259
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: src/Admin/Admin_Menu.php:272
+msgid "WM Suite — Cockpit & Status"
+msgstr "WM Suite — Deais & stádas"
+
+#: src/Admin/Admin_Menu.php:273
+msgid "Cockpit & Status"
+msgstr "Deais & stádas"
+
+#: src/Admin/Admin_Menu.php:282
+msgid "WM Suite — Solution Packs"
+msgstr "WM Suite — Pacáistí réitigh"
+
+#: src/Admin/Admin_Menu.php:283 src/Admin/Dashboard_Widgets.php:518
+#: src/Admin/Dashboard_Widgets.php:561 src/Admin/Views/cockpit-view.php:86
+#: src/Admin/Views/marketplace-view.php:38
+msgid "Solution Packs"
+msgstr "Pacáistí réitigh"
+
+#: src/Admin/Admin_Menu.php:291
+msgid "WM Suite — Audit-Protokoll"
+msgstr "WM Suite — Loga iniúchta"
+
+#: src/Admin/Admin_Menu.php:292 src/Admin/Dashboard_Widgets.php:564
+msgid "Audit-Log"
+msgstr "Loga iniúchta"
+
+#: src/Admin/Admin_Menu.php:680
+msgid ""
+"Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite."
+msgstr "Níl go leor ceadanna agat chun rochtain a fháil ar an leathanach seo."
+
+#: src/Admin/Dashboard_Widgets.php:438
+msgid "WM Suite — Enterprise Suite Cockpit"
+msgstr "WM Suite — Deais na Sraithe Fiontair"
+
+#: src/Admin/Dashboard_Widgets.php:449 src/Admin/Dashboard_Widgets.php:633
+msgid "WM Suite — Module nach Regelwerk"
+msgstr "WM Suite — Modúil de réir rialacháin"
+
+#: src/Admin/Dashboard_Widgets.php:481
+msgid "Enterprise Suite Cockpit"
+msgstr "Deais na Sraithe Fiontair"
+
+#: src/Admin/Dashboard_Widgets.php:489 src/Telemetry/Audit_Chainer.php:215
+msgid "Die Audit-Tabelle ist leer."
+msgstr "Tá an tábla iniúchta folamh."
+
+#. translators: %d: number of audit entries checked
+#: src/Admin/Dashboard_Widgets.php:492 src/Core/Hub_Orchestrator.php:267
+#, php-format
+msgid "Audit-Kette intakt: %d Einträge geprüft"
+msgstr "Slabhra iniúchta slán: seiceáladh %d iontráil"
+
+#. translators: %d: id of the first audit entry that does not verify
+#: src/Admin/Dashboard_Widgets.php:497 src/Core/Hub_Orchestrator.php:274
+#, php-format
+msgid "Audit-Kette unterbrochen bei Eintrag #%d"
+msgstr "Briseadh an slabhra iniúchta ag iontráil #%d"
+
+#: src/Admin/Dashboard_Widgets.php:502
+msgid "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden."
+msgstr "Tá gach iontráil ceangailte leis an gceann roimhe le HMAC-SHA256."
+
+#: src/Admin/Dashboard_Widgets.php:510
+msgid "Aktive Module"
+msgstr "Modúil ghníomhacha"
+
+#: src/Admin/Dashboard_Widgets.php:514
+msgid "Health Score"
+msgstr "Scór sláinte"
+
+#: src/Admin/Dashboard_Widgets.php:524
+msgid "Aktive WM Suite Spoke-Module"
+msgstr "Modúil satailíte WM Suite ghníomhacha"
+
+#. translators: %d: number of active spoke modules
+#: src/Admin/Dashboard_Widgets.php:527
+#, php-format
+msgid "%d Bereitgestellt"
+msgstr "%d soláthraithe"
+
+#: src/Admin/Dashboard_Widgets.php:558
+msgid "Suite Cockpit öffnen"
+msgstr "Oscail deais na sraithe"
+
+#: src/Admin/Dashboard_Widgets.php:596
+msgid "Nicht aktiv"
+msgstr "Neamhghníomhach"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:622 src/Admin/Views/marketplace-view.php:97
+#, php-format
+msgid "Vollständig aktiv (%1$d/%2$d)"
+msgstr "Lánghníomhach (%1$d/%2$d)"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:625 src/Admin/Views/marketplace-view.php:101
+#, php-format
+msgid "Teilweise aktiv (%1$d/%2$d)"
+msgstr "Páirtghníomhach (%1$d/%2$d)"
+
+#. translators: %d: number of plugins listed
+#. translators: %d: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:628 src/Admin/Views/marketplace-view.php:105
+#, php-format
+msgid "%d Module verfügbar"
+msgstr "%d modúl ar fáil"
+
+#: src/Admin/Dashboard_Widgets.php:635
+msgid "Zustand der zuständigen Module"
+msgstr "Stádas na modúl freagracha"
+
+#: src/Admin/Dashboard_Widgets.php:646
+msgid ""
+"Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. "
+"Keine Konformitätsbewertung."
+msgstr ""
+"Taispeánann sé cén breiseán WM Suite atá gníomhach agus cén stádas a "
+"thuairiscíonn sé. Ní measúnú comhréireachta é."
+
+#: src/Admin/Views/cockpit-view.php:37
+msgid "Zum Hauptinhalt springen"
+msgstr "Léim go dtí an príomhábhar"
+
+#: src/Admin/Views/cockpit-view.php:46
+msgid "WM Suite Hub Command Console"
+msgstr "Consól ordaithe WM Suite Hub"
+
+#: src/Admin/Views/cockpit-view.php:50
+msgid ""
+"Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX "
+"1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle."
+msgstr ""
+"Staid na mbreiseán cláraithe WM Suite, bille ábhar bogearraí (CycloneDX 1.6) "
+"agus tábla iniúchta slabhraithe le HMAC-SHA256."
+
+#: src/Admin/Views/cockpit-view.php:65
+msgid "Flottenstatus aktualisieren"
+msgstr "Athnuaigh stádas an chabhlaigh"
+
+#: src/Admin/Views/cockpit-view.php:67
+msgid "Aktualisieren"
+msgstr "Athnuaigh"
+
+#: src/Admin/Views/cockpit-view.php:72
+msgid "Audit-Integrität prüfen"
+msgstr "Seiceáil sláine an iniúchta"
+
+#: src/Admin/Views/cockpit-view.php:79
+msgid "Cockpit Navigation"
+msgstr "Nascleanúint na deaise"
+
+#: src/Admin/Views/cockpit-view.php:82
+msgid "Cockpit Übersicht"
+msgstr "Forbhreathnú na deaise"
+
+#: src/Admin/Views/cockpit-view.php:90 src/Admin/Views/cockpit-view.php:127
+msgid "Satelliten-Flotte"
+msgstr "Cabhlach satailíte"
+
+#: src/Admin/Views/cockpit-view.php:94 src/Admin/Views/cockpit-view.php:128
+#: src/Admin/Views/cockpit-view.php:301
+msgid "Audit-Protokoll"
+msgstr "Loga iniúchta"
+
+#: src/Admin/Views/cockpit-view.php:98
+msgid "Design & Themes"
+msgstr "Dearadh & téamaí"
+
+#: src/Admin/Views/cockpit-view.php:104
+msgid "Suite Theme:"
+msgstr "Téama na sraithe:"
+
+#: src/Admin/Views/cockpit-view.php:105
+msgid "WM Suite Theme auswählen"
+msgstr "Roghnaigh téama WM Suite"
+
+#: src/Admin/Views/cockpit-view.php:123
+msgid "Schnellnavigation"
+msgstr "Nascleanúint thapa"
+
+#: src/Admin/Views/cockpit-view.php:124
+msgid "Direkt zu:"
+msgstr "Léim chuig:"
+
+#: src/Admin/Views/cockpit-view.php:125
+msgid "Kurzanleitung"
+msgstr "Treoir Thapa"
+
+#: src/Admin/Views/cockpit-view.php:126
+msgid "Metriken & Status"
+msgstr "Méadrachtaí & stádas"
+
+#: src/Admin/Views/cockpit-view.php:129
+msgid "Theme-Einstellungen"
+msgstr "Socruithe téama"
+
+#: src/Admin/Views/cockpit-view.php:135
+msgid "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?"
+msgstr "Cad é WM Suite Hub agus conas a bhainistíonn tú do bhreiseáin?"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Das WM Suite Hub ist die zentrale"
+msgstr "Is é WM Suite Hub an lárionad"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins"
+msgstr "rialachais agus rialaithe do gach breiseán WordPress ó WM Suite"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid ""
+". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine "
+"Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, "
+"die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der "
+"Website werden erkennbar. Es bewertet keine Rechtskonformität."
+msgstr ""
+". Taispeánann sé an stádas a thuairiscíonn na modúil chláraithe, gineann sé "
+"bille ábhar bogearraí i bhformáid CycloneDX 1.6 agus nascann sé le HMAC-"
+"SHA256 na himeachtaí a thuairiscítear dó: bíonn athruithe a dhéantar gan "
+"eochair an tsuímh inbhraite. Ní mheasann sé comhlíonadh dlí."
+
+#: src/Admin/Views/cockpit-view.php:141
+msgid "Schnellzugriff:"
+msgstr "Rochtain thapa:"
+
+#: src/Admin/Views/cockpit-view.php:143
+msgid "Aktive Module prüfen"
+msgstr "Scrúdaigh modúil ghníomhacha"
+
+#: src/Admin/Views/cockpit-view.php:146
+msgid "Audit-Protokoll ansehen"
+msgstr "Féach ar an loga iniúchta"
+
+#: src/Admin/Views/cockpit-view.php:149
+msgid "Theme & Erscheinungsbild wechseln"
+msgstr "Athraigh téama & cuma"
+
+#: src/Admin/Views/cockpit-view.php:157
+msgid "Systemmetriken"
+msgstr "Méadrachtaí an chórais"
+
+#: src/Admin/Views/cockpit-view.php:161
+msgid "GESAMTSTATUS"
+msgstr "STÁDAS FORIOMLÁN"
+
+#: src/Admin/Views/cockpit-view.php:174
+msgid ""
+"Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, "
+"nicht konfiguriert 30, Fehler 0)."
+msgstr ""
+"Stádas ualaithe na modúl cláraithe (sláintiúil 100, díghrádaithe 60, gan "
+"chumrú 30, earráid 0)."
+
+#: src/Admin/Views/cockpit-view.php:181
+msgid "SATELLITEN-INVENTAR"
+msgstr "FARDAL SATAILÍTÍ"
+
+#: src/Admin/Views/cockpit-view.php:187
+msgid "Registriert"
+msgstr "Cláraithe"
+
+#: src/Admin/Views/cockpit-view.php:191 src/Telemetry/Health_Matrix.php:106
+msgid "Gesund"
+msgstr "Sláintiúil"
+
+#: src/Admin/Views/cockpit-view.php:195
+msgid "Warnungen"
+msgstr "Rabhaidh"
+
+#: src/Admin/Views/cockpit-view.php:199 src/Telemetry/Health_Matrix.php:111
+msgid "Kritisch"
+msgstr "Criticiúil"
+
+#: src/Admin/Views/cockpit-view.php:212
+msgid "LAUFZEITUMGEBUNG"
+msgstr "TIMPEALLACHT RITH"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "ja"
+msgstr "tá"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "nein"
+msgstr "níl"
+
+#: src/Admin/Views/cockpit-view.php:230
+msgid "Persistenter Objekt-Cache"
+msgstr "Taisce oibiachtaí bhuan"
+
+#: src/Admin/Views/cockpit-view.php:243
+msgid "Flottenstatus & Satelliten-Module"
+msgstr "Stádas an chabhlaigh & modúil satailíte"
+
+#: src/Admin/Views/cockpit-view.php:245
+msgid "Module aktiv"
+msgstr "modúl gníomhach"
+
+#: src/Admin/Views/cockpit-view.php:251
+msgid "Keine Satelliten-Module registriert"
+msgstr "Níl aon mhodúl satailíte cláraithe"
+
+#: src/Admin/Views/cockpit-view.php:252
+msgid ""
+"Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch "
+"über den Filter wm_register_suite_module."
+msgstr ""
+"Chomh luath agus a ghníomhaítear breiseáin WM Suite, nascann siad go "
+"huathoibríoch tríd an scagaire wm_register_suite_module."
+
+#: src/Admin/Views/cockpit-view.php:274
+msgid "Abhängigkeiten:"
+msgstr "Spleáchais:"
+
+#: src/Admin/Views/cockpit-view.php:283
+msgid "Konfiguration"
+msgstr "Cumraíocht"
+
+#: src/Admin/Views/cockpit-view.php:288
+msgid "Selbsttest"
+msgstr "Féintástáil"
+
+#: src/Admin/Views/cockpit-view.php:305
+msgid ""
+"Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)"
+msgstr ""
+"Sláine an tslabhra: Gan seiceáil (cliceáil Seiceáil sláine an iniúchta)"
+
+#: src/Admin/Views/cockpit-view.php:309
+msgid "Audit-Log-Tabelle"
+msgstr "Tábla an loga iniúchta"
+
+#: src/Admin/Views/cockpit-view.php:312
+msgid "Zeitstempel"
+msgstr "Stampa ama"
+
+#: src/Admin/Views/cockpit-view.php:313
+msgid "Modul"
+msgstr "Modúl"
+
+#: src/Admin/Views/cockpit-view.php:314
+msgid "Ereignistyp"
+msgstr "Cineál imeachta"
+
+#: src/Admin/Views/cockpit-view.php:315
+msgid "Benutzer"
+msgstr "Úsáideoir"
+
+#: src/Admin/Views/cockpit-view.php:316
+msgid "SHA-256 HMAC Signatur"
+msgstr "Síniú HMAC SHA-256"
+
+#: src/Admin/Views/cockpit-view.php:322
+msgid "Lade Audit-Protokolle..."
+msgstr "Logaí iniúchta á lódáil..."
+
+#: src/Admin/Views/cockpit-view.php:334
+msgid "Design-System & Theme-Präferenzen"
+msgstr "Córas dearaidh & roghanna téama"
+
+#: src/Admin/Views/cockpit-view.php:338
+msgid ""
+"Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite "
+"Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents "
+"verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt."
+msgstr ""
+"Roghnaigh an scéim dathanna dhomhanda don deais agus do gach breiseán "
+"satailíte WM Suite. Úsáidtear CyberEvents Enterprise mar réamhshocrú."
+
+#: src/Admin/Views/cockpit-view.php:344
+msgid "Standard"
+msgstr "Réamhshocrú"
+
+#: src/Admin/Views/cockpit-view.php:347
+msgid ""
+"Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress "
+"Admin Oberflächenkarten und klaren Kontrasten."
+msgstr ""
+"Meirge dorcha Obsidian Midnight in éineacht le cártaí dúchasacha WordPress "
+"Admin agus codarsnacht shoiléir."
+
+#: src/Admin/Views/cockpit-view.php:350
+msgid "Als Standard aktivieren"
+msgstr "Socraigh mar réamhshocrú"
+
+#: src/Admin/Views/cockpit-view.php:356
+msgid "Klassisch"
+msgstr "Clasaiceach"
+
+#: src/Admin/Views/cockpit-view.php:359
+msgid ""
+"100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, "
+"standardisierte WP Formulare)."
+msgstr ""
+"100%: pailéad dathanna dúchasach WordPress Admin (#2271b1 gorm, #f0f0f1 "
+"cúlra, foirmeacha caighdeánacha WP)."
+
+#: src/Admin/Views/cockpit-view.php:362 src/Admin/Views/cockpit-view.php:374
+#: src/Admin/Views/cockpit-view.php:385
+msgid "Aktivieren"
+msgstr "Gníomhachtaigh"
+
+#: src/Admin/Views/cockpit-view.php:368
+msgid "Dark Mode"
+msgstr "Mód dorcha"
+
+#: src/Admin/Views/cockpit-view.php:371
+msgid ""
+"Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und "
+"blauen Akzenten."
+msgstr ""
+"Mód lándorcha (#050811 cúlra) le cártaí tréshoilseacha agus béimeanna gorma."
+
+#: src/Admin/Views/cockpit-view.php:382
+msgid "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast."
+msgstr "Dubh glan, bán agus buí sábháilteachta le haghaidh ardchodarsnachta."
+
+#: src/Admin/Views/cockpit-view.php:395
+msgid "Datenaufbewahrung & Deinstallation"
+msgstr "Coinneáil sonraí & díshuiteáil"
+
+#: src/Admin/Views/cockpit-view.php:397
+msgid "Aufbewahrungsschutz"
+msgstr "Cosaint choinneála"
+
+#: src/Admin/Views/cockpit-view.php:410
+msgid "Alle Daten beim Löschen des Plugins unwiderruflich entfernen"
+msgstr "Scrios na sonraí uile go buan nuair a bhaintear an breiseán"
+
+#: src/Admin/Views/cockpit-view.php:413
+msgid ""
+"Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und "
+"Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, "
+"wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig "
+"gelöscht werden sollen."
+msgstr ""
+"De réir réamhshocraithe, coinníonn WM Suite Hub an tábla iniúchta HMAC-"
+"SHA256, na róil agus na socruithe le linn díshuiteála. Ná cumasaigh an rogha "
+"seo ach amháin más mian leat gach tábla agus rogha a scriosadh go buan."
+
+#: src/Admin/Views/cockpit-view.php:425
+msgid "Audit-Verifikation"
+msgstr "Fíorú iniúchta"
+
+#: src/Admin/Views/cockpit-view.php:426 src/Admin/Views/cockpit-view.php:435
+#: src/Admin/Views/marketplace-view.php:213
+msgid "Schließen"
+msgstr "Dún"
+
+#: src/Admin/Views/marketplace-view.php:41
+msgid ""
+"Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer "
+"Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight "
+"Check prüft vorab den Server. Eine Installation gibt es in dieser Version "
+"nicht; die Plugins werden einzeln installiert."
+msgstr ""
+"Pacáistí téamacha de bhreiseáin WM Suite: socraíonn sórtáil thoipeolaíoch "
+"Kahn ord a spleáchas, agus scrúdaíonn an réamhsheiceáil an freastalaí ar "
+"dtús. Níl suiteáil sa leagan seo; suiteáiltear na breiseáin ceann ar cheann."
+
+#: src/Admin/Views/marketplace-view.php:49
+msgid "Deduplizierung auf dieser Seite:"
+msgstr "Díbhúbláil ar an leathanach seo:"
+
+#. translators: 1: dropped duplicate scripts, 2: dropped duplicate stylesheets, 3: size of the dropped files in KB
+#: src/Admin/Views/marketplace-view.php:53
+#, php-format
+msgid "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)"
+msgstr "Baineadh %1$d script agus %2$d stílbhileog (%3$s KB)"
+
+#. translators: %d: modules in the pack
+#: src/Admin/Views/marketplace-view.php:123
+#, php-format
+msgid "Paketinhalt & Modul-Architektur (%d):"
+msgstr "Ábhar an phacáiste & ailtireacht na modúl (%d):"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Aktiviert"
+msgstr "Gníomhachtaithe"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Im Paket enthalten"
+msgstr "San áireamh sa phacáiste"
+
+#: src/Admin/Views/marketplace-view.php:176
+msgid "Mathematische DAG-Installationsfolge (Kahn-Sortierung):"
+msgstr "Ord suiteála matamaiticiúil DAG (sórtáil Kahn):"
+
+#: src/Admin/Views/marketplace-view.php:181
+msgid ""
+"Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der "
+"Installation ist frei."
+msgstr ""
+"Níl aon cheann de na breiseáin seo ag brath ar cheann eile; tá ord na "
+"suiteála saor."
+
+#. translators: %s: suite name
+#: src/Admin/Views/marketplace-view.php:189
+#, php-format
+msgid "Pre-Flight Check für %s starten"
+msgstr "Tosaigh réamhsheiceáil do %s"
+
+#: src/Admin/Views/marketplace-view.php:194
+#: src/Admin/Views/marketplace-view.php:211
+msgid "Pre-Flight Check"
+msgstr "Réamhsheiceáil"
+
+#: src/Admin/Views/marketplace-view.php:221
+msgid ""
+"Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und "
+"OPcache …"
+msgstr ""
+"Ag seiceáil leagan PHP, síneadh Sodium, teorainn chuimhne, ceadanna "
+"scríbhneoireachta agus OPcache …"
+
+#: src/Admin/Views/marketplace-view.php:231
+msgid "Dry-Run Simulation"
+msgstr "Insamhladh tástála"
+
+#: src/API/API_Controller.php:266
+msgid ""
+"Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit."
+msgstr "Rochtain diúltaithe. Ceadanna neamhleora do dheais WM Suite."
+
+#. translators: %s: module slug
+#: src/API/API_Controller.php:346
+#, php-format
+msgid "Modul \"%s\" ist nicht registriert oder inaktiv."
+msgstr "Níl an modúl \"%s\" cláraithe nó tá sé neamhghníomhach."
+
+#. translators: %s: exception message
+#: src/API/API_Controller.php:375
+#, php-format
+msgid "Ausführung der Modulaktion fehlgeschlagen: %s"
+msgstr "Theip ar ghníomh an mhodúil: %s"
+
+#: src/API/API_Controller.php:392
+msgid "Telemetrie-Zwischenspeicher erfolgreich geleert."
+msgstr "Glanadh taisce na teiliméadrachta."
+
+#: src/API/API_Controller.php:410
+msgid "Ungültiges Theme ausgewählt."
+msgstr "Roghnaíodh téama neamhbhailí."
+
+#: src/API/API_Controller.php:433
+msgid "Theme erfolgreich aktualisiert."
+msgstr "Nuashonraíodh an téama."
+
+#: src/API/API_Controller.php:449
+msgid "CyberEvents Enterprise (Standard)"
+msgstr "CyberEvents Enterprise (Réamhshocrú)"
+
+#: src/API/API_Controller.php:450
+msgid "WordPress Native Classic"
+msgstr "WordPress Dúchasach Clasaiceach"
+
+#: src/API/API_Controller.php:451
+msgid "Obsidian Midnight Dark"
+msgstr "Obsidian Midnight Dorcha"
+
+#: src/API/API_Controller.php:452
+msgid "High-Contrast"
+msgstr "Ardchodarsnacht"
+
+#: src/API/API_Controller.php:477
+msgid "Deinstallations-Einstellung aktualisiert."
+msgstr "Nuashonraíodh an socrú díshuiteála."
+
+#: src/API/API_Controller.php:545 src/API/API_Controller.php:575
+msgid "Bundle nicht gefunden."
+msgstr "Níor aimsíodh an pacáiste."
+
+#: src/API/API_Controller.php:584
+msgid "Pre-Flight Überprüfung fehlgeschlagen."
+msgstr "Theip ar an réamhsheiceáil."
+
+#. translators: %d: number of packages in the resolved install order
+#: src/API/API_Controller.php:593
+#, php-format
+msgid "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst."
+msgstr "D’éirigh leis an insamhladh: réitíodh %d pacáiste in ord."
+
+#: src/API/API_Controller.php:609
+msgid ""
+"Die Installation von Solution Packs ist in dieser Version noch nicht "
+"verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge."
+msgstr ""
+"Níl suiteáil pacáistí réitigh ar fáil sa leagan seo. Úsáid dry_run=true chun "
+"an t-ord a réiteach."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:179
+msgid ""
+"Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr ""
+"Diúltaíodh do shioncronú toilithe: comhartha slándála ar iarraidh nó imithe "
+"in éag."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:188
+msgid "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen."
+msgstr "An iomarca imeachtaí toilithe. Bain triail eile as i gceann nóiméid."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:305
+msgid "Keine lesbare Einwilligungsentscheidung."
+msgstr "Níl cinneadh toilithe inléite ann."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:346
+msgid "Die Einwilligung konnte nicht protokolliert werden."
+msgstr "Níorbh fhéidir an toiliú a thaifeadadh."
+
+#: src/Compliance/Developer_SDK_Bridge.php:238
+msgid "Externer Dienst"
+msgstr "Seirbhís sheachtrach"
+
+#. translators: %s: name of the blocked third-party service (YouTube, Google Maps, …)
+#: src/Compliance/Developer_SDK_Bridge.php:249
+#, php-format
+msgid "Blockierter externer Inhalt: %s"
+msgstr "Ábhar seachtrach coiscthe: %s"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:251
+#, php-format
+msgid "Inhalt von %s blockiert"
+msgstr "Ábhar ó %s coiscthe"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:253
+#, php-format
+msgid "%s einmalig laden und aktivieren"
+msgstr "Lódáil agus cumasaigh %s uair amháin"
+
+#: src/Compliance/Developer_SDK_Bridge.php:270
+msgid ""
+"Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO "
+"erforderlich."
+msgstr ""
+"Teastaíonn do thoiliú faoi § 25 TDDDG agus GDPR chun an t-ábhar seo a lódáil."
+
+#: src/Compliance/Developer_SDK_Bridge.php:273
+msgid "Inhalt laden & entsperren"
+msgstr "Lódáil & díghlasáil an t-ábhar"
+
+#: src/Compliance/Developer_SDK_Bridge.php:274
+msgid ""
+"Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter."
+msgstr ""
+"Tríd an ábhar a lódáil glacann tú le haistriú sonraí chuig an soláthraí tríú "
+"páirtí."
+
+#: src/Core/Hub_Orchestrator.php:254
+msgid "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten."
+msgstr "Tharla earráid le linn cumarsáide leis an Mol."
+
+#. translators: %s: HTTP status code
+#: src/Core/Hub_Orchestrator.php:256
+#, php-format
+msgid "HTTP-Fehler %s"
+msgstr "Earráid HTTP %s"
+
+#: src/Core/Hub_Orchestrator.php:257
+msgid "Theme erfolgreich gewechselt."
+msgstr "Athraíodh an téama."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:259
+#, php-format
+msgid "Fehler beim Speichern des Themes: %s"
+msgstr "Earráid agus an téama á shábháil: %s"
+
+#: src/Core/Hub_Orchestrator.php:260
+msgid "Keine Audit-Ereignisse protokolliert."
+msgstr "Níor taifeadadh aon imeachtaí iniúchta."
+
+#. translators: %s: WordPress user id
+#: src/Core/Hub_Orchestrator.php:262
+#, php-format
+msgid "Benutzer #%s"
+msgstr "Úsáideoir #%s"
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:264
+#, php-format
+msgid "Fehler beim Laden der Logs: %s"
+msgstr "Earráid agus na logaí á lódáil: %s"
+
+#: src/Core/Hub_Orchestrator.php:265
+msgid "Die Audit-Kette wird geprüft …"
+msgstr "Tá an slabhra iniúchta á sheiceáil…"
+
+#: src/Core/Hub_Orchestrator.php:268
+msgid "Audit-Kette intakt"
+msgstr "Slabhra iniúchta slán"
+
+#. translators: %d: number of audit entries checked
+#: src/Core/Hub_Orchestrator.php:270
+#, php-format
+msgid ""
+"Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem "
+"Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht "
+"oder umsortiert."
+msgstr ""
+"Meaitseálann gach ceann de na %d iontráil a síniú HMAC-SHA256 agus an "
+"iontráil roimhe: níor athraíodh, níor scriosadh agus níor atheagraíodh ceann "
+"ar bith gan eochair an tsuímh."
+
+#. translators: %s: hexadecimal digest of the latest audit entry
+#: src/Core/Hub_Orchestrator.php:272
+#, php-format
+msgid "Letzter Hash: %s"
+msgstr "An hais is déanaí: %s"
+
+#: src/Core/Hub_Orchestrator.php:275
+msgid "Audit-Kette unterbrochen"
+msgstr "Briseadh an slabhra iniúchta"
+
+#: src/Core/Hub_Orchestrator.php:276
+msgid "Prüfung der Audit-Kette"
+msgstr "Seiceáil an tslabhra iniúchta"
+
+#: src/Core/Hub_Orchestrator.php:277
+msgid "Prüfung fehlgeschlagen"
+msgstr "Theip ar an seiceáil"
+
+#: src/Core/Hub_Orchestrator.php:278
+msgid "Telemetriedaten erfolgreich aktualisiert."
+msgstr "Nuashonraíodh sonraí na teiliméadrachta."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:280
+#, php-format
+msgid "Fehler beim Aktualisieren: %s"
+msgstr "Earráid agus é á athnuachan: %s"
+
+#. translators: %s: name of the solution pack
+#: src/Core/Hub_Orchestrator.php:282
+#, php-format
+msgid "Pre-Flight: %s"
+msgstr "Réamhsheiceáil: %s"
+
+#: src/Core/Hub_Orchestrator.php:283
+msgid "Fehler bei der Pre-Flight-Prüfung:"
+msgstr "Earráid sa réamhsheiceáil:"
+
+#: src/Core/Hub_Orchestrator.php:284
+msgid "Prüfpunkt"
+msgstr "Pointe seiceála"
+
+#: src/Core/Hub_Orchestrator.php:285
+msgid "Soll"
+msgstr "Ag súil le"
+
+#: src/Core/Hub_Orchestrator.php:286
+msgid "Ist"
+msgstr "Iarbhír"
+
+#: src/Core/Hub_Orchestrator.php:287
+msgid "Status"
+msgstr "Stádas"
+
+#: src/Core/Hub_Orchestrator.php:288
+msgid "Erfüllt"
+msgstr "Comhlíonta"
+
+#: src/Core/Hub_Orchestrator.php:289
+msgid "Nicht erfüllt"
+msgstr "Gan comhlíonadh"
+
+#: src/Core/Hub_Orchestrator.php:290
+msgid "Berechnete Installationsreihenfolge:"
+msgstr "Ord suiteála ríofa:"
+
+#: src/Core/Hub_Orchestrator.php:291
+msgid "Keine Abhängigkeiten deklariert, Reihenfolge frei:"
+msgstr "Níor fógraíodh spleáchais, tá an t-ord saor:"
+
+#. translators: %s: id of the solution pack
+#: src/Core/Hub_Orchestrator.php:293
+#, php-format
+msgid "Dry-Run für %s läuft …"
+msgstr "Insamhladh tástála do %s ar siúl…"
+
+#: src/Core/Hub_Orchestrator.php:294
+msgid "Dry-Run abgeschlossen."
+msgstr "Insamhladh tástála críochnaithe."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:296
+#, php-format
+msgid "Dry-Run fehlgeschlagen: %s"
+msgstr "Theip ar an insamhladh tástála: %s"
+
+#: src/Core/Hub_Orchestrator.php:297
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Socrú díshuiteála sábháilte."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:299
+#, php-format
+msgid "Fehler beim Speichern: %s"
+msgstr "Earráid agus é á shábháil: %s"
+
+#. translators: 1: module slug, 2: message the module returned
+#: src/Core/Hub_Orchestrator.php:301
+#, php-format
+msgid "Ergebnis für %1$s: %2$s"
+msgstr "Toradh do %1$s: %2$s"
+
+#: src/Core/Hub_Orchestrator.php:302
+msgid "Aktion erfolgreich ausgeführt."
+msgstr "Cuireadh an gníomh i gcrích."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:304
+#, php-format
+msgid "Fehler bei der Modulaktion: %s"
+msgstr "Earráid i ngníomh an mhodúil: %s"
+
+#. translators: %s: name of the WordPress plugin the block needs
+#: src/Gutenberg/block-notice.php:45
+#, php-format
+msgid "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an."
+msgstr ""
+"Gan an breiseán gníomhach “%s”, ní thaispeánann an bloc seo aon rud do "
+"chuairteoirí."
+
+#. translators: %s: label of a field in the block inspector
+#: src/Gutenberg/block-notice.php:59
+#, php-format
+msgid ""
+"Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher "
+"sehen den Block bis dahin nicht."
+msgstr ""
+"Gan chumrú fós — líon isteach “%s” i socruithe an bhloic. Go dtí sin, ní "
+"fheiceann cuairteoirí an bloc."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:19
+msgid "Barrierefreiheits-Einstellungen"
+msgstr "Roghanna inrochtaineachta"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:22
+msgid "Kontrast"
+msgstr "Codarsnacht"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:28
+msgid "Leseschrift"
+msgstr "Cló léitheoireachta"
+
+#: src/Gutenberg/Blocks/consent-badge/render.php:27
+#: src/Gutenberg/Blocks/privacy-center/render.php:28
+msgid "Datenschutz-Einstellungen"
+msgstr "Socruithe príobháideachais"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:27
+#: blocks-src/index.js:164
+msgid "SBOM-Download-URL"
+msgstr "URL íoslódála SBOM"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:34
+msgid "Software-Stückliste (SBOM)"
+msgstr "Bille ábhar bogearraí (SBOM)"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:37
+msgid "CycloneDX 1.6 SBOM herunterladen"
+msgstr "Íoslódáil CycloneDX 1.6 SBOM"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:22 blocks-src/index.js:120
+#: blocks-src/index.js:124
+msgid "Buchungsseite (URL)"
+msgstr "Leathanach áirithinte (URL)"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:28
+#: src/Gutenberg/Blocks/event-card/render.php:77
+msgid "Zur Buchung"
+msgstr "Chuig an áirithint"
+
+#: src/Gutenberg/Blocks/event-card/render.php:30
+msgid ""
+"Veranstaltungskarte noch nicht konfiguriert — bitte Titel und "
+"Veranstaltungsdaten im Block-Inspektor eintragen."
+msgstr ""
+"Níl cárta an imeachta cumraithe fós — cuir isteach an teideal agus sonraí an "
+"imeachta i socruithe an bhloic."
+
+#: src/Gutenberg/Blocks/event-card/render.php:38
+#: src/Gutenberg/Blocks/event-grid/render.php:112
+msgid "Ausgebucht"
+msgstr "Lán go béal"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:42
+#: src/Gutenberg/Blocks/event-grid/render.php:116
+#, php-format
+msgid "Nur noch %d Plätze"
+msgstr "Níl ach %d áit fágtha"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:46
+#: src/Gutenberg/Blocks/event-grid/render.php:120
+#, php-format
+msgid "%d freie Plätze"
+msgstr "%d áit shaor"
+
+#. translators: %s: name of the events plugin
+#: src/Gutenberg/Blocks/event-grid/render.php:52
+#, php-format
+msgid ""
+"„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis "
+"dahin nicht."
+msgstr ""
+"Ní thuairiscíonn “%s” aon imeachtaí gníomhacha; go dtí sin, ní fheiceann "
+"cuairteoirí an bloc."
+
+#. translators: %d: maximum total capacity
+#: src/Gutenberg/Blocks/event-grid/render.php:134
+#, php-format
+msgid "Max. %d Plätze"
+msgstr "Uas. %d suíochán"
+
+#: src/Gutenberg/Blocks/event-grid/render.php:142
+msgid "Zur Veranstaltung"
+msgstr "Chuig an imeacht"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:30
+msgid ""
+"Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-"
+"Inspektor hinterlegen."
+msgstr ""
+"Níl aon fhigiúirí LkSG fíoraithe curtha isteach fós — cuir isteach na "
+"luachanna i socruithe an bhloic."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:44
+msgid "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)"
+msgstr "Dícheall cuí sa slabhra soláthair (LkSG & CSDDD)"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:50
+msgid "Menschenrechte"
+msgstr "Cearta an duine"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:54
+msgid "Umweltschutz"
+msgstr "Cosaint an chomhshaoil"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:58
+msgid "Gute Governance"
+msgstr "Dea-rialachas"
+
+#: src/Gutenberg/Blocks/modular-type-container/render.php:21
+msgid ""
+"Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die "
+"Seite; Besucher sehen ihn nicht."
+msgstr ""
+"Ní ghlacann an coimeádán seo le hábhar san eagarthóir agus níl aon éifeacht "
+"aige ar an leathanach; ní fheiceann cuairteoirí é."
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:21 blocks-src/index.js:177
+msgid "Ticker-Meldungen"
+msgstr "Ceannlínte na stiall"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:27
+msgid "Nachrichten-Ticker"
+msgstr "Stiall nuachta"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:38
+msgid "Ticker anhalten oder fortsetzen"
+msgstr "Cuir an stiall ar sos nó lean ar aghaidh"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:39
+msgid "Pausieren"
+msgstr "Sos"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:27
+msgid ""
+"Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. "
+"0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft "
+"dieser Block nicht."
+msgstr ""
+"Seiceálann sé sa bhrabhsálaí an bhfuil an t-aitheantóir san fhormáid "
+"Scéim:ID (m.sh. 0208:0843657437). Ní sheiceálann an bloc seo an féidir "
+"teacht ar an rannpháirtí i líonra Peppol."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:30
+msgid "Peppol ID"
+msgstr "Aitheantas Peppol"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:31
+msgid "Prüfen"
+msgstr "Deimhnigh"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:23
+#: blocks-src/index.js:146
+msgid "Ziel-Element-ID"
+msgstr "ID na heiliminte sprice"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:36
+msgid "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen."
+msgstr ""
+"Nuair a lódáiltear an t-ábhar seo, aistrítear sonraí chuig an soláthraí."
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:39
+msgid "Inhalt einmalig laden"
+msgstr "Lódáil an t-ábhar uair amháin"
+
+#: src/Gutenberg/Blocks/whistleblower-card/render.php:33
+msgid "Hinweis abgeben"
+msgstr "Cuir tuairisc isteach"
+
+#: src/Gutenberg/Telemetry_Bridge.php:83 src/Gutenberg/Telemetry_Bridge.php:93
+msgid "WM Suite Hub Telemetry"
+msgstr "Teiliméadracht WM Suite Hub"
+
+#: src/Gutenberg/Telemetry_Bridge.php:100
+msgid "Telemetry Field"
+msgstr "Réimse teiliméadrachta"
+
+#: src/Gutenberg/Telemetry_Bridge.php:103
+msgid "Health Score (%)"
+msgstr "Scór sláinte (%)"
+
+#: src/Gutenberg/Telemetry_Bridge.php:107
+msgid "Global Status"
+msgstr "Stádas foriomlán"
+
+#: src/Gutenberg/Telemetry_Bridge.php:111
+msgid "Active Spokes Count"
+msgstr "Líon na satailítí gníomhacha"
+
+#: src/Gutenberg/Telemetry_Bridge.php:115
+msgid "Hub Version"
+msgstr "Leagan an Mhoil"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:138
+msgid "Format gültig (Schema:ID)"
+msgstr "Formáid bhailí (Scéim:ID)"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:139
+msgid "Ungültiges ID-Format"
+msgstr "Formáid aitheantais neamhbhailí"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:140
+msgid "Pausiert"
+msgstr "Ar sos"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:141
+msgid "Läuft"
+msgstr "Ag rith"
+
+#: src/Setup/Activator.php:84
+msgid "Compliance Officer (DPO)"
+msgstr "Oifigeach Comhlíonta (DPO)"
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:187
+#, php-format
+msgid ""
+"Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde "
+"gelöscht, eingefügt oder geändert."
+msgstr ""
+"Ní thagraíonn iontráil #%d don iontráil roimpi: scriosadh, cuireadh isteach "
+"nó athraíodh iontráil níos luaithe."
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:202
+#, php-format
+msgid ""
+"Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder "
+"der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er "
+"geschrieben wurde."
+msgstr ""
+"Ní mheaitseálann síniú iontráil #%d: athraíodh an iontráil, nó ní hí eochair "
+"an tsuímh (AUTH_SALT) an eochair lenar scríobhadh í a thuilleadh."
+
+#. translators: %d: number of audit entries checked
+#: src/Telemetry/Audit_Chainer.php:217
+#, php-format
+msgid "%d Einträge geprüft, die Kette ist lückenlos."
+msgstr "Seiceáladh %d iontráil, tá an slabhra iomlán."
+
+#: src/Telemetry/Health_Matrix.php:107
+msgid "Eingeschränkt"
+msgstr "Teoranta"
+
+#: src/Telemetry/Health_Matrix.php:108
+msgid "Nicht konfiguriert"
+msgstr "Gan chumrú"
+
+#: src/Telemetry/Health_Matrix.php:109
+msgid "Fehler"
+msgstr "Earráid"
+
+#: src/Telemetry/Health_Matrix.php:110
+msgid "Warnung"
+msgstr "Rabhadh"
+
+#: src/Telemetry/Health_Matrix.php:112
+msgid "Unbekannt"
+msgstr "Anaithnid"
+
+#: wm-suite-hub.php:51
+msgid ""
+"WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime."
+msgstr ""
+"Teastaíonn PHP 8.2 nó níos airde ó WM Suite Hub. Uasghrádaigh do "
+"thimpeallacht PHP."
+
+#: blocks-src/index.js:84
+msgid "Block-Einstellungen"
+msgstr "Socruithe an bhloic"
+
+#: blocks-src/index.js:109
+msgid "Spaltenanzahl"
+msgstr "Líon na gcolún"
+
+#: blocks-src/index.js:110
+msgid "Maximale Einträge"
+msgstr "Uasmhéid míreanna"
+
+#: blocks-src/index.js:114
+msgid "Veranstaltungstitel"
+msgstr "Teideal an imeachta"
+
+#: blocks-src/index.js:115
+msgid "Kategorie"
+msgstr "Catagóir"
+
+#: blocks-src/index.js:116
+msgid "Datum"
+msgstr "Dáta"
+
+#: blocks-src/index.js:117
+msgid "Veranstaltungsort"
+msgstr "Ionad"
+
+#: blocks-src/index.js:118
+msgid "Freie Plätze"
+msgstr "Suíocháin shaora"
+
+#: blocks-src/index.js:119
+msgid "Preis"
+msgstr "Praghas"
+
+#: blocks-src/index.js:125
+msgid "Button-Beschriftung"
+msgstr "Lipéad an chnaipe"
+
+#: blocks-src/index.js:126
+msgid "Hinweis unter dem Button"
+msgstr "Nóta faoin gcnaipe"
+
+#: blocks-src/index.js:130 blocks-src/index.js:139
+msgid "Überschrift"
+msgstr "Ceannteideal"
+
+#: blocks-src/index.js:131
+msgid "Platzhaltertext"
+msgstr "Téacs ionadchoinneálaí"
+
+#: blocks-src/index.js:135
+msgid "Badge-Beschriftung"
+msgstr "Lipéad an tsuaitheantais"
+
+#: blocks-src/index.js:145
+msgid "Dienstname"
+msgstr "Ainm na seirbhíse"
+
+#: blocks-src/index.js:150
+msgid "Unternehmensname"
+msgstr "Ainm na cuideachta"
+
+#: blocks-src/index.js:151
+msgid "Link zur Meldestelle"
+msgstr "Nasc chuig an gcainéal tuairiscithe"
+
+#: blocks-src/index.js:157
+msgid "Menschenrechte (%)"
+msgstr "Cearta an duine (%)"
+
+#: blocks-src/index.js:158
+msgid "Umweltschutz (%)"
+msgstr "Comhshaol (%)"
+
+#: blocks-src/index.js:159
+msgid "Governance (%)"
+msgstr "Rialachas (%)"
+
+#: blocks-src/index.js:163
+msgid "Versionskennzeichnung"
+msgstr "Lipéad leagain"
+
+#: blocks-src/index.js:168
+msgid "Kontrastschalter anzeigen"
+msgstr "Taispeáin lasc ardchodarsnachta"
+
+#: blocks-src/index.js:169
+msgid "Leseschrift-Schalter anzeigen"
+msgstr "Taispeáin lasc cló léitheoireachta"
+
+#: blocks-src/index.js:170
+msgid "Schriftgrößen-Schalter anzeigen"
+msgstr "Taispeáin cnaipí méide téacs"
+
+#: blocks-src/index.js:176
+msgid "Badge-Text"
+msgstr "Téacs an lipéid"
+
+#: blocks-src/index.js:181
+msgid "Skalierungsfaktor"
+msgstr "Cóimheas scála"
+
+#: blocks-src/index.js:182
+msgid "Basisschriftgröße"
+msgstr "Bunmhéid an chló"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block title"
+msgid "WM Accessibility Toolbar"
+msgstr "Barra uirlisí inrochtaineachta WM"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block description"
+msgid ""
+"Buttons for high contrast in the WM Suite blocks, a reading font installed "
+"on the visitor's device, and larger text. The choice stays in the browser."
+msgstr ""
+"Cnaipí le haghaidh ardchodarsnachta i mbloic WM Suite, cló léitheoireachta "
+"atá suiteáilte ar ghléas an chuairteora agus téacs níos mó. Fanann an rogha "
+"sa bhrabhsálaí."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "bfsg"
+msgstr "bfsg"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "barrierefreiheit"
+msgstr "inrochtaineacht"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "codarsnacht"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "dyslexia"
+msgstr "disléicse"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block title"
+msgid "WM Accessibility Statement"
+msgstr "Ráiteas inrochtaineachta WM"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block description"
+msgid ""
+"Shows the accessibility statement that WM BFSG Compliance Dashboard builds "
+"from your settings. Without that plugin, visitors see nothing."
+msgstr ""
+"Taispeánann sé an ráiteas inrochtaineachta a chruthaíonn WM BFSG Compliance "
+"Dashboard ó do shocruithe. Gan an breiseán sin, ní fheiceann cuairteoirí aon "
+"rud."
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "erklaerung"
+msgstr "ráiteas"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "wcag"
+msgstr "wcag"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "mlbf"
+msgstr "mlbf"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block title"
+msgid "WM Consent Settings Badge"
+msgstr "Suaitheantas socruithe toilithe WM"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge link that opens the consent dialog of WM Sovereign Consent Vault. "
+"Without that plugin, visitors see nothing."
+msgstr ""
+"Nasc suaitheantais a osclaíonn dialóg toilithe WM Sovereign Consent Vault. "
+"Gan an breiseán sin, ní fheiceann cuairteoirí aon rud."
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "privacy"
+msgstr "sonrai-pearsanta"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "consent"
+msgstr "toiliú"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "dsgvo"
+msgstr "rgcs"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "tdddg"
+msgstr "tdddg"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "cookies"
+msgstr "fianáin"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block title"
+msgid "WM SBOM Download"
+msgstr "Íoslódáil SBOM WM"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block description"
+msgid ""
+"Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors "
+"see nothing until a URL is entered."
+msgstr ""
+"Nasc íoslódála don SBOM CycloneDX a scríobhann wp wm-hub sbom. Ní fheiceann "
+"cuairteoirí aon rud go dtí go gcuirtear URL isteach."
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cra"
+msgstr "cra"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "sbom"
+msgstr "sbom"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cyclonedx"
+msgstr "cyclonedx"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "bsi"
+msgstr "bsi"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "security"
+msgstr "slándáil"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block title"
+msgid "WM Event Booking CTA Button"
+msgstr "Cnaipe áirithinte imeachta WM"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block description"
+msgid ""
+"Button to the booking page you enter, with an optional note under it. "
+"Visitors see nothing until a URL is entered."
+msgstr ""
+"Cnaipe chuig an leathanach áirithinte a chuireann tú isteach, le nóta "
+"roghnach faoi. Ní fheiceann cuairteoirí aon rud go dtí go gcuirtear URL "
+"isteach."
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "booking"
+msgstr "áirithint"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "cta"
+msgstr "cta"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "cnaipe"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "tickets"
+msgstr "ticéid"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block title"
+msgid "WM Atomic Event Card"
+msgstr "Cárta adamhach imeachta WM"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block description"
+msgid ""
+"Event card with the title, date, place, price and free seats you type in, "
+"and a button to the booking page you enter. Nothing is read live."
+msgstr ""
+"Cárta imeachta leis an teideal, an dáta, an áit, an praghas agus na "
+"suíocháin shaora a chuireann tú isteach, agus cnaipe chuig an leathanach "
+"áirithinte a shonraítear. Ní léitear aon rud beo."
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "event"
+msgstr "imeacht"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "card"
+msgstr "cárta"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "ticket"
+msgstr "ticéad"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "conference"
+msgstr "comhdháil"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block title"
+msgid "WM Event Grid Container"
+msgstr "Greille imeachtaí WM"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block description"
+msgid ""
+"Lists the active events of WM Cyber Events Core, each with a link to its "
+"event page. Without that plugin, visitors see nothing."
+msgstr ""
+"Liostaíonn sé imeachtaí gníomhacha WM Cyber Events Core, gach ceann le nasc "
+"chuig a leathanach. Gan an breiseán sin, ní fheiceann cuairteoirí aon rud."
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "greille"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "wm suite"
+msgstr "wm suite"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block title"
+msgid "WM LkSG ESG Supply Chain Scorecard"
+msgstr "Cárta scóir ESG & LkSG WM"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block description"
+msgid ""
+"Three percentages you type in (human rights, environment, governance) under "
+"a supply chain heading. The block computes and checks nothing."
+msgstr ""
+"Trí chéatadán a chuireann tú isteach (cearta an duine, comhshaol, rialachas) "
+"faoi cheannteideal faoin slabhra soláthair. Ní ríomhann ná ní sheiceálann an "
+"bloc aon rud."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lksg"
+msgstr "lksg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "esg"
+msgstr "esg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "csddd"
+msgstr "csddd"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lieferkette"
+msgstr "slabhra soláthair"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "compliance"
+msgstr "comhlionadh"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block title"
+msgid "WM Modular Scale Fluid Type Container"
+msgstr "Coimeádán clóchuir shreabhaigh WM"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for a modular type scale. In this version it takes no inner blocks "
+"and no stylesheet reads its settings, so it has no effect on the page."
+msgstr ""
+"Coimeádán do scála clóghrafaíochta modúlach. Sa leagan seo ní ghlacann sé le "
+"bloic inmheánacha agus ní léann aon stílbhileog a shocruithe, mar sin níl "
+"aon éifeacht aige ar an leathanach."
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "clóghrafaíocht"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "sreabhach"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "modular scale"
+msgstr "scála modúlach"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "clamp"
+msgstr "clamp"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "container queries"
+msgstr "container queries"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block title"
+msgid "WM Newsticker"
+msgstr "Ticeálaí nuachta WM"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block description"
+msgid ""
+"Scrolling line of your own text with a pause button. It stops on hover and "
+"stands still for visitors who ask for reduced motion."
+msgstr ""
+"Líne scrollaithe le do théacs féin agus cnaipe sosa. Stopann sí nuair a "
+"bhíonn an luch os a cionn agus fanann sí socair do chuairteoirí a iarrann "
+"gluaiseacht laghdaithe."
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "barra"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "marquee"
+msgstr "scrollú"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "nuacht"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "eilmeldung"
+msgstr "nuacht bhriseadh"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "inrochtaineacht"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block title"
+msgid "WM Peppol ID Format Check"
+msgstr "Seiceáil formáide ID Peppol WM"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block description"
+msgid ""
+"Checks in the browser whether an ID has the Peppol form Scheme:ID. It does "
+"not look the participant up in the Peppol network."
+msgstr ""
+"Seiceálann sé sa bhrabhsálaí an bhfuil foirm Peppol Scéim:ID ar ID. Ní "
+"lorgaíonn sé an rannpháirtí i líonra Peppol."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "xrechnung"
+msgstr "xrechnung"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "zugferd"
+msgstr "zugferd"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "geba"
+msgstr "geba"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "e-invoicing"
+msgstr "ríomhshonrú"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block title"
+msgid "WM Sovereign Privacy Center"
+msgstr "Ionad príobháideachais ceannasach WM"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block description"
+msgid ""
+"Heading and the button that opens the consent dialog of WM Sovereign Consent "
+"Vault. Without that plugin, visitors see nothing."
+msgstr ""
+"Ceannteideal agus an cnaipe a osclaíonn dialóg toilithe WM Sovereign Consent "
+"Vault. Gan an breiseán sin, ní fheiceann cuairteoirí aon rud."
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "preferences"
+msgstr "roghanna"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block title"
+msgid "WM DSGVO Art. 17 Privacy Eraser Form"
+msgstr "Foirm scriosta GDPR Airteagal 17 WM"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block description"
+msgid ""
+"Shows the erasure request form of WM DSGVO Privacy Eraser. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Taispeánann sé foirm iarratais scriosta WM DSGVO Privacy Eraser. Gan an "
+"breiseán sin, ní fheiceann cuairteoirí aon rud."
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "eraser"
+msgstr "scriosadh"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "art17"
+msgstr "art17"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "loeschung"
+msgstr "baint"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block title"
+msgid "WM External Content Placeholder"
+msgstr "Áitchoimeádaí d’ábhar seachtrach WM"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block description"
+msgid ""
+"Placeholder with a load button. Put the embed into a template element with "
+"the target ID: nothing in it loads before the click."
+msgstr ""
+"Áitchoimeádaí le cnaipe lódála. Cuir an leabú in eilimint template leis an "
+"ID sprice: ní lódáiltear aon rud ann roimh an gcliceáil."
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "media"
+msgstr "meáin"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "placeholder"
+msgstr "ionadchoinneálaí"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "blocker"
+msgstr "coisctheoir"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal Card"
+msgstr "Cárta thairseach na sceithirí HinSchG WM"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block description"
+msgid ""
+"Link card to the reporting channel: the portal block on the same page, or an "
+"address you enter."
+msgstr ""
+"Cárta naisc chuig an gcainéal tuairiscithe: bloc na tairsí ar an leathanach "
+"céanna nó seoladh a chuireann tú isteach."
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "hinschg"
+msgstr "dli-hinschg"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "whistleblower"
+msgstr "sceithire"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "meldung"
+msgstr "tuairisc"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "hinweisgeber"
+msgstr "tuairisciú"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal"
+msgstr "Tairseach na sceithirí HinSchG WM"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block description"
+msgid ""
+"Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Taispeánann sé tairseach tuairiscithe WM HinSchG Whistleblower Desk. Gan an "
+"breiseán sin, ní fheiceann cuairteoirí aon rud."
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "wizard"
+msgstr "draoi"

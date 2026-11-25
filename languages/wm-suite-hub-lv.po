@@ -1,0 +1,1812 @@
+# Translation of wm-suite-hub in lv
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-suite-hub 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-suite-hub\n"
+"POT-Creation-Date: 2026-11-21T12:46:17+00:00\n"
+"PO-Revision-Date: 2026-11-21 10:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-suite-hub/"
+"issues>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-suite-hub\n"
+
+#. Plugin Name of the plugin
+#: wm-suite-hub.php
+msgid "WM Suite Hub (Enterprise Cockpit)"
+msgstr "WM Suite Hub (Uzņēmuma vadības panelis)"
+
+#. Plugin URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+
+#. Description of the plugin
+#: wm-suite-hub.php
+msgid ""
+"Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 "
+"software bill of materials and an audit table whose entries are chained with "
+"HMAC-SHA256."
+msgstr ""
+"WM Suite spraudņu reģistrs un stāvokļa pārskats, CycloneDX 1.6 "
+"programmatūras komponentu saraksts un audita tabula, kuras ieraksti ir "
+"saķēdēti ar HMAC-SHA256."
+
+#. Author of the plugin
+#: wm-suite-hub.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-suite-hub.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Admin/Admin_Menu.php:258 src/Gutenberg/Block_Manager.php:127
+msgid "WM Enterprise Suite"
+msgstr "WM Suite Uzņēmuma komplekts"
+
+#: src/Admin/Admin_Menu.php:259
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: src/Admin/Admin_Menu.php:272
+msgid "WM Suite — Cockpit & Status"
+msgstr "WM Suite — Vadības panelis un statuss"
+
+#: src/Admin/Admin_Menu.php:273
+msgid "Cockpit & Status"
+msgstr "Panelis un statuss"
+
+#: src/Admin/Admin_Menu.php:282
+msgid "WM Suite — Solution Packs"
+msgstr "WM Suite — Risinājumu pakotnes"
+
+#: src/Admin/Admin_Menu.php:283 src/Admin/Dashboard_Widgets.php:518
+#: src/Admin/Dashboard_Widgets.php:561 src/Admin/Views/cockpit-view.php:86
+#: src/Admin/Views/marketplace-view.php:38
+msgid "Solution Packs"
+msgstr "Risinājumu pakotnes"
+
+#: src/Admin/Admin_Menu.php:291
+msgid "WM Suite — Audit-Protokoll"
+msgstr "WM Suite — Audita žurnāls"
+
+#: src/Admin/Admin_Menu.php:292 src/Admin/Dashboard_Widgets.php:564
+msgid "Audit-Log"
+msgstr "Audita žurnāls"
+
+#: src/Admin/Admin_Menu.php:680
+msgid ""
+"Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite."
+msgstr "Jums nav pietiekamu tiesību piekļūt šai lapai."
+
+#: src/Admin/Dashboard_Widgets.php:438
+msgid "WM Suite — Enterprise Suite Cockpit"
+msgstr "WM Suite — Uzņēmuma komplekta panelis"
+
+#: src/Admin/Dashboard_Widgets.php:449 src/Admin/Dashboard_Widgets.php:633
+msgid "WM Suite — Module nach Regelwerk"
+msgstr "WM Suite — Moduļi pēc regulējuma"
+
+#: src/Admin/Dashboard_Widgets.php:481
+msgid "Enterprise Suite Cockpit"
+msgstr "Uzņēmuma komplekta panelis"
+
+#: src/Admin/Dashboard_Widgets.php:489 src/Telemetry/Audit_Chainer.php:215
+msgid "Die Audit-Tabelle ist leer."
+msgstr "Audita tabula ir tukša."
+
+#. translators: %d: number of audit entries checked
+#: src/Admin/Dashboard_Widgets.php:492 src/Core/Hub_Orchestrator.php:267
+#, php-format
+msgid "Audit-Kette intakt: %d Einträge geprüft"
+msgstr "Audita ķēde ir vesela: pārbaudīti %d ieraksti"
+
+#. translators: %d: id of the first audit entry that does not verify
+#: src/Admin/Dashboard_Widgets.php:497 src/Core/Hub_Orchestrator.php:274
+#, php-format
+msgid "Audit-Kette unterbrochen bei Eintrag #%d"
+msgstr "Audita ķēde pārtraukta pie ieraksta #%d"
+
+#: src/Admin/Dashboard_Widgets.php:502
+msgid "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden."
+msgstr "Katrs ieraksts ir saistīts ar iepriekšējo ar HMAC-SHA256."
+
+#: src/Admin/Dashboard_Widgets.php:510
+msgid "Aktive Module"
+msgstr "Aktīvie moduļi"
+
+#: src/Admin/Dashboard_Widgets.php:514
+msgid "Health Score"
+msgstr "Veselības rādītājs"
+
+#: src/Admin/Dashboard_Widgets.php:524
+msgid "Aktive WM Suite Spoke-Module"
+msgstr "Aktīvie WM Suite satelītmoduļi"
+
+#. translators: %d: number of active spoke modules
+#: src/Admin/Dashboard_Widgets.php:527
+#, php-format
+msgid "%d Bereitgestellt"
+msgstr "%d izvietoti"
+
+#: src/Admin/Dashboard_Widgets.php:558
+msgid "Suite Cockpit öffnen"
+msgstr "Atvērt komplekta paneli"
+
+#: src/Admin/Dashboard_Widgets.php:596
+msgid "Nicht aktiv"
+msgstr "Nav aktīvs"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:622 src/Admin/Views/marketplace-view.php:97
+#, php-format
+msgid "Vollständig aktiv (%1$d/%2$d)"
+msgstr "Pilnībā aktīvs (%1$d/%2$d)"
+
+#. translators: 1: number of active plugins, 2: number of plugins listed
+#. translators: 1: active modules, 2: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:625 src/Admin/Views/marketplace-view.php:101
+#, php-format
+msgid "Teilweise aktiv (%1$d/%2$d)"
+msgstr "Daļēji aktīvs (%1$d/%2$d)"
+
+#. translators: %d: number of plugins listed
+#. translators: %d: modules in the pack
+#: src/Admin/Dashboard_Widgets.php:628 src/Admin/Views/marketplace-view.php:105
+#, php-format
+msgid "%d Module verfügbar"
+msgstr "%d moduļi pieejami"
+
+#: src/Admin/Dashboard_Widgets.php:635
+msgid "Zustand der zuständigen Module"
+msgstr "Atbildīgo moduļu statuss"
+
+#: src/Admin/Dashboard_Widgets.php:646
+msgid ""
+"Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. "
+"Keine Konformitätsbewertung."
+msgstr ""
+"Rāda, kurš WM Suite spraudnis ir aktīvs un kādu statusu tas ziņo. Tas nav "
+"atbilstības novērtējums."
+
+#: src/Admin/Views/cockpit-view.php:37
+msgid "Zum Hauptinhalt springen"
+msgstr "Pāriet uz galveno saturu"
+
+#: src/Admin/Views/cockpit-view.php:46
+msgid "WM Suite Hub Command Console"
+msgstr "WM Suite Hub komandu konsole"
+
+#: src/Admin/Views/cockpit-view.php:50
+msgid ""
+"Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX "
+"1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle."
+msgstr ""
+"Reģistrēto WM Suite spraudņu stāvoklis, programmatūras komponentu saraksts "
+"(CycloneDX 1.6) un ar HMAC-SHA256 saķēdēta audita tabula."
+
+#: src/Admin/Views/cockpit-view.php:65
+msgid "Flottenstatus aktualisieren"
+msgstr "Atsvaidzināt flotes statusu"
+
+#: src/Admin/Views/cockpit-view.php:67
+msgid "Aktualisieren"
+msgstr "Atsvaidzināt"
+
+#: src/Admin/Views/cockpit-view.php:72
+msgid "Audit-Integrität prüfen"
+msgstr "Pārbaudīt audita integritāti"
+
+#: src/Admin/Views/cockpit-view.php:79
+msgid "Cockpit Navigation"
+msgstr "Paneļa navigācija"
+
+#: src/Admin/Views/cockpit-view.php:82
+msgid "Cockpit Übersicht"
+msgstr "Paneļa pārskats"
+
+#: src/Admin/Views/cockpit-view.php:90 src/Admin/Views/cockpit-view.php:127
+msgid "Satelliten-Flotte"
+msgstr "Satelītu flote"
+
+#: src/Admin/Views/cockpit-view.php:94 src/Admin/Views/cockpit-view.php:128
+#: src/Admin/Views/cockpit-view.php:301
+msgid "Audit-Protokoll"
+msgstr "Audita žurnāls"
+
+#: src/Admin/Views/cockpit-view.php:98
+msgid "Design & Themes"
+msgstr "Dizains un motīvi"
+
+#: src/Admin/Views/cockpit-view.php:104
+msgid "Suite Theme:"
+msgstr "Komplekta motīvs:"
+
+#: src/Admin/Views/cockpit-view.php:105
+msgid "WM Suite Theme auswählen"
+msgstr "Izvēlēties WM Suite motīvu"
+
+#: src/Admin/Views/cockpit-view.php:123
+msgid "Schnellnavigation"
+msgstr "Ātrā navigācija"
+
+#: src/Admin/Views/cockpit-view.php:124
+msgid "Direkt zu:"
+msgstr "Doties uz:"
+
+#: src/Admin/Views/cockpit-view.php:125
+msgid "Kurzanleitung"
+msgstr "Īsais ceļvedis"
+
+#: src/Admin/Views/cockpit-view.php:126
+msgid "Metriken & Status"
+msgstr "Rādītāji un statuss"
+
+#: src/Admin/Views/cockpit-view.php:129
+msgid "Theme-Einstellungen"
+msgstr "Motīva iestatījumi"
+
+#: src/Admin/Views/cockpit-view.php:135
+msgid "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?"
+msgstr "Kas ir WM Suite Hub un kā pārvaldīt spraudņus?"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Das WM Suite Hub ist die zentrale"
+msgstr "WM Suite Hub ir centrālais"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins"
+msgstr "visu WM Suite WordPress spraudņu pārvaldības un kontroles centrs"
+
+#: src/Admin/Views/cockpit-view.php:138
+msgid ""
+". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine "
+"Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, "
+"die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der "
+"Website werden erkennbar. Es bewertet keine Rechtskonformität."
+msgstr ""
+". Tas rāda reģistrēto moduļu ziņoto statusu, izveido programmatūras "
+"komponentu sarakstu CycloneDX 1.6 formātā un ar HMAC-SHA256 saķēdē tam "
+"ziņotos notikumus: izmaiņas bez vietnes atslēgas kļūst nosakāmas. Tas "
+"nevērtē juridisko atbilstību."
+
+#: src/Admin/Views/cockpit-view.php:141
+msgid "Schnellzugriff:"
+msgstr "Ātrā piekļuve:"
+
+#: src/Admin/Views/cockpit-view.php:143
+msgid "Aktive Module prüfen"
+msgstr "Pārbaudīt aktīvos moduļus"
+
+#: src/Admin/Views/cockpit-view.php:146
+msgid "Audit-Protokoll ansehen"
+msgstr "Skatīt audita žurnālu"
+
+#: src/Admin/Views/cockpit-view.php:149
+msgid "Theme & Erscheinungsbild wechseln"
+msgstr "Mainīt motīvu un izskatu"
+
+#: src/Admin/Views/cockpit-view.php:157
+msgid "Systemmetriken"
+msgstr "Sistēmas rādītāji"
+
+#: src/Admin/Views/cockpit-view.php:161
+msgid "GESAMTSTATUS"
+msgstr "KOPĒJAIS STATUSS"
+
+#: src/Admin/Views/cockpit-view.php:174
+msgid ""
+"Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, "
+"nicht konfiguriert 30, Fehler 0)."
+msgstr ""
+"Reģistrēto moduļu svērtais statuss (veselīgs 100, ierobežots 60, nav "
+"konfigurēts 30, kļūda 0)."
+
+#: src/Admin/Views/cockpit-view.php:181
+msgid "SATELLITEN-INVENTAR"
+msgstr "SATELĪTU SARAKSTS"
+
+#: src/Admin/Views/cockpit-view.php:187
+msgid "Registriert"
+msgstr "Reģistrēts"
+
+#: src/Admin/Views/cockpit-view.php:191 src/Telemetry/Health_Matrix.php:106
+msgid "Gesund"
+msgstr "Veselīgs"
+
+#: src/Admin/Views/cockpit-view.php:195
+msgid "Warnungen"
+msgstr "Brīdinājumi"
+
+#: src/Admin/Views/cockpit-view.php:199 src/Telemetry/Health_Matrix.php:111
+msgid "Kritisch"
+msgstr "Kritisks"
+
+#: src/Admin/Views/cockpit-view.php:212
+msgid "LAUFZEITUMGEBUNG"
+msgstr "IZPILDES VIDE"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "ja"
+msgstr "jā"
+
+#: src/Admin/Views/cockpit-view.php:226 src/Admin/Views/cockpit-view.php:230
+msgid "nein"
+msgstr "nē"
+
+#: src/Admin/Views/cockpit-view.php:230
+msgid "Persistenter Objekt-Cache"
+msgstr "Pastāvīgā objektu kešatmiņa"
+
+#: src/Admin/Views/cockpit-view.php:243
+msgid "Flottenstatus & Satelliten-Module"
+msgstr "Flotes statuss un satelītmoduļi"
+
+#: src/Admin/Views/cockpit-view.php:245
+msgid "Module aktiv"
+msgstr "aktīvi moduļi"
+
+#: src/Admin/Views/cockpit-view.php:251
+msgid "Keine Satelliten-Module registriert"
+msgstr "Nav reģistrētu satelītmoduļu"
+
+#: src/Admin/Views/cockpit-view.php:252
+msgid ""
+"Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch "
+"über den Filter wm_register_suite_module."
+msgstr ""
+"Tiklīdz WM Suite spraudņi tiek aktivizēti, tie automātiski pievienojas caur "
+"filtru wm_register_suite_module."
+
+#: src/Admin/Views/cockpit-view.php:274
+msgid "Abhängigkeiten:"
+msgstr "Atkarības:"
+
+#: src/Admin/Views/cockpit-view.php:283
+msgid "Konfiguration"
+msgstr "Konfigurācija"
+
+#: src/Admin/Views/cockpit-view.php:288
+msgid "Selbsttest"
+msgstr "Pašpārbaude"
+
+#: src/Admin/Views/cockpit-view.php:305
+msgid ""
+"Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)"
+msgstr ""
+"Ķēdes integritāte: Nav pārbaudīta (noklikšķiniet Pārbaudīt audita "
+"integritāti)"
+
+#: src/Admin/Views/cockpit-view.php:309
+msgid "Audit-Log-Tabelle"
+msgstr "Audita žurnāla tabula"
+
+#: src/Admin/Views/cockpit-view.php:312
+msgid "Zeitstempel"
+msgstr "Laikspiedols"
+
+#: src/Admin/Views/cockpit-view.php:313
+msgid "Modul"
+msgstr "Modulis"
+
+#: src/Admin/Views/cockpit-view.php:314
+msgid "Ereignistyp"
+msgstr "Notikuma veids"
+
+#: src/Admin/Views/cockpit-view.php:315
+msgid "Benutzer"
+msgstr "Lietotājs"
+
+#: src/Admin/Views/cockpit-view.php:316
+msgid "SHA-256 HMAC Signatur"
+msgstr "SHA-256 HMAC paraksts"
+
+#: src/Admin/Views/cockpit-view.php:322
+msgid "Lade Audit-Protokolle..."
+msgstr "Ielādē audita žurnālus..."
+
+#: src/Admin/Views/cockpit-view.php:334
+msgid "Design-System & Theme-Präferenzen"
+msgstr "Dizaina sistēma un motīva izvēles"
+
+#: src/Admin/Views/cockpit-view.php:338
+msgid ""
+"Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite "
+"Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents "
+"verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt."
+msgstr ""
+"Izvēlieties globālo krāsu shēmu vadības panelim un visiem WM Suite "
+"satelītspraudņiem. Pēc noklusējuma tiek izmantots CyberEvents Enterprise."
+
+#: src/Admin/Views/cockpit-view.php:344
+msgid "Standard"
+msgstr "Noklusējums"
+
+#: src/Admin/Views/cockpit-view.php:347
+msgid ""
+"Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress "
+"Admin Oberflächenkarten und klaren Kontrasten."
+msgstr ""
+"Tumšs Obsidian Midnight baneris apvienojumā ar WordPress vadības kartītēm un "
+"skaidru kontrastu."
+
+#: src/Admin/Views/cockpit-view.php:350
+msgid "Als Standard aktivieren"
+msgstr "Iestatīt kā noklusējumu"
+
+#: src/Admin/Views/cockpit-view.php:356
+msgid "Klassisch"
+msgstr "Klasisks"
+
+#: src/Admin/Views/cockpit-view.php:359
+msgid ""
+"100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, "
+"standardisierte WP Formulare)."
+msgstr ""
+"100%: iebūvētā WordPress Admin krāsu palete (#2271b1 zila, #f0f0f1 fons, "
+"standarta WP veidlapas)."
+
+#: src/Admin/Views/cockpit-view.php:362 src/Admin/Views/cockpit-view.php:374
+#: src/Admin/Views/cockpit-view.php:385
+msgid "Aktivieren"
+msgstr "Aktivizēt"
+
+#: src/Admin/Views/cockpit-view.php:368
+msgid "Dark Mode"
+msgstr "Tumšais režīms"
+
+#: src/Admin/Views/cockpit-view.php:371
+msgid ""
+"Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und "
+"blauen Akzenten."
+msgstr ""
+"Pilns tumšais režīms (#050811 fons) ar caurspīdīgām kartītēm un ziliem "
+"akcentiem."
+
+#: src/Admin/Views/cockpit-view.php:382
+msgid "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast."
+msgstr "Tīra melna, balta un drošības dzeltena augstam kontrastam."
+
+#: src/Admin/Views/cockpit-view.php:395
+msgid "Datenaufbewahrung & Deinstallation"
+msgstr "Datu glabāšana un atinstalēšana"
+
+#: src/Admin/Views/cockpit-view.php:397
+msgid "Aufbewahrungsschutz"
+msgstr "Glabāšanas aizsardzība"
+
+#: src/Admin/Views/cockpit-view.php:410
+msgid "Alle Daten beim Löschen des Plugins unwiderruflich entfernen"
+msgstr "Dzēšot spraudni, neatgriezeniski noņemt visus datus"
+
+#: src/Admin/Views/cockpit-view.php:413
+msgid ""
+"Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und "
+"Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, "
+"wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig "
+"gelöscht werden sollen."
+msgstr ""
+"Pēc noklusējuma WM Suite Hub atinstalēšanas laikā saglabā HMAC-SHA256 audita "
+"tabulu, lomas un iestatījumus. Ieslēdziet šo iespēju tikai tad, ja vēlaties "
+"neatgriezeniski izdzēst visas tabulas un opcijas."
+
+#: src/Admin/Views/cockpit-view.php:425
+msgid "Audit-Verifikation"
+msgstr "Audita pārbaude"
+
+#: src/Admin/Views/cockpit-view.php:426 src/Admin/Views/cockpit-view.php:435
+#: src/Admin/Views/marketplace-view.php:213
+msgid "Schließen"
+msgstr "Aizvērt"
+
+#: src/Admin/Views/marketplace-view.php:41
+msgid ""
+"Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer "
+"Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight "
+"Check prüft vorab den Server. Eine Installation gibt es in dieser Version "
+"nicht; die Plugins werden einzeln installiert."
+msgstr ""
+"Tematiskas WM Suite spraudņu pakotnes: to atkarību secību nosaka Kāna "
+"topoloģiskā kārtošana, un pirmspārbaude vispirms pārbauda serveri. Šajā "
+"versijā instalēšanas nav; spraudņi tiek instalēti pa vienam."
+
+#: src/Admin/Views/marketplace-view.php:49
+msgid "Deduplizierung auf dieser Seite:"
+msgstr "Dublikātu noņemšana šajā lapā:"
+
+#. translators: 1: dropped duplicate scripts, 2: dropped duplicate stylesheets, 3: size of the dropped files in KB
+#: src/Admin/Views/marketplace-view.php:53
+#, php-format
+msgid "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)"
+msgstr "Noņemti skripti: %1$d, stilu lapas: %2$d (%3$s KB)"
+
+#. translators: %d: modules in the pack
+#: src/Admin/Views/marketplace-view.php:123
+#, php-format
+msgid "Paketinhalt & Modul-Architektur (%d):"
+msgstr "Pakotnes saturs un moduļu arhitektūra (%d):"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Aktiviert"
+msgstr "Aktivizēts"
+
+#: src/Admin/Views/marketplace-view.php:146
+msgid "Im Paket enthalten"
+msgstr "Iekļauts pakotnē"
+
+#: src/Admin/Views/marketplace-view.php:176
+msgid "Mathematische DAG-Installationsfolge (Kahn-Sortierung):"
+msgstr "Matemātiska DAG instalēšanas secība (Kāna kārtošana):"
+
+#: src/Admin/Views/marketplace-view.php:181
+msgid ""
+"Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der "
+"Installation ist frei."
+msgstr "Neviens no šiem spraudņiem neprasa citu; instalēšanas secība ir brīva."
+
+#. translators: %s: suite name
+#: src/Admin/Views/marketplace-view.php:189
+#, php-format
+msgid "Pre-Flight Check für %s starten"
+msgstr "Sākt pirmspārbaudi komplektam %s"
+
+#: src/Admin/Views/marketplace-view.php:194
+#: src/Admin/Views/marketplace-view.php:211
+msgid "Pre-Flight Check"
+msgstr "Pirmspārbaude"
+
+#: src/Admin/Views/marketplace-view.php:221
+msgid ""
+"Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und "
+"OPcache …"
+msgstr ""
+"Pārbauda PHP versiju, Sodium paplašinājumu, atmiņas ierobežojumu, "
+"rakstīšanas tiesības un OPcache …"
+
+#: src/Admin/Views/marketplace-view.php:231
+msgid "Dry-Run Simulation"
+msgstr "Izmēģinājuma simulācija"
+
+#: src/API/API_Controller.php:266
+msgid ""
+"Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit."
+msgstr "Piekļuve liegta. Nepietiekamas tiesības WM Suite panelim."
+
+#. translators: %s: module slug
+#: src/API/API_Controller.php:346
+#, php-format
+msgid "Modul \"%s\" ist nicht registriert oder inaktiv."
+msgstr "Modulis \"%s\" nav reģistrēts vai ir neaktīvs."
+
+#. translators: %s: exception message
+#: src/API/API_Controller.php:375
+#, php-format
+msgid "Ausführung der Modulaktion fehlgeschlagen: %s"
+msgstr "Moduļa darbības izpilde neizdevās: %s"
+
+#: src/API/API_Controller.php:392
+msgid "Telemetrie-Zwischenspeicher erfolgreich geleert."
+msgstr "Telemetrijas kešatmiņa ir iztīrīta."
+
+#: src/API/API_Controller.php:410
+msgid "Ungültiges Theme ausgewählt."
+msgstr "Izvēlēts nederīgs motīvs."
+
+#: src/API/API_Controller.php:433
+msgid "Theme erfolgreich aktualisiert."
+msgstr "Motīvs ir atjaunināts."
+
+#: src/API/API_Controller.php:449
+msgid "CyberEvents Enterprise (Standard)"
+msgstr "CyberEvents Enterprise (Noklusējums)"
+
+#: src/API/API_Controller.php:450
+msgid "WordPress Native Classic"
+msgstr "WordPress Klasisks"
+
+#: src/API/API_Controller.php:451
+msgid "Obsidian Midnight Dark"
+msgstr "Obsidian Midnight Tumšs"
+
+#: src/API/API_Controller.php:452
+msgid "High-Contrast"
+msgstr "Augsts kontrasts"
+
+#: src/API/API_Controller.php:477
+msgid "Deinstallations-Einstellung aktualisiert."
+msgstr "Atinstalēšanas iestatījums ir atjaunināts."
+
+#: src/API/API_Controller.php:545 src/API/API_Controller.php:575
+msgid "Bundle nicht gefunden."
+msgstr "Pakotne nav atrasta."
+
+#: src/API/API_Controller.php:584
+msgid "Pre-Flight Überprüfung fehlgeschlagen."
+msgstr "Pirmspārbaude neizdevās."
+
+#. translators: %d: number of packages in the resolved install order
+#: src/API/API_Controller.php:593
+#, php-format
+msgid "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst."
+msgstr "Simulācija veiksmīga: %d pakotnes sakārtotas secībā."
+
+#: src/API/API_Controller.php:609
+msgid ""
+"Die Installation von Solution Packs ist in dieser Version noch nicht "
+"verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge."
+msgstr ""
+"Risinājumu pakotņu instalēšana šajā versijā nav pieejama. Izmantojiet "
+"dry_run=true secības aprēķinam."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:179
+msgid ""
+"Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr ""
+"Piekrišanas sinhronizācija noraidīta: trūkst vai ir beidzies drošības "
+"marķieris."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:188
+msgid "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen."
+msgstr "Pārāk daudz piekrišanas notikumu. Mēģiniet vēlreiz pēc minūtes."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:305
+msgid "Keine lesbare Einwilligungsentscheidung."
+msgstr "Nav nolasāma piekrišanas lēmuma."
+
+#: src/Bridges/Borlabs_Cookie_Bridge.php:346
+msgid "Die Einwilligung konnte nicht protokolliert werden."
+msgstr "Piekrišanu neizdevās reģistrēt."
+
+#: src/Compliance/Developer_SDK_Bridge.php:238
+msgid "Externer Dienst"
+msgstr "Ārējs pakalpojums"
+
+#. translators: %s: name of the blocked third-party service (YouTube, Google Maps, …)
+#: src/Compliance/Developer_SDK_Bridge.php:249
+#, php-format
+msgid "Blockierter externer Inhalt: %s"
+msgstr "Bloķēts ārējs saturs: %s"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:251
+#, php-format
+msgid "Inhalt von %s blockiert"
+msgstr "%s saturs ir bloķēts"
+
+#. translators: %s: name of the blocked third-party service
+#: src/Compliance/Developer_SDK_Bridge.php:253
+#, php-format
+msgid "%s einmalig laden und aktivieren"
+msgstr "Ielādēt un iespējot %s vienu reizi"
+
+#: src/Compliance/Developer_SDK_Bridge.php:270
+msgid ""
+"Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO "
+"erforderlich."
+msgstr ""
+"Šī satura ielādei nepieciešama jūsu piekrišana saskaņā ar TDDDG 25. pantu un "
+"VDAR."
+
+#: src/Compliance/Developer_SDK_Bridge.php:273
+msgid "Inhalt laden & entsperren"
+msgstr "Ielādēt un atbloķēt saturu"
+
+#: src/Compliance/Developer_SDK_Bridge.php:274
+msgid ""
+"Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter."
+msgstr ""
+"Ielādējot saturu, jūs piekrītat datu nodošanai trešās puses pakalpojumu "
+"sniedzējam."
+
+#: src/Core/Hub_Orchestrator.php:254
+msgid "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten."
+msgstr "Radās kļūda saziņā ar Hub."
+
+#. translators: %s: HTTP status code
+#: src/Core/Hub_Orchestrator.php:256
+#, php-format
+msgid "HTTP-Fehler %s"
+msgstr "HTTP kļūda %s"
+
+#: src/Core/Hub_Orchestrator.php:257
+msgid "Theme erfolgreich gewechselt."
+msgstr "Motīvs nomainīts."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:259
+#, php-format
+msgid "Fehler beim Speichern des Themes: %s"
+msgstr "Kļūda, saglabājot motīvu: %s"
+
+#: src/Core/Hub_Orchestrator.php:260
+msgid "Keine Audit-Ereignisse protokolliert."
+msgstr "Nav reģistrētu audita notikumu."
+
+#. translators: %s: WordPress user id
+#: src/Core/Hub_Orchestrator.php:262
+#, php-format
+msgid "Benutzer #%s"
+msgstr "Lietotājs #%s"
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:264
+#, php-format
+msgid "Fehler beim Laden der Logs: %s"
+msgstr "Kļūda, ielādējot žurnālus: %s"
+
+#: src/Core/Hub_Orchestrator.php:265
+msgid "Die Audit-Kette wird geprüft …"
+msgstr "Notiek audita ķēdes pārbaude…"
+
+#: src/Core/Hub_Orchestrator.php:268
+msgid "Audit-Kette intakt"
+msgstr "Audita ķēde ir vesela"
+
+#. translators: %d: number of audit entries checked
+#: src/Core/Hub_Orchestrator.php:270
+#, php-format
+msgid ""
+"Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem "
+"Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht "
+"oder umsortiert."
+msgstr ""
+"Visi %d ieraksti atbilst savam HMAC-SHA256 parakstam un iepriekšējam "
+"ierakstam: neviens nav mainīts, dzēsts vai pārkārtots bez vietnes atslēgas."
+
+#. translators: %s: hexadecimal digest of the latest audit entry
+#: src/Core/Hub_Orchestrator.php:272
+#, php-format
+msgid "Letzter Hash: %s"
+msgstr "Pēdējais jaucējkods: %s"
+
+#: src/Core/Hub_Orchestrator.php:275
+msgid "Audit-Kette unterbrochen"
+msgstr "Audita ķēde pārtraukta"
+
+#: src/Core/Hub_Orchestrator.php:276
+msgid "Prüfung der Audit-Kette"
+msgstr "Audita ķēdes pārbaude"
+
+#: src/Core/Hub_Orchestrator.php:277
+msgid "Prüfung fehlgeschlagen"
+msgstr "Pārbaude neizdevās"
+
+#: src/Core/Hub_Orchestrator.php:278
+msgid "Telemetriedaten erfolgreich aktualisiert."
+msgstr "Telemetrijas dati atjaunināti."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:280
+#, php-format
+msgid "Fehler beim Aktualisieren: %s"
+msgstr "Kļūda, atsvaidzinot: %s"
+
+#. translators: %s: name of the solution pack
+#: src/Core/Hub_Orchestrator.php:282
+#, php-format
+msgid "Pre-Flight: %s"
+msgstr "Pirmspārbaude: %s"
+
+#: src/Core/Hub_Orchestrator.php:283
+msgid "Fehler bei der Pre-Flight-Prüfung:"
+msgstr "Kļūda pirmspārbaudē:"
+
+#: src/Core/Hub_Orchestrator.php:284
+msgid "Prüfpunkt"
+msgstr "Pārbaudes punkts"
+
+#: src/Core/Hub_Orchestrator.php:285
+msgid "Soll"
+msgstr "Paredzētais"
+
+#: src/Core/Hub_Orchestrator.php:286
+msgid "Ist"
+msgstr "Faktiskais"
+
+#: src/Core/Hub_Orchestrator.php:287
+msgid "Status"
+msgstr "Statuss"
+
+#: src/Core/Hub_Orchestrator.php:288
+msgid "Erfüllt"
+msgstr "Izpildīts"
+
+#: src/Core/Hub_Orchestrator.php:289
+msgid "Nicht erfüllt"
+msgstr "Nav izpildīts"
+
+#: src/Core/Hub_Orchestrator.php:290
+msgid "Berechnete Installationsreihenfolge:"
+msgstr "Aprēķinātā instalēšanas secība:"
+
+#: src/Core/Hub_Orchestrator.php:291
+msgid "Keine Abhängigkeiten deklariert, Reihenfolge frei:"
+msgstr "Atkarības nav deklarētas, secība ir brīva:"
+
+#. translators: %s: id of the solution pack
+#: src/Core/Hub_Orchestrator.php:293
+#, php-format
+msgid "Dry-Run für %s läuft …"
+msgstr "Izmēģinājuma simulācija %s notiek…"
+
+#: src/Core/Hub_Orchestrator.php:294
+msgid "Dry-Run abgeschlossen."
+msgstr "Izmēģinājuma simulācija pabeigta."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:296
+#, php-format
+msgid "Dry-Run fehlgeschlagen: %s"
+msgstr "Izmēģinājuma simulācija neizdevās: %s"
+
+#: src/Core/Hub_Orchestrator.php:297
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Atinstalēšanas iestatījums saglabāts."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:299
+#, php-format
+msgid "Fehler beim Speichern: %s"
+msgstr "Kļūda, saglabājot: %s"
+
+#. translators: 1: module slug, 2: message the module returned
+#: src/Core/Hub_Orchestrator.php:301
+#, php-format
+msgid "Ergebnis für %1$s: %2$s"
+msgstr "Rezultāts %1$s: %2$s"
+
+#: src/Core/Hub_Orchestrator.php:302
+msgid "Aktion erfolgreich ausgeführt."
+msgstr "Darbība veiksmīgi izpildīta."
+
+#. translators: %s: error message
+#: src/Core/Hub_Orchestrator.php:304
+#, php-format
+msgid "Fehler bei der Modulaktion: %s"
+msgstr "Kļūda moduļa darbībā: %s"
+
+#. translators: %s: name of the WordPress plugin the block needs
+#: src/Gutenberg/block-notice.php:45
+#, php-format
+msgid "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an."
+msgstr "Bez aktīva spraudņa „%s” šis bloks apmeklētājiem neko nerāda."
+
+#. translators: %s: label of a field in the block inspector
+#: src/Gutenberg/block-notice.php:59
+#, php-format
+msgid ""
+"Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher "
+"sehen den Block bis dahin nicht."
+msgstr ""
+"Vēl nav konfigurēts – ierakstiet „%s” bloka iestatījumos. Līdz tam "
+"apmeklētāji bloku neredz."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:19
+msgid "Barrierefreiheits-Einstellungen"
+msgstr "Piekļūstamības iestatījumi"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:22
+msgid "Kontrast"
+msgstr "Kontrasts"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/render.php:28
+msgid "Leseschrift"
+msgstr "Lasīšanas fonts"
+
+#: src/Gutenberg/Blocks/consent-badge/render.php:27
+#: src/Gutenberg/Blocks/privacy-center/render.php:28
+msgid "Datenschutz-Einstellungen"
+msgstr "Privātuma iestatījumi"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:27
+#: blocks-src/index.js:164
+msgid "SBOM-Download-URL"
+msgstr "SBOM lejupielādes URL"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:34
+msgid "Software-Stückliste (SBOM)"
+msgstr "Programmatūras komponentu saraksts (SBOM)"
+
+#: src/Gutenberg/Blocks/cra-security-status/render.php:37
+msgid "CycloneDX 1.6 SBOM herunterladen"
+msgstr "Lejupielādēt CycloneDX 1.6 SBOM"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:22 blocks-src/index.js:120
+#: blocks-src/index.js:124
+msgid "Buchungsseite (URL)"
+msgstr "Rezervēšanas lapa (URL)"
+
+#: src/Gutenberg/Blocks/event-booking-cta/render.php:28
+#: src/Gutenberg/Blocks/event-card/render.php:77
+msgid "Zur Buchung"
+msgstr "Uz rezervāciju"
+
+#: src/Gutenberg/Blocks/event-card/render.php:30
+msgid ""
+"Veranstaltungskarte noch nicht konfiguriert — bitte Titel und "
+"Veranstaltungsdaten im Block-Inspektor eintragen."
+msgstr ""
+"Pasākuma kartīte vēl nav konfigurēta – ierakstiet nosaukumu un pasākuma "
+"datus bloka iestatījumos."
+
+#: src/Gutenberg/Blocks/event-card/render.php:38
+#: src/Gutenberg/Blocks/event-grid/render.php:112
+msgid "Ausgebucht"
+msgstr "Pilnībā rezervēts"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:42
+#: src/Gutenberg/Blocks/event-grid/render.php:116
+#, php-format
+msgid "Nur noch %d Plätze"
+msgstr "Atlikušas tikai %d vietas"
+
+#. translators: %d: remaining seats
+#: src/Gutenberg/Blocks/event-card/render.php:46
+#: src/Gutenberg/Blocks/event-grid/render.php:120
+#, php-format
+msgid "%d freie Plätze"
+msgstr "%d brīvas vietas"
+
+#. translators: %s: name of the events plugin
+#: src/Gutenberg/Blocks/event-grid/render.php:52
+#, php-format
+msgid ""
+"„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis "
+"dahin nicht."
+msgstr ""
+"„%s” neziņo par aktīviem pasākumiem; līdz tam apmeklētāji bloku neredz."
+
+#. translators: %d: maximum total capacity
+#: src/Gutenberg/Blocks/event-grid/render.php:134
+#, php-format
+msgid "Max. %d Plätze"
+msgstr "Maks. %d vietas"
+
+#: src/Gutenberg/Blocks/event-grid/render.php:142
+msgid "Zur Veranstaltung"
+msgstr "Uz pasākumu"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:30
+msgid ""
+"Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-"
+"Inspektor hinterlegen."
+msgstr ""
+"Pārbaudīti LkSG rādītāji vēl nav ievadīti – ierakstiet vērtības bloka "
+"iestatījumos."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:44
+msgid "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)"
+msgstr "Piegādes ķēdes uzticamības pārbaude (LkSG un CSDDD)"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:50
+msgid "Menschenrechte"
+msgstr "Cilvēktiesības"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:54
+msgid "Umweltschutz"
+msgstr "Vides aizsardzība"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/render.php:58
+msgid "Gute Governance"
+msgstr "Laba pārvaldība"
+
+#: src/Gutenberg/Blocks/modular-type-container/render.php:21
+msgid ""
+"Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die "
+"Seite; Besucher sehen ihn nicht."
+msgstr ""
+"Šis konteiners redaktorā nepieņem saturu un neietekmē lapu; apmeklētāji to "
+"neredz."
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:21 blocks-src/index.js:177
+msgid "Ticker-Meldungen"
+msgstr "Ziņu joslas virsraksti"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:27
+msgid "Nachrichten-Ticker"
+msgstr "Ziņu josla"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:38
+msgid "Ticker anhalten oder fortsetzen"
+msgstr "Apturēt vai atsākt joslu"
+
+#: src/Gutenberg/Blocks/newsticker-banner/render.php:39
+msgid "Pausieren"
+msgstr "Apturēt"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:27
+msgid ""
+"Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. "
+"0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft "
+"dieser Block nicht."
+msgstr ""
+"Pārlūkā pārbauda, vai identifikators atbilst formātam Shēma:ID (piem., "
+"0208:0843657437). Vai dalībnieks ir sasniedzams Peppol tīklā, šis bloks "
+"nepārbauda."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:30
+msgid "Peppol ID"
+msgstr "Peppol ID"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/render.php:31
+msgid "Prüfen"
+msgstr "Pārbaudīt"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:23
+#: blocks-src/index.js:146
+msgid "Ziel-Element-ID"
+msgstr "Mērķa elementa ID"
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:36
+msgid "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen."
+msgstr "Ielādējot šo saturu, dati tiek nosūtīti pakalpojuma sniedzējam."
+
+#: src/Gutenberg/Blocks/script-placeholder/render.php:39
+msgid "Inhalt einmalig laden"
+msgstr "Ielādēt saturu vienreiz"
+
+#: src/Gutenberg/Blocks/whistleblower-card/render.php:33
+msgid "Hinweis abgeben"
+msgstr "Iesniegt ziņojumu"
+
+#: src/Gutenberg/Telemetry_Bridge.php:83 src/Gutenberg/Telemetry_Bridge.php:93
+msgid "WM Suite Hub Telemetry"
+msgstr "WM Suite Hub telemetrija"
+
+#: src/Gutenberg/Telemetry_Bridge.php:100
+msgid "Telemetry Field"
+msgstr "Telemetrijas lauks"
+
+#: src/Gutenberg/Telemetry_Bridge.php:103
+msgid "Health Score (%)"
+msgstr "Veselības rādītājs (%)"
+
+#: src/Gutenberg/Telemetry_Bridge.php:107
+msgid "Global Status"
+msgstr "Kopējais statuss"
+
+#: src/Gutenberg/Telemetry_Bridge.php:111
+msgid "Active Spokes Count"
+msgstr "Aktīvo satelītu skaits"
+
+#: src/Gutenberg/Telemetry_Bridge.php:115
+msgid "Hub Version"
+msgstr "Hub versija"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:138
+msgid "Format gültig (Schema:ID)"
+msgstr "Formāts derīgs (Shēma:ID)"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:139
+msgid "Ungültiges ID-Format"
+msgstr "Nederīgs ID formāts"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:140
+msgid "Pausiert"
+msgstr "Apturēts"
+
+#: src/Gutenberg/Zero_Duplication_Asset_Engine.php:141
+msgid "Läuft"
+msgstr "Darbojas"
+
+#: src/Setup/Activator.php:84
+msgid "Compliance Officer (DPO)"
+msgstr "Atbilstības speciālists (DPO)"
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:187
+#, php-format
+msgid ""
+"Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde "
+"gelöscht, eingefügt oder geändert."
+msgstr ""
+"Ieraksts #%d neatsaucas uz iepriekšējo ierakstu: kāds agrāks ieraksts ir "
+"dzēsts, ievietots vai mainīts."
+
+#. translators: %d: id of the audit entry
+#: src/Telemetry/Audit_Chainer.php:202
+#, php-format
+msgid ""
+"Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder "
+"der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er "
+"geschrieben wurde."
+msgstr ""
+"Ieraksta #%d paraksts nesakrīt: ieraksts ir mainīts vai vietnes atslēga "
+"(AUTH_SALT) vairs nav tā, ar kuru tas tika rakstīts."
+
+#. translators: %d: number of audit entries checked
+#: src/Telemetry/Audit_Chainer.php:217
+#, php-format
+msgid "%d Einträge geprüft, die Kette ist lückenlos."
+msgstr "Pārbaudīti %d ieraksti, ķēde ir nepārtraukta."
+
+#: src/Telemetry/Health_Matrix.php:107
+msgid "Eingeschränkt"
+msgstr "Ierobežots"
+
+#: src/Telemetry/Health_Matrix.php:108
+msgid "Nicht konfiguriert"
+msgstr "Nav konfigurēts"
+
+#: src/Telemetry/Health_Matrix.php:109
+msgid "Fehler"
+msgstr "Kļūda"
+
+#: src/Telemetry/Health_Matrix.php:110
+msgid "Warnung"
+msgstr "Brīdinājums"
+
+#: src/Telemetry/Health_Matrix.php:112
+msgid "Unbekannt"
+msgstr "Nezināms"
+
+#: wm-suite-hub.php:51
+msgid ""
+"WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime."
+msgstr ""
+"WM Suite Hub nepieciešams PHP 8.2 vai jaunāks. Lūdzu, atjauniniet PHP vidi."
+
+#: blocks-src/index.js:84
+msgid "Block-Einstellungen"
+msgstr "Bloka iestatījumi"
+
+#: blocks-src/index.js:109
+msgid "Spaltenanzahl"
+msgstr "Kolonnu skaits"
+
+#: blocks-src/index.js:110
+msgid "Maximale Einträge"
+msgstr "Maksimālais vienumu skaits"
+
+#: blocks-src/index.js:114
+msgid "Veranstaltungstitel"
+msgstr "Pasākuma nosaukums"
+
+#: blocks-src/index.js:115
+msgid "Kategorie"
+msgstr "Kategorija"
+
+#: blocks-src/index.js:116
+msgid "Datum"
+msgstr "Datums"
+
+#: blocks-src/index.js:117
+msgid "Veranstaltungsort"
+msgstr "Norises vieta"
+
+#: blocks-src/index.js:118
+msgid "Freie Plätze"
+msgstr "Brīvās vietas"
+
+#: blocks-src/index.js:119
+msgid "Preis"
+msgstr "Cena"
+
+#: blocks-src/index.js:125
+msgid "Button-Beschriftung"
+msgstr "Pogas uzraksts"
+
+#: blocks-src/index.js:126
+msgid "Hinweis unter dem Button"
+msgstr "Piezīme zem pogas"
+
+#: blocks-src/index.js:130 blocks-src/index.js:139
+msgid "Überschrift"
+msgstr "Virsraksts"
+
+#: blocks-src/index.js:131
+msgid "Platzhaltertext"
+msgstr "Vietturis"
+
+#: blocks-src/index.js:135
+msgid "Badge-Beschriftung"
+msgstr "Nozīmītes teksts"
+
+#: blocks-src/index.js:145
+msgid "Dienstname"
+msgstr "Pakalpojuma nosaukums"
+
+#: blocks-src/index.js:150
+msgid "Unternehmensname"
+msgstr "Uzņēmuma nosaukums"
+
+#: blocks-src/index.js:151
+msgid "Link zur Meldestelle"
+msgstr "Saite uz ziņošanas kanālu"
+
+#: blocks-src/index.js:157
+msgid "Menschenrechte (%)"
+msgstr "Cilvēktiesības (%)"
+
+#: blocks-src/index.js:158
+msgid "Umweltschutz (%)"
+msgstr "Vide (%)"
+
+#: blocks-src/index.js:159
+msgid "Governance (%)"
+msgstr "Pārvaldība (%)"
+
+#: blocks-src/index.js:163
+msgid "Versionskennzeichnung"
+msgstr "Versijas iezīme"
+
+#: blocks-src/index.js:168
+msgid "Kontrastschalter anzeigen"
+msgstr "Rādīt augsta kontrasta slēdzi"
+
+#: blocks-src/index.js:169
+msgid "Leseschrift-Schalter anzeigen"
+msgstr "Rādīt lasīšanas fonta slēdzi"
+
+#: blocks-src/index.js:170
+msgid "Schriftgrößen-Schalter anzeigen"
+msgstr "Rādīt teksta izmēra pogas"
+
+#: blocks-src/index.js:176
+msgid "Badge-Text"
+msgstr "Iezīmes teksts"
+
+#: blocks-src/index.js:181
+msgid "Skalierungsfaktor"
+msgstr "Mēroga koeficients"
+
+#: blocks-src/index.js:182
+msgid "Basisschriftgröße"
+msgstr "Pamatfonta izmērs"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block title"
+msgid "WM Accessibility Toolbar"
+msgstr "WM Piekļūstamības rīkjosla"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block description"
+msgid ""
+"Buttons for high contrast in the WM Suite blocks, a reading font installed "
+"on the visitor's device, and larger text. The choice stays in the browser."
+msgstr ""
+"Pogas augstam kontrastam WM Suite blokos, apmeklētāja ierīcē instalēts "
+"lasīšanas fonts un lielāks teksts. Izvēle paliek pārlūkā."
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "bfsg"
+msgstr "bfsg"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "barrierefreiheit"
+msgstr "piekļūstamība"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kontrasts"
+
+#: src/Gutenberg/Blocks/a11y-contrast-switch/block.json
+msgctxt "block keyword"
+msgid "dyslexia"
+msgstr "disleksija"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block title"
+msgid "WM Accessibility Statement"
+msgstr "WM Piekļūstamības paziņojums"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block description"
+msgid ""
+"Shows the accessibility statement that WM BFSG Compliance Dashboard builds "
+"from your settings. Without that plugin, visitors see nothing."
+msgstr ""
+"Rāda piekļūstamības paziņojumu, ko WM BFSG Compliance Dashboard izveido no "
+"jūsu iestatījumiem. Bez šī spraudņa apmeklētāji neko neredz."
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "erklaerung"
+msgstr "paziņojums"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "wcag"
+msgstr "wcag"
+
+#: src/Gutenberg/Blocks/bfsg-statement-embed/block.json
+msgctxt "block keyword"
+msgid "mlbf"
+msgstr "mlbf"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block title"
+msgid "WM Consent Settings Badge"
+msgstr "WM Piekrišanas iestatījumu žetons"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge link that opens the consent dialog of WM Sovereign Consent Vault. "
+"Without that plugin, visitors see nothing."
+msgstr ""
+"Žetona saite, kas atver WM Sovereign Consent Vault piekrišanas dialogu. Bez "
+"šī spraudņa apmeklētāji neko neredz."
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "privacy"
+msgstr "personas-dati"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "consent"
+msgstr "piekrišana"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "dsgvo"
+msgstr "vdar"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "tdddg"
+msgstr "tdddg"
+
+#: src/Gutenberg/Blocks/consent-badge/block.json
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "cookies"
+msgstr "sīkdatnes"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block title"
+msgid "WM SBOM Download"
+msgstr "WM SBOM lejupielāde"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block description"
+msgid ""
+"Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors "
+"see nothing until a URL is entered."
+msgstr ""
+"Lejupielādes saite uz CycloneDX SBOM, ko raksta wp wm-hub sbom. Apmeklētāji "
+"neko neredz, kamēr nav ievadīts URL."
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cra"
+msgstr "cra"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "sbom"
+msgstr "sbom"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "cyclonedx"
+msgstr "cyclonedx"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "bsi"
+msgstr "bsi"
+
+#: src/Gutenberg/Blocks/cra-security-status/block.json
+msgctxt "block keyword"
+msgid "security"
+msgstr "drošība"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block title"
+msgid "WM Event Booking CTA Button"
+msgstr "WM Pasākuma rezervēšanas poga"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block description"
+msgid ""
+"Button to the booking page you enter, with an optional note under it. "
+"Visitors see nothing until a URL is entered."
+msgstr ""
+"Poga uz jūsu ievadīto rezervēšanas lapu ar neobligātu piezīmi zem tās. "
+"Apmeklētāji neko neredz, kamēr nav ievadīts URL."
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "booking"
+msgstr "rezervēšana"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "cta"
+msgstr "cta"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "poga"
+
+#: src/Gutenberg/Blocks/event-booking-cta/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "tickets"
+msgstr "biļetes"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block title"
+msgid "WM Atomic Event Card"
+msgstr "WM Pasākuma kartīte"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block description"
+msgid ""
+"Event card with the title, date, place, price and free seats you type in, "
+"and a button to the booking page you enter. Nothing is read live."
+msgstr ""
+"Pasākuma kartīte ar jūsu ievadīto nosaukumu, datumu, vietu, cenu un brīvajām "
+"vietām, kā arī poga uz norādīto rezervēšanas lapu. Nekas netiek nolasīts "
+"tiešsaistē."
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "event"
+msgstr "pasākums"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "card"
+msgstr "kartīte"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+msgctxt "block keyword"
+msgid "ticket"
+msgstr "biļete"
+
+#: src/Gutenberg/Blocks/event-card/block.json
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "conference"
+msgstr "konference"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block title"
+msgid "WM Event Grid Container"
+msgstr "WM Pasākumu režģis"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block description"
+msgid ""
+"Lists the active events of WM Cyber Events Core, each with a link to its "
+"event page. Without that plugin, visitors see nothing."
+msgstr ""
+"Uzskaita WM Cyber Events Core aktīvos pasākumus, katru ar saiti uz tā lapu. "
+"Bez šī spraudņa apmeklētāji neko neredz."
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "režģis"
+
+#: src/Gutenberg/Blocks/event-grid/block.json
+msgctxt "block keyword"
+msgid "wm suite"
+msgstr "wm suite"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block title"
+msgid "WM LkSG ESG Supply Chain Scorecard"
+msgstr "WM LkSG un ESG rādītāju kartīte"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block description"
+msgid ""
+"Three percentages you type in (human rights, environment, governance) under "
+"a supply chain heading. The block computes and checks nothing."
+msgstr ""
+"Trīs jūsu ievadīti procenti (cilvēktiesības, vide, pārvaldība) zem "
+"virsraksta par piegādes ķēdi. Bloks neko neaprēķina un nepārbauda."
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lksg"
+msgstr "lksg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "esg"
+msgstr "esg"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "csddd"
+msgstr "csddd"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+msgctxt "block keyword"
+msgid "lieferkette"
+msgstr "piegādes ķēde"
+
+#: src/Gutenberg/Blocks/lksg-esg-scorecard/block.json
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "compliance"
+msgstr "atbilstiba"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block title"
+msgid "WM Modular Scale Fluid Type Container"
+msgstr "WM Plūstošas tipogrāfijas konteiners"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for a modular type scale. In this version it takes no inner blocks "
+"and no stylesheet reads its settings, so it has no effect on the page."
+msgstr ""
+"Konteiners modulārai tipogrāfiskai skalai. Šajā versijā tas nepieņem "
+"iekšējus blokus, un neviena stilu lapa nenolasa tā iestatījumus, tāpēc tas "
+"neietekmē lapu."
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "tipogrāfija"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "plūstošs"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "modular scale"
+msgstr "modulārā skala"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "clamp"
+msgstr "clamp"
+
+#: src/Gutenberg/Blocks/modular-type-container/block.json
+msgctxt "block keyword"
+msgid "container queries"
+msgstr "container queries"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block title"
+msgid "WM Newsticker"
+msgstr "WM Ziņu josla"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block description"
+msgid ""
+"Scrolling line of your own text with a pause button. It stops on hover and "
+"stands still for visitors who ask for reduced motion."
+msgstr ""
+"Slīdoša rinda ar jūsu tekstu un pauzes pogu. Tā apstājas, kad pele ir virs "
+"tās, un stāv uz vietas apmeklētājiem, kuri vēlas samazinātu kustību."
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "josla"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "marquee"
+msgstr "ritināšana"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "ziņas"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "eilmeldung"
+msgstr "svarīgi"
+
+#: src/Gutenberg/Blocks/newsticker-banner/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "piekļūstamība"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block title"
+msgid "WM Peppol ID Format Check"
+msgstr "WM Peppol ID formāta pārbaude"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block description"
+msgid ""
+"Checks in the browser whether an ID has the Peppol form Scheme:ID. It does "
+"not look the participant up in the Peppol network."
+msgstr ""
+"Pārlūkā pārbauda, vai ID ir Peppol forma Shēma:ID. Dalībnieku Peppol tīklā "
+"nemeklē."
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "xrechnung"
+msgstr "xrechnung"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "zugferd"
+msgstr "zugferd"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "geba"
+msgstr "geba"
+
+#: src/Gutenberg/Blocks/peppol-id-verifier/block.json
+msgctxt "block keyword"
+msgid "e-invoicing"
+msgstr "e-rēķini"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block title"
+msgid "WM Sovereign Privacy Center"
+msgstr "WM Suverēns privātuma centrs"
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block description"
+msgid ""
+"Heading and the button that opens the consent dialog of WM Sovereign Consent "
+"Vault. Without that plugin, visitors see nothing."
+msgstr ""
+"Virsraksts un poga, kas atver WM Sovereign Consent Vault piekrišanas "
+"dialogu. Bez šī spraudņa apmeklētāji neko neredz."
+
+#: src/Gutenberg/Blocks/privacy-center/block.json
+msgctxt "block keyword"
+msgid "preferences"
+msgstr "izvēles"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block title"
+msgid "WM DSGVO Art. 17 Privacy Eraser Form"
+msgstr "WM VDAR 17. panta dzēšanas veidlapa"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block description"
+msgid ""
+"Shows the erasure request form of WM DSGVO Privacy Eraser. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Rāda WM DSGVO Privacy Eraser dzēšanas pieprasījumu veidlapu. Bez šī spraudņa "
+"apmeklētāji neko neredz."
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "eraser"
+msgstr "dzēšana"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "art17"
+msgstr "art17"
+
+#: src/Gutenberg/Blocks/privacy-eraser-form/block.json
+msgctxt "block keyword"
+msgid "loeschung"
+msgstr "noņemšana"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block title"
+msgid "WM External Content Placeholder"
+msgstr "WM Ārējā satura vietturis"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block description"
+msgid ""
+"Placeholder with a load button. Put the embed into a template element with "
+"the target ID: nothing in it loads before the click."
+msgstr ""
+"Vietturis ar ielādes pogu. Ievietojiet iegultni template elementā ar mērķa "
+"ID: nekas tajā netiek ielādēts pirms klikšķa."
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "media"
+msgstr "mediji"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "placeholder"
+msgstr "vietturis"
+
+#: src/Gutenberg/Blocks/script-placeholder/block.json
+msgctxt "block keyword"
+msgid "blocker"
+msgstr "bloķētājs"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal Card"
+msgstr "WM HinSchG trauksmes cēlēju kartīte"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block description"
+msgid ""
+"Link card to the reporting channel: the portal block on the same page, or an "
+"address you enter."
+msgstr ""
+"Saites kartīte uz ziņošanas kanālu: portāla bloks tajā pašā lapā vai jūsu "
+"ievadīta adrese."
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "hinschg"
+msgstr "hinschg-likums"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "whistleblower"
+msgstr "trauksmes-celejs"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "meldung"
+msgstr "ziņojums"
+
+#: src/Gutenberg/Blocks/whistleblower-card/block.json
+msgctxt "block keyword"
+msgid "hinweisgeber"
+msgstr "ziņošana"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block title"
+msgid "WM HinSchG Whistleblower Portal"
+msgstr "WM HinSchG trauksmes cēlēju portāls"
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block description"
+msgid ""
+"Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that "
+"plugin, visitors see nothing."
+msgstr ""
+"Rāda WM HinSchG Whistleblower Desk ziņošanas portālu. Bez šī spraudņa "
+"apmeklētāji neko neredz."
+
+#: src/Gutenberg/Blocks/whistleblower-wizard/block.json
+msgctxt "block keyword"
+msgid "wizard"
+msgstr "vednis"

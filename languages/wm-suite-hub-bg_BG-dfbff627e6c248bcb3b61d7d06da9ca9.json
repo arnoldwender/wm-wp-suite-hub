@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "bg_BG",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Корпоративен пулт)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Регистър и преглед на състоянието на разширенията WM Suite, списък на софтуерните компоненти по CycloneDX 1.6 и одитна таблица, чиито записи са свързани във верига с HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "Корпоративен пакет WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Пулт и състояние"
+      ],
+      "Cockpit & Status": [
+        "Пулт и състояние"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Пакети с решения"
+      ],
+      "Solution Packs": [
+        "Пакети с решения"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Одитен дневник"
+      ],
+      "Audit-Log": [
+        "Одитен дневник"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Нямате достатъчно права за достъп до тази страница."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Пулт на корпоративния пакет"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Модули по нормативна уредба"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Пулт на корпоративния пакет"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Одитната верига е цяла: проверени записи: %d"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Одитната верига е прекъсната при запис #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Всеки запис е свързан с предишния чрез HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Активни модули"
+      ],
+      "Health Score": [
+        "Индекс на изправност"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Активни сателитни модули на WM Suite"
+      ],
+      "%d Bereitgestellt": [
+        "%d разгърнати"
+      ],
+      "Suite Cockpit öffnen": [
+        "Отвори пулта на пакета"
+      ],
+      "Nicht aktiv": [
+        "Неактивен"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Напълно активен (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Частично активен (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d налични модула"
+      ],
+      "Zustand der zuständigen Module": [
+        "Състояние на отговорните модули"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Показва кой плъгин на WM Suite е активен и какво състояние съобщава. Не е оценка на съответствието."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Към основното съдържание"
+      ],
+      "WM Suite Hub Command Console": [
+        "Командна конзола на WM Suite Hub"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Състояние на регистрираните разширения WM Suite, списък на софтуерните компоненти (CycloneDX 1.6) и одитна таблица, свързана във верига с HMAC-SHA256."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Обнови състоянието на флота"
+      ],
+      "Aktualisieren": [
+        "Обнови"
+      ],
+      "Audit-Integrität prüfen": [
+        "Провери целостта на одита"
+      ],
+      "Cockpit Navigation": [
+        "Навигация на пулта"
+      ],
+      "Cockpit Übersicht": [
+        "Общ преглед"
+      ],
+      "Satelliten-Flotte": [
+        "Сателитен флот"
+      ],
+      "Audit-Protokoll": [
+        "Одитен дневник"
+      ],
+      "Design & Themes": [
+        "Дизайн и теми"
+      ],
+      "Suite Theme:": [
+        "Тема на пакета:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Избор на тема на WM Suite"
+      ],
+      "Schnellnavigation": [
+        "Бърза навигация"
+      ],
+      "Direkt zu:": [
+        "Към:"
+      ],
+      "Kurzanleitung": [
+        "Кратко ръководство"
+      ],
+      "Metriken & Status": [
+        "Метрики и състояние"
+      ],
+      "Theme-Einstellungen": [
+        "Настройки на темата"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Какво е WM Suite Hub и как управлявате разширенията си?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub е централният"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "център за управление и контрол на всички WordPress плъгини на WM Suite"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Показва състоянието, което регистрираните модули съобщават, създава спецификация на софтуерните компоненти във формат CycloneDX 1.6 и свързва във верига с HMAC-SHA256 събитията, които му се съобщават: промените без ключа на сайта стават откриваеми. Не оценява правното съответствие."
+      ],
+      "Schnellzugriff:": [
+        "Бърз достъп:"
+      ],
+      "Aktive Module prüfen": [
+        "Провери активните модули"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Преглед на одитния дневник"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Смяна на тема и изглед"
+      ],
+      "Systemmetriken": [
+        "Системни показатели"
+      ],
+      "GESAMTSTATUS": [
+        "ОБЩО СЪСТОЯНИЕ"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Претеглено състояние на регистрираните модули (изправен 100, ограничен 60, неконфигуриран 30, грешка 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "ИНВЕНТАР НА САТЕЛИТИТЕ"
+      ],
+      "Registriert": [
+        "Регистрирано"
+      ],
+      "Gesund": [
+        "Изправен"
+      ],
+      "Warnungen": [
+        "Предупреждения"
+      ],
+      "Kritisch": [
+        "Критичен"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "СРЕДА ЗА ИЗПЪЛНЕНИЕ"
+      ],
+      "ja": [
+        "да"
+      ],
+      "nein": [
+        "не"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Постоянен обектен кеш"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Състояние на флота и сателитни модули"
+      ],
+      "Module aktiv": [
+        "активни модула"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Няма регистрирани сателитни модули"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Веднага след активиране плъгините на WM Suite се свързват автоматично чрез филтъра wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Зависимости:"
+      ],
+      "Konfiguration": [
+        "Конфигурация"
+      ],
+      "Selbsttest": [
+        "Самотест"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Цялост на веригата: Не е проверена (щракнете върху Провери целостта на одита)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Таблица с одитен дневник"
+      ],
+      "Zeitstempel": [
+        "Времеви печат"
+      ],
+      "Modul": [
+        "Модул"
+      ],
+      "Ereignistyp": [
+        "Тип събитие"
+      ],
+      "Benutzer": [
+        "Потребител"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "Подпис HMAC SHA-256"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Зареждане на одитните записи..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Дизайн система и предпочитания за тема"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Изберете глобалната цветова схема за пулта и всички сателитни плъгини на WM Suite. По подразбиране се използва CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Стандартна"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Тъмен банер Obsidian Midnight в съчетание с нативни карти на WordPress Admin и ясен контраст."
+      ],
+      "Als Standard aktivieren": [
+        "Задай като стандартна"
+      ],
+      "Klassisch": [
+        "Класическа"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: нативна цветова палитра на WordPress Admin (#2271b1 синьо, #f0f0f1 фон, стандартни WP формуляри)."
+      ],
+      "Aktivieren": [
+        "Активирай"
+      ],
+      "Dark Mode": [
+        "Тъмен режим"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Пълен тъмен режим (#050811 фон) с полупрозрачни карти и сини акценти."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Чисто черно, бяло и предупредително жълто за висок контраст."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Съхранение на данни и деинсталиране"
+      ],
+      "Aufbewahrungsschutz": [
+        "Защита при изтриване"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Необратимо изтриване на всички данни при премахване на плъгина"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "По подразбиране WM Suite Hub запазва одитната таблица HMAC-SHA256, ролите и настройките при деинсталиране. Включете тази опция само за окончателно изтриване на всички данни."
+      ],
+      "Audit-Verifikation": [
+        "Проверка на одита"
+      ],
+      "Schließen": [
+        "Затваряне"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Тематични пакети от плъгини на WM Suite: топологичното сортиране на Кан определя реда на зависимостите им, а предварителната проверка първо преглежда сървъра. Тази версия няма инсталация; плъгините се инсталират поотделно."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Премахване на дублирания на тази страница:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "Премахнати %1$d скрипта и %2$d стилови файла (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Съдържание на пакета и архитектура на модулите (%d):"
+      ],
+      "Aktiviert": [
+        "Активиран"
+      ],
+      "Im Paket enthalten": [
+        "Включен в пакета"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Математически ред на инсталиране DAG (сортиране на Кан):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Нито един от тези плъгини не изисква друг; редът на инсталиране е свободен."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Стартирай предварителна проверка за %s"
+      ],
+      "Pre-Flight Check": [
+        "Предварителна проверка"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Проверка на версията на PHP, разширението Sodium, лимита на паметта, правата за запис и OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Пробна симулация"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Достъпът е отказан. Недостатъчни права за пулта на WM Suite."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Модулът \"%s\" не е регистриран или е неактивен."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Изпълнението на действието на модула бе неуспешно: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Кешът за телеметрия е изчистен успешно."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Избрана е невалидна тема."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Темата е обновена успешно."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Стандартна)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Нативна Класическа"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Тъмна"
+      ],
+      "High-Contrast": [
+        "Висок контраст"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Настройката за деинсталиране е обновена."
+      ],
+      "Bundle nicht gefunden.": [
+        "Пакетът не е намерен."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Предварителната проверка бе неуспешна."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Симулацията завърши успешно: %d пакета подредени."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Инсталирането на пакети с решения не е налично в тази версия. Използвайте dry_run=true за проверка на реда."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Синхронизирането на съгласието е отхвърлено: липсващ или изтекъл токен за сигурност."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Твърде много събития за съгласие. Опитайте отново след една минута."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Няма четимо решение за съгласие."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Съгласието не можа да бъде записано."
+      ],
+      "Externer Dienst": [
+        "Външна услуга"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Блокирано външно съдържание: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Съдържанието от %s е блокирано"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Зареди и активирай %s еднократно"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "За зареждане на това съдържание се изисква вашето съгласие съгласно § 25 TDDDG и GDPR."
+      ],
+      "Inhalt laden & entsperren": [
+        "Зареди и отключи съдържанието"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Със зареждането се съгласявате с предаване на данни към външния доставчик."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Възникна грешка при комуникацията с Hub."
+      ],
+      "HTTP-Fehler %s": [
+        "HTTP грешка %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Темата е сменена успешно."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Грешка при запазване на темата: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Няма записани одитни събития."
+      ],
+      "Benutzer #%s": [
+        "Потребител #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Грешка при зареждане на дневниците: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Одитната верига се проверява…"
+      ],
+      "Audit-Kette intakt": [
+        "Одитната верига е цяла"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Всички записи (%d) съответстват на своя подпис HMAC-SHA256 и на предишния запис: никой не е променян, изтриван или пренареждан без ключа на сайта."
+      ],
+      "Letzter Hash: %s": [
+        "Последен хеш: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Одитната верига е прекъсната"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Проверка на одитната верига"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Проверката не успя"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Телеметричните данни са обновени."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Грешка при опресняване: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Предварителна проверка: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Грешка при предварителната проверка:"
+      ],
+      "Prüfpunkt": [
+        "Контролна точка"
+      ],
+      "Soll": [
+        "Очаквано"
+      ],
+      "Ist": [
+        "Действително"
+      ],
+      "Status": [
+        "Статус"
+      ],
+      "Erfüllt": [
+        "Изпълнено"
+      ],
+      "Nicht erfüllt": [
+        "Неизпълнено"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Изчислен ред на инсталиране:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Няма декларирани зависимости, редът е свободен:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Пробна симулация за %s се изпълнява…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Пробната симулация завърши."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Пробната симулация не успя: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Настройката за деинсталиране е запазена."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Грешка при запазване: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Резултат за %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Действието е изпълнено успешно."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Грешка при действие на модула: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Без активен плъгин „%s“ този блок не показва нищо на посетителите."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Все още не е конфигуриран – попълнете „%s“ в настройките на блока. Дотогава посетителите не виждат блока."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Настройки за достъпност"
+      ],
+      "Kontrast": [
+        "Контраст"
+      ],
+      "Leseschrift": [
+        "Шрифт за четене"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Настройки за поверителност"
+      ],
+      "SBOM-Download-URL": [
+        "URL за изтегляне на SBOM"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Спецификация на софтуерните компоненти (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Изтегли CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Страница за резервация (URL)"
+      ],
+      "Zur Buchung": [
+        "Към резервацията"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Картата за събитие все още не е конфигурирана – въведете заглавието и данните за събитието в настройките на блока."
+      ],
+      "Ausgebucht": [
+        "Напълно резервиран"
+      ],
+      "Nur noch %d Plätze": [
+        "Остават само %d места"
+      ],
+      "%d freie Plätze": [
+        "%d свободни места"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "„%s“ не съобщава активни събития; дотогава посетителите не виждат блока."
+      ],
+      "Max. %d Plätze": [
+        "Макс. %d места"
+      ],
+      "Zur Veranstaltung": [
+        "Към събитието"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Все още няма въведени проверени показатели по LkSG – въведете стойностите в настройките на блока."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Надлежна проверка във веригата на доставки (LkSG и CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Права на човека"
+      ],
+      "Umweltschutz": [
+        "Опазване на околната среда"
+      ],
+      "Gute Governance": [
+        "Добро управление"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Този контейнер не приема съдържание в редактора и няма ефект върху страницата; посетителите не го виждат."
+      ],
+      "Ticker-Meldungen": [
+        "Съобщения в лентата"
+      ],
+      "Nachrichten-Ticker": [
+        "Новинарска лента"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Пауза или пускане на лентата"
+      ],
+      "Pausieren": [
+        "Пауза"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Проверява в браузъра дали идентификаторът отговаря на формата Схема:ID (напр. 0208:0843657437). Дали участникът е достъпен в мрежата Peppol, този блок не проверява."
+      ],
+      "Peppol ID": [
+        "Peppol ID"
+      ],
+      "Prüfen": [
+        "Провери"
+      ],
+      "Ziel-Element-ID": [
+        "ID на целевия елемент"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "При зареждане на това съдържание се предават данни на доставчика."
+      ],
+      "Inhalt einmalig laden": [
+        "Зареди съдържанието еднократно"
+      ],
+      "Hinweis abgeben": [
+        "Подаване на сигнал"
+      ],
+      "WM Suite Hub Telemetry": [
+        "Телеметрия на WM Suite Hub"
+      ],
+      "Telemetry Field": [
+        "Поле за телеметрия"
+      ],
+      "Health Score (%)": [
+        "Индекс на изправност (%)"
+      ],
+      "Global Status": [
+        "Общо състояние"
+      ],
+      "Active Spokes Count": [
+        "Брой активни сателити"
+      ],
+      "Hub Version": [
+        "Версия на Hub"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Валиден формат (Схема:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Невалиден формат на ID"
+      ],
+      "Pausiert": [
+        "На пауза"
+      ],
+      "Läuft": [
+        "Работи"
+      ],
+      "Compliance Officer (DPO)": [
+        "Служител по съответствието (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Запис #%d не сочи към предишния: по-ранен запис е изтрит, вмъкнат или променен."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Подписът на запис #%d не съвпада: записът е променен или ключът на сайта (AUTH_SALT) вече не е този, с който е записан."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Одитната таблица е празна."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "Проверени записи: %d, веригата е непрекъсната."
+      ],
+      "Eingeschränkt": [
+        "Ограничен"
+      ],
+      "Nicht konfiguriert": [
+        "Неконфигуриран"
+      ],
+      "Fehler": [
+        "Грешка"
+      ],
+      "Warnung": [
+        "Предупреждение"
+      ],
+      "Unbekannt": [
+        "Неизвестен"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub изисква PHP 8.2 или по-нова версия. Моля, обновете своята PHP среда."
+      ],
+      "Block-Einstellungen": [
+        "Настройки на блока"
+      ],
+      "Spaltenanzahl": [
+        "Брой колони"
+      ],
+      "Maximale Einträge": [
+        "Максимален брой записи"
+      ],
+      "Veranstaltungstitel": [
+        "Заглавие на събитието"
+      ],
+      "Kategorie": [
+        "Категория"
+      ],
+      "Datum": [
+        "Дата"
+      ],
+      "Veranstaltungsort": [
+        "Място на провеждане"
+      ],
+      "Freie Plätze": [
+        "Свободни места"
+      ],
+      "Preis": [
+        "Цена"
+      ],
+      "Button-Beschriftung": [
+        "Текст на бутона"
+      ],
+      "Hinweis unter dem Button": [
+        "Бележка под бутона"
+      ],
+      "Überschrift": [
+        "Заглавие"
+      ],
+      "Platzhaltertext": [
+        "Подсказващ текст"
+      ],
+      "Badge-Beschriftung": [
+        "Текст на значката"
+      ],
+      "Dienstname": [
+        "Име на услугата"
+      ],
+      "Unternehmensname": [
+        "Име на компанията"
+      ],
+      "Link zur Meldestelle": [
+        "Връзка към канала за сигнали"
+      ],
+      "Menschenrechte (%)": [
+        "Права на човека (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Околна среда (%)"
+      ],
+      "Governance (%)": [
+        "Управление (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Етикет за версия"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Показвай бутон за висок контраст"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Показвай бутон за шрифт за четене"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Показвай бутони за размер на текста"
+      ],
+      "Badge-Text": [
+        "Текст на етикета"
+      ],
+      "Skalierungsfaktor": [
+        "Коефициент на мащабиране"
+      ],
+      "Basisschriftgröße": [
+        "Базов размер на шрифта"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "Лента за достъпност на WM"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Бутони за висок контраст в блоковете на WM Suite, шрифт за четене, инсталиран на устройството на посетителя, и по-голям текст. Изборът остава в браузъра."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "достъпност"
+      ],
+      "block keyword\u0004contrast": [
+        "контраст"
+      ],
+      "block keyword\u0004dyslexia": [
+        "дислексия"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "Декларация за достъпност на WM"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Показва декларацията за достъпност, която WM BFSG Compliance Dashboard създава от вашите настройки. Без този плъгин посетителите не виждат нищо."
+      ],
+      "block keyword\u0004erklaerung": [
+        "декларация"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "Значка за настройки на съгласието на WM"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Връзка във вид на значка, която отваря диалога за съгласие на WM Sovereign Consent Vault. Без този плъгин посетителите не виждат нищо."
+      ],
+      "block keyword\u0004privacy": [
+        "лични-данни"
+      ],
+      "block keyword\u0004consent": [
+        "съгласие"
+      ],
+      "block keyword\u0004dsgvo": [
+        "орзд"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "бисквитки"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "Изтегляне на SBOM на WM"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Връзка за изтегляне на CycloneDX SBOM, който записва wp wm-hub sbom. Посетителите не виждат нищо, докато не бъде въведен URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "сигурност"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "Бутон за резервация на събитие на WM"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Бутон към въведената от вас страница за резервация с незадължителна бележка под него. Посетителите не виждат нищо, докато не бъде въведен URL."
+      ],
+      "block keyword\u0004booking": [
+        "резервация"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "бутон"
+      ],
+      "block keyword\u0004tickets": [
+        "билети"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "Атомарна карта за събитие на WM"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Карта за събитие със заглавието, датата, мястото, цената и свободните места, които въвеждате, и бутон към посочената страница за резервация. Нищо не се чете на живо."
+      ],
+      "block keyword\u0004event": [
+        "събитие"
+      ],
+      "block keyword\u0004card": [
+        "карта"
+      ],
+      "block keyword\u0004ticket": [
+        "билет"
+      ],
+      "block keyword\u0004conference": [
+        "конференция"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "Решетка със събития на WM"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Изброява активните събития от WM Cyber Events Core, всяко с връзка към страницата си. Без този плъгин посетителите не виждат нищо."
+      ],
+      "block keyword\u0004grid": [
+        "мрежа"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "Табло с показатели ESG и LkSG на WM"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Три процента, които въвеждате (права на човека, околна среда, управление), под заглавие за веригата на доставки. Блокът не изчислява и не проверява нищо."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "верига на доставки"
+      ],
+      "block keyword\u0004compliance": [
+        "съответствие"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "Контейнер за плавна типография на WM"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Контейнер за модулна типографска скала. В тази версия не приема вътрешни блокове и нито един стилов файл не чете настройките му, затова няма ефект върху страницата."
+      ],
+      "block keyword\u0004typography": [
+        "типография"
+      ],
+      "block keyword\u0004fluid": [
+        "плавен"
+      ],
+      "block keyword\u0004modular scale": [
+        "модулна скала"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "Новинарска лента на WM"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Движещ се ред с вашия собствен текст и бутон за пауза. Спира, когато мишката е над него, и стои неподвижно за посетители, които искат намалено движение."
+      ],
+      "block keyword\u0004ticker": [
+        "лента"
+      ],
+      "block keyword\u0004marquee": [
+        "бягащ текст"
+      ],
+      "block keyword\u0004news": [
+        "новини"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "извънредно"
+      ],
+      "block keyword\u0004accessibility": [
+        "достъпност"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "Проверка на формата на Peppol ID на WM"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Проверява в браузъра дали даден ID има формата Peppol Схема:ID. Не търси участника в мрежата Peppol."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "е-фактуриране"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "Суверенен център за поверителност на WM"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Заглавие и бутонът, който отваря диалога за съгласие на WM Sovereign Consent Vault. Без този плъгин посетителите не виждат нищо."
+      ],
+      "block keyword\u0004preferences": [
+        "предпочитания"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "Формуляр за изтриване по чл. 17 GDPR на WM"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Показва формуляра за искания за изтриване от WM DSGVO Privacy Eraser. Без този плъгин посетителите не виждат нищо."
+      ],
+      "block keyword\u0004eraser": [
+        "изтриване"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "заличаване"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "Заместител за външно съдържание на WM"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Заместител с бутон за зареждане. Поставете вграждането в елемент template с целевия ID: нищо в него не се зарежда преди щракването."
+      ],
+      "block keyword\u0004media": [
+        "медии"
+      ],
+      "block keyword\u0004placeholder": [
+        "заместител"
+      ],
+      "block keyword\u0004blocker": [
+        "блокиране"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "Карта за портал за сигнали HinSchG на WM"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Карта с връзка към канала за сигнали: блокът на портала на същата страница или адрес, който въвеждате."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-закон"
+      ],
+      "block keyword\u0004whistleblower": [
+        "сигнализатор"
+      ],
+      "block keyword\u0004meldung": [
+        "сигнал"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "защита на сигнализиращите"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "Портал за сигнали HinSchG на WM"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Показва портала за сигнали на WM HinSchG Whistleblower Desk. Без този плъгин посетителите не виждат нищо."
+      ],
+      "block keyword\u0004wizard": [
+        "съветник"
+      ]
+    }
+  }
+}

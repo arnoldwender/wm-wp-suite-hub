@@ -1,0 +1,426 @@
+/**
+ * WM Suite Gutenberg blocks — tokens and layout of the 16 server-rendered blocks, loaded only on
+ * pages that contain one. Every colour, space and radius below is a custom property of :root.
+ */
+
+:root {
+  /* WM Suite Canonical Brand Identity Tokens */
+  --wm-navy: #002D5B;
+  --wm-brand-blue: #0072BB;
+  --wm-brand-medium: #004C91;
+  --wm-brand-light: #339AD8;
+  --wm-gold: #FFD700;
+  --wm-gold-dark: #FFA500;
+  --wm-magenta: #D1006C;
+	/* Palette Tokens */
+	--wm-color-bg: #0b0f19;
+	--wm-color-surface: #111827;
+	--wm-color-surface-hover: #1f2937;
+	--wm-color-surface-elevated: #1e293b;
+	--wm-color-border: #374151;
+	--wm-color-border-focus: #38bdf8;
+	
+	--wm-text-primary: #f9fafb;
+	--wm-text-secondary: #9ca3af;
+	--wm-text-muted: #6b7280;
+	
+	--wm-accent-primary: #0284c7;
+	--wm-accent-primary-hover: #0369a1;
+	--wm-accent-gradient: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%);
+	--wm-accent-success: #10b981;
+	--wm-accent-warning: #f59e0b;
+	--wm-accent-danger: #ef4444;
+	--wm-text-on-accent: #ffffff;
+	--wm-badge-sky: #38bdf8;
+	--wm-badge-emerald: #34d399;
+	--wm-badge-violet: #a855f7;
+	--wm-whistleblower-bg: linear-gradient(145deg, #111827 0%, #1e1b4b 100%);
+
+	/* Spacing Tokens */
+	--wm-space-xs: 0.25rem;
+	--wm-space-sm: 0.5rem;
+	--wm-space-md: 1rem;
+	--wm-space-lg: 1.5rem;
+	--wm-space-xl: 2rem;
+	--wm-space-2xl: 3rem;
+
+	/* Radius & Shadow Tokens */
+	--wm-radius-sm: 0.375rem;
+	--wm-radius-md: 0.5rem;
+	--wm-radius-lg: 0.75rem;
+	--wm-radius-full: 9999px;
+	--wm-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	--wm-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+	--wm-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -4px rgba(0, 0, 0, 0.4);
+
+	/* Typography & Touch Targets */
+	--wm-font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+	--wm-min-touch-target: 44px;
+}
+
+/* Light Mode Overrides */
+@media (prefers-color-scheme: light) {
+	:root:not(.wm-theme-dark) {
+		--wm-color-bg: #f8fafc;
+		--wm-color-surface: #ffffff;
+		--wm-color-surface-hover: #f1f5f9;
+		--wm-color-surface-elevated: #ffffff;
+		--wm-color-border: #e2e8f0;
+		--wm-text-primary: #0f172a;
+		--wm-text-secondary: #475569;
+		--wm-text-muted: #64748b;
+	}
+}
+
+/* Explicit Accessibility Overrides (A11y Switcher) */
+html.wm-a11y-high-contrast {
+	--wm-color-bg: #000000 !important;
+	--wm-color-surface: #000000 !important;
+	--wm-color-border: #ffffff !important;
+	--wm-text-primary: #ffffff !important;
+	--wm-text-secondary: #ffff00 !important;
+	--wm-accent-primary: #00ffff !important;
+}
+
+html.wm-a11y-scale-120 {
+	font-size: 120% !important;
+}
+
+html.wm-a11y-scale-140 {
+	font-size: 140% !important;
+}
+
+html.wm-a11y-dyslexic {
+	font-family: 'OpenDyslexic', Comic Sans MS, sans-serif !important;
+}
+
+/* Reduced Motion Safety */
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* ─────────────────────────────────────────────────────────────
+   GLOBAL BLOCK BASE
+───────────────────────────────────────────────────────────── */
+.wm-block-container {
+	font-family: var(--wm-font-sans);
+	color: var(--wm-text-primary);
+	box-sizing: border-box;
+	margin-bottom: var(--wm-space-lg);
+}
+
+.wm-block-container *, .wm-block-container *::before, .wm-block-container *::after {
+	box-sizing: inherit;
+}
+
+/* Visible focus for keyboard users */
+.wm-block-container a:focus-visible,
+.wm-block-container button:focus-visible,
+.wm-block-container input:focus-visible,
+.wm-block-container select:focus-visible {
+	outline: 3px solid var(--wm-color-border-focus);
+	outline-offset: 2px;
+}
+
+/* What a block shows its editors when it lacks a plugin or a value (visitors get nothing) */
+.wm-block-notice {
+	padding: var(--wm-space-md);
+	border: 1px dashed var(--wm-color-border);
+	border-radius: var(--wm-radius-md);
+	color: var(--wm-text-secondary);
+	font-size: 0.875rem;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   1. EVENTS & E-INVOICING BLOCKS
+───────────────────────────────────────────────────────────── */
+/* At most --wm-grid-cols columns (the block's "Spaltenanzahl"), none narrower than 300px, so a narrow
+   screen gets fewer. Until 1.2.2 the render wrote the variable and no rule read it. */
+.wm-event-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(max(min(100%, 300px), calc((100% - (var(--wm-grid-cols, 3) - 1) * var(--wm-space-lg)) / var(--wm-grid-cols, 3))), 1fr));
+	gap: var(--wm-space-lg);
+	width: 100%;
+}
+
+.wm-event-card {
+	background-color: var(--wm-color-surface);
+	border: 1px solid var(--wm-color-border);
+	border-radius: var(--wm-radius-md);
+	padding: var(--wm-space-lg);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: var(--wm-shadow-md);
+	transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.wm-event-card:hover {
+	transform: translateY(-2px);
+	border-color: var(--wm-accent-primary);
+}
+
+.wm-event-card__badge {
+	display: inline-flex;
+	align-items: center;
+	padding: var(--wm-space-xs) var(--wm-space-sm);
+	font-size: 0.75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: var(--wm-radius-sm);
+	background: rgba(2, 132, 199, 0.15);
+	color: var(--wm-badge-sky);
+	margin-bottom: var(--wm-space-sm);
+	width: fit-content;
+}
+
+.wm-event-card__title {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin: 0 0 var(--wm-space-sm) 0;
+	color: var(--wm-text-primary);
+}
+
+.wm-event-card__meta {
+	font-size: 0.875rem;
+	color: var(--wm-text-secondary);
+	margin-bottom: var(--wm-space-md);
+	display: flex;
+	gap: var(--wm-space-md);
+}
+
+.wm-event-card__capacity {
+	display: flex;
+	align-items: center;
+	gap: var(--wm-space-xs);
+	font-size: 0.8125rem;
+	font-weight: 500;
+	margin-bottom: var(--wm-space-md);
+}
+
+.wm-capacity-dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: var(--wm-accent-success);
+}
+.wm-capacity-dot--low { background-color: var(--wm-accent-warning); }
+.wm-capacity-dot--empty { background-color: var(--wm-accent-danger); }
+
+/* CTA Button */
+.wm-btn-primary {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: var(--wm-min-touch-target);
+	padding: var(--wm-space-sm) var(--wm-space-lg);
+	background: var(--wm-accent-gradient);
+	color: var(--wm-text-on-accent);
+	font-weight: 600;
+	font-size: 0.9375rem;
+	border-radius: var(--wm-radius-md);
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	transition: opacity 0.2s ease, transform 0.1s ease;
+	width: 100%;
+}
+
+.wm-btn-primary:hover {
+	opacity: 0.95;
+	transform: translateY(-1px);
+}
+
+/* Peppol ID Verifier */
+.wm-peppol-verifier {
+	background-color: var(--wm-color-surface);
+	border: 1px solid var(--wm-color-border);
+	border-radius: var(--wm-radius-md);
+	padding: var(--wm-space-lg);
+	max-width: 500px;
+}
+
+.wm-peppol-form {
+	display: flex;
+	gap: var(--wm-space-sm);
+	margin-top: var(--wm-space-sm);
+}
+
+.wm-input-text {
+	flex: 1;
+	min-height: var(--wm-min-touch-target);
+	background: var(--wm-color-bg);
+	border: 1px solid var(--wm-color-border);
+	border-radius: var(--wm-radius-sm);
+	padding: var(--wm-space-xs) var(--wm-space-sm);
+	color: var(--wm-text-primary);
+	font-size: 0.9375rem;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   2. SOVEREIGN PRIVACY BLOCKS
+───────────────────────────────────────────────────────────── */
+.wm-consent-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--wm-space-xs);
+	padding: var(--wm-space-xs) var(--wm-space-sm);
+	background: rgba(16, 185, 129, 0.12);
+	border: 1px solid rgba(16, 185, 129, 0.3);
+	border-radius: var(--wm-radius-full);
+	color: var(--wm-badge-emerald);
+	font-size: 0.8125rem;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.wm-privacy-center {
+	background: var(--wm-color-surface);
+	border: 1px solid var(--wm-color-border);
+	border-radius: var(--wm-radius-lg);
+	padding: var(--wm-space-xl);
+}
+
+/* External content placeholder */
+.wm-script-placeholder {
+	background: var(--wm-color-surface-elevated);
+	border: 2px dashed var(--wm-color-border);
+	border-radius: var(--wm-radius-md);
+	padding: var(--wm-space-xl);
+	text-align: center;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   3. LEGAL & WHISTLEBLOWER BLOCKS
+───────────────────────────────────────────────────────────── */
+.wm-whistleblower-card {
+	background: var(--wm-whistleblower-bg);
+	border: 1px solid rgba(99, 102, 241, 0.3);
+	border-radius: var(--wm-radius-lg);
+	padding: var(--wm-space-xl);
+	box-shadow: var(--wm-shadow-lg);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   4. ACCESSIBILITY & TICKER BLOCKS
+───────────────────────────────────────────────────────────── */
+.wm-a11y-bar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--wm-space-sm);
+	padding: var(--wm-space-sm);
+	background: var(--wm-color-surface);
+	border: 1px solid var(--wm-color-border);
+	border-radius: var(--wm-radius-md);
+}
+
+.wm-a11y-btn {
+	min-height: var(--wm-min-touch-target);
+	min-width: var(--wm-min-touch-target);
+	padding: var(--wm-space-xs) var(--wm-space-sm);
+	background: var(--wm-color-bg);
+	border: 1px solid var(--wm-color-border);
+	border-radius: var(--wm-radius-sm);
+	color: var(--wm-text-primary);
+	cursor: pointer;
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+.wm-a11y-btn.is-active {
+	background: var(--wm-accent-primary);
+	border-color: var(--wm-accent-primary);
+	color: var(--wm-text-on-accent);
+}
+
+/* Newsticker: pause button, stops on hover, stands still under reduced motion (below) */
+.wm-newsticker-wrap {
+	display: flex;
+	align-items: center;
+	background: var(--wm-color-surface);
+	border: 1px solid var(--wm-color-border);
+	border-radius: var(--wm-radius-md);
+	overflow: hidden;
+	height: 48px;
+}
+
+.wm-newsticker-badge {
+	padding: 0 var(--wm-space-md);
+	background: var(--wm-accent-danger);
+	color: var(--wm-text-on-accent);
+	font-weight: 700;
+	font-size: 0.8125rem;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	white-space: nowrap;
+}
+
+.wm-newsticker-viewport {
+	flex: 1;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+}
+
+.wm-newsticker-track {
+	display: inline-block;
+	padding-left: 100%;
+	animation: wm-marquee 25s linear infinite;
+	will-change: transform;
+}
+
+.wm-newsticker-wrap:hover .wm-newsticker-track,
+.wm-newsticker-wrap.is-paused .wm-newsticker-track {
+	animation-play-state: paused;
+}
+
+.wm-newsticker-pause-btn {
+	min-height: 48px;
+	min-width: 48px;
+	background: transparent;
+	border: none;
+	border-left: 1px solid var(--wm-color-border);
+	color: var(--wm-text-secondary);
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@keyframes wm-marquee {
+	0% { transform: translate3d(0, 0, 0); }
+	100% { transform: translate3d(-100%, 0, 0); }
+}
+
+/* The global reduced-motion rule above shortens the marquee to one 0.01 ms run, after which the
+   track falls back to padding-left: 100% and the text sits outside the viewport: until 1.2.2 these
+   visitors saw an empty ticker. Here the text stands still and wraps instead. */
+@media (prefers-reduced-motion: reduce) {
+	.wm-newsticker-wrap {
+		height: auto;
+		min-height: 48px;
+	}
+	.wm-newsticker-viewport {
+		white-space: normal;
+		padding: var(--wm-space-xs) var(--wm-space-md);
+	}
+	.wm-newsticker-track {
+		animation: none;
+		padding-left: 0;
+	}
+	.wm-newsticker-pause-btn {
+		display: none;
+	}
+}
+
+/* Container Query Support */
+.wm-modular-type-container {
+	container-type: inline-size;
+	width: 100%;
+}

@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "et",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Ettevõtte juhtpaneel)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "WM Suite'i pluginate register ja olekuülevaade, CycloneDX 1.6 tarkvara materjalide loend ning auditi tabel, mille kirjed on aheldatud HMAC-SHA256-ga."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "WM Suite Ettevõttekomplekt"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Juhtpaneel ja olek"
+      ],
+      "Cockpit & Status": [
+        "Juhtpaneel ja olek"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Lahenduspaketid"
+      ],
+      "Solution Packs": [
+        "Lahenduspaketid"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Auditilogi"
+      ],
+      "Audit-Log": [
+        "Auditilogi"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Teil puuduvad piisavad õigused selle lehe vaatamiseks."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Ettevõttekomplekti juhtpaneel"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Moodulid regulatsioonide kaupa"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Ettevõttekomplekti juhtpaneel"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Auditiahel terve: kontrollitud %d kirjet"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Auditiahel katkenud kirje #%d juures"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Iga kirje on eelmisega seotud HMAC-SHA256-ga."
+      ],
+      "Aktive Module": [
+        "Aktiivsed moodulid"
+      ],
+      "Health Score": [
+        "Seisundiskoor"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Aktiivsed WM Suite satelliitmoodulid"
+      ],
+      "%d Bereitgestellt": [
+        "%d juurutatud"
+      ],
+      "Suite Cockpit öffnen": [
+        "Ava juhtpaneel"
+      ],
+      "Nicht aktiv": [
+        "Pole aktiivne"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Täielikult aktiivne (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Osaliselt aktiivne (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d moodulit saadaval"
+      ],
+      "Zustand der zuständigen Module": [
+        "Vastutavate moodulite olek"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Näitab, milline WM Suite'i pistikprogramm on aktiivne ja millise oleku see teatab. Ei ole vastavushinnang."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Liigu põhisisu juurde"
+      ],
+      "WM Suite Hub Command Console": [
+        "WM Suite Hubi käsukonsool"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Registreeritud WM Suite'i pluginate olek, tarkvara materjalide loend (CycloneDX 1.6) ja HMAC-SHA256-ga aheldatud auditi tabel."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Värskenda pargi olekut"
+      ],
+      "Aktualisieren": [
+        "Värskenda"
+      ],
+      "Audit-Integrität prüfen": [
+        "Kontrolli auditi terviklust"
+      ],
+      "Cockpit Navigation": [
+        "Juhtpaneeli navigeerimine"
+      ],
+      "Cockpit Übersicht": [
+        "Juhtpaneeli ülevaade"
+      ],
+      "Satelliten-Flotte": [
+        "Satelliidipark"
+      ],
+      "Audit-Protokoll": [
+        "Auditilogi"
+      ],
+      "Design & Themes": [
+        "Kujundus ja teemad"
+      ],
+      "Suite Theme:": [
+        "Komplekti teema:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Vali WM Suite teema"
+      ],
+      "Schnellnavigation": [
+        "Kiirnavigeerimine"
+      ],
+      "Direkt zu:": [
+        "Liigu jaotisse:"
+      ],
+      "Kurzanleitung": [
+        "Kiirjuhend"
+      ],
+      "Metriken & Status": [
+        "Mõõdikud ja olek"
+      ],
+      "Theme-Einstellungen": [
+        "Teema seaded"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Mis on WM Suite Hub ja kuidas hallata pistikprogramme?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub on kõigi WM Suite WordPressi pistikprogrammide keskne"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "haldus- ja juhtimiskeskus"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". See näitab registreeritud moodulite teatatud olekut, loob tarkvara koosluse loendi CycloneDX 1.6 vormingus ja aheldab talle teatatud sündmused HMAC-SHA256-ga: ilma saidi võtmeta tehtud muudatused muutuvad tuvastatavaks. See ei hinda õiguslikku vastavust."
+      ],
+      "Schnellzugriff:": [
+        "Kiirvalikud:"
+      ],
+      "Aktive Module prüfen": [
+        "Kontrolli aktiivseid mooduleid"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Vaata auditilogi"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Vaheta teemat ja välimust"
+      ],
+      "Systemmetriken": [
+        "Süsteemimõõdikud"
+      ],
+      "GESAMTSTATUS": [
+        "KOONDOLEK"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Registreeritud moodulite kaalutud olek (terve 100, piiratud 60, seadistamata 30, viga 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "SATELLIITIDE NIMISTU"
+      ],
+      "Registriert": [
+        "Registreeritud"
+      ],
+      "Gesund": [
+        "Terve"
+      ],
+      "Warnungen": [
+        "Hoiatused"
+      ],
+      "Kritisch": [
+        "Kriitiline"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "KÄITUSKESKKOND"
+      ],
+      "ja": [
+        "jah"
+      ],
+      "nein": [
+        "ei"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Püsiv objektivahemälu"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Pargi olek ja satelliitmoodulid"
+      ],
+      "Module aktiv": [
+        "aktiivset moodulit"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Ühtegi satelliitmoodulit pole registreeritud"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Niipea kui WM Suite pistikprogrammid aktiveeritakse, ühenduvad need automaatselt filtri wm_register_suite_module kaudu."
+      ],
+      "Abhängigkeiten:": [
+        "Sõltuvused:"
+      ],
+      "Konfiguration": [
+        "Seadistamine"
+      ],
+      "Selbsttest": [
+        "Enesetest"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Ahela terviklus: Kontrollimata (klõpsake Kontrolli auditi terviklust)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Auditilogi tabel"
+      ],
+      "Zeitstempel": [
+        "Ajatempel"
+      ],
+      "Modul": [
+        "Moodul"
+      ],
+      "Ereignistyp": [
+        "Sündmuse tüüp"
+      ],
+      "Benutzer": [
+        "Kasutaja"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "SHA-256 HMAC-allkiri"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Auditilogide laadimine..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Kujundussüsteem ja teemaeelistused"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Valige juhtpaneeli ja kõigi WM Suite satelliitpistikprogrammide üldine värviskeem. Vaikimisi on kasutusel CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Vaikimisi"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Tume Obsidian Midnight päiseriba koos WordPressi haldusliidese kaartide ja selge kontrastiga."
+      ],
+      "Als Standard aktivieren": [
+        "Määra vaikimisi teemaks"
+      ],
+      "Klassisch": [
+        "Klassikaline"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: WordPressi haldusliidese värvipalett (#2271b1 sinine, #f0f0f1 taust, standardsed WP vormid)."
+      ],
+      "Aktivieren": [
+        "Aktiveeri"
+      ],
+      "Dark Mode": [
+        "Tume režiim"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Täielik tume režiim (#050811 taust) klaasjate kaartide ja siniste aktsentidega."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Puhas must, valge ja ohutuskollane kõrge kontrasti jaoks."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Andmete säilitamine ja eemaldamine"
+      ],
+      "Aufbewahrungsschutz": [
+        "Säilituskaitse"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Kustuta pistikprogrammi eemaldamisel jäädavalt kõik andmed"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "Vaikimisi säilitab WM Suite Hub eemaldamisel HMAC-SHA256 audititabeli, rollid ja seaded. Lülitage see valik sisse üksnes siis, kui soovite kõik tabelid ja seaded lõplikult kustutada."
+      ],
+      "Audit-Verifikation": [
+        "Auditi kontroll"
+      ],
+      "Schließen": [
+        "Sulge"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "WM Suite'i pistikprogrammide temaatilised paketid: Kahni topoloogiline sortimine lahendab nende sõltuvuste järjekorra ja eelkontroll uurib esmalt serverit. Selles versioonis paigaldust pole; pistikprogrammid paigaldatakse ükshaaval."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Duplikaatide eemaldamine sellel lehel:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "%1$d skripti ja %2$d stiililehte eemaldatud (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Paketi sisu ja mooduliarhitektuur (%d):"
+      ],
+      "Aktiviert": [
+        "Aktiveeritud"
+      ],
+      "Im Paket enthalten": [
+        "Kuulub paketti"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Matemaatiline DAG-paigaldusjärjekord (Kahni sortimine):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Ükski neist pistikprogrammidest ei eelda teist; paigaldamise järjekord on vaba."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Käivita eelkontroll paketile %s"
+      ],
+      "Pre-Flight Check": [
+        "Eelkontroll"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Kontrollitakse PHP versiooni, Sodiumi laiendust, mälupiirangut, kirjutusõigusi ja OPcache'i …"
+      ],
+      "Dry-Run Simulation": [
+        "Kuivkäivituse simulatsioon"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Juurdepääs keelatud. Ebapiisavad õigused WM Suite juhtpaneelile."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Moodul \"%s\" pole registreeritud või on mitteaktiivne."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Mooduli toimingu käivitamine ebaõnnestus: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Telemeetria vahemälu on tühjendatud."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Valiti sobimatu teema."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Teema on uuendatud."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Vaikimisi)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Klassikaline"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Tume"
+      ],
+      "High-Contrast": [
+        "Kõrge kontrast"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Eemaldamisseade on uuendatud."
+      ],
+      "Bundle nicht gefunden.": [
+        "Paketti ei leitud."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Eelkontroll ebaõnnestus."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Simulatsioon õnnestus: %d paketti järjestatud."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Lahenduspakettide paigaldamine pole selles versioonis saadaval. Kasutage järjekorra arvutamiseks dry_run=true."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Nõusoleku sünkroonimine lükati tagasi: puuduv või aegunud turvatõend."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Liiga palju nõusolekusündmusi. Proovige minuti pärast uuesti."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Loetavat nõusolekuotsust ei ole."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Nõusolekut ei õnnestunud salvestada."
+      ],
+      "Externer Dienst": [
+        "Välisteenus"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Blokeeritud välissisu: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Teenuse %s sisu on blokeeritud"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Laadi ja luba %s ühekordselt"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Selle sisu laadimiseks on vaja teie nõusolekut vastavalt TDDDG § 25 ja GDPR-ile."
+      ],
+      "Inhalt laden & entsperren": [
+        "Laadi ja ava sisu"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Laadimisega nõustute andmete edastamisega kolmandale teenusepakkujale."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Suhtlusel Hubiga tekkis tõrge."
+      ],
+      "HTTP-Fehler %s": [
+        "HTTP viga %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Teema on vahetatud."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Viga teema salvestamisel: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Auditisündmusi pole salvestatud."
+      ],
+      "Benutzer #%s": [
+        "Kasutaja #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Viga logide laadimisel: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Auditiahelat kontrollitakse…"
+      ],
+      "Audit-Kette intakt": [
+        "Auditiahel terve"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Kõik %d kirjet vastavad oma HMAC-SHA256 allkirjale ja eelmisele kirjele: ühtegi pole muudetud, kustutatud ega ümber järjestatud ilma saidi võtmeta."
+      ],
+      "Letzter Hash: %s": [
+        "Viimane räsi: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Auditiahel katkenud"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Auditiahela kontroll"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Kontroll ebaõnnestus"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Telemeetriaandmed on uuendatud."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Viga värskendamisel: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Eelkontroll: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Viga eelkontrollis:"
+      ],
+      "Prüfpunkt": [
+        "Kontrollpunkt"
+      ],
+      "Soll": [
+        "Oodatud"
+      ],
+      "Ist": [
+        "Tegelik"
+      ],
+      "Status": [
+        "Olek"
+      ],
+      "Erfüllt": [
+        "Täidetud"
+      ],
+      "Nicht erfüllt": [
+        "Täitmata"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Arvutatud paigaldusjärjekord:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Sõltuvusi pole deklareeritud, järjekord on vaba:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Kuivkäivitus %s jaoks käib…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Kuivkäivitus lõpetatud."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Kuivkäivitus ebaõnnestus: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Desinstallimise säte salvestatud."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Viga salvestamisel: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Tulemus %1$s jaoks: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Toiming on teostatud."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Viga mooduli toimingus: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Ilma aktiivse pistikprogrammita „%s“ ei näita see plokk külastajatele midagi."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Veel seadistamata – sisestage „%s“ ploki seadetes. Seni ei näe külastajad plokki."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Ligipääsetavuse seaded"
+      ],
+      "Kontrast": [
+        "Kontrast"
+      ],
+      "Leseschrift": [
+        "Lugemisfont"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Privaatsusseaded"
+      ],
+      "SBOM-Download-URL": [
+        "SBOM-i allalaadimise URL"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Tarkvara koosluse loend (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Laadi alla CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Broneerimisleht (URL)"
+      ],
+      "Zur Buchung": [
+        "Broneerima"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Sündmusekaart on veel seadistamata – sisestage pealkiri ja sündmuse andmed ploki seadetes."
+      ],
+      "Ausgebucht": [
+        "Välja müüdud"
+      ],
+      "Nur noch %d Plätze": [
+        "Ainult %d kohta jäänud"
+      ],
+      "%d freie Plätze": [
+        "%d vaba kohta"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "„%s“ ei teata aktiivseid sündmusi; seni ei näe külastajad plokki."
+      ],
+      "Max. %d Plätze": [
+        "Max %d kohta"
+      ],
+      "Zur Veranstaltung": [
+        "Sündmuse juurde"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Kontrollitud LkSG näitajaid pole veel sisestatud – sisestage väärtused ploki seadetes."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Tarneahela hoolsuskohustus (LkSG ja CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Inimõigused"
+      ],
+      "Umweltschutz": [
+        "Keskkonnakaitse"
+      ],
+      "Gute Governance": [
+        "Hea valitsemistava"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "See konteiner ei võta redaktoris sisu vastu ega mõjuta lehte; külastajad seda ei näe."
+      ],
+      "Ticker-Meldungen": [
+        "Uudisteriba teated"
+      ],
+      "Nachrichten-Ticker": [
+        "Uudisteriba"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Peata või jätka uudisteriba"
+      ],
+      "Pausieren": [
+        "Peata"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Kontrollib brauseris, kas tunnus vastab vormingule Skeem:ID (nt 0208:0843657437). Seda, kas osalejaga saab Peppoli võrgus ühendust, see plokk ei kontrolli."
+      ],
+      "Peppol ID": [
+        "Peppol ID"
+      ],
+      "Prüfen": [
+        "Kontrolli"
+      ],
+      "Ziel-Element-ID": [
+        "Sihtelemendi ID"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Selle sisu laadimisel edastatakse andmed teenusepakkujale."
+      ],
+      "Inhalt einmalig laden": [
+        "Laadi sisu ühekordselt"
+      ],
+      "Hinweis abgeben": [
+        "Esita teade"
+      ],
+      "WM Suite Hub Telemetry": [
+        "WM Suite Hubi telemeetria"
+      ],
+      "Telemetry Field": [
+        "Telemeetriaväli"
+      ],
+      "Health Score (%)": [
+        "Seisundiskoor (%)"
+      ],
+      "Global Status": [
+        "Koondolek"
+      ],
+      "Active Spokes Count": [
+        "Aktiivsete satelliitide arv"
+      ],
+      "Hub Version": [
+        "Hubi versioon"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Vorming kehtiv (Skeem:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Vigane ID-vorming"
+      ],
+      "Pausiert": [
+        "Peatatud"
+      ],
+      "Läuft": [
+        "Töötab"
+      ],
+      "Compliance Officer (DPO)": [
+        "Vastavusametnik (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Kirje #%d ei viita eelmisele kirjele: varasem kirje on kustutatud, lisatud või muudetud."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Kirje #%d allkiri ei klapi: kirjet on muudetud või saidi võti (AUTH_SALT) ei ole enam see, millega kirje kirjutati."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Auditi tabel on tühi."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "Kontrollitud %d kirjet, ahel on lünkadeta."
+      ],
+      "Eingeschränkt": [
+        "Piiratud"
+      ],
+      "Nicht konfiguriert": [
+        "Seadistamata"
+      ],
+      "Fehler": [
+        "Viga"
+      ],
+      "Warnung": [
+        "Hoiatus"
+      ],
+      "Unbekannt": [
+        "Teadmata"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub vajab vähemalt PHP 8.2 versiooni. Palun uuendage PHP keskkonda."
+      ],
+      "Block-Einstellungen": [
+        "Ploki seaded"
+      ],
+      "Spaltenanzahl": [
+        "Veergude arv"
+      ],
+      "Maximale Einträge": [
+        "Kirjete ülempiir"
+      ],
+      "Veranstaltungstitel": [
+        "Sündmuse pealkiri"
+      ],
+      "Kategorie": [
+        "Kategooria"
+      ],
+      "Datum": [
+        "Kuupäev"
+      ],
+      "Veranstaltungsort": [
+        "Toimumiskoht"
+      ],
+      "Freie Plätze": [
+        "Vabad kohad"
+      ],
+      "Preis": [
+        "Hind"
+      ],
+      "Button-Beschriftung": [
+        "Nupu silt"
+      ],
+      "Hinweis unter dem Button": [
+        "Märkus nupu all"
+      ],
+      "Überschrift": [
+        "Pealkiri"
+      ],
+      "Platzhaltertext": [
+        "Kohatäitetekst"
+      ],
+      "Badge-Beschriftung": [
+        "Märgise tekst"
+      ],
+      "Dienstname": [
+        "Teenuse nimi"
+      ],
+      "Unternehmensname": [
+        "Ettevõtte nimi"
+      ],
+      "Link zur Meldestelle": [
+        "Link teavituskanalile"
+      ],
+      "Menschenrechte (%)": [
+        "Inimõigused (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Keskkond (%)"
+      ],
+      "Governance (%)": [
+        "Juhtimine (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Versioonisilt"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Kuva kõrge kontrasti lüliti"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Kuva lugemisfondi lüliti"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Kuva tekstisuuruse nupud"
+      ],
+      "Badge-Text": [
+        "Sildi tekst"
+      ],
+      "Skalierungsfaktor": [
+        "Skaalategur"
+      ],
+      "Basisschriftgröße": [
+        "Põhifondi suurus"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "WM Ligipääsetavuse tööriistariba"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Nupud kõrge kontrasti jaoks WM Suite'i plokkides, külastaja seadmesse paigaldatud lugemisfont ja suurem tekst. Valik jääb brauserisse."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "ligipääsetavus"
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004dyslexia": [
+        "düsleksia"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "WM Ligipääsetavuse teatis"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Näitab ligipääsetavuse teatist, mille WM BFSG Compliance Dashboard koostab teie seadete põhjal. Ilma selle pistikprogrammita ei näe külastajad midagi."
+      ],
+      "block keyword\u0004erklaerung": [
+        "avaldus"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "WM Nõusolekuseadete märk"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Märgilink, mis avab WM Sovereign Consent Vaulti nõusolekudialoogi. Ilma selle pistikprogrammita ei näe külastajad midagi."
+      ],
+      "block keyword\u0004privacy": [
+        "isikuandmed"
+      ],
+      "block keyword\u0004consent": [
+        "nõusolek"
+      ],
+      "block keyword\u0004dsgvo": [
+        "iküm"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "küpsised"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "WM SBOM-i allalaadimine"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Allalaadimislink CycloneDX SBOM-ile, mille kirjutab wp wm-hub sbom. Külastajad ei näe midagi enne, kui URL on sisestatud."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "turvalisus"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "WM Sündmuse broneerimisnupp"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Nupp teie sisestatud broneerimislehele, selle all valikuline märkus. Külastajad ei näe midagi enne, kui URL on sisestatud."
+      ],
+      "block keyword\u0004booking": [
+        "broneerimine"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "nupp"
+      ],
+      "block keyword\u0004tickets": [
+        "piletid"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "WM Sündmusekaart"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Sündmusekaart teie sisestatud pealkirja, kuupäeva, koha, hinna ja vabade kohtadega ning nupp määratud broneerimislehele. Midagi ei loeta reaalajas."
+      ],
+      "block keyword\u0004event": [
+        "sündmus"
+      ],
+      "block keyword\u0004card": [
+        "kaart"
+      ],
+      "block keyword\u0004ticket": [
+        "pilet"
+      ],
+      "block keyword\u0004conference": [
+        "konverents"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "WM Sündmuste ruudustik"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Loetleb WM Cyber Events Core'i aktiivsed sündmused, igaüks lingiga oma lehele. Ilma selle pistikprogrammita ei näe külastajad midagi."
+      ],
+      "block keyword\u0004grid": [
+        "võrgustik"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "WM LkSG ja ESG tulemuskaart"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Kolm teie sisestatud protsenti (inimõigused, keskkond, juhtimine) tarneahela pealkirja all. Plokk ei arvuta ega kontrolli midagi."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "tarneahel"
+      ],
+      "block keyword\u0004compliance": [
+        "vastavus"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "WM Sujuva tüpograafia konteiner"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Konteiner modulaarse tüpograafilise skaala jaoks. Selles versioonis ei võta see sisemisi plokke vastu ja ükski stiilileht ei loe selle seadeid, seega ei mõjuta see lehte."
+      ],
+      "block keyword\u0004typography": [
+        "tüpograafia"
+      ],
+      "block keyword\u0004fluid": [
+        "sujuv"
+      ],
+      "block keyword\u0004modular scale": [
+        "moodulskaala"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "WM Uudistejoon"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Liikuv rida teie oma tekstiga ja pausinupuga. See peatub, kui hiir on selle kohal, ja seisab paigal külastajate jaoks, kes soovivad vähendatud liikumist."
+      ],
+      "block keyword\u0004ticker": [
+        "riba"
+      ],
+      "block keyword\u0004marquee": [
+        "kerimine"
+      ],
+      "block keyword\u0004news": [
+        "uudised"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "kiiruudis"
+      ],
+      "block keyword\u0004accessibility": [
+        "ligipääsetavus"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "WM Peppoli ID vormingu kontroll"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Kontrollib brauseris, kas ID-l on Peppoli vorm Skeem:ID. Plokk ei otsi osalejat Peppoli võrgust."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "e-arveldus"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "WM Suveräänne privaatsuskeskus"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Pealkiri ja nupp, mis avab WM Sovereign Consent Vaulti nõusolekudialoogi. Ilma selle pistikprogrammita ei näe külastajad midagi."
+      ],
+      "block keyword\u0004preferences": [
+        "eelistused"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "WM GDPR art. 17 kustutamisvorm"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Näitab WM DSGVO Privacy Eraseri kustutamistaotluste vormi. Ilma selle pistikprogrammita ei näe külastajad midagi."
+      ],
+      "block keyword\u0004eraser": [
+        "kustutamine"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "eemaldamine"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "WM Välise sisu kohatäide"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Kohatäide laadimisnupuga. Paigutage manus template-elementi, millel on siht-ID: midagi selle sees ei laadita enne klõpsu."
+      ],
+      "block keyword\u0004media": [
+        "meedia"
+      ],
+      "block keyword\u0004placeholder": [
+        "kohatäide"
+      ],
+      "block keyword\u0004blocker": [
+        "blokeerija"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "WM HinSchG vihjeportaali kaart"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Lingikaart teavituskanalile: portaaliplokk samal lehel või teie sisestatud aadress."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-seadus"
+      ],
+      "block keyword\u0004whistleblower": [
+        "vihjeandja"
+      ],
+      "block keyword\u0004meldung": [
+        "teade"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "teavitamine"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "WM HinSchG vihjeportaal"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Näitab WM HinSchG Whistleblower Deski teavitusportaali. Ilma selle pistikprogrammita ei näe külastajad midagi."
+      ],
+      "block keyword\u0004wizard": [
+        "viisard"
+      ]
+    }
+  }
+}

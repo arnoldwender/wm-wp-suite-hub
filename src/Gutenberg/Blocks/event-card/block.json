@@ -1,0 +1,50 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/event-card",
+	"version": "1.2.6",
+	"title": "WM Atomic Event Card",
+	"category": "wm-suite",
+	"icon": "id-alt",
+	"description": "Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.",
+	"keywords": ["event", "card", "ticket", "conference"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"category": {
+			"type": "string",
+			"default": ""
+		},
+		"date": {
+			"type": "string",
+			"default": ""
+		},
+		"location": {
+			"type": "string",
+			"default": ""
+		},
+		"capacityRemaining": {
+			"type": "number",
+			"default": -1
+		},
+		"price": {
+			"type": "string",
+			"default": ""
+		},
+		"bookingUrl": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	}
+}

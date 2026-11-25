@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/whistleblower-card",
+	"version": "1.2.6",
+	"title": "WM HinSchG Whistleblower Portal Card",
+	"category": "wm-suite",
+	"icon": "megaphone",
+	"description": "Link card to the reporting channel: the portal block on the same page, or an address you enter.",
+	"keywords": ["hinschg", "whistleblower", "compliance", "meldung", "hinweisgeber"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor",
+	"attributes": {
+		"companyName": {
+			"type": "string",
+			"default": ""
+		},
+		"channelUrl": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

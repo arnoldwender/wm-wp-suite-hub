@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "ga",
+        "plural-forms": "nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Deais Fiontair)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Clárlann agus forbhreathnú sláinte ar bhreiseáin WM Suite, bille ábhar bogearraí CycloneDX 1.6 agus tábla iniúchta a bhfuil a iontrálacha slabhraithe le HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "Sraith Fiontair WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Deais & stádas"
+      ],
+      "Cockpit & Status": [
+        "Deais & stádas"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Pacáistí réitigh"
+      ],
+      "Solution Packs": [
+        "Pacáistí réitigh"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Loga iniúchta"
+      ],
+      "Audit-Log": [
+        "Loga iniúchta"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Níl go leor ceadanna agat chun rochtain a fháil ar an leathanach seo."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Deais na Sraithe Fiontair"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Modúil de réir rialacháin"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Deais na Sraithe Fiontair"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Slabhra iniúchta slán: seiceáladh %d iontráil"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Briseadh an slabhra iniúchta ag iontráil #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Tá gach iontráil ceangailte leis an gceann roimhe le HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Modúil ghníomhacha"
+      ],
+      "Health Score": [
+        "Scór sláinte"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Modúil satailíte WM Suite ghníomhacha"
+      ],
+      "%d Bereitgestellt": [
+        "%d soláthraithe"
+      ],
+      "Suite Cockpit öffnen": [
+        "Oscail deais na sraithe"
+      ],
+      "Nicht aktiv": [
+        "Neamhghníomhach"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Lánghníomhach (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Páirtghníomhach (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d modúl ar fáil"
+      ],
+      "Zustand der zuständigen Module": [
+        "Stádas na modúl freagracha"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Taispeánann sé cén breiseán WM Suite atá gníomhach agus cén stádas a thuairiscíonn sé. Ní measúnú comhréireachta é."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Léim go dtí an príomhábhar"
+      ],
+      "WM Suite Hub Command Console": [
+        "Consól ordaithe WM Suite Hub"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Staid na mbreiseán cláraithe WM Suite, bille ábhar bogearraí (CycloneDX 1.6) agus tábla iniúchta slabhraithe le HMAC-SHA256."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Athnuaigh stádas an chabhlaigh"
+      ],
+      "Aktualisieren": [
+        "Athnuaigh"
+      ],
+      "Audit-Integrität prüfen": [
+        "Seiceáil sláine an iniúchta"
+      ],
+      "Cockpit Navigation": [
+        "Nascleanúint na deaise"
+      ],
+      "Cockpit Übersicht": [
+        "Forbhreathnú na deaise"
+      ],
+      "Satelliten-Flotte": [
+        "Cabhlach satailíte"
+      ],
+      "Audit-Protokoll": [
+        "Loga iniúchta"
+      ],
+      "Design & Themes": [
+        "Dearadh & téamaí"
+      ],
+      "Suite Theme:": [
+        "Téama na sraithe:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Roghnaigh téama WM Suite"
+      ],
+      "Schnellnavigation": [
+        "Nascleanúint thapa"
+      ],
+      "Direkt zu:": [
+        "Léim chuig:"
+      ],
+      "Kurzanleitung": [
+        "Treoir Thapa"
+      ],
+      "Metriken & Status": [
+        "Méadrachtaí & stádas"
+      ],
+      "Theme-Einstellungen": [
+        "Socruithe téama"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Cad é WM Suite Hub agus conas a bhainistíonn tú do bhreiseáin?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "Is é WM Suite Hub an lárionad"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "rialachais agus rialaithe do gach breiseán WordPress ó WM Suite"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Taispeánann sé an stádas a thuairiscíonn na modúil chláraithe, gineann sé bille ábhar bogearraí i bhformáid CycloneDX 1.6 agus nascann sé le HMAC-SHA256 na himeachtaí a thuairiscítear dó: bíonn athruithe a dhéantar gan eochair an tsuímh inbhraite. Ní mheasann sé comhlíonadh dlí."
+      ],
+      "Schnellzugriff:": [
+        "Rochtain thapa:"
+      ],
+      "Aktive Module prüfen": [
+        "Scrúdaigh modúil ghníomhacha"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Féach ar an loga iniúchta"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Athraigh téama & cuma"
+      ],
+      "Systemmetriken": [
+        "Méadrachtaí an chórais"
+      ],
+      "GESAMTSTATUS": [
+        "STÁDAS FORIOMLÁN"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Stádas ualaithe na modúl cláraithe (sláintiúil 100, díghrádaithe 60, gan chumrú 30, earráid 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "FARDAL SATAILÍTÍ"
+      ],
+      "Registriert": [
+        "Cláraithe"
+      ],
+      "Gesund": [
+        "Sláintiúil"
+      ],
+      "Warnungen": [
+        "Rabhaidh"
+      ],
+      "Kritisch": [
+        "Criticiúil"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "TIMPEALLACHT RITH"
+      ],
+      "ja": [
+        "tá"
+      ],
+      "nein": [
+        "níl"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Taisce oibiachtaí bhuan"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Stádas an chabhlaigh & modúil satailíte"
+      ],
+      "Module aktiv": [
+        "modúl gníomhach"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Níl aon mhodúl satailíte cláraithe"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Chomh luath agus a ghníomhaítear breiseáin WM Suite, nascann siad go huathoibríoch tríd an scagaire wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Spleáchais:"
+      ],
+      "Konfiguration": [
+        "Cumraíocht"
+      ],
+      "Selbsttest": [
+        "Féintástáil"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Sláine an tslabhra: Gan seiceáil (cliceáil Seiceáil sláine an iniúchta)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Tábla an loga iniúchta"
+      ],
+      "Zeitstempel": [
+        "Stampa ama"
+      ],
+      "Modul": [
+        "Modúl"
+      ],
+      "Ereignistyp": [
+        "Cineál imeachta"
+      ],
+      "Benutzer": [
+        "Úsáideoir"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "Síniú HMAC SHA-256"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Logaí iniúchta á lódáil..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Córas dearaidh & roghanna téama"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Roghnaigh an scéim dathanna dhomhanda don deais agus do gach breiseán satailíte WM Suite. Úsáidtear CyberEvents Enterprise mar réamhshocrú."
+      ],
+      "Standard": [
+        "Réamhshocrú"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Meirge dorcha Obsidian Midnight in éineacht le cártaí dúchasacha WordPress Admin agus codarsnacht shoiléir."
+      ],
+      "Als Standard aktivieren": [
+        "Socraigh mar réamhshocrú"
+      ],
+      "Klassisch": [
+        "Clasaiceach"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: pailéad dathanna dúchasach WordPress Admin (#2271b1 gorm, #f0f0f1 cúlra, foirmeacha caighdeánacha WP)."
+      ],
+      "Aktivieren": [
+        "Gníomhachtaigh"
+      ],
+      "Dark Mode": [
+        "Mód dorcha"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Mód lándorcha (#050811 cúlra) le cártaí tréshoilseacha agus béimeanna gorma."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Dubh glan, bán agus buí sábháilteachta le haghaidh ardchodarsnachta."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Coinneáil sonraí & díshuiteáil"
+      ],
+      "Aufbewahrungsschutz": [
+        "Cosaint choinneála"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Scrios na sonraí uile go buan nuair a bhaintear an breiseán"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "De réir réamhshocraithe, coinníonn WM Suite Hub an tábla iniúchta HMAC-SHA256, na róil agus na socruithe le linn díshuiteála. Ná cumasaigh an rogha seo ach amháin más mian leat gach tábla agus rogha a scriosadh go buan."
+      ],
+      "Audit-Verifikation": [
+        "Fíorú iniúchta"
+      ],
+      "Schließen": [
+        "Dún"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Pacáistí téamacha de bhreiseáin WM Suite: socraíonn sórtáil thoipeolaíoch Kahn ord a spleáchas, agus scrúdaíonn an réamhsheiceáil an freastalaí ar dtús. Níl suiteáil sa leagan seo; suiteáiltear na breiseáin ceann ar cheann."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Díbhúbláil ar an leathanach seo:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "Baineadh %1$d script agus %2$d stílbhileog (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Ábhar an phacáiste & ailtireacht na modúl (%d):"
+      ],
+      "Aktiviert": [
+        "Gníomhachtaithe"
+      ],
+      "Im Paket enthalten": [
+        "San áireamh sa phacáiste"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Ord suiteála matamaiticiúil DAG (sórtáil Kahn):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Níl aon cheann de na breiseáin seo ag brath ar cheann eile; tá ord na suiteála saor."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Tosaigh réamhsheiceáil do %s"
+      ],
+      "Pre-Flight Check": [
+        "Réamhsheiceáil"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Ag seiceáil leagan PHP, síneadh Sodium, teorainn chuimhne, ceadanna scríbhneoireachta agus OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Insamhladh tástála"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Rochtain diúltaithe. Ceadanna neamhleora do dheais WM Suite."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Níl an modúl \"%s\" cláraithe nó tá sé neamhghníomhach."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Theip ar ghníomh an mhodúil: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Glanadh taisce na teiliméadrachta."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Roghnaíodh téama neamhbhailí."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Nuashonraíodh an téama."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Réamhshocrú)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Dúchasach Clasaiceach"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Dorcha"
+      ],
+      "High-Contrast": [
+        "Ardchodarsnacht"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Nuashonraíodh an socrú díshuiteála."
+      ],
+      "Bundle nicht gefunden.": [
+        "Níor aimsíodh an pacáiste."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Theip ar an réamhsheiceáil."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "D’éirigh leis an insamhladh: réitíodh %d pacáiste in ord."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Níl suiteáil pacáistí réitigh ar fáil sa leagan seo. Úsáid dry_run=true chun an t-ord a réiteach."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Diúltaíodh do shioncronú toilithe: comhartha slándála ar iarraidh nó imithe in éag."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "An iomarca imeachtaí toilithe. Bain triail eile as i gceann nóiméid."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Níl cinneadh toilithe inléite ann."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Níorbh fhéidir an toiliú a thaifeadadh."
+      ],
+      "Externer Dienst": [
+        "Seirbhís sheachtrach"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Ábhar seachtrach coiscthe: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Ábhar ó %s coiscthe"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Lódáil agus cumasaigh %s uair amháin"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Teastaíonn do thoiliú faoi § 25 TDDDG agus GDPR chun an t-ábhar seo a lódáil."
+      ],
+      "Inhalt laden & entsperren": [
+        "Lódáil & díghlasáil an t-ábhar"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Tríd an ábhar a lódáil glacann tú le haistriú sonraí chuig an soláthraí tríú páirtí."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Tharla earráid le linn cumarsáide leis an Mol."
+      ],
+      "HTTP-Fehler %s": [
+        "Earráid HTTP %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Athraíodh an téama."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Earráid agus an téama á shábháil: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Níor taifeadadh aon imeachtaí iniúchta."
+      ],
+      "Benutzer #%s": [
+        "Úsáideoir #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Earráid agus na logaí á lódáil: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Tá an slabhra iniúchta á sheiceáil…"
+      ],
+      "Audit-Kette intakt": [
+        "Slabhra iniúchta slán"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Meaitseálann gach ceann de na %d iontráil a síniú HMAC-SHA256 agus an iontráil roimhe: níor athraíodh, níor scriosadh agus níor atheagraíodh ceann ar bith gan eochair an tsuímh."
+      ],
+      "Letzter Hash: %s": [
+        "An hais is déanaí: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Briseadh an slabhra iniúchta"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Seiceáil an tslabhra iniúchta"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Theip ar an seiceáil"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Nuashonraíodh sonraí na teiliméadrachta."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Earráid agus é á athnuachan: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Réamhsheiceáil: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Earráid sa réamhsheiceáil:"
+      ],
+      "Prüfpunkt": [
+        "Pointe seiceála"
+      ],
+      "Soll": [
+        "Ag súil le"
+      ],
+      "Ist": [
+        "Iarbhír"
+      ],
+      "Status": [
+        "Stádas"
+      ],
+      "Erfüllt": [
+        "Comhlíonta"
+      ],
+      "Nicht erfüllt": [
+        "Gan comhlíonadh"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Ord suiteála ríofa:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Níor fógraíodh spleáchais, tá an t-ord saor:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Insamhladh tástála do %s ar siúl…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Insamhladh tástála críochnaithe."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Theip ar an insamhladh tástála: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Socrú díshuiteála sábháilte."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Earráid agus é á shábháil: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Toradh do %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Cuireadh an gníomh i gcrích."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Earráid i ngníomh an mhodúil: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Gan an breiseán gníomhach “%s”, ní thaispeánann an bloc seo aon rud do chuairteoirí."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Gan chumrú fós — líon isteach “%s” i socruithe an bhloic. Go dtí sin, ní fheiceann cuairteoirí an bloc."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Roghanna inrochtaineachta"
+      ],
+      "Kontrast": [
+        "Codarsnacht"
+      ],
+      "Leseschrift": [
+        "Cló léitheoireachta"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Socruithe príobháideachais"
+      ],
+      "SBOM-Download-URL": [
+        "URL íoslódála SBOM"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Bille ábhar bogearraí (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Íoslódáil CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Leathanach áirithinte (URL)"
+      ],
+      "Zur Buchung": [
+        "Chuig an áirithint"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Níl cárta an imeachta cumraithe fós — cuir isteach an teideal agus sonraí an imeachta i socruithe an bhloic."
+      ],
+      "Ausgebucht": [
+        "Lán go béal"
+      ],
+      "Nur noch %d Plätze": [
+        "Níl ach %d áit fágtha"
+      ],
+      "%d freie Plätze": [
+        "%d áit shaor"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "Ní thuairiscíonn “%s” aon imeachtaí gníomhacha; go dtí sin, ní fheiceann cuairteoirí an bloc."
+      ],
+      "Max. %d Plätze": [
+        "Uas. %d suíochán"
+      ],
+      "Zur Veranstaltung": [
+        "Chuig an imeacht"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Níl aon fhigiúirí LkSG fíoraithe curtha isteach fós — cuir isteach na luachanna i socruithe an bhloic."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Dícheall cuí sa slabhra soláthair (LkSG & CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Cearta an duine"
+      ],
+      "Umweltschutz": [
+        "Cosaint an chomhshaoil"
+      ],
+      "Gute Governance": [
+        "Dea-rialachas"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Ní ghlacann an coimeádán seo le hábhar san eagarthóir agus níl aon éifeacht aige ar an leathanach; ní fheiceann cuairteoirí é."
+      ],
+      "Ticker-Meldungen": [
+        "Ceannlínte na stiall"
+      ],
+      "Nachrichten-Ticker": [
+        "Stiall nuachta"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Cuir an stiall ar sos nó lean ar aghaidh"
+      ],
+      "Pausieren": [
+        "Sos"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Seiceálann sé sa bhrabhsálaí an bhfuil an t-aitheantóir san fhormáid Scéim:ID (m.sh. 0208:0843657437). Ní sheiceálann an bloc seo an féidir teacht ar an rannpháirtí i líonra Peppol."
+      ],
+      "Peppol ID": [
+        "Aitheantas Peppol"
+      ],
+      "Prüfen": [
+        "Deimhnigh"
+      ],
+      "Ziel-Element-ID": [
+        "ID na heiliminte sprice"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Nuair a lódáiltear an t-ábhar seo, aistrítear sonraí chuig an soláthraí."
+      ],
+      "Inhalt einmalig laden": [
+        "Lódáil an t-ábhar uair amháin"
+      ],
+      "Hinweis abgeben": [
+        "Cuir tuairisc isteach"
+      ],
+      "WM Suite Hub Telemetry": [
+        "Teiliméadracht WM Suite Hub"
+      ],
+      "Telemetry Field": [
+        "Réimse teiliméadrachta"
+      ],
+      "Health Score (%)": [
+        "Scór sláinte (%)"
+      ],
+      "Global Status": [
+        "Stádas foriomlán"
+      ],
+      "Active Spokes Count": [
+        "Líon na satailítí gníomhacha"
+      ],
+      "Hub Version": [
+        "Leagan an Mhoil"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Formáid bhailí (Scéim:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Formáid aitheantais neamhbhailí"
+      ],
+      "Pausiert": [
+        "Ar sos"
+      ],
+      "Läuft": [
+        "Ag rith"
+      ],
+      "Compliance Officer (DPO)": [
+        "Oifigeach Comhlíonta (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Ní thagraíonn iontráil #%d don iontráil roimpi: scriosadh, cuireadh isteach nó athraíodh iontráil níos luaithe."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Ní mheaitseálann síniú iontráil #%d: athraíodh an iontráil, nó ní hí eochair an tsuímh (AUTH_SALT) an eochair lenar scríobhadh í a thuilleadh."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Tá an tábla iniúchta folamh."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "Seiceáladh %d iontráil, tá an slabhra iomlán."
+      ],
+      "Eingeschränkt": [
+        "Teoranta"
+      ],
+      "Nicht konfiguriert": [
+        "Gan chumrú"
+      ],
+      "Fehler": [
+        "Earráid"
+      ],
+      "Warnung": [
+        "Rabhadh"
+      ],
+      "Unbekannt": [
+        "Anaithnid"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "Teastaíonn PHP 8.2 nó níos airde ó WM Suite Hub. Uasghrádaigh do thimpeallacht PHP."
+      ],
+      "Block-Einstellungen": [
+        "Socruithe an bhloic"
+      ],
+      "Spaltenanzahl": [
+        "Líon na gcolún"
+      ],
+      "Maximale Einträge": [
+        "Uasmhéid míreanna"
+      ],
+      "Veranstaltungstitel": [
+        "Teideal an imeachta"
+      ],
+      "Kategorie": [
+        "Catagóir"
+      ],
+      "Datum": [
+        "Dáta"
+      ],
+      "Veranstaltungsort": [
+        "Ionad"
+      ],
+      "Freie Plätze": [
+        "Suíocháin shaora"
+      ],
+      "Preis": [
+        "Praghas"
+      ],
+      "Button-Beschriftung": [
+        "Lipéad an chnaipe"
+      ],
+      "Hinweis unter dem Button": [
+        "Nóta faoin gcnaipe"
+      ],
+      "Überschrift": [
+        "Ceannteideal"
+      ],
+      "Platzhaltertext": [
+        "Téacs ionadchoinneálaí"
+      ],
+      "Badge-Beschriftung": [
+        "Lipéad an tsuaitheantais"
+      ],
+      "Dienstname": [
+        "Ainm na seirbhíse"
+      ],
+      "Unternehmensname": [
+        "Ainm na cuideachta"
+      ],
+      "Link zur Meldestelle": [
+        "Nasc chuig an gcainéal tuairiscithe"
+      ],
+      "Menschenrechte (%)": [
+        "Cearta an duine (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Comhshaol (%)"
+      ],
+      "Governance (%)": [
+        "Rialachas (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Lipéad leagain"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Taispeáin lasc ardchodarsnachta"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Taispeáin lasc cló léitheoireachta"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Taispeáin cnaipí méide téacs"
+      ],
+      "Badge-Text": [
+        "Téacs an lipéid"
+      ],
+      "Skalierungsfaktor": [
+        "Cóimheas scála"
+      ],
+      "Basisschriftgröße": [
+        "Bunmhéid an chló"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "Barra uirlisí inrochtaineachta WM"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Cnaipí le haghaidh ardchodarsnachta i mbloic WM Suite, cló léitheoireachta atá suiteáilte ar ghléas an chuairteora agus téacs níos mó. Fanann an rogha sa bhrabhsálaí."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "inrochtaineacht"
+      ],
+      "block keyword\u0004contrast": [
+        "codarsnacht"
+      ],
+      "block keyword\u0004dyslexia": [
+        "disléicse"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "Ráiteas inrochtaineachta WM"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Taispeánann sé an ráiteas inrochtaineachta a chruthaíonn WM BFSG Compliance Dashboard ó do shocruithe. Gan an breiseán sin, ní fheiceann cuairteoirí aon rud."
+      ],
+      "block keyword\u0004erklaerung": [
+        "ráiteas"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "Suaitheantas socruithe toilithe WM"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Nasc suaitheantais a osclaíonn dialóg toilithe WM Sovereign Consent Vault. Gan an breiseán sin, ní fheiceann cuairteoirí aon rud."
+      ],
+      "block keyword\u0004privacy": [
+        "sonrai-pearsanta"
+      ],
+      "block keyword\u0004consent": [
+        "toiliú"
+      ],
+      "block keyword\u0004dsgvo": [
+        "rgcs"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "fianáin"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "Íoslódáil SBOM WM"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Nasc íoslódála don SBOM CycloneDX a scríobhann wp wm-hub sbom. Ní fheiceann cuairteoirí aon rud go dtí go gcuirtear URL isteach."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "slándáil"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "Cnaipe áirithinte imeachta WM"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Cnaipe chuig an leathanach áirithinte a chuireann tú isteach, le nóta roghnach faoi. Ní fheiceann cuairteoirí aon rud go dtí go gcuirtear URL isteach."
+      ],
+      "block keyword\u0004booking": [
+        "áirithint"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "cnaipe"
+      ],
+      "block keyword\u0004tickets": [
+        "ticéid"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "Cárta adamhach imeachta WM"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Cárta imeachta leis an teideal, an dáta, an áit, an praghas agus na suíocháin shaora a chuireann tú isteach, agus cnaipe chuig an leathanach áirithinte a shonraítear. Ní léitear aon rud beo."
+      ],
+      "block keyword\u0004event": [
+        "imeacht"
+      ],
+      "block keyword\u0004card": [
+        "cárta"
+      ],
+      "block keyword\u0004ticket": [
+        "ticéad"
+      ],
+      "block keyword\u0004conference": [
+        "comhdháil"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "Greille imeachtaí WM"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Liostaíonn sé imeachtaí gníomhacha WM Cyber Events Core, gach ceann le nasc chuig a leathanach. Gan an breiseán sin, ní fheiceann cuairteoirí aon rud."
+      ],
+      "block keyword\u0004grid": [
+        "greille"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "Cárta scóir ESG & LkSG WM"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Trí chéatadán a chuireann tú isteach (cearta an duine, comhshaol, rialachas) faoi cheannteideal faoin slabhra soláthair. Ní ríomhann ná ní sheiceálann an bloc aon rud."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "slabhra soláthair"
+      ],
+      "block keyword\u0004compliance": [
+        "comhlionadh"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "Coimeádán clóchuir shreabhaigh WM"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Coimeádán do scála clóghrafaíochta modúlach. Sa leagan seo ní ghlacann sé le bloic inmheánacha agus ní léann aon stílbhileog a shocruithe, mar sin níl aon éifeacht aige ar an leathanach."
+      ],
+      "block keyword\u0004typography": [
+        "clóghrafaíocht"
+      ],
+      "block keyword\u0004fluid": [
+        "sreabhach"
+      ],
+      "block keyword\u0004modular scale": [
+        "scála modúlach"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "Ticeálaí nuachta WM"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Líne scrollaithe le do théacs féin agus cnaipe sosa. Stopann sí nuair a bhíonn an luch os a cionn agus fanann sí socair do chuairteoirí a iarrann gluaiseacht laghdaithe."
+      ],
+      "block keyword\u0004ticker": [
+        "barra"
+      ],
+      "block keyword\u0004marquee": [
+        "scrollú"
+      ],
+      "block keyword\u0004news": [
+        "nuacht"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "nuacht bhriseadh"
+      ],
+      "block keyword\u0004accessibility": [
+        "inrochtaineacht"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "Seiceáil formáide ID Peppol WM"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Seiceálann sé sa bhrabhsálaí an bhfuil foirm Peppol Scéim:ID ar ID. Ní lorgaíonn sé an rannpháirtí i líonra Peppol."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "ríomhshonrú"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "Ionad príobháideachais ceannasach WM"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Ceannteideal agus an cnaipe a osclaíonn dialóg toilithe WM Sovereign Consent Vault. Gan an breiseán sin, ní fheiceann cuairteoirí aon rud."
+      ],
+      "block keyword\u0004preferences": [
+        "roghanna"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "Foirm scriosta GDPR Airteagal 17 WM"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Taispeánann sé foirm iarratais scriosta WM DSGVO Privacy Eraser. Gan an breiseán sin, ní fheiceann cuairteoirí aon rud."
+      ],
+      "block keyword\u0004eraser": [
+        "scriosadh"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "baint"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "Áitchoimeádaí d’ábhar seachtrach WM"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Áitchoimeádaí le cnaipe lódála. Cuir an leabú in eilimint template leis an ID sprice: ní lódáiltear aon rud ann roimh an gcliceáil."
+      ],
+      "block keyword\u0004media": [
+        "meáin"
+      ],
+      "block keyword\u0004placeholder": [
+        "ionadchoinneálaí"
+      ],
+      "block keyword\u0004blocker": [
+        "coisctheoir"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "Cárta thairseach na sceithirí HinSchG WM"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Cárta naisc chuig an gcainéal tuairiscithe: bloc na tairsí ar an leathanach céanna nó seoladh a chuireann tú isteach."
+      ],
+      "block keyword\u0004hinschg": [
+        "dli-hinschg"
+      ],
+      "block keyword\u0004whistleblower": [
+        "sceithire"
+      ],
+      "block keyword\u0004meldung": [
+        "tuairisc"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "tuairisciú"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "Tairseach na sceithirí HinSchG WM"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Taispeánann sé tairseach tuairiscithe WM HinSchG Whistleblower Desk. Gan an breiseán sin, ní fheiceann cuairteoirí aon rud."
+      ],
+      "block keyword\u0004wizard": [
+        "draoi"
+      ]
+    }
+  }
+}

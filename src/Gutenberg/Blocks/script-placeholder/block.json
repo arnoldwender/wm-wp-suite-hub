@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/script-placeholder",
+	"version": "1.2.6",
+	"title": "WM External Content Placeholder",
+	"category": "wm-suite",
+	"icon": "visibility",
+	"description": "Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.",
+	"keywords": ["media", "placeholder", "privacy", "blocker", "tdddg"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor",
+	"attributes": {
+		"serviceName": {
+			"type": "string",
+			"default": ""
+		},
+		"targetElementId": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

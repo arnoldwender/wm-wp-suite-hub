@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "mt_MT",
+        "plural-forms": "nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Kabina tal-Intrapriża)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Reġistru u ħarsa ġenerali lejn is-saħħa tal-plugins ta’ WM Suite, lista ta’ komponenti tas-softwer CycloneDX 1.6 u tabella tal-awditjar li l-entrati tagħha huma marbuta f’katina b’HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "Suite tal-Intrapriża WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Kabina u stat"
+      ],
+      "Cockpit & Status": [
+        "Kabina u stat"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Pakketti ta’ soluzzjoni"
+      ],
+      "Solution Packs": [
+        "Pakketti ta’ soluzzjoni"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Reġistru tal-awditjar"
+      ],
+      "Audit-Log": [
+        "Reġistru tal-awditjar"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "M’għandekx biżżejjed permessi biex taċċessa din il-paġna."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Kabina tas-Suite tal-Intrapriża"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Moduli skont ir-regolamentazzjoni"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Kabina tas-Suite tal-Intrapriża"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Katina tal-awditjar intatta: %d entrati ċċekkjati"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Katina tal-awditjar miksura fl-entrata #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Kull entrata hija marbuta mal-preċedenti b’HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Moduli attivi"
+      ],
+      "Health Score": [
+        "Punteġġ tas-saħħa"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Moduli satellitari attivi ta’ WM Suite"
+      ],
+      "%d Bereitgestellt": [
+        "%d ipprovduti"
+      ],
+      "Suite Cockpit öffnen": [
+        "Iftaħ il-kabina tas-suite"
+      ],
+      "Nicht aktiv": [
+        "Mhux attiv"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Attiv għalkollox (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Parzjalment attiv (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d moduli disponibbli"
+      ],
+      "Zustand der zuständigen Module": [
+        "Stat tal-moduli responsabbli"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Juri liema plugin ta’ WM Suite huwa attiv u liema stat jirrapporta. Mhijiex valutazzjoni tal-konformità."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Aqbeż għall-kontenut ewlieni"
+      ],
+      "WM Suite Hub Command Console": [
+        "Konsola tal-kmand WM Suite Hub"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Stat tal-plugins irreġistrati ta’ WM Suite, lista ta’ komponenti tas-softwer (CycloneDX 1.6) u tabella tal-awditjar marbuta f’katina b’HMAC-SHA256."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Aġġorna l-istat tal-flotta"
+      ],
+      "Aktualisieren": [
+        "Aġġorna"
+      ],
+      "Audit-Integrität prüfen": [
+        "Iċċekkja l-integrità tal-awditjar"
+      ],
+      "Cockpit Navigation": [
+        "Navigazzjoni tal-kabina"
+      ],
+      "Cockpit Übersicht": [
+        "Ħarsa ġenerali tal-kabina"
+      ],
+      "Satelliten-Flotte": [
+        "Flotta satellitari"
+      ],
+      "Audit-Protokoll": [
+        "Reġistru tal-awditjar"
+      ],
+      "Design & Themes": [
+        "Disinn u temi"
+      ],
+      "Suite Theme:": [
+        "Tema tas-suite:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Agħżel tema ta’ WM Suite"
+      ],
+      "Schnellnavigation": [
+        "Navigazzjoni malajr"
+      ],
+      "Direkt zu:": [
+        "Mur għal:"
+      ],
+      "Kurzanleitung": [
+        "Gwida Rapida"
+      ],
+      "Metriken & Status": [
+        "Metriċi u stat"
+      ],
+      "Theme-Einstellungen": [
+        "Issettjar tat-tema"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "X’inhu WM Suite Hub u kif timmaniġġja l-plugins tiegħek?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub huwa ċ-ċentru"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "ta’ governanza u kontroll għall-plugins kollha ta’ WordPress ta’ WM Suite"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Juri l-istat li jirrapportaw il-moduli rreġistrati, jiġġenera lista ta’ komponenti tas-softwer fil-format CycloneDX 1.6 u jgħaqqad f’katina b’HMAC-SHA256 l-avvenimenti li jiġu rrappurtati lilu: il-bidliet magħmula mingħajr iċ-ċavetta tas-sit isiru detettabbli. Ma jivvalutax il-konformità legali."
+      ],
+      "Schnellzugriff:": [
+        "Aċċess malajr:"
+      ],
+      "Aktive Module prüfen": [
+        "Iċċekkja l-moduli attivi"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Ara r-reġistru tal-awditjar"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Ibdel it-tema u d-dehra"
+      ],
+      "Systemmetriken": [
+        "Metriċi tas-sistema"
+      ],
+      "GESAMTSTATUS": [
+        "STAT ĠENERALI"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Stat ippeżat tal-moduli rreġistrati (b’saħħtu 100, degradat 60, mhux konfigurat 30, żball 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "INVENTARJU TAS-SATELLITI"
+      ],
+      "Registriert": [
+        "Irreġistrat"
+      ],
+      "Gesund": [
+        "B’saħħtu"
+      ],
+      "Warnungen": [
+        "Twissijiet"
+      ],
+      "Kritisch": [
+        "Kritiku"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "AMBJENT TA’ EŻEKUZZJONI"
+      ],
+      "ja": [
+        "iva"
+      ],
+      "nein": [
+        "le"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Cache persistenti tal-oġġetti"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Stat tal-flotta u moduli satellitari"
+      ],
+      "Module aktiv": [
+        "moduli attivi"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "L-ebda modulu satellitari rreġistrat"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Hekk kif il-plugins ta’ WM Suite jiġu attivati, jikkonnettjaw awtomatikament permezz tal-filtru wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Dipendenzi:"
+      ],
+      "Konfiguration": [
+        "Konfigurazzjoni"
+      ],
+      "Selbsttest": [
+        "Awto-test"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Integrità tal-katina: Mhux iċċekkjata (ikklikkja Iċċekkja l-integrità tal-awditjar)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Tabella tar-reġistru tal-awditjar"
+      ],
+      "Zeitstempel": [
+        "Timbru tal-ħin"
+      ],
+      "Modul": [
+        "Modulu"
+      ],
+      "Ereignistyp": [
+        "Tip ta’ avveniment"
+      ],
+      "Benutzer": [
+        "Utent"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "Firma HMAC SHA-256"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Qed jitgħabbew ir-reġistri tal-awditjar..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Sistema tad-disinn u preferenzi tat-tema"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Agħżel l-iskema globali tal-kuluri għall-kabina u l-plugins satellitari kollha ta’ WM Suite. B’mod awtomatiku tintuża CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Awtomatiku"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Banner skur Obsidian Midnight flimkien ma’ kards indiġeni ta’ WordPress Admin u kuntrast ċar."
+      ],
+      "Als Standard aktivieren": [
+        "Issettja bħala awtomatiku"
+      ],
+      "Klassisch": [
+        "Klassiku"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: paletta indiġena ta’ WordPress Admin (#2271b1 blu, #f0f0f1 sfond, formoli standard ta’ WP)."
+      ],
+      "Aktivieren": [
+        "Attiva"
+      ],
+      "Dark Mode": [
+        "Modalità skura"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Modalità skura sħiħa (#050811 sfond) b’kards trasluċidi u aċċenti blu."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Iswed pur, abjad u isfar tas-sigurtà għal kuntrast għoli."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Żamma tad-data u diżinstallazzjoni"
+      ],
+      "Aufbewahrungsschutz": [
+        "Protezzjoni taż-żamma"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Ħassar id-data kollha b’mod permanenti meta jitneħħa l-plugin"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "B’mod awtomatiku, WM Suite Hub iżomm it-tabella tal-awditjar HMAC-SHA256, ir-rwoli u s-settings waqt id-diżinstallazzjoni. Attiva din l-għażla biss jekk trid tħassar kollox b’mod definittiv."
+      ],
+      "Audit-Verifikation": [
+        "Verifika tal-awditjar"
+      ],
+      "Schließen": [
+        "Agħlaq"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Pakketti tematiċi ta’ plugins ta’ WM Suite: l-issortjar topoloġiku ta’ Kahn jiddetermina l-ordni tad-dipendenzi tagħhom, u l-kontroll minn qabel jeżamina l-ewwel is-server. Din il-verżjoni m’għandhiex installazzjoni; il-plugins jiġu installati wieħed wieħed."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Tneħħija tad-duplikati f’din il-paġna:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "Tneħħew %1$d skripts u %2$d stylesheets (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Kontenut tal-pakkett u arkitettura tal-moduli (%d):"
+      ],
+      "Aktiviert": [
+        "Attivat"
+      ],
+      "Im Paket enthalten": [
+        "Inkluż fil-pakkett"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Sekwenza matematika ta’ installazzjoni DAG (issortjar ta’ Kahn):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "L-ebda wieħed minn dawn il-plugins ma jeħtieġ ieħor; l-ordni tal-installazzjoni hija libera."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Ibda l-kontroll minn qabel għal %s"
+      ],
+      "Pre-Flight Check": [
+        "Kontroll minn qabel"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Qed jiġu ċċekkjati l-verżjoni ta’ PHP, l-estensjoni Sodium, il-limitu tal-memorja, il-permessi tal-kitba u OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Simulazzjoni ta’ prova"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Aċċess miċħud. Permessi insuffiċjenti għall-kabina ta’ WM Suite."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Il-modulu \"%s\" mhux irreġistrat jew mhuwiex attiv."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "L-eżekuzzjoni tal-azzjoni tal-modulu falliet: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Il-cache tat-telemetrija tbattlet b’suċċess."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Intgħażlet tema invalida."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "It-tema ġiet aġġornata."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Awtomatiku)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Indiġenu Klassiku"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Skur"
+      ],
+      "High-Contrast": [
+        "Kuntrast għoli"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Is-setting tad-diżinstallazzjoni ġie aġġornat."
+      ],
+      "Bundle nicht gefunden.": [
+        "Il-pakkett ma nstabx."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Il-kontroll minn qabel falla."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Simulazzjoni b’suċċess: %d pakketti solvuti fl-ordni."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "L-installazzjoni ta’ pakketti ta’ soluzzjoni mhijiex disponibbli f’din il-verżjoni. Uża dry_run=true biex issolvi l-ordni."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Is-sinkronizzazzjoni tal-kunsens ġiet irrifjutata: token tas-sigurtà nieqes jew skadut."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Wisq avvenimenti ta’ kunsens. Erġa’ pprova wara minuta."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "L-ebda deċiżjoni ta’ kunsens li tinqara."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Il-kunsens ma setax jiġi rreġistrat."
+      ],
+      "Externer Dienst": [
+        "Servizz estern"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Kontenut estern imblukkat: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Il-kontenut minn %s ġie mblukkat"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Tagħbija u attiva %s darba waħda"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Biex jitgħabba dan il-kontenut huwa meħtieġ il-kunsens tiegħek skont § 25 TDDDG u l-GDPR."
+      ],
+      "Inhalt laden & entsperren": [
+        "Tagħbija u nisfrutta l-kontenut"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Bit-tagħbija taċċetta t-trażmissjoni tad-data lill-fornitur terz."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Seħħ żball waqt il-komunikazzjoni mal-Hub."
+      ],
+      "HTTP-Fehler %s": [
+        "Żball HTTP %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "It-tema nbidlet b’suċċess."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Żball fil-ħażna tat-tema: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "L-ebda avveniment tal-awditjar irreġistrat."
+      ],
+      "Benutzer #%s": [
+        "Utent #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Żball fit-tagħbija tar-reġistri: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Il-katina tal-awditjar qed tiġi ċċekkjata…"
+      ],
+      "Audit-Kette intakt": [
+        "Katina tal-awditjar intatta"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "L-entrati kollha (%d) jaqblu mal-firma HMAC-SHA256 tagħhom u mal-entrata preċedenti: l-ebda waħda ma nbidlet, tħassret jew ġiet irranġata mill-ġdid mingħajr iċ-ċavetta tas-sit."
+      ],
+      "Letzter Hash: %s": [
+        "L-aħħar hash: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Katina tal-awditjar miksura"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Kontroll tal-katina tal-awditjar"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Il-kontroll falla"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Id-data tat-telemetrija ġiet aġġornata."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Żball fl-aġġornament: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Kontroll minn qabel: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Żball fil-kontroll minn qabel:"
+      ],
+      "Prüfpunkt": [
+        "Punt ta’ kontroll"
+      ],
+      "Soll": [
+        "Mistenni"
+      ],
+      "Ist": [
+        "Attwali"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "Erfüllt": [
+        "Issodisfat"
+      ],
+      "Nicht erfüllt": [
+        "Mhux issodisfat"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Ordni ta’ installazzjoni kkalkulata:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "L-ebda dipendenza ddikjarata, l-ordni hija libera:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Simulazzjoni ta’ prova għal %s għaddejja…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Simulazzjoni ta’ prova lesta."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Is-simulazzjoni ta’ prova falliet: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "L-issettjar tad-diżinstallazzjoni ġie ssejvjat."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Żball fil-ħażna: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Riżultat għal %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "L-azzjoni twettqet b’suċċess."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Żball fl-azzjoni tal-modulu: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Mingħajr il-plugin attiv “%s”, dan il-blokk ma juri xejn lill-viżitaturi."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Għadu mhux konfigurat — imla “%s” fis-settings tal-blokk. Sa dak iż-żmien, il-viżitaturi ma jarawx il-blokk."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Preferenzi tal-aċċessibbiltà"
+      ],
+      "Kontrast": [
+        "Kuntrast"
+      ],
+      "Leseschrift": [
+        "Font tal-qari"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Settings tal-privatezza"
+      ],
+      "SBOM-Download-URL": [
+        "URL tat-tniżżil tas-SBOM"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Lista ta’ komponenti tas-softwer (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Niżżel CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Paġna tal-ibbukkjar (URL)"
+      ],
+      "Zur Buchung": [
+        "Għall-ibbukkjar"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Il-kard tal-avveniment għadha mhix konfigurata — daħħal it-titolu u d-dettalji tal-avveniment fis-settings tal-blokk."
+      ],
+      "Ausgebucht": [
+        "Kompletament ibbukkjat"
+      ],
+      "Nur noch %d Plätze": [
+        "Fadal biss %d postijiet"
+      ],
+      "%d freie Plätze": [
+        "%d postijiet disponibbli"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "“%s” ma jirrapporta l-ebda avveniment attiv; sa dak iż-żmien, il-viżitaturi ma jarawx il-blokk."
+      ],
+      "Max. %d Plätze": [
+        "Mass. %d postijiet"
+      ],
+      "Zur Veranstaltung": [
+        "Għall-avveniment"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Għad ma ddaħħlu l-ebda indikaturi LkSG ivverifikati — daħħal il-valuri fis-settings tal-blokk."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Diliġenza dovuta fil-katina tal-provvista (LkSG u CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Drittijiet tal-bniedem"
+      ],
+      "Umweltschutz": [
+        "Ħarsien tal-ambjent"
+      ],
+      "Gute Governance": [
+        "Governanza tajba"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Dan il-kontenitur ma jaċċetta l-ebda kontenut fl-editur u m’għandu l-ebda effett fuq il-paġna; il-viżitaturi ma jarawhx."
+      ],
+      "Ticker-Meldungen": [
+        "Aħbarijiet tal-istrixxa"
+      ],
+      "Nachrichten-Ticker": [
+        "Strixxa tal-aħbarijiet"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Waqqaf jew kompli l-istrixxa"
+      ],
+      "Pausieren": [
+        "Pawża"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Jiċċekkja fil-browser jekk l-identifikatur jaqbilx mal-format Skema:ID (eż. 0208:0843657437). Dan il-blokk ma jiċċekkjax jekk il-parteċipant jistax jintlaħaq fin-netwerk Peppol."
+      ],
+      "Peppol ID": [
+        "Peppol ID"
+      ],
+      "Prüfen": [
+        "Ivverifika"
+      ],
+      "Ziel-Element-ID": [
+        "ID tal-element fil-mira"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Meta jitgħabba dan il-kontenut, id-data tiġi trażmessa lill-fornitur."
+      ],
+      "Inhalt einmalig laden": [
+        "Tagħbija l-kontenut darba waħda"
+      ],
+      "Hinweis abgeben": [
+        "Ibgħat rapport"
+      ],
+      "WM Suite Hub Telemetry": [
+        "Telemetrija WM Suite Hub"
+      ],
+      "Telemetry Field": [
+        "Qasam tat-telemetrija"
+      ],
+      "Health Score (%)": [
+        "Punteġġ tas-saħħa (%)"
+      ],
+      "Global Status": [
+        "Stat ġenerali"
+      ],
+      "Active Spokes Count": [
+        "Għadd ta’ satelliti attivi"
+      ],
+      "Hub Version": [
+        "Verżjoni tal-Hub"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Format validu (Skema:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Format tal-ID invalidu"
+      ],
+      "Pausiert": [
+        "Imwaqqaf"
+      ],
+      "Läuft": [
+        "Għaddej"
+      ],
+      "Compliance Officer (DPO)": [
+        "Uffiċjal tal-Konformità (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "L-entrata #%d ma tirreferix għall-entrata preċedenti: entrata qabilha tħassret, iddaħħlet jew inbidlet."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Il-firma tal-entrata #%d ma taqbilx: l-entrata nbidlet, jew iċ-ċavetta tas-sit (AUTH_SALT) m’għadhiex dik li biha nkitbet."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "It-tabella tal-awditjar hija vojta."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "%d entrati ċċekkjati, il-katina hija kompluta."
+      ],
+      "Eingeschränkt": [
+        "Limitat"
+      ],
+      "Nicht konfiguriert": [
+        "Mhux ikkonfigurat"
+      ],
+      "Fehler": [
+        "Żball"
+      ],
+      "Warnung": [
+        "Twissija"
+      ],
+      "Unbekannt": [
+        "Mhux magħruf"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub jeħtieġ PHP 8.2 jew ogħla. Jekk jogħġbok aġġorna l-ambjent PHP tiegħek."
+      ],
+      "Block-Einstellungen": [
+        "Issettjar tal-blokk"
+      ],
+      "Spaltenanzahl": [
+        "Għadd ta’ kolonni"
+      ],
+      "Maximale Einträge": [
+        "Massimu ta’ entrati"
+      ],
+      "Veranstaltungstitel": [
+        "Titolu tal-avveniment"
+      ],
+      "Kategorie": [
+        "Kategorija"
+      ],
+      "Datum": [
+        "Data"
+      ],
+      "Veranstaltungsort": [
+        "Post tal-avveniment"
+      ],
+      "Freie Plätze": [
+        "Postijiet ħielsa"
+      ],
+      "Preis": [
+        "Prezz"
+      ],
+      "Button-Beschriftung": [
+        "Tikketta tal-buttuna"
+      ],
+      "Hinweis unter dem Button": [
+        "Nota taħt il-buttuna"
+      ],
+      "Überschrift": [
+        "Titlu"
+      ],
+      "Platzhaltertext": [
+        "Test ta’ segnapost"
+      ],
+      "Badge-Beschriftung": [
+        "Tikketta tal-badge"
+      ],
+      "Dienstname": [
+        "Isem is-servizz"
+      ],
+      "Unternehmensname": [
+        "Isem il-kumpanija"
+      ],
+      "Link zur Meldestelle": [
+        "Link għall-kanal tar-rappurtar"
+      ],
+      "Menschenrechte (%)": [
+        "Drittijiet tal-bniedem (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Ambjent (%)"
+      ],
+      "Governance (%)": [
+        "Governanza (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Tikketta tal-verżjoni"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Uri l-iswiċċ ta’ kuntrast għoli"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Uri l-iswiċċ tal-font tal-qari"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Uri l-buttuni tad-daqs tat-test"
+      ],
+      "Badge-Text": [
+        "Test tat-tikketta"
+      ],
+      "Skalierungsfaktor": [
+        "Proporzjon tal-iskala"
+      ],
+      "Basisschriftgröße": [
+        "Daqs bażiku tal-font"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "Toolbar tal-aċċessibbiltà WM"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Buttuni għal kuntrast għoli fil-blokki ta’ WM Suite, font tal-qari installat fuq it-tagħmir tal-viżitatur u test akbar. L-għażla tibqa’ fil-browser."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "aċċessibbiltà"
+      ],
+      "block keyword\u0004contrast": [
+        "kuntrast"
+      ],
+      "block keyword\u0004dyslexia": [
+        "diżlessija"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "Dikjarazzjoni tal-aċċessibbiltà WM"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Turi d-dikjarazzjoni tal-aċċessibbiltà li WM BFSG Compliance Dashboard toħloq mis-settings tiegħek. Mingħajr dak il-plugin, il-viżitaturi ma jaraw xejn."
+      ],
+      "block keyword\u0004erklaerung": [
+        "dikjarazzjoni"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "Badge tas-settings tal-kunsens WM"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Link f’forma ta’ badge li jiftaħ id-djalogu tal-kunsens ta’ WM Sovereign Consent Vault. Mingħajr dak il-plugin, il-viżitaturi ma jaraw xejn."
+      ],
+      "block keyword\u0004privacy": [
+        "data-personali"
+      ],
+      "block keyword\u0004consent": [
+        "kunsens"
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "cookies"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "Download tal-SBOM WM"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Link għad-download tal-SBOM CycloneDX li jikteb wp wm-hub sbom. Il-viżitaturi ma jaraw xejn sakemm jiddaħħal URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "sigurtà"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "Buttuna ta’ bbukkjar tal-avvenimenti WM"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Buttuna għall-paġna tal-ibbukkjar li ddaħħal, b’nota fakultattiva taħtha. Il-viżitaturi ma jaraw xejn sakemm jiddaħħal URL."
+      ],
+      "block keyword\u0004booking": [
+        "ibbukkjar"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "buttuna"
+      ],
+      "block keyword\u0004tickets": [
+        "biljetti"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "Kard atomika tal-avveniment WM"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Kard tal-avveniment bit-titolu, id-data, il-post, il-prezz u l-postijiet ħielsa li ddaħħal, u buttuna għall-paġna tal-ibbukkjar indikata. Xejn ma jinqara live."
+      ],
+      "block keyword\u0004event": [
+        "avveniment"
+      ],
+      "block keyword\u0004card": [
+        "kard"
+      ],
+      "block keyword\u0004ticket": [
+        "biljett"
+      ],
+      "block keyword\u0004conference": [
+        "konferenza"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "Gradilja tal-avvenimenti WM"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Telenka l-avvenimenti attivi ta’ WM Cyber Events Core, kull wieħed b’link għall-paġna tiegħu. Mingħajr dak il-plugin, il-viżitaturi ma jaraw xejn."
+      ],
+      "block keyword\u0004grid": [
+        "grilja"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "Kard tal-indikaturi ESG u LkSG WM"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Tliet perċentwali li ddaħħal (drittijiet tal-bniedem, ambjent, governanza) taħt intestatura dwar il-katina tal-provvista. Il-blokk ma jikkalkula u ma jiċċekkja xejn."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "katina tal-provvista"
+      ],
+      "block keyword\u0004compliance": [
+        "konformita"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "Kontenitur tat-tipografija fluwida WM"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Kontenitur għal skala tipografika modulari. F’din il-verżjoni ma jaċċettax blokki interni u l-ebda stylesheet ma taqra s-settings tiegħu, għalhekk m’għandu l-ebda effett fuq il-paġna."
+      ],
+      "block keyword\u0004typography": [
+        "tipografija"
+      ],
+      "block keyword\u0004fluid": [
+        "fluwidu"
+      ],
+      "block keyword\u0004modular scale": [
+        "skala modulari"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "Strixxa tal-aħbarijiet WM"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Linja li tiskrollja bit-test tiegħek u buttuna tal-pawsa. Tieqaf meta l-maws ikun fuqha u tibqa’ wieqfa għall-viżitaturi li jitolbu moviment imnaqqas."
+      ],
+      "block keyword\u0004ticker": [
+        "strixxa"
+      ],
+      "block keyword\u0004marquee": [
+        "skrolljar"
+      ],
+      "block keyword\u0004news": [
+        "aħbarijiet"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "aħbar urġenti"
+      ],
+      "block keyword\u0004accessibility": [
+        "aċċessibbiltà"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "Kontroll tal-format tal-ID Peppol WM"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Jiċċekkja fil-browser jekk ID għandux il-forma Peppol Skema:ID. Ma jfittixx il-parteċipant fin-netwerk Peppol."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "fatturazzjoni elettronika"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "Ċentru sovran tal-privatezza WM"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Intestatura u l-buttuna li tiftaħ id-djalogu tal-kunsens ta’ WM Sovereign Consent Vault. Mingħajr dak il-plugin, il-viżitaturi ma jaraw xejn."
+      ],
+      "block keyword\u0004preferences": [
+        "preferenzi"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "Formola tat-tħassir Art. 17 GDPR WM"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Turi l-formola tat-talbiet għat-tħassir ta’ WM DSGVO Privacy Eraser. Mingħajr dak il-plugin, il-viżitaturi ma jaraw xejn."
+      ],
+      "block keyword\u0004eraser": [
+        "tħassir"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "tneħħija"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "Placeholder għal kontenut estern WM"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Placeholder b’buttuna tat-tagħbija. Poġġi l-inkorporazzjoni f’element template bl-ID fil-mira: xejn fih ma jitgħabba qabel il-klikk."
+      ],
+      "block keyword\u0004media": [
+        "midja"
+      ],
+      "block keyword\u0004placeholder": [
+        "segnapost"
+      ],
+      "block keyword\u0004blocker": [
+        "imblukkatur"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "Kard tal-portal tar-rappurtar HinSchG WM"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Kard tal-link għall-kanal tar-rappurtar: il-blokk tal-portal fl-istess paġna jew indirizz li ddaħħal."
+      ],
+      "block keyword\u0004hinschg": [
+        "ligi-hinschg"
+      ],
+      "block keyword\u0004whistleblower": [
+        "whistleblower-mt"
+      ],
+      "block keyword\u0004meldung": [
+        "rapport"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "rappurtar"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "Portal tar-rappurtar HinSchG WM"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Turi l-portal tar-rappurtar ta’ WM HinSchG Whistleblower Desk. Mingħajr dak il-plugin, il-viżitaturi ma jaraw xejn."
+      ],
+      "block keyword\u0004wizard": [
+        "assistent"
+      ]
+    }
+  }
+}

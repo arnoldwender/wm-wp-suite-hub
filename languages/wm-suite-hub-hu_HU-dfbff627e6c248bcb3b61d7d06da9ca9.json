@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "hu_HU",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Vállalati vezérlőpult)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "A WM Suite bővítmények nyilvántartása és állapotáttekintése, CycloneDX 1.6 szerinti szoftverösszetevő-jegyzék, valamint egy audittábla, amelynek bejegyzései HMAC-SHA256-tal vannak láncolva."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "WM Suite Vállalati Csomag"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Vezérlőpult és állapot"
+      ],
+      "Cockpit & Status": [
+        "Vezérlőpult és állapot"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Megoldáscsomagok"
+      ],
+      "Solution Packs": [
+        "Megoldáscsomagok"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Auditnapló"
+      ],
+      "Audit-Log": [
+        "Auditnapló"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Nincs megfelelő jogosultsága az oldal megtekintéséhez."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Vállalati csomag vezérlőpultja"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Modulok szabályozás szerint"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Vállalati csomag vezérlőpultja"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Auditlánc ép: %d bejegyzés ellenőrizve"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Auditlánc megszakadt a(z) #%d bejegyzésnél"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Minden bejegyzés HMAC-SHA256-tal kapcsolódik az előzőhöz."
+      ],
+      "Aktive Module": [
+        "Aktív modulok"
+      ],
+      "Health Score": [
+        "Állapotpontszám"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Aktív WM Suite szatellitmodulok"
+      ],
+      "%d Bereitgestellt": [
+        "%d telepítve"
+      ],
+      "Suite Cockpit öffnen": [
+        "Vezérlőpult megnyitása"
+      ],
+      "Nicht aktiv": [
+        "Nem aktív"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Teljesen aktív (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Részben aktív (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d elérhető modul"
+      ],
+      "Zustand der zuständigen Module": [
+        "Az illetékes modulok állapota"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Megmutatja, melyik WM Suite-bővítmény aktív, és milyen állapotot jelent. Nem megfelelőségértékelés."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Ugrás a fő tartalomra"
+      ],
+      "WM Suite Hub Command Console": [
+        "WM Suite Hub parancskonzol"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "A regisztrált WM Suite bővítmények állapota, szoftverösszetevő-jegyzék (CycloneDX 1.6) és egy HMAC-SHA256-tal láncolt audittábla."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Flottaállapot frissítése"
+      ],
+      "Aktualisieren": [
+        "Frissítés"
+      ],
+      "Audit-Integrität prüfen": [
+        "Auditintegritás ellenőrzése"
+      ],
+      "Cockpit Navigation": [
+        "Vezérlőpult-navigáció"
+      ],
+      "Cockpit Übersicht": [
+        "Vezérlőpult áttekintése"
+      ],
+      "Satelliten-Flotte": [
+        "Szatellitflotta"
+      ],
+      "Audit-Protokoll": [
+        "Auditnapló"
+      ],
+      "Design & Themes": [
+        "Megjelenés és témák"
+      ],
+      "Suite Theme:": [
+        "Csomagtéma:"
+      ],
+      "WM Suite Theme auswählen": [
+        "WM Suite téma kiválasztása"
+      ],
+      "Schnellnavigation": [
+        "Gyorsnavigáció"
+      ],
+      "Direkt zu:": [
+        "Ugrás ide:"
+      ],
+      "Kurzanleitung": [
+        "Rövid útmutató"
+      ],
+      "Metriken & Status": [
+        "Mutatók és állapot"
+      ],
+      "Theme-Einstellungen": [
+        "Témabeállítások"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Mi a WM Suite Hub, és hogyan vezérelheti bővítményeit?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "A WM Suite Hub az összes WM Suite WordPress-bővítmény központi"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "irányítási és felügyeleti központja"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Megmutatja a regisztrált modulok által jelentett állapotot, CycloneDX 1.6 formátumú szoftverösszetevő-listát készít, és HMAC-SHA256-tal láncba fűzi a neki jelentett eseményeket: a webhely kulcsa nélkül végzett módosítások észlelhetővé válnak. Jogi megfelelőséget nem értékel."
+      ],
+      "Schnellzugriff:": [
+        "Gyorselérés:"
+      ],
+      "Aktive Module prüfen": [
+        "Aktív modulok ellenőrzése"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Auditnapló megtekintése"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Téma és megjelenés váltása"
+      ],
+      "Systemmetriken": [
+        "Rendszermutatók"
+      ],
+      "GESAMTSTATUS": [
+        "ÖSSZÁLLAPOT"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "A regisztrált modulok súlyozott állapota (egészséges 100, korlátozott 60, nincs beállítva 30, hiba 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "SZATELLITLELTÁR"
+      ],
+      "Registriert": [
+        "Regisztrálva"
+      ],
+      "Gesund": [
+        "Egészséges"
+      ],
+      "Warnungen": [
+        "Figyelmeztetések"
+      ],
+      "Kritisch": [
+        "Kritikus"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "FUTTATÓKÖRNYEZET"
+      ],
+      "ja": [
+        "igen"
+      ],
+      "nein": [
+        "nem"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Állandó objektumgyorsítótár"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Flottaállapot és szatellitmodulok"
+      ],
+      "Module aktiv": [
+        "aktív modul"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Nincs regisztrált szatellitmodul"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Amint aktivál egy WM Suite bővítményt, az automatikusan csatlakozik a wm_register_suite_module szűrőn keresztül."
+      ],
+      "Abhängigkeiten:": [
+        "Függőségek:"
+      ],
+      "Konfiguration": [
+        "Beállítások"
+      ],
+      "Selbsttest": [
+        "Önteszt"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Láncintegritás: Nincs ellenőrizve (kattintson az Auditintegritás ellenőrzése gombra)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Auditnapló-táblázat"
+      ],
+      "Zeitstempel": [
+        "Időbélyeg"
+      ],
+      "Modul": [
+        "Modul"
+      ],
+      "Ereignistyp": [
+        "Eseménytípus"
+      ],
+      "Benutzer": [
+        "Felhasználó"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "SHA-256 HMAC aláírás"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Auditnaplók betöltése..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Dizájnrendszer és témabeállítások"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Válassza ki a vezérlőpult és az összes WM Suite szatellitbővítmény globális színsémáját. Alapértelmezés szerint a CyberEvents Enterprise téma aktív."
+      ],
+      "Standard": [
+        "Alapértelmezett"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Sötét Obsidian Midnight fejléc natív WordPress adminkártyákkal és éles kontrasztokkal."
+      ],
+      "Als Standard aktivieren": [
+        "Beállítás alapértelmezettként"
+      ],
+      "Klassisch": [
+        "Klasszikus"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: natív WordPress Admin színpaletta (#2271b1 kék, #f0f0f1 háttér, szabványos WP-űrlapok)."
+      ],
+      "Aktivieren": [
+        "Aktiválás"
+      ],
+      "Dark Mode": [
+        "Sötét mód"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Teljes sötét mód (#050811 háttér) üveghatású kártyákkal és kék kiemelésekkel."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Tiszta fekete, fehér és biztonsági sárga a nagy kontraszthoz."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Adatmegőrzés és eltávolítás"
+      ],
+      "Aufbewahrungsschutz": [
+        "Megőrzésvédelem"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Minden adat végleges törlése a bővítmény eltávolításakor"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "Alapértelmezés szerint a WM Suite Hub megőrzi a HMAC-SHA256 audittáblát, a szerepköröket és a beállításokat eltávolításkor. Csak akkor engedélyezze ezt, ha minden táblát és beállítást végleg törölni kíván."
+      ],
+      "Audit-Verifikation": [
+        "Audit-ellenőrzés"
+      ],
+      "Schließen": [
+        "Bezárás"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "WM Suite-bővítményekből álló tematikus csomagok: függőségeik sorrendjét Kahn topologikus rendezése határozza meg, az előzetes ellenőrzés pedig előbb a szervert vizsgálja meg. Ebben a verzióban nincs telepítés; a bővítmények egyenként telepíthetők."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Duplikációk eltávolítása ezen az oldalon:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "%1$d szkript és %2$d stíluslap eltávolítva (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Csomagtartalom és modularchitektúra (%d):"
+      ],
+      "Aktiviert": [
+        "Aktiválva"
+      ],
+      "Im Paket enthalten": [
+        "A csomag része"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Matematikai DAG-telepítési sorrend (Kahn-rendezés):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Egyik bővítmény sem igényel másikat; a telepítés sorrendje szabadon választható."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Előzetes ellenőrzés indítása ehhez: %s"
+      ],
+      "Pre-Flight Check": [
+        "Előzetes ellenőrzés"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "PHP-verzió, Sodium-bővítmény, memóriakorlát, írási jogok és OPcache ellenőrzése …"
+      ],
+      "Dry-Run Simulation": [
+        "Próbaszimuláció"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Hozzáférés megtagadva. Nincs elegendő jogosultság a WM Suite vezérlőpulthoz."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "A(z) \"%s\" modul nincs regisztrálva vagy inaktív."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "A modulművelet végrehajtása sikertelen: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "A telemetriai gyorsítótár kiürítve."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Érvénytelen téma lett kiválasztva."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "A téma frissítve."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Alapértelmezett)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Natív Klasszikus"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Sötét"
+      ],
+      "High-Contrast": [
+        "Nagy kontraszt"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Az eltávolítási beállítás frissítve."
+      ],
+      "Bundle nicht gefunden.": [
+        "A csomag nem található."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Az előzetes ellenőrzés sikertelen."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Próbaszimuláció sikeres: %d csomag sorrendben feloldva."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "A megoldáscsomagok telepítése ebben a verzióban nem érhető el. Használja a dry_run=true paramétert a sorrend feloldásához."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Hozzájárulás-szinkronizálás elutasítva: hiányzó vagy lejárt biztonsági token."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Túl sok hozzájárulási esemény. Próbálja újra egy perc múlva."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Nincs olvasható hozzájárulási döntés."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "A hozzájárulást nem sikerült rögzíteni."
+      ],
+      "Externer Dienst": [
+        "Külső szolgáltatás"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Zárolt külső tartalom: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "%s tartalma zárolva"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "%s egyszeri betöltése és engedélyezése"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "A tartalom betöltéséhez hozzájárulás szükséges a TDDDG 25. §-a és a GDPR alapján."
+      ],
+      "Inhalt laden & entsperren": [
+        "Tartalom betöltése és feloldása"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "A betöltéssel hozzájárul az adatok továbbításához a külső szolgáltató részére."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Hiba történt a Hubbal folytatott kommunikáció során."
+      ],
+      "HTTP-Fehler %s": [
+        "HTTP-hiba: %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "A téma átváltva."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Hiba a téma mentésekor: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Nincs rögzített auditesemény."
+      ],
+      "Benutzer #%s": [
+        "Felhasználó #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Hiba a naplók betöltésekor: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Az auditlánc ellenőrzése folyamatban…"
+      ],
+      "Audit-Kette intakt": [
+        "Auditlánc ép"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Mind a(z) %d bejegyzés egyezik a HMAC-SHA256-aláírásával és az előzményével: egyiket sem módosították, törölték vagy rendezték át a webhely kulcsa nélkül."
+      ],
+      "Letzter Hash: %s": [
+        "Utolsó hash: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Auditlánc megszakadt"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Az auditlánc ellenőrzése"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Az ellenőrzés sikertelen"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "A telemetriai adatok frissültek."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Hiba a frissítéskor: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Előzetes ellenőrzés: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Hiba az előzetes ellenőrzés során:"
+      ],
+      "Prüfpunkt": [
+        "Ellenőrzési pont"
+      ],
+      "Soll": [
+        "Elvárt"
+      ],
+      "Ist": [
+        "Tényleges"
+      ],
+      "Status": [
+        "Állapot"
+      ],
+      "Erfüllt": [
+        "Teljesül"
+      ],
+      "Nicht erfüllt": [
+        "Nem teljesül"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Kiszámított telepítési sorrend:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Nincsenek deklarált függőségek, a sorrend szabad:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Próbaszimuláció folyamatban: %s…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "A próbaszimuláció befejeződött."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "A próbaszimuláció sikertelen: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Az eltávolítási beállítás mentve."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Hiba a mentéskor: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Eredmény – %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "A művelet végrehajtva."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Hiba a modulművelet során: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Az aktív „%s” bővítmény nélkül ez a blokk semmit sem mutat a látogatóknak."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Még nincs beállítva – adja meg a(z) „%s” mezőt a blokkbeállításokban. Addig a látogatók nem látják a blokkot."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Akadálymentességi beállítások"
+      ],
+      "Kontrast": [
+        "Kontraszt"
+      ],
+      "Leseschrift": [
+        "Olvasást segítő betűtípus"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Adatvédelmi beállítások"
+      ],
+      "SBOM-Download-URL": [
+        "SBOM letöltési URL"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Szoftverösszetevő-lista (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "CycloneDX 1.6 SBOM letöltése"
+      ],
+      "Buchungsseite (URL)": [
+        "Foglalási oldal (URL)"
+      ],
+      "Zur Buchung": [
+        "Tovább a foglaláshoz"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Az eseménykártya még nincs beállítva – adja meg a címet és az esemény adatait a blokkbeállításokban."
+      ],
+      "Ausgebucht": [
+        "Betelt"
+      ],
+      "Nur noch %d Plätze": [
+        "Már csak %d hely maradt"
+      ],
+      "%d freie Plätze": [
+        "%d szabad hely"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "A(z) „%s” nem jelent aktív eseményeket; addig a látogatók nem látják a blokkot."
+      ],
+      "Max. %d Plätze": [
+        "Max. %d hely"
+      ],
+      "Zur Veranstaltung": [
+        "Tovább az eseményhez"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Még nincsenek ellenőrzött LkSG-mutatók megadva – adja meg az értékeket a blokkbeállításokban."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Ellátásilánc-átvilágítás (LkSG és CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Emberi jogok"
+      ],
+      "Umweltschutz": [
+        "Környezetvédelem"
+      ],
+      "Gute Governance": [
+        "Felelős vállalatirányítás"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Ez a konténer a szerkesztőben nem fogad tartalmat, és nincs hatással az oldalra; a látogatók nem látják."
+      ],
+      "Ticker-Meldungen": [
+        "Hírszalag üzenetei"
+      ],
+      "Nachrichten-Ticker": [
+        "Hírszalag"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Hírszalag szüneteltetése vagy folytatása"
+      ],
+      "Pausieren": [
+        "Szünet"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "A böngészőben ellenőrzi, hogy az azonosító megfelel-e a Séma:ID formátumnak (pl. 0208:0843657437). Azt, hogy a résztvevő elérhető-e a Peppol-hálózatban, ez a blokk nem ellenőrzi."
+      ],
+      "Peppol ID": [
+        "Peppol-azonosító"
+      ],
+      "Prüfen": [
+        "Ellenőrzés"
+      ],
+      "Ziel-Element-ID": [
+        "Célelem azonosítója"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "A tartalom betöltésekor adatok jutnak el a szolgáltatóhoz."
+      ],
+      "Inhalt einmalig laden": [
+        "Tartalom egyszeri betöltése"
+      ],
+      "Hinweis abgeben": [
+        "Bejelentés küldése"
+      ],
+      "WM Suite Hub Telemetry": [
+        "WM Suite Hub telemetria"
+      ],
+      "Telemetry Field": [
+        "Telemetriamező"
+      ],
+      "Health Score (%)": [
+        "Állapotpontszám (%)"
+      ],
+      "Global Status": [
+        "Összállapot"
+      ],
+      "Active Spokes Count": [
+        "Aktív szatellitek száma"
+      ],
+      "Hub Version": [
+        "Hub-verzió"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Érvényes formátum (Séma:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Érvénytelen azonosítóformátum"
+      ],
+      "Pausiert": [
+        "Szüneteltetve"
+      ],
+      "Läuft": [
+        "Fut"
+      ],
+      "Compliance Officer (DPO)": [
+        "Megfelelőségi tisztviselő (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "A(z) #%d bejegyzés nem az előzményére hivatkozik: egy korábbi bejegyzést töröltek, beszúrtak vagy módosítottak."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "A(z) #%d bejegyzés aláírása nem egyezik: a bejegyzést módosították, vagy a webhely kulcsa (AUTH_SALT) már nem az, amellyel írták."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Az audittábla üres."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "%d bejegyzés ellenőrizve, a lánc hiánytalan."
+      ],
+      "Eingeschränkt": [
+        "Korlátozott"
+      ],
+      "Nicht konfiguriert": [
+        "Nincs beállítva"
+      ],
+      "Fehler": [
+        "Hiba"
+      ],
+      "Warnung": [
+        "Figyelmeztetés"
+      ],
+      "Unbekannt": [
+        "Ismeretlen"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "A WM Suite Hub használatához legalább PHP 8.2 szükséges. Kérjük, frissítse a PHP-környezetet."
+      ],
+      "Block-Einstellungen": [
+        "Blokkbeállítások"
+      ],
+      "Spaltenanzahl": [
+        "Oszlopok száma"
+      ],
+      "Maximale Einträge": [
+        "Maximális elemszám"
+      ],
+      "Veranstaltungstitel": [
+        "Esemény címe"
+      ],
+      "Kategorie": [
+        "Kategória"
+      ],
+      "Datum": [
+        "Dátum"
+      ],
+      "Veranstaltungsort": [
+        "Helyszín"
+      ],
+      "Freie Plätze": [
+        "Szabad helyek"
+      ],
+      "Preis": [
+        "Ár"
+      ],
+      "Button-Beschriftung": [
+        "Gomb felirata"
+      ],
+      "Hinweis unter dem Button": [
+        "Megjegyzés a gomb alatt"
+      ],
+      "Überschrift": [
+        "Címsor"
+      ],
+      "Platzhaltertext": [
+        "Helyőrző szöveg"
+      ],
+      "Badge-Beschriftung": [
+        "Jelvény felirata"
+      ],
+      "Dienstname": [
+        "Szolgáltatás neve"
+      ],
+      "Unternehmensname": [
+        "Vállalat neve"
+      ],
+      "Link zur Meldestelle": [
+        "Hivatkozás a bejelentési csatornára"
+      ],
+      "Menschenrechte (%)": [
+        "Emberi jogok (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Környezetvédelem (%)"
+      ],
+      "Governance (%)": [
+        "Vállalatirányítás (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Verziócímke"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Magas kontraszt kapcsoló megjelenítése"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Olvasóbetű-kapcsoló megjelenítése"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Betűméret-gombok megjelenítése"
+      ],
+      "Badge-Text": [
+        "Címkeszöveg"
+      ],
+      "Skalierungsfaktor": [
+        "Skálázási arány"
+      ],
+      "Basisschriftgröße": [
+        "Alap betűméret"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "WM Akadálymentességi eszköztár"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Gombok a nagy kontraszthoz a WM Suite blokkjaiban, a látogató eszközére telepített olvasóbetűtípus és nagyobb szöveg. A választás a böngészőben marad."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "akadálymentesség"
+      ],
+      "block keyword\u0004contrast": [
+        "kontraszt"
+      ],
+      "block keyword\u0004dyslexia": [
+        "diszlexia"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "WM Akadálymentességi nyilatkozat"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Megjeleníti az akadálymentességi nyilatkozatot, amelyet a WM BFSG Compliance Dashboard az Ön beállításaiból készít. E bővítmény nélkül a látogatók semmit sem látnak."
+      ],
+      "block keyword\u0004erklaerung": [
+        "nyilatkozat"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "WM Hozzájárulási beállítások jelvény"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Jelvény formájú hivatkozás, amely megnyitja a WM Sovereign Consent Vault hozzájárulási párbeszédablakát. E bővítmény nélkül a látogatók semmit sem látnak."
+      ],
+      "block keyword\u0004privacy": [
+        "maganszfera"
+      ],
+      "block keyword\u0004consent": [
+        "hozzájárulás"
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "sütik"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "WM SBOM-letöltés"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Letöltési hivatkozás a wp wm-hub sbom által írt CycloneDX SBOM-hoz. A látogatók semmit sem látnak, amíg nincs megadva URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "biztonság"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "WM Eseményfoglaló CTA-gomb"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Gomb az Ön által megadott foglalási oldalra, alatta opcionális megjegyzéssel. A látogatók semmit sem látnak, amíg nincs megadva URL."
+      ],
+      "block keyword\u0004booking": [
+        "foglalás"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "gomb"
+      ],
+      "block keyword\u0004tickets": [
+        "jegyek"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "WM Eseménykártya"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Eseménykártya az Ön által megadott címmel, dátummal, helyszínnel, árral és szabad helyekkel, valamint egy gomb a megadott foglalási oldalra. Semmi sem olvasódik be élőben."
+      ],
+      "block keyword\u0004event": [
+        "esemény"
+      ],
+      "block keyword\u0004card": [
+        "kártya"
+      ],
+      "block keyword\u0004ticket": [
+        "jegy"
+      ],
+      "block keyword\u0004conference": [
+        "konferencia"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "WM Eseményrács-konténer"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Felsorolja a WM Cyber Events Core aktív eseményeit, mindegyiket a saját oldalára mutató hivatkozással. E bővítmény nélkül a látogatók semmit sem látnak."
+      ],
+      "block keyword\u0004grid": [
+        "rács"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "WM LkSG és ESG mutatókártya"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Három Ön által megadott százalékérték (emberi jogok, környezet, irányítás) egy ellátási láncról szóló címsor alatt. A blokk semmit sem számol és nem ellenőriz."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "ellátási lánc"
+      ],
+      "block keyword\u0004compliance": [
+        "megfeleloseg"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "WM Rugalmas tipográfiai konténer"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Konténer moduláris tipográfiai skálához. Ebben a verzióban nem fogad belső blokkokat, és egyetlen stíluslap sem olvassa a beállításait, így nincs hatással az oldalra."
+      ],
+      "block keyword\u0004typography": [
+        "tipográfia"
+      ],
+      "block keyword\u0004fluid": [
+        "folyamatos"
+      ],
+      "block keyword\u0004modular scale": [
+        "moduláris skála"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "WM Hírszalag"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Gördülő sor saját szöveggel és szünet gombbal. Megáll, ha az egér fölötte van, és mozdulatlan marad a csökkentett mozgást kérő látogatók számára."
+      ],
+      "block keyword\u0004ticker": [
+        "szalag"
+      ],
+      "block keyword\u0004marquee": [
+        "futófény"
+      ],
+      "block keyword\u0004news": [
+        "hírek"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "rendkívüli hír"
+      ],
+      "block keyword\u0004accessibility": [
+        "akadálymentesség"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "WM Peppol-azonosító formátumellenőrzés"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "A böngészőben ellenőrzi, hogy egy azonosító Peppol Séma:ID alakú-e. A résztvevőt nem keresi meg a Peppol-hálózatban."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "e-számlázás"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "WM Szuverén adatvédelmi központ"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Címsor és a gomb, amely megnyitja a WM Sovereign Consent Vault hozzájárulási párbeszédablakát. E bővítmény nélkül a látogatók semmit sem látnak."
+      ],
+      "block keyword\u0004preferences": [
+        "beállítások"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "WM GDPR 17. cikk szerinti törlési űrlap"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Megjeleníti a WM DSGVO Privacy Eraser törlési kérelmi űrlapját. E bővítmény nélkül a látogatók semmit sem látnak."
+      ],
+      "block keyword\u0004eraser": [
+        "törlés"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "eltávolítás"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "WM Helyőrző külső tartalomhoz"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Helyőrző betöltés gombbal. Tegye a beágyazást egy template elembe a cél-azonosítóval: semmi sem töltődik be belőle a kattintás előtt."
+      ],
+      "block keyword\u0004media": [
+        "média"
+      ],
+      "block keyword\u0004placeholder": [
+        "helyőrző"
+      ],
+      "block keyword\u0004blocker": [
+        "blokkoló"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "WM HinSchG visszaélés-bejelentő kártya"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Hivatkozáskártya a bejelentési csatornára: a portálblokk ugyanazon az oldalon vagy egy Ön által megadott cím."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-torveny"
+      ],
+      "block keyword\u0004whistleblower": [
+        "bejelento"
+      ],
+      "block keyword\u0004meldung": [
+        "bejelentés"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "panaszkezelés"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "WM HinSchG bejelentői portál"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Megjeleníti a WM HinSchG Whistleblower Desk bejelentési portálját. E bővítmény nélkül a látogatók semmit sem látnak."
+      ],
+      "block keyword\u0004wizard": [
+        "varázsló"
+      ]
+    }
+  }
+}

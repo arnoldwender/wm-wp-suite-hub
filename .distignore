@@ -1,0 +1,45 @@
+.git
+.git*
+.gitignore
+.distignore
+.github
+.claude
+.remember
+.wordpress-org
+.DS_Store
+.editorconfig
+.eslintrc*
+eslint.config.*
+tsconfig.json
+vitest.config.*
+.phpunit.cache
+.phpunit.result.cache
+CLAUDE.md
+AGENTS.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+tests
+docs
+tools
+scripts
+blocks-src
+*.zip
+*.log
+phpunit.xml
+phpunit.xml.dist
+package.json
+package-lock.json
+package*.json
+composer.json
+composer.lock
+node_modules
+vendor
+# added 2026-09-14: licence-gate allowlist is tooling, not part of the ZIP
+.license-allowlist.yml
+# added 2026-09-17: canonical source of the fleet update client. It is not part of the hub, and a
+# WordPress.org package may not carry an updater (Plugin Check plugin_updater_detected). The
+# direct-distribution release builder injects it.
+packages/plugin-updater
+versionen/
+SUPPORT.md
+versionen

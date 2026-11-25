@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "ro_RO",
+        "plural-forms": "nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Cockpit Enterprise)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Registrul și prezentarea stării modulelor WM Suite, o listă de componente software CycloneDX 1.6 și un tabel de audit ale cărui intrări sunt înlănțuite cu HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "Suita Enterprise WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Cockpit și stare"
+      ],
+      "Cockpit & Status": [
+        "Cockpit și stare"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Pachete de soluții"
+      ],
+      "Solution Packs": [
+        "Pachete de soluții"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Jurnal de audit"
+      ],
+      "Audit-Log": [
+        "Jurnal de audit"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Nu aveți permisiuni suficiente pentru a accesa această pagină."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Cockpit Suită Enterprise"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Module pe reglementări"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Cockpit Suită Enterprise"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Lanțul de audit este intact: %d intrări verificate"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Lanțul de audit este întrerupt la intrarea #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Fiecare intrare este legată de cea anterioară cu HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Module active"
+      ],
+      "Health Score": [
+        "Scor de sănătate"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Module satelit WM Suite active"
+      ],
+      "%d Bereitgestellt": [
+        "%d provizionate"
+      ],
+      "Suite Cockpit öffnen": [
+        "Deschide cockpitul suitei"
+      ],
+      "Nicht aktiv": [
+        "Inactiv"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Complet activ (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Parțial activ (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d module disponibile"
+      ],
+      "Zustand der zuständigen Module": [
+        "Starea modulelor responsabile"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Arată ce plugin WM Suite este activ și ce stare raportează. Nu este o evaluare a conformității."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Sari la conținutul principal"
+      ],
+      "WM Suite Hub Command Console": [
+        "Consola de comandă WM Suite Hub"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Starea modulelor WM Suite înregistrate, lista de componente software (CycloneDX 1.6) și un tabel de audit înlănțuit cu HMAC-SHA256."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Actualizează starea flotei"
+      ],
+      "Aktualisieren": [
+        "Actualizează"
+      ],
+      "Audit-Integrität prüfen": [
+        "Verifică integritatea auditului"
+      ],
+      "Cockpit Navigation": [
+        "Navigare cockpit"
+      ],
+      "Cockpit Übersicht": [
+        "Prezentare cockpit"
+      ],
+      "Satelliten-Flotte": [
+        "Flotă sateliți"
+      ],
+      "Audit-Protokoll": [
+        "Jurnal de audit"
+      ],
+      "Design & Themes": [
+        "Design și teme"
+      ],
+      "Suite Theme:": [
+        "Tema suitei:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Selectează tema WM Suite"
+      ],
+      "Schnellnavigation": [
+        "Navigare rapidă"
+      ],
+      "Direkt zu:": [
+        "Mergi la:"
+      ],
+      "Kurzanleitung": [
+        "Ghid rapid"
+      ],
+      "Metriken & Status": [
+        "Metrici și stare"
+      ],
+      "Theme-Einstellungen": [
+        "Setări temă"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Ce este WM Suite Hub și cum vă gestionați modulele?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub reprezintă centrul"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "de guvernanță și control pentru toate modulele WordPress WM Suite"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Arată starea raportată de modulele înregistrate, generează o listă de materiale software în formatul CycloneDX 1.6 și înlănțuie cu HMAC-SHA256 evenimentele care îi sunt raportate: modificările făcute fără cheia site-ului devin detectabile. Nu evaluează conformitatea juridică."
+      ],
+      "Schnellzugriff:": [
+        "Acces rapid:"
+      ],
+      "Aktive Module prüfen": [
+        "Verifică modulele active"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Vezi jurnalul de audit"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Schimbă tema și aspectul"
+      ],
+      "Systemmetriken": [
+        "Metrici de sistem"
+      ],
+      "GESAMTSTATUS": [
+        "STARE GENERALĂ"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Starea ponderată a modulelor înregistrate (sănătos 100, degradat 60, neconfigurat 30, eroare 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "INVENTAR SATELIȚI"
+      ],
+      "Registriert": [
+        "Înregistrat"
+      ],
+      "Gesund": [
+        "Sănătos"
+      ],
+      "Warnungen": [
+        "Avertismente"
+      ],
+      "Kritisch": [
+        "Critic"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "MEDIU DE EXECUȚIE"
+      ],
+      "ja": [
+        "da"
+      ],
+      "nein": [
+        "nu"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Cache de obiecte persistent"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Starea flotei și modulele satelit"
+      ],
+      "Module aktiv": [
+        "module active"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Niciun modul satelit înregistrat"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Imediat ce modulele WM Suite sunt activate, se conectează automat prin filtrul wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Dependențe:"
+      ],
+      "Konfiguration": [
+        "Configurare"
+      ],
+      "Selbsttest": [
+        "Autotestare"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Integritatea lanțului: Neverificată (apăsați Verifică integritatea auditului)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Tabel jurnal de audit"
+      ],
+      "Zeitstempel": [
+        "Marcaj temporal"
+      ],
+      "Modul": [
+        "Modul"
+      ],
+      "Ereignistyp": [
+        "Tip eveniment"
+      ],
+      "Benutzer": [
+        "Utilizator"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "Semnătură HMAC SHA-256"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Se încarcă jurnalele de audit..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Sistem de design și preferințe temă"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Alegeți schema globală de culori pentru cockpit și toate modulele satelit WM Suite. Implicit se utilizează CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Implicit"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Banner întunecat Obsidian Midnight combinat cu carduri native WordPress Admin și contraste clare."
+      ],
+      "Als Standard aktivieren": [
+        "Setează ca implicit"
+      ],
+      "Klassisch": [
+        "Clasic"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: paletă nativă WordPress Admin (#2271b1 albastru, #f0f0f1 fundal, formulare WP standard)."
+      ],
+      "Aktivieren": [
+        "Activează"
+      ],
+      "Dark Mode": [
+        "Mod întunecat"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Mod întunecat complet (#050811 fundal) cu carduri translucide și accente albastre."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Negru pur, alb și galben de siguranță pentru contrast ridicat."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Păstrarea datelor și dezinstalare"
+      ],
+      "Aufbewahrungsschutz": [
+        "Protecție retenție"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Șterge definitiv toate datele la eliminarea modulului"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "În mod implicit, WM Suite Hub păstrează tabelul de audit HMAC-SHA256, rolurile și setările la dezinstalare. Activați această opțiune doar dacă doriți ștergerea definitivă a tuturor datelor."
+      ],
+      "Audit-Verifikation": [
+        "Verificare audit"
+      ],
+      "Schließen": [
+        "Închide"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Pachete tematice de pluginuri WM Suite: sortarea topologică a lui Kahn rezolvă ordinea dependențelor lor, iar verificarea preliminară examinează mai întâi serverul. Această versiune nu are instalare; pluginurile se instalează pe rând."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Deduplicare pe această pagină:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "%1$d scripturi și %2$d foi de stil eliminate (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Conținut pachet și arhitectură module (%d):"
+      ],
+      "Aktiviert": [
+        "Activat"
+      ],
+      "Im Paket enthalten": [
+        "Inclus în pachet"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Ordine matematică de instalare DAG (sortare Kahn):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Niciunul dintre aceste pluginuri nu necesită altul; ordinea instalării este liberă."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Pornește verificarea preliminară pentru %s"
+      ],
+      "Pre-Flight Check": [
+        "Verificare preliminară"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Se verifică versiunea PHP, extensia Sodium, limita de memorie, permisiunile de scriere și OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Simulare de probă"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Acces refuzat. Permisiuni insuficiente pentru cockpitul WM Suite."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Modulul \"%s\" nu este înregistrat sau este inactiv."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Executarea acțiunii modulului a eșuat: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Memoria cache de telemetrie a fost golită."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Temă selectată nevalidă."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Tema a fost actualizată."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Implicit)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Nativ Clasic"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Întunecat"
+      ],
+      "High-Contrast": [
+        "Contrast ridicat"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Preferința de dezinstalare a fost actualizată."
+      ],
+      "Bundle nicht gefunden.": [
+        "Pachetul nu a fost găsit."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Verificarea preliminară a eșuat."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Simulare reușită: %d pachete rezolvate în ordine."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Instalarea pachetelor de soluții nu este disponibilă în această versiune. Folosiți dry_run=true pentru calculul ordinii."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Sincronizarea consimțământului respinsă: token de securitate lipsă sau expirat."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Prea multe evenimente de consimțământ. Reîncercați peste un minut."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Nicio decizie de consimțământ lizibilă."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Consimțământul nu a putut fi înregistrat."
+      ],
+      "Externer Dienst": [
+        "Serviciu extern"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Conținut extern blocat: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Conținut de la %s blocat"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Încarcă și activează %s o singură dată"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Pentru a încărca acest conținut este necesar consimțământul dvs. conform § 25 TDDDG și GDPR."
+      ],
+      "Inhalt laden & entsperren": [
+        "Încarcă și deblochează conținutul"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Prin încărcare acceptați transmiterea datelor către furnizorul terț."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "A apărut o eroare la comunicarea cu Hub-ul."
+      ],
+      "HTTP-Fehler %s": [
+        "Eroare HTTP %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Tema a fost schimbată."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Eroare la salvarea temei: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Niciun eveniment de audit înregistrat."
+      ],
+      "Benutzer #%s": [
+        "Utilizator #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Eroare la încărcarea jurnalelor: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Se verifică lanțul de audit…"
+      ],
+      "Audit-Kette intakt": [
+        "Lanțul de audit este intact"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Toate cele %d intrări corespund semnăturii lor HMAC-SHA256 și predecesoarei: niciuna nu a fost modificată, ștearsă sau reordonată fără cheia site-ului."
+      ],
+      "Letzter Hash: %s": [
+        "Ultimul hash: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Lanțul de audit este întrerupt"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Verificarea lanțului de audit"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Verificarea a eșuat"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Datele de telemetrie au fost actualizate."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Eroare la reîmprospătare: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Verificare preliminară: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Eroare la verificarea preliminară:"
+      ],
+      "Prüfpunkt": [
+        "Punct de verificare"
+      ],
+      "Soll": [
+        "Așteptat"
+      ],
+      "Ist": [
+        "Real"
+      ],
+      "Status": [
+        "Stare"
+      ],
+      "Erfüllt": [
+        "Îndeplinit"
+      ],
+      "Nicht erfüllt": [
+        "Neîndeplinit"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Ordinea de instalare calculată:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Nu sunt declarate dependențe, ordinea este liberă:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Simulare de probă pentru %s în curs…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Simulare de probă finalizată."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Simularea de probă a eșuat: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Setarea de dezinstalare a fost salvată."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Eroare la salvare: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Rezultat pentru %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Acțiunea a fost executată."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Eroare la acțiunea modulului: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Fără pluginul „%s” activ, acest bloc nu afișează nimic vizitatorilor."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Încă neconfigurat – completați „%s” în setările blocului. Până atunci, vizitatorii nu văd blocul."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Setări de accesibilitate"
+      ],
+      "Kontrast": [
+        "Contrast"
+      ],
+      "Leseschrift": [
+        "Font pentru citire"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Setări de confidențialitate"
+      ],
+      "SBOM-Download-URL": [
+        "URL descărcare SBOM"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Listă de materiale software (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Descarcă SBOM CycloneDX 1.6"
+      ],
+      "Buchungsseite (URL)": [
+        "Pagina de rezervare (URL)"
+      ],
+      "Zur Buchung": [
+        "Spre rezervare"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Cardul de eveniment nu este încă configurat – introduceți titlul și datele evenimentului în setările blocului."
+      ],
+      "Ausgebucht": [
+        "Locuri epuizate"
+      ],
+      "Nur noch %d Plätze": [
+        "Doar %d locuri rămase"
+      ],
+      "%d freie Plätze": [
+        "%d locuri libere"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "„%s” nu raportează evenimente active; până atunci, vizitatorii nu văd blocul."
+      ],
+      "Max. %d Plätze": [
+        "Max. %d locuri"
+      ],
+      "Zur Veranstaltung": [
+        "Spre eveniment"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Nu au fost introduși încă indicatori LkSG verificați – introduceți valorile în setările blocului."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Diligență necesară în lanțul de aprovizionare (LkSG și CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Drepturile omului"
+      ],
+      "Umweltschutz": [
+        "Protecția mediului"
+      ],
+      "Gute Governance": [
+        "Bună guvernanță"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Acest container nu acceptă conținut în editor și nu are niciun efect asupra paginii; vizitatorii nu îl văd."
+      ],
+      "Ticker-Meldungen": [
+        "Știri bandă"
+      ],
+      "Nachrichten-Ticker": [
+        "Bandă de știri"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Întrerupe sau reia banda"
+      ],
+      "Pausieren": [
+        "Pauză"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Verifică în browser dacă identificatorul respectă formatul Schemă:ID (de ex. 0208:0843657437). Acest bloc nu verifică dacă participantul poate fi contactat în rețeaua Peppol."
+      ],
+      "Peppol ID": [
+        "ID Peppol"
+      ],
+      "Prüfen": [
+        "Verifică"
+      ],
+      "Ziel-Element-ID": [
+        "ID element țintă"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "La încărcarea acestui conținut se transmit date către furnizor."
+      ],
+      "Inhalt einmalig laden": [
+        "Încarcă conținutul o singură dată"
+      ],
+      "Hinweis abgeben": [
+        "Trimiteți o sesizare"
+      ],
+      "WM Suite Hub Telemetry": [
+        "Telemetrie WM Suite Hub"
+      ],
+      "Telemetry Field": [
+        "Câmp telemetrie"
+      ],
+      "Health Score (%)": [
+        "Scor de sănătate (%)"
+      ],
+      "Global Status": [
+        "Stare generală"
+      ],
+      "Active Spokes Count": [
+        "Număr sateliți activi"
+      ],
+      "Hub Version": [
+        "Versiune Hub"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Format valid (Schemă:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Format ID nevalid"
+      ],
+      "Pausiert": [
+        "În pauză"
+      ],
+      "Läuft": [
+        "Rulează"
+      ],
+      "Compliance Officer (DPO)": [
+        "Responsabil conformitate (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Intrarea #%d nu indică spre predecesoarea sa: o intrare anterioară a fost ștearsă, inserată sau modificată."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Semnătura intrării #%d nu corespunde: intrarea a fost modificată sau cheia site-ului (AUTH_SALT) nu mai este cea cu care a fost scrisă."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Tabelul de audit este gol."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "%d intrări verificate, lanțul este complet."
+      ],
+      "Eingeschränkt": [
+        "Limitat"
+      ],
+      "Nicht konfiguriert": [
+        "Neconfigurat"
+      ],
+      "Fehler": [
+        "Eroare"
+      ],
+      "Warnung": [
+        "Avertisment"
+      ],
+      "Unbekannt": [
+        "Necunoscut"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub necesită PHP 8.2 sau o versiune ulterioară. Actualizați mediul PHP."
+      ],
+      "Block-Einstellungen": [
+        "Setări bloc"
+      ],
+      "Spaltenanzahl": [
+        "Număr de coloane"
+      ],
+      "Maximale Einträge": [
+        "Număr maxim elemente"
+      ],
+      "Veranstaltungstitel": [
+        "Titlu eveniment"
+      ],
+      "Kategorie": [
+        "Categorie"
+      ],
+      "Datum": [
+        "Data"
+      ],
+      "Veranstaltungsort": [
+        "Locația evenimentului"
+      ],
+      "Freie Plätze": [
+        "Locuri libere"
+      ],
+      "Preis": [
+        "Preț"
+      ],
+      "Button-Beschriftung": [
+        "Text buton"
+      ],
+      "Hinweis unter dem Button": [
+        "Notă sub buton"
+      ],
+      "Überschrift": [
+        "Titlu"
+      ],
+      "Platzhaltertext": [
+        "Text substituent"
+      ],
+      "Badge-Beschriftung": [
+        "Etichetă insignă"
+      ],
+      "Dienstname": [
+        "Nume serviciu"
+      ],
+      "Unternehmensname": [
+        "Nume companie"
+      ],
+      "Link zur Meldestelle": [
+        "Link către canalul de raportare"
+      ],
+      "Menschenrechte (%)": [
+        "Drepturile omului (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Mediu (%)"
+      ],
+      "Governance (%)": [
+        "Guvernanță (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Etichetă versiune"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Afișează comutator contrast ridicat"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Afișează comutator font citire"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Afișează butoane dimensiune text"
+      ],
+      "Badge-Text": [
+        "Text etichetă"
+      ],
+      "Skalierungsfaktor": [
+        "Raport scalare"
+      ],
+      "Basisschriftgröße": [
+        "Dimensiune font de bază"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "Bară de accesibilitate WM"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Butoane pentru contrast ridicat în blocurile WM Suite, un font de lectură instalat pe dispozitivul vizitatorului și text mai mare. Alegerea rămâne în browser."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "accesibilitate"
+      ],
+      "block keyword\u0004contrast": [
+        "contrast"
+      ],
+      "block keyword\u0004dyslexia": [
+        "dislexie"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "Declarație de accesibilitate WM"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Afișează declarația de accesibilitate pe care WM BFSG Compliance Dashboard o creează din setările dumneavoastră. Fără acel plugin, vizitatorii nu văd nimic."
+      ],
+      "block keyword\u0004erklaerung": [
+        "declarație"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "Insignă setări de consimțământ WM"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Link de tip insignă care deschide dialogul de consimțământ al WM Sovereign Consent Vault. Fără acel plugin, vizitatorii nu văd nimic."
+      ],
+      "block keyword\u0004privacy": [
+        "date-personale"
+      ],
+      "block keyword\u0004consent": [
+        "consimțământ"
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "cookie-uri"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "Descărcare SBOM WM"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Link de descărcare pentru SBOM-ul CycloneDX scris de wp wm-hub sbom. Vizitatorii nu văd nimic până nu se introduce un URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "securitate"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "Buton rezervare eveniment WM"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Buton către pagina de rezervare pe care o introduceți, cu o notă opțională dedesubt. Vizitatorii nu văd nimic până nu se introduce un URL."
+      ],
+      "block keyword\u0004booking": [
+        "rezervare"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "buton"
+      ],
+      "block keyword\u0004tickets": [
+        "bilete"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "Card atomic eveniment WM"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Card de eveniment cu titlul, data, locul, prețul și locurile libere pe care le introduceți, plus un buton către pagina de rezervare indicată. Nimic nu este citit în timp real."
+      ],
+      "block keyword\u0004event": [
+        "eveniment"
+      ],
+      "block keyword\u0004card": [
+        "card"
+      ],
+      "block keyword\u0004ticket": [
+        "bilet"
+      ],
+      "block keyword\u0004conference": [
+        "conferință"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "Grilă evenimente WM"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Listează evenimentele active din WM Cyber Events Core, fiecare cu un link către pagina sa. Fără acel plugin, vizitatorii nu văd nimic."
+      ],
+      "block keyword\u0004grid": [
+        "grilă"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "Tablou indicatori ESG și LkSG WM"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Trei procente pe care le introduceți (drepturile omului, mediu, guvernanță) sub un titlu despre lanțul de aprovizionare. Blocul nu calculează și nu verifică nimic."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "lanț de aprovizionare"
+      ],
+      "block keyword\u0004compliance": [
+        "conformitate"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "Container tipografic fluid cu scară modulară WM"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Container pentru o scară tipografică modulară. În această versiune nu acceptă blocuri interioare și nicio foaie de stil nu îi citește setările, așa că nu are efect asupra paginii."
+      ],
+      "block keyword\u0004typography": [
+        "tipografie"
+      ],
+      "block keyword\u0004fluid": [
+        "fluidă"
+      ],
+      "block keyword\u0004modular scale": [
+        "scară modulară"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "Bandă de știri WM"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Rând derulant cu propriul text și un buton de pauză. Se oprește când mouse-ul trece peste el și rămâne nemișcat pentru vizitatorii care cer mișcare redusă."
+      ],
+      "block keyword\u0004ticker": [
+        "bandă"
+      ],
+      "block keyword\u0004marquee": [
+        "derulare"
+      ],
+      "block keyword\u0004news": [
+        "știri"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "ultimă oră"
+      ],
+      "block keyword\u0004accessibility": [
+        "accesibilitate"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "Verificare format ID Peppol WM"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Verifică în browser dacă un ID are forma Peppol Schemă:ID. Nu caută participantul în rețeaua Peppol."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "facturare electronică"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "Centru suveran de confidențialitate WM"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Titlu și butonul care deschide dialogul de consimțământ al WM Sovereign Consent Vault. Fără acel plugin, vizitatorii nu văd nimic."
+      ],
+      "block keyword\u0004preferences": [
+        "preferințe"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "Formular ștergere date art. 17 GDPR WM"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Afișează formularul pentru cereri de ștergere al WM DSGVO Privacy Eraser. Fără acel plugin, vizitatorii nu văd nimic."
+      ],
+      "block keyword\u0004eraser": [
+        "ștergere"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "eliminare"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "Substituent pentru conținut extern WM"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Substituent cu un buton de încărcare. Puneți încorporarea într-un element template cu ID-ul țintă: nimic din interior nu se încarcă înainte de clic."
+      ],
+      "block keyword\u0004media": [
+        "media"
+      ],
+      "block keyword\u0004placeholder": [
+        "substituent"
+      ],
+      "block keyword\u0004blocker": [
+        "blocator"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "Card portal avertizori HinSchG WM"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Card de link către canalul de raportare: blocul portalului de pe aceeași pagină sau o adresă pe care o introduceți."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-lege"
+      ],
+      "block keyword\u0004whistleblower": [
+        "avertizor"
+      ],
+      "block keyword\u0004meldung": [
+        "sesizare"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "raportare"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "Portal avertizori HinSchG WM"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Afișează portalul de raportare al WM HinSchG Whistleblower Desk. Fără acel plugin, vizitatorii nu văd nimic."
+      ],
+      "block keyword\u0004wizard": [
+        "asistent"
+      ]
+    }
+  }
+}

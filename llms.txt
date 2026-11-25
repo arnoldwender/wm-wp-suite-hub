@@ -1,0 +1,24 @@
+# WM Suite Hub
+
+> Central cockpit for the WM Suite plugin family: spoke registry, health matrix, HMAC-SHA256 audit chain in one table, 16 server-rendered Gutenberg blocks and a Borlabs Cookie consent bridge. It makes no legal assessment.
+
+## Overview
+
+
+- WP-CLI: `wp wm-hub`, `wp wm-sdk`
+- REST: `wm-hub/v1` (capability `manage_wm_suite`) and `wm-suite/v1/consent-sync` (Borlabs bridge, nonce and rate limit)
+- Storage: `{prefix}wm_suite_audit_log`
+- No shortcode, no export, no outbound request
+- Version 1.2.6.
+
+## Standards
+
+- PHP 8.2+ / Strict Types / PSR-12 / WPCS
+- Zero-CDN Invariant (self-hosted assets in `/assets/`)
+- Nonce & capability verification / late escaping / prepared SQL
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-suite-hub/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-suite-hub
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-suite-hub/issues only · no private support · AS IS / no liability (SUPPORT.md)

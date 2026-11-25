@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-19T09:56:00Z",
+    "component": {
+      "type": "application",
+      "name": "wm-suite-hub",
+      "version": "1.2.6",
+      "description": "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-suite-hub@1.2.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2fe2bc4c5b04876d889ef4e73e5aa7963d6a6b66ef6ad5953465f77676fd7a53"
+        }
+      ]
+    }
+  },
+  "components": []
+}

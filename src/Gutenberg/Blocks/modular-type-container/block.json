@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/modular-type-container",
+	"version": "1.2.6",
+	"title": "WM Modular Scale Fluid Type Container",
+	"category": "wm-suite",
+	"icon": "editor-paragraph",
+	"description": "Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.",
+	"keywords": ["typography", "fluid", "modular scale", "clamp", "container queries"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor",
+	"attributes": {
+		"scaleRatio": {
+			"type": "string",
+			"default": "1.25"
+		},
+		"baseSize": {
+			"type": "string",
+			"default": "1rem"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	}
+}

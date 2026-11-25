@@ -1,0 +1,69 @@
+name: CI Test Suite
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # Requires PHP: 8.2 in the plugin header and readme.txt; the code uses readonly classes and the standalone
+        # `true` return type (PHP 8.2). The 8.1 job ended in a parse error and cancelled the others on every run.
+        php-version: ['8.2', '8.3']
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: dom, mbstring, json, openssl, libxml, simplexml
+
+      - name: Lint every shipped PHP file
+        # The suite loads part of src/; a syntax error in the rest used to reach CI green.
+        run: find . -path ./vendor -prune -o -name '*.php' -print0 | xargs -0 -n1 -P4 php -l > /dev/null
+
+      - name: Run Standalone Test Suite
+        run: |
+          php tests/test-suite.php
+
+      # `wp i18n make-pot` IS the definition of a fresh catalog in the step below, so wp-cli is a
+      # hard requirement there rather than something it shrugs off. Into $HOME/bin, not the
+      # workspace: an executable in the repo root would land in the copy the mutation runner makes.
+      # No workflow input reaches these commands; the URL is a literal.
+      - name: Install WP-CLI
+        if: matrix.php-version == '8.3'
+        run: |
+          mkdir -p "$HOME/bin"
+          curl -sSL https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -o "$HOME/bin/wp"
+          chmod +x "$HOME/bin/wp"
+          echo "$HOME/bin" >> "$GITHUB_PATH"
+
+      # 100 of the 314 translatable strings had no entry on 2026-09-20. This is the hub the spokes
+      # copy from, and a defect here has propagated to eleven plugins once already.
+      - name: Translation catalog freshness
+        if: matrix.php-version == '8.3'
+        run: php tests/test-pot-freshness.php
+
+      - name: Mutation check
+        # Every correction in tests/mutations.php must turn the suite red when it is undone.
+        run: bash tests/run-mutations.sh
+
+      - name: Compliance & Security Audit
+        run: python3 .github/scripts/security-audit.py
+
+      - name: CRA / SBOM Validation
+        run: |
+          # El mandato SBOM del Cyber Resilience Act aplica desde el 2027-12-11.
+          # Hasta que la flota tenga SBOMs esto avisa, no rompe el build.
+          if [ ! -f "bom.json" ]; then
+            echo "::warning::bom.json (SBOM) ausente — pendiente para el CRA (2027-12-11)."
+          else
+            echo "bom.json presente."
+          fi

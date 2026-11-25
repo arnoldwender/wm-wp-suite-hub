@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "de_DE",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Enterprise-Cockpit)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Registry und Zustandsübersicht der WM-Suite-Plugins, eine Software-Stückliste nach CycloneDX 1.6 und eine Audit-Tabelle, deren Einträge mit HMAC-SHA256 verkettet sind."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "WM Enterprise-Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite – Cockpit & Status"
+      ],
+      "Cockpit & Status": [
+        "Cockpit & Systemstatus"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite – Lösungspakete"
+      ],
+      "Solution Packs": [
+        "Lösungspakete"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Audit-Protokoll"
+      ],
+      "Audit-Log": [
+        "Audit-Protokoll"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Sie verfügen nicht über ausreichende Berechtigungen für den Zugriff auf diese Seite."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite – Enterprise-Suite-Cockpit"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite – Module nach Regelwerk"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Enterprise-Suite-Cockpit"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Audit-Kette intakt: %d Einträge geprüft"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Audit-Kette unterbrochen bei Eintrag #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden."
+      ],
+      "Aktive Module": [
+        "Aktive Module"
+      ],
+      "Health Score": [
+        "Zustandswert"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Aktive WM-Suite-Spoke-Module"
+      ],
+      "%d Bereitgestellt": [
+        "%d bereitgestellt"
+      ],
+      "Suite Cockpit öffnen": [
+        "Suite-Cockpit öffnen"
+      ],
+      "Nicht aktiv": [
+        "Nicht aktiv"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Vollständig aktiv (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Teilweise aktiv (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d Module verfügbar"
+      ],
+      "Zustand der zuständigen Module": [
+        "Zustand der zuständigen Module"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Zum Hauptinhalt springen"
+      ],
+      "WM Suite Hub Command Console": [
+        "WM Suite Hub Steuerkonsole"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Flottenstatus aktualisieren"
+      ],
+      "Aktualisieren": [
+        "Aktualisieren"
+      ],
+      "Audit-Integrität prüfen": [
+        "Audit-Integrität prüfen"
+      ],
+      "Cockpit Navigation": [
+        "Cockpit-Navigation"
+      ],
+      "Cockpit Übersicht": [
+        "Cockpit-Übersicht"
+      ],
+      "Satelliten-Flotte": [
+        "Satelliten-Flotte"
+      ],
+      "Audit-Protokoll": [
+        "Audit-Protokoll"
+      ],
+      "Design & Themes": [
+        "Design & Farbschemata"
+      ],
+      "Suite Theme:": [
+        "Suite-Farbschema:"
+      ],
+      "WM Suite Theme auswählen": [
+        "WM-Suite-Farbschema auswählen"
+      ],
+      "Schnellnavigation": [
+        "Schnellnavigation"
+      ],
+      "Direkt zu:": [
+        "Direkt zu:"
+      ],
+      "Kurzanleitung": [
+        "Kurzanleitung"
+      ],
+      "Metriken & Status": [
+        "Kennzahlen & Status"
+      ],
+      "Theme-Einstellungen": [
+        "Farbschema-Einstellungen"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "Das WM Suite Hub bildet die zentrale"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "Steuerungs- und Kontrollzentrale aller WordPress-Plugins von WM Suite"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität."
+      ],
+      "Schnellzugriff:": [
+        "Schnellzugriff:"
+      ],
+      "Aktive Module prüfen": [
+        "Aktive Module prüfen"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Audit-Protokoll ansehen"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Farbschema & Darstellung wechseln"
+      ],
+      "Systemmetriken": [
+        "Systemkennzahlen"
+      ],
+      "GESAMTSTATUS": [
+        "GESAMTSTATUS"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "SATELLITEN-BESTAND"
+      ],
+      "Registriert": [
+        "Registriert"
+      ],
+      "Gesund": [
+        "Gesund"
+      ],
+      "Warnungen": [
+        "Warnhinweise"
+      ],
+      "Kritisch": [
+        "Kritisch"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "LAUFZEITUMGEBUNG"
+      ],
+      "ja": [
+        "ja"
+      ],
+      "nein": [
+        "nein"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Persistenter Objekt-Cache"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Flottenstatus & Satelliten-Module"
+      ],
+      "Module aktiv": [
+        "Module aktiv"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Keine Satelliten-Module registriert"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Sobald Plugins von WM Suite aktiviert werden, melden sie sich automatisch über den Filter wm_register_suite_module an."
+      ],
+      "Abhängigkeiten:": [
+        "Abhängigkeiten:"
+      ],
+      "Konfiguration": [
+        "Einstellungen"
+      ],
+      "Selbsttest": [
+        "Selbsttest"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Kettenintegrität: Noch nicht geprüft (bitte auf Audit-Integrität prüfen klicken)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Audit-Protokolltabelle"
+      ],
+      "Zeitstempel": [
+        "Zeitstempel"
+      ],
+      "Modul": [
+        "Modul"
+      ],
+      "Ereignistyp": [
+        "Ereignistyp"
+      ],
+      "Benutzer": [
+        "Benutzer"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "SHA-256-HMAC-Signatur"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Audit-Protokolle werden geladen …"
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Design-System & Farbschema-Einstellungen"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Wählen Sie das globale Farbschema für das Cockpit und alle Satelliten-Plugins von WM Suite. Standardmäßig ist CyberEvents Enterprise aktiv."
+      ],
+      "Standard": [
+        "Standard"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Dunkles Kommando-Banner kombiniert mit hellen WordPress-Admin-Karten und geprüften Kontrasten."
+      ],
+      "Als Standard aktivieren": [
+        "Als Standard festlegen"
+      ],
+      "Klassisch": [
+        "Klassisch"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: native WordPress-Admin-Farbpalette (#2271b1 Blau, #f0f0f1 Hintergrund, klassische WP-Formulare)."
+      ],
+      "Aktivieren": [
+        "Aktivieren"
+      ],
+      "Dark Mode": [
+        "Dunkelmodus"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Durchgehender Dunkelmodus (#050811 Hintergrund) mit abgedunkelten Karten und blauen Akzenten."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Datenaufbewahrung & Deinstallation"
+      ],
+      "Aufbewahrungsschutz": [
+        "Aufbewahrungsschutz"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Alle Plugin-Daten beim Löschen unwiderruflich entfernen"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "Standardmäßig behält WM Suite Hub die HMAC-SHA256-Protokolltabelle, Rollen und Optionen bei einer Deinstallation. Aktivieren Sie diese Einstellung nur für eine vollständige Bereinigung."
+      ],
+      "Audit-Verifikation": [
+        "Audit-Überprüfung"
+      ],
+      "Schließen": [
+        "Schließen"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Deduplizierung auf dieser Seite:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Paketinhalt & Modul-Architektur (%d):"
+      ],
+      "Aktiviert": [
+        "Aktiv"
+      ],
+      "Im Paket enthalten": [
+        "Im Paket enthalten"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Berechnete DAG-Installationsreihenfolge (Kahn-Algorithmus):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Vorabprüfung für %s starten"
+      ],
+      "Pre-Flight Check": [
+        "Vorabprüfung"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Trockenlauf-Simulation"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Zugriff verweigert. Keine ausreichende Berechtigung für das WM-Suite-Cockpit."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Das Modul \"%s\" ist nicht registriert oder inaktiv."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Modulaktion fehlgeschlagen: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Telemetrie-Zwischenspeicher wurde geleert."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Ungültiges Farbschema übergeben."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Farbschema wurde gespeichert."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Standard)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Native Klassisch"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Dunkel"
+      ],
+      "High-Contrast": [
+        "Hoher Kontrast"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Einstellung zur Datenaufbewahrung gespeichert."
+      ],
+      "Bundle nicht gefunden.": [
+        "Lösungspaket wurde nicht gefunden."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Vorabprüfung der Systemumgebung nicht bestanden."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Trockenlauf abgeschlossen: %d Pakete in Reihenfolge aufgelöst."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Die Direktinstallation von Lösungspaketen ist in dieser Version deaktiviert. Verwenden Sie dry_run=true zur Reihenfolgeprüfung."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Einwilligungs-Abgleich abgelehnt: Sicherheitstoken fehlt oder ist abgelaufen."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Zu viele Anfragen zur Einwilligungs-Synchronisierung. Bitte in einer Minute erneut versuchen."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Keine lesbare Einwilligungsentscheidung."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Die Einwilligung konnte nicht protokolliert werden."
+      ],
+      "Externer Dienst": [
+        "Externer Dienst"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Blockierter Drittanbieter-Inhalt: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Inhalt von %s wurde blockiert"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "%s einmalig laden und freigeben"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Zum Nachladen dieses Inhalts ist Ihre Einwilligung nach § 25 TDDDG und DSGVO erforderlich."
+      ],
+      "Inhalt laden & entsperren": [
+        "Inhalt freigeben & laden"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Mit dem Laden willigen Sie in die Datenübermittlung an den Drittanbieter ein."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Bei der Verbindung zum Hub ist ein Fehler aufgetreten."
+      ],
+      "HTTP-Fehler %s": [
+        "HTTP-Fehler %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Farbschema wurde umgestellt."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Fehler beim Speichern des Themes: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Keine Audit-Ereignisse protokolliert."
+      ],
+      "Benutzer #%s": [
+        "Benutzer #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Fehler beim Laden der Logs: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Die Audit-Kette wird geprüft …"
+      ],
+      "Audit-Kette intakt": [
+        "Audit-Kette intakt"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert."
+      ],
+      "Letzter Hash: %s": [
+        "Letzter Hash: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Audit-Kette unterbrochen"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Prüfung der Audit-Kette"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Prüfung fehlgeschlagen"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Telemetriedaten wurden aktualisiert."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Fehler beim Aktualisieren: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Vorabprüfung: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Fehler bei der Vorabprüfung:"
+      ],
+      "Prüfpunkt": [
+        "Prüfpunkt"
+      ],
+      "Soll": [
+        "Soll"
+      ],
+      "Ist": [
+        "Ist"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "Erfüllt": [
+        "Erfüllt"
+      ],
+      "Nicht erfüllt": [
+        "Nicht erfüllt"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Berechnete Installationsreihenfolge:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Keine Abhängigkeiten deklariert, Reihenfolge frei:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Trockenlauf für %s läuft …"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Trockenlauf abgeschlossen."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Trockenlauf fehlgeschlagen: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Deinstallations-Einstellung gespeichert."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Fehler beim Speichern: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Ergebnis für %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Aktion wurde ausgeführt."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Fehler bei der Modulaktion: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Noch nicht konfiguriert – bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Einstellungen zur Barrierefreiheit"
+      ],
+      "Kontrast": [
+        "Kontrastmodus"
+      ],
+      "Leseschrift": [
+        "Leseschrift"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Datenschutz-Einstellungen"
+      ],
+      "SBOM-Download-URL": [
+        "URL zur SBOM-Datei"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Software-Stückliste (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "CycloneDX-1.6-SBOM herunterladen"
+      ],
+      "Buchungsseite (URL)": [
+        "Buchungsseite (URL)"
+      ],
+      "Zur Buchung": [
+        "Zur Buchung"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Veranstaltungskarte noch nicht konfiguriert – bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen."
+      ],
+      "Ausgebucht": [
+        "Ausgebucht"
+      ],
+      "Nur noch %d Plätze": [
+        "Nur noch %d Plätze frei"
+      ],
+      "%d freie Plätze": [
+        "%d Plätze verfügbar"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht."
+      ],
+      "Max. %d Plätze": [
+        "Max. %d Plätze"
+      ],
+      "Zur Veranstaltung": [
+        "Zur Veranstaltung"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Noch keine geprüften LkSG-Kennzahlen eingetragen – bitte Werte im Block-Inspektor hinterlegen."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Sorgfaltspflichten in der Lieferkette (LkSG & CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Menschenrechte"
+      ],
+      "Umweltschutz": [
+        "Umweltschutz"
+      ],
+      "Gute Governance": [
+        "Unternehmensführung"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht."
+      ],
+      "Ticker-Meldungen": [
+        "Lauftext-Einträge"
+      ],
+      "Nachrichten-Ticker": [
+        "Nachrichten-Ticker"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Ticker pausieren oder fortsetzen"
+      ],
+      "Pausieren": [
+        "Anhalten"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht."
+      ],
+      "Peppol ID": [
+        "Peppol-Kennung"
+      ],
+      "Prüfen": [
+        "Kennung prüfen"
+      ],
+      "Ziel-Element-ID": [
+        "Ziel-Element-Kennung"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen."
+      ],
+      "Inhalt einmalig laden": [
+        "Einmalig nachladen"
+      ],
+      "Hinweis abgeben": [
+        "Hinweis abgeben"
+      ],
+      "WM Suite Hub Telemetry": [
+        "WM Suite Hub Telemetrie"
+      ],
+      "Telemetry Field": [
+        "Telemetrie-Feld"
+      ],
+      "Health Score (%)": [
+        "Zustandswert (%)"
+      ],
+      "Global Status": [
+        "Gesamtstatus"
+      ],
+      "Active Spokes Count": [
+        "Anzahl aktiver Spokes"
+      ],
+      "Hub Version": [
+        "Hub-Version"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Format gültig (Schema:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Ungültiges Kennungsformat"
+      ],
+      "Pausiert": [
+        "Angehalten"
+      ],
+      "Läuft": [
+        "Aktiv"
+      ],
+      "Compliance Officer (DPO)": [
+        "Compliance-Beauftragter (DSB)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Die Audit-Tabelle ist leer."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "%d Einträge geprüft, die Kette ist lückenlos."
+      ],
+      "Eingeschränkt": [
+        "Eingeschränkt"
+      ],
+      "Nicht konfiguriert": [
+        "Nicht konfiguriert"
+      ],
+      "Fehler": [
+        "Fehler"
+      ],
+      "Warnung": [
+        "Warnung"
+      ],
+      "Unbekannt": [
+        "Unbekannt"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub benötigt mindestens PHP 8.2. Bitte aktualisieren Sie Ihre PHP-Laufzeitumgebung."
+      ],
+      "Block-Einstellungen": [
+        "Block-Optionen"
+      ],
+      "Spaltenanzahl": [
+        "Anzahl der Spalten"
+      ],
+      "Maximale Einträge": [
+        "Maximale Anzahl"
+      ],
+      "Veranstaltungstitel": [
+        "Titel der Veranstaltung"
+      ],
+      "Kategorie": [
+        "Veranstaltungskategorie"
+      ],
+      "Datum": [
+        "Veranstaltungsdatum"
+      ],
+      "Veranstaltungsort": [
+        "Ort der Veranstaltung"
+      ],
+      "Freie Plätze": [
+        "Verfügbare Plätze"
+      ],
+      "Preis": [
+        "Teilnahmepreis"
+      ],
+      "Button-Beschriftung": [
+        "Beschriftung des Buttons"
+      ],
+      "Hinweis unter dem Button": [
+        "Hinweis unter dem Button"
+      ],
+      "Überschrift": [
+        "Abschnittsüberschrift"
+      ],
+      "Platzhaltertext": [
+        "Eingabe-Platzhalter"
+      ],
+      "Badge-Beschriftung": [
+        "Abzeichen-Text"
+      ],
+      "Dienstname": [
+        "Name des Dienstes"
+      ],
+      "Unternehmensname": [
+        "Name der Organisation"
+      ],
+      "Link zur Meldestelle": [
+        "Link zur Meldestelle"
+      ],
+      "Menschenrechte (%)": [
+        "Menschenrechte in % (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Umweltschutz in % (%)"
+      ],
+      "Governance (%)": [
+        "Governance in % (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Versionsangabe"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Kontrast-Schaltfläche anzeigen"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Leseschrift-Schaltfläche anzeigen"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Schriftgrößen-Schaltflächen anzeigen"
+      ],
+      "Badge-Text": [
+        "Kennzeichnungstext"
+      ],
+      "Skalierungsfaktor": [
+        "Typografischer Skalierungsfaktor"
+      ],
+      "Basisschriftgröße": [
+        "Grundschriftgröße"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "WM Barrierefreiheits-Werkzeugleiste"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Schaltflächen für hohen Kontrast in den WM-Suite-Blöcken, eine auf dem Gerät des Besuchers installierte Leseschrift und größere Schrift. Die Auswahl bleibt im Browser."
+      ],
+      "block keyword\u0004a11y": [
+        "Barrierefreiheit-Kürzel"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "Barrierefreiheit"
+      ],
+      "block keyword\u0004contrast": [
+        "Kontrast"
+      ],
+      "block keyword\u0004dyslexia": [
+        "Lesehilfe"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "WM Erklärung zur Barrierefreiheit"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Zeigt die Erklärung zur Barrierefreiheit, die WM BFSG Compliance Dashboard aus Ihren Einstellungen erstellt. Ohne dieses Plugin sehen Besucher nichts."
+      ],
+      "block keyword\u0004erklaerung": [
+        "Erklärung"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "WM Badge für Datenschutz-Einstellungen"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Badge-Link, der den Einwilligungsdialog von WM Sovereign Consent Vault öffnet. Ohne dieses Plugin sehen Besucher nichts."
+      ],
+      "block keyword\u0004privacy": [
+        "privatsphäre"
+      ],
+      "block keyword\u0004consent": [
+        "Einwilligung"
+      ],
+      "block keyword\u0004dsgvo": [
+        "dsgvo"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "Cookies"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "WM SBOM-Download"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Download-Link für die CycloneDX-SBOM, die wp wm-hub sbom schreibt. Besucher sehen nichts, bis eine URL eingetragen ist."
+      ],
+      "block keyword\u0004cra": [
+        "CRA"
+      ],
+      "block keyword\u0004sbom": [
+        "SBOM"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "Sicherheit"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "WM Buchungs-Button"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Button zu der von Ihnen eingetragenen Buchungsseite, mit optionalem Hinweis darunter. Besucher sehen nichts, bis eine URL eingetragen ist."
+      ],
+      "block keyword\u0004booking": [
+        "Buchung"
+      ],
+      "block keyword\u0004cta": [
+        "Handlungsaufruf"
+      ],
+      "block keyword\u0004button": [
+        "Schaltfläche"
+      ],
+      "block keyword\u0004tickets": [
+        "Tickets"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "WM Veranstaltungs-Karte"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Veranstaltungskarte mit Titel, Datum, Ort, Preis und freien Plätzen, die Sie eintragen, und einem Button zu der von Ihnen eingetragenen Buchungsseite. Nichts wird live gelesen."
+      ],
+      "block keyword\u0004event": [
+        "veranstaltung"
+      ],
+      "block keyword\u0004card": [
+        "Karte"
+      ],
+      "block keyword\u0004ticket": [
+        "Ticket"
+      ],
+      "block keyword\u0004conference": [
+        "Konferenz"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "WM Veranstaltungs-Raster"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Listet die aktiven Veranstaltungen von WM Cyber Events Core, jede mit einem Link zu ihrer Veranstaltungsseite. Ohne dieses Plugin sehen Besucher nichts."
+      ],
+      "block keyword\u0004grid": [
+        "Raster"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "WM LkSG- & ESG-Kennzahlenkarte"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Drei Prozentwerte, die Sie eintragen (Menschenrechte, Umwelt, Governance), unter einer Überschrift zur Lieferkette. Der Block berechnet und prüft nichts."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "Lieferkette"
+      ],
+      "block keyword\u0004compliance": [
+        "Compliance-Meldung"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "WM Container für proportionale Typografie"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Container für eine modulare Typografie-Skala. In dieser Version nimmt er keine inneren Blöcke auf und kein Stylesheet liest seine Einstellungen, daher wirkt er nicht auf die Seite."
+      ],
+      "block keyword\u0004typography": [
+        "Typografie"
+      ],
+      "block keyword\u0004fluid": [
+        "fließend"
+      ],
+      "block keyword\u0004modular scale": [
+        "Typografische Skala"
+      ],
+      "block keyword\u0004clamp": [
+        "Skalierung"
+      ],
+      "block keyword\u0004container queries": [
+        "Container-Abfragen"
+      ],
+      "block title\u0004WM Newsticker": [
+        "WM Newsticker"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Laufzeile mit Ihrem eigenen Text und einer Pause-Schaltfläche. Sie hält an, solange die Maus darüber steht, und steht still für Besucher, die reduzierte Bewegung wünschen."
+      ],
+      "block keyword\u0004ticker": [
+        "Ticker"
+      ],
+      "block keyword\u0004marquee": [
+        "Laufschrift"
+      ],
+      "block keyword\u0004news": [
+        "Nachrichten"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "Eilmeldung"
+      ],
+      "block keyword\u0004accessibility": [
+        "Barrierefreiheit"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "WM Peppol-ID-Formatprüfung"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Prüft im Browser, ob eine Kennung die Peppol-Form Schema:ID hat. Ob der Teilnehmer im Peppol-Netz existiert, schlägt der Block nicht nach."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "Elektronische Rechnung"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "WM Datenschutz- & Einwilligungszentrale"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Überschrift und die Schaltfläche, die den Einwilligungsdialog von WM Sovereign Consent Vault öffnet. Ohne dieses Plugin sehen Besucher nichts."
+      ],
+      "block keyword\u0004preferences": [
+        "Präferenzen"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "WM Formular für Löschanfragen (Art. 17 DSGVO)"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Zeigt das Formular für Löschanträge von WM DSGVO Privacy Eraser. Ohne dieses Plugin sehen Besucher nichts."
+      ],
+      "block keyword\u0004eraser": [
+        "Löschung"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "Datenlöschung"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "WM Platzhalter für externe Inhalte"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Platzhalter mit einer Lade-Schaltfläche. Legen Sie die Einbettung in ein template-Element mit der Ziel-ID: Nichts darin wird vor dem Klick geladen."
+      ],
+      "block keyword\u0004media": [
+        "Medien"
+      ],
+      "block keyword\u0004placeholder": [
+        "Platzhalter"
+      ],
+      "block keyword\u0004blocker": [
+        "Skriptsperre"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "WM Hinweisgeber-Portalkarte (HinSchG)"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Link-Karte zur Meldestelle: der Portal-Block auf derselben Seite oder eine Adresse, die Sie eintragen."
+      ],
+      "block keyword\u0004hinschg": [
+        "HinSchG"
+      ],
+      "block keyword\u0004whistleblower": [
+        "Hinweisgeber"
+      ],
+      "block keyword\u0004meldung": [
+        "Meldung"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "Hinweisgeber"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "WM HinSchG-Hinweisgeberportal"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Zeigt das Meldeportal von WM HinSchG Whistleblower Desk. Ohne dieses Plugin sehen Besucher nichts."
+      ],
+      "block keyword\u0004wizard": [
+        "Assistent"
+      ]
+    }
+  }
+}

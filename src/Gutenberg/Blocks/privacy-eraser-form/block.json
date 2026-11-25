@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/privacy-eraser-form",
+	"version": "1.2.6",
+	"title": "WM DSGVO Art. 17 Privacy Eraser Form",
+	"category": "wm-suite",
+	"icon": "trash",
+	"description": "Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.",
+	"keywords": ["privacy", "eraser", "dsgvo", "art17", "loeschung"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor"
+}

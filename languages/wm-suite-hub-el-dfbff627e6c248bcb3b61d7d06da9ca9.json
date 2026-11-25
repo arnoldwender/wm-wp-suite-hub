@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "el",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Εταιρικό Κέντρο Ελέγχου)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "Μητρώο και επισκόπηση κατάστασης των προσθέτων WM Suite, κατάλογος στοιχείων λογισμικού CycloneDX 1.6 και ένας πίνακας ελέγχου του οποίου οι εγγραφές είναι αλυσιδωμένες με HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "Εταιρική Σουίτα WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Κέντρο ελέγχου & κατάσταση"
+      ],
+      "Cockpit & Status": [
+        "Κέντρο & κατάσταση"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Πακέτα λύσεων"
+      ],
+      "Solution Packs": [
+        "Πακέτα λύσεων"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Αρχείο ελέγχου"
+      ],
+      "Audit-Log": [
+        "Αρχείο ελέγχου"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Δεν έχετε επαρκή δικαιώματα πρόσβασης σε αυτή τη σελίδα."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Κέντρο Ελέγχου Εταιρικής Σουίτας"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Μονάδες ανά κανονισμό"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Κέντρο Ελέγχου Εταιρικής Σουίτας"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Αλυσίδα ελέγχου ακέραιη: ελέγχθηκαν %d εγγραφές"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Η αλυσίδα ελέγχου διακόπηκε στην εγγραφή #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Κάθε εγγραφή συνδέεται με την προηγούμενη μέσω HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Ενεργές μονάδες"
+      ],
+      "Health Score": [
+        "Βαθμός υγείας"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Ενεργές δορυφορικές μονάδες WM Suite"
+      ],
+      "%d Bereitgestellt": [
+        "%d εγκατεστημένες"
+      ],
+      "Suite Cockpit öffnen": [
+        "Άνοιγμα κέντρου ελέγχου"
+      ],
+      "Nicht aktiv": [
+        "Ανενεργό"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Πλήρως ενεργό (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Μερικώς ενεργό (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d διαθέσιμες μονάδες"
+      ],
+      "Zustand der zuständigen Module": [
+        "Κατάσταση των αρμόδιων μονάδων"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Δείχνει ποιο πρόσθετο του WM Suite είναι ενεργό και ποια κατάσταση αναφέρει. Δεν αποτελεί αξιολόγηση συμμόρφωσης."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Μετάβαση στο κύριο περιεχόμενο"
+      ],
+      "WM Suite Hub Command Console": [
+        "Κονσόλα εντολών WM Suite Hub"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Κατάσταση των καταχωρημένων προσθέτων WM Suite, κατάλογος στοιχείων λογισμικού (CycloneDX 1.6) και πίνακας ελέγχου αλυσιδωμένος με HMAC-SHA256."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Ανανέωση κατάστασης στόλου"
+      ],
+      "Aktualisieren": [
+        "Ανανέωση"
+      ],
+      "Audit-Integrität prüfen": [
+        "Έλεγχος ακεραιότητας καταγραφών"
+      ],
+      "Cockpit Navigation": [
+        "Πλοήγηση κέντρου"
+      ],
+      "Cockpit Übersicht": [
+        "Επισκόπηση κέντρου"
+      ],
+      "Satelliten-Flotte": [
+        "Στόλος δορυφόρων"
+      ],
+      "Audit-Protokoll": [
+        "Αρχείο ελέγχου"
+      ],
+      "Design & Themes": [
+        "Σχεδίαση & θέματα"
+      ],
+      "Suite Theme:": [
+        "Θέμα σουίτας:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Επιλογή θέματος WM Suite"
+      ],
+      "Schnellnavigation": [
+        "Γρήγορη πλοήγηση"
+      ],
+      "Direkt zu:": [
+        "Μετάβαση σε:"
+      ],
+      "Kurzanleitung": [
+        "Σύντομος οδηγός"
+      ],
+      "Metriken & Status": [
+        "Μετρικές & κατάσταση"
+      ],
+      "Theme-Einstellungen": [
+        "Ρυθμίσεις θέματος"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Τι είναι το WM Suite Hub και πώς διαχειρίζεστε τα πρόσθετά σας;"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "Το WM Suite Hub αποτελεί το κεντρικό"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "κέντρο διακυβέρνησης και ελέγχου όλων των προσθέτων WordPress του WM Suite"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Δείχνει την κατάσταση που αναφέρουν οι καταχωρημένες μονάδες, δημιουργεί κατάλογο στοιχείων λογισμικού σε μορφή CycloneDX 1.6 και συνδέει σε αλυσίδα με HMAC-SHA256 τα συμβάντα που του αναφέρονται: οι αλλαγές χωρίς το κλειδί του ιστότοπου γίνονται ανιχνεύσιμες. Δεν αξιολογεί τη νομική συμμόρφωση."
+      ],
+      "Schnellzugriff:": [
+        "Γρήγορη πρόσβαση:"
+      ],
+      "Aktive Module prüfen": [
+        "Έλεγχος ενεργών μονάδων"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Προβολή αρχείου ελέγχου"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Αλλαγή θέματος & εμφάνισης"
+      ],
+      "Systemmetriken": [
+        "Μετρικές συστήματος"
+      ],
+      "GESAMTSTATUS": [
+        "ΣΥΝΟΛΙΚΗ ΚΑΤΑΣΤΑΣΗ"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Σταθμισμένη κατάσταση των καταχωρημένων μονάδων (υγιής 100, υποβαθμισμένη 60, μη ρυθμισμένη 30, σφάλμα 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "ΚΑΤΑΛΟΓΟΣ ΔΟΡΥΦΟΡΩΝ"
+      ],
+      "Registriert": [
+        "Καταχωρημένο"
+      ],
+      "Gesund": [
+        "Υγιές"
+      ],
+      "Warnungen": [
+        "Προειδοποιήσεις"
+      ],
+      "Kritisch": [
+        "Κρίσιμο"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "ΠΕΡΙΒΑΛΛΟΝ ΕΚΤΕΛΕΣΗΣ"
+      ],
+      "ja": [
+        "ναι"
+      ],
+      "nein": [
+        "όχι"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Μόνιμη κρυφή μνήμη αντικειμένων"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Κατάσταση στόλου & δορυφορικές μονάδες"
+      ],
+      "Module aktiv": [
+        "ενεργές μονάδες"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Δεν έχουν καταχωριστεί δορυφορικές μονάδες"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Μόλις ενεργοποιηθούν τα πρόσθετα WM Suite, συνδέονται αυτόματα μέσω του φίλτρου wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Εξαρτήσεις:"
+      ],
+      "Konfiguration": [
+        "Ρύθμιση"
+      ],
+      "Selbsttest": [
+        "Αυτοέλεγχος"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Ακεραιότητα αλυσίδας: Μη ελεγμένη (πατήστε Έλεγχος ακεραιότητας καταγραφών)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Πίνακας αρχείου ελέγχου"
+      ],
+      "Zeitstempel": [
+        "Χρονοσήμανση"
+      ],
+      "Modul": [
+        "Μονάδα"
+      ],
+      "Ereignistyp": [
+        "Τύπος συμβάντος"
+      ],
+      "Benutzer": [
+        "Χρήστης"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "Υπογραφή HMAC SHA-256"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Φόρτωση αρχείων ελέγχου..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Σύστημα σχεδίασης & προτιμήσεις θέματος"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Επιλέξτε την καθολική χρωματική παλέτα για το κέντρο ελέγχου και όλα τα δορυφορικά πρόσθετα WM Suite. Από προεπιλογή εφαρμόζεται το CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Προεπιλογή"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Σκούρα κεφαλίδα Obsidian Midnight σε συνδυασμό με εγγενείς κάρτες διαχείρισης WordPress και καθαρές αντιθέσεις."
+      ],
+      "Als Standard aktivieren": [
+        "Ορισμός ως προεπιλογή"
+      ],
+      "Klassisch": [
+        "Κλασικό"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: εγγενής χρωματική παλέτα WordPress Admin (#2271b1 μπλε, #f0f0f1 φόντο, τυπικές φόρμες WP)."
+      ],
+      "Aktivieren": [
+        "Ενεργοποίηση"
+      ],
+      "Dark Mode": [
+        "Σκούρα λειτουργία"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Πλήρης σκούρα λειτουργία (#050811 φόντο) με ημιδιαφανείς κάρτες και μπλε τόνους."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Καθαρό μαύρο, λευκό και κίτρινο ασφαλείας για υψηλή αντίθεση."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Διατήρηση δεδομένων & απεγκατάσταση"
+      ],
+      "Aufbewahrungsschutz": [
+        "Προστασία διατήρησης"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Οριστική διαγραφή όλων των δεδομένων κατά την αφαίρεση του προσθέτου"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "Από προεπιλογή, το WM Suite Hub διατηρεί τον πίνακα ελέγχου HMAC-SHA256, τους ρόλους και τις ρυθμίσεις κατά την απεγκατάσταση. Ενεργοποιήστε αυτή την επιλογή μόνο για οριστική διαγραφή όλων των δεδομένων."
+      ],
+      "Audit-Verifikation": [
+        "Επαλήθευση ελέγχου"
+      ],
+      "Schließen": [
+        "Κλείσιμο"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Θεματικά πακέτα προσθέτων του WM Suite: η τοπολογική ταξινόμηση του Kahn καθορίζει τη σειρά των εξαρτήσεών τους και ο προέλεγχος εξετάζει πρώτα τον διακομιστή. Αυτή η έκδοση δεν περιλαμβάνει εγκατάσταση· τα πρόσθετα εγκαθίστανται ένα-ένα."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Αφαίρεση διπλοτύπων σε αυτή τη σελίδα:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "Αφαιρέθηκαν %1$d σενάρια και %2$d φύλλα στυλ (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Περιεχόμενο πακέτου & αρχιτεκτονική μονάδων (%d):"
+      ],
+      "Aktiviert": [
+        "Ενεργοποιημένο"
+      ],
+      "Im Paket enthalten": [
+        "Περιλαμβάνεται στο πακέτο"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Μαθηματική σειρά εγκατάστασης DAG (ταξινόμηση Kahn):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Κανένα από αυτά τα πρόσθετα δεν απαιτεί άλλο· η σειρά εγκατάστασης είναι ελεύθερη."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Έναρξη προελέγχου για %s"
+      ],
+      "Pre-Flight Check": [
+        "Προέλεγχος"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Έλεγχος έκδοσης PHP, επέκτασης Sodium, ορίου μνήμης, δικαιωμάτων εγγραφής και OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Δοκιμαστική προσομοίωση"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Άρνηση πρόσβασης. Ανεπαρκή δικαιώματα για το κέντρο ελέγχου WM Suite."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Η μονάδα \"%s\" δεν είναι καταχωρισμένη ή είναι ανενεργή."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Αποτυχία εκτέλεσης ενέργειας μονάδας: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Η προσωρινή μνήμη τηλεμετρίας εκκαθαρίστηκε."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Επιλέχθηκε μη έγκυρο θέμα."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Το θέμα ενημερώθηκε επιτυχώς."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Προεπιλογή)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Εγγενές Κλασικό"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Σκούρο"
+      ],
+      "High-Contrast": [
+        "Υψηλή αντίθεση"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Η προτίμηση απεγκατάστασης ενημερώθηκε."
+      ],
+      "Bundle nicht gefunden.": [
+        "Το πακέτο δεν βρέθηκε."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Ο προέλεγχος απέτυχε."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Επιτυχής προσομοίωση: %d πακέτα επιλύθηκαν σε σειρά."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Η εγκατάσταση πακέτων λύσεων δεν είναι διαθέσιμη σε αυτή την έκδοση. Χρησιμοποιήστε dry_run=true για επίλυση σειράς."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Η συγχρονισμένη συγκατάθεση απορρίφθηκε: λείπει ή έληξε το διακριτικό ασφαλείας."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Πάρα πολλά συμβάντα συγκατάθεσης. Δοκιμάστε ξανά σε ένα λεπτό."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Δεν υπάρχει αναγνώσιμη απόφαση συγκατάθεσης."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Η συγκατάθεση δεν ήταν δυνατό να καταγραφεί."
+      ],
+      "Externer Dienst": [
+        "Εξωτερική υπηρεσία"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Αποκλεισμένο εξωτερικό περιεχόμενο: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "Το περιεχόμενο από %s αποκλείστηκε"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Φόρτωση και ενεργοποίηση %s μία φορά"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Για τη φόρτωση αυτού του περιεχομένου απαιτείται η συγκατάθεσή σας βάσει του § 25 TDDDG και του GDPR."
+      ],
+      "Inhalt laden & entsperren": [
+        "Φόρτωση & ξεκλείδωμα περιεχομένου"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Με τη φόρτωση αποδέχεστε τη διαβίβαση δεδομένων στον τρίτο πάροχο."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Παρουσιάστηκε σφάλμα κατά την επικοινωνία με το Hub."
+      ],
+      "HTTP-Fehler %s": [
+        "Σφάλμα HTTP %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Το θέμα άλλαξε επιτυχώς."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Σφάλμα κατά την αποθήκευση του θέματος: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Δεν έχουν καταγραφεί συμβάντα ελέγχου."
+      ],
+      "Benutzer #%s": [
+        "Χρήστης #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Σφάλμα κατά τη φόρτωση των αρχείων καταγραφής: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Γίνεται έλεγχος της αλυσίδας ελέγχου…"
+      ],
+      "Audit-Kette intakt": [
+        "Αλυσίδα ελέγχου ακέραιη"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Και οι %d εγγραφές ταιριάζουν με την υπογραφή HMAC-SHA256 τους και με την προηγούμενη: καμία δεν άλλαξε, διαγράφηκε ή αναδιατάχθηκε χωρίς το κλειδί του ιστότοπου."
+      ],
+      "Letzter Hash: %s": [
+        "Τελευταίο hash: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Η αλυσίδα ελέγχου διακόπηκε"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Έλεγχος της αλυσίδας ελέγχου"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Ο έλεγχος απέτυχε"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Τα δεδομένα τηλεμετρίας ενημερώθηκαν."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Σφάλμα κατά την ανανέωση: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Προέλεγχος: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Σφάλμα στον προέλεγχο:"
+      ],
+      "Prüfpunkt": [
+        "Σημείο ελέγχου"
+      ],
+      "Soll": [
+        "Αναμενόμενο"
+      ],
+      "Ist": [
+        "Πραγματικό"
+      ],
+      "Status": [
+        "Κατάσταση"
+      ],
+      "Erfüllt": [
+        "Πληρείται"
+      ],
+      "Nicht erfüllt": [
+        "Δεν πληρείται"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Υπολογισμένη σειρά εγκατάστασης:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Δεν έχουν δηλωθεί εξαρτήσεις, η σειρά είναι ελεύθερη:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Δοκιμαστική προσομοίωση για %s σε εξέλιξη…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Η δοκιμαστική προσομοίωση ολοκληρώθηκε."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Η δοκιμαστική προσομοίωση απέτυχε: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Η ρύθμιση απεγκατάστασης αποθηκεύτηκε."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Σφάλμα κατά την αποθήκευση: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Αποτέλεσμα για %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Η ενέργεια εκτελέστηκε επιτυχώς."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Σφάλμα ενέργειας μονάδας: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Χωρίς ενεργό το πρόσθετο «%s», αυτό το μπλοκ δεν εμφανίζει τίποτα στους επισκέπτες."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Δεν έχει ρυθμιστεί ακόμη — συμπληρώστε το «%s» στις ρυθμίσεις του μπλοκ. Μέχρι τότε οι επισκέπτες δεν βλέπουν το μπλοκ."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Ρυθμίσεις προσβασιμότητας"
+      ],
+      "Kontrast": [
+        "Αντίθεση"
+      ],
+      "Leseschrift": [
+        "Γραμματοσειρά ανάγνωσης"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Ρυθμίσεις απορρήτου"
+      ],
+      "SBOM-Download-URL": [
+        "URL λήψης SBOM"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Κατάλογος στοιχείων λογισμικού (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Λήψη CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Σελίδα κράτησης (URL)"
+      ],
+      "Zur Buchung": [
+        "Στην κράτηση"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Η κάρτα εκδήλωσης δεν έχει ρυθμιστεί ακόμη — εισαγάγετε τον τίτλο και τα στοιχεία της εκδήλωσης στις ρυθμίσεις του μπλοκ."
+      ],
+      "Ausgebucht": [
+        "Πλήρως κρατημένο"
+      ],
+      "Nur noch %d Plätze": [
+        "Μόνο %d θέσεις απομένουν"
+      ],
+      "%d freie Plätze": [
+        "%d διαθέσιμες θέσεις"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "Το «%s» δεν αναφέρει ενεργές εκδηλώσεις· μέχρι τότε οι επισκέπτες δεν βλέπουν το μπλοκ."
+      ],
+      "Max. %d Plätze": [
+        "Έως %d θέσεις"
+      ],
+      "Zur Veranstaltung": [
+        "Στην εκδήλωση"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Δεν έχουν εισαχθεί ακόμη επαληθευμένοι δείκτες LkSG — εισαγάγετε τις τιμές στις ρυθμίσεις του μπλοκ."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Δέουσα επιμέλεια εφοδιαστικής αλυσίδας (LkSG & CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Ανθρώπινα δικαιώματα"
+      ],
+      "Umweltschutz": [
+        "Προστασία περιβάλλοντος"
+      ],
+      "Gute Governance": [
+        "Χρηστή διακυβέρνηση"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Αυτό το κοντέινερ δεν δέχεται περιεχόμενο στον επεξεργαστή και δεν επηρεάζει τη σελίδα· οι επισκέπτες δεν το βλέπουν."
+      ],
+      "Ticker-Meldungen": [
+        "Ειδήσεις γραμμής"
+      ],
+      "Nachrichten-Ticker": [
+        "Κυλιόμενη γραμμή ειδήσεων"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Παύση ή συνέχιση γραμμής"
+      ],
+      "Pausieren": [
+        "Παύση"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Ελέγχει στο πρόγραμμα περιήγησης αν το αναγνωριστικό ακολουθεί τη μορφή Σχήμα:ID (π.χ. 0208:0843657437). Το αν ο συμμετέχων είναι προσβάσιμος στο δίκτυο Peppol, αυτό το μπλοκ δεν το ελέγχει."
+      ],
+      "Peppol ID": [
+        "Αναγνωριστικό Peppol"
+      ],
+      "Prüfen": [
+        "Έλεγχος"
+      ],
+      "Ziel-Element-ID": [
+        "ID στοιχείου προορισμού"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Η φόρτωση αυτού του περιεχομένου μεταβιβάζει δεδομένα στον πάροχο."
+      ],
+      "Inhalt einmalig laden": [
+        "Φόρτωση περιεχομένου μία φορά"
+      ],
+      "Hinweis abgeben": [
+        "Υποβολή αναφοράς"
+      ],
+      "WM Suite Hub Telemetry": [
+        "Τηλεμετρία WM Suite Hub"
+      ],
+      "Telemetry Field": [
+        "Πεδίο τηλεμετρίας"
+      ],
+      "Health Score (%)": [
+        "Βαθμός υγείας (%)"
+      ],
+      "Global Status": [
+        "Συνολική κατάσταση"
+      ],
+      "Active Spokes Count": [
+        "Αριθμός ενεργών δορυφόρων"
+      ],
+      "Hub Version": [
+        "Έκδοση Hub"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Έγκυρη μορφή (Σχήμα:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Μη έγκυρη μορφή αναγνωριστικού"
+      ],
+      "Pausiert": [
+        "Σε παύση"
+      ],
+      "Läuft": [
+        "Εκτελείται"
+      ],
+      "Compliance Officer (DPO)": [
+        "Υπεύθυνος Συμμόρφωσης (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Η εγγραφή #%d δεν παραπέμπει στην προηγούμενή της: μια προγενέστερη εγγραφή διαγράφηκε, προστέθηκε ή άλλαξε."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Η υπογραφή της εγγραφής #%d δεν ταιριάζει: η εγγραφή άλλαξε ή το κλειδί του ιστότοπου (AUTH_SALT) δεν είναι πλέον αυτό με το οποίο γράφτηκε."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Ο πίνακας ελέγχου είναι κενός."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "Ελέγχθηκαν %d εγγραφές, η αλυσίδα είναι πλήρης."
+      ],
+      "Eingeschränkt": [
+        "Περιορισμένο"
+      ],
+      "Nicht konfiguriert": [
+        "Μη ρυθμισμένο"
+      ],
+      "Fehler": [
+        "Σφάλμα"
+      ],
+      "Warnung": [
+        "Προειδοποίηση"
+      ],
+      "Unbekannt": [
+        "Άγνωστο"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "Το WM Suite Hub απαιτεί PHP 8.2 ή νεότερο. Αναβαθμίστε το περιβάλλον PHP."
+      ],
+      "Block-Einstellungen": [
+        "Ρυθμίσεις μπλοκ"
+      ],
+      "Spaltenanzahl": [
+        "Αριθμός στηλών"
+      ],
+      "Maximale Einträge": [
+        "Μέγιστο πλήθος στοιχείων"
+      ],
+      "Veranstaltungstitel": [
+        "Τίτλος εκδήλωσης"
+      ],
+      "Kategorie": [
+        "Κατηγορία"
+      ],
+      "Datum": [
+        "Ημερομηνία"
+      ],
+      "Veranstaltungsort": [
+        "Χώρος διεξαγωγής"
+      ],
+      "Freie Plätze": [
+        "Ελεύθερες θέσεις"
+      ],
+      "Preis": [
+        "Τιμή"
+      ],
+      "Button-Beschriftung": [
+        "Ετικέτα κουμπιού"
+      ],
+      "Hinweis unter dem Button": [
+        "Σημείωση κάτω από το κουμπί"
+      ],
+      "Überschrift": [
+        "Επικεφαλίδα"
+      ],
+      "Platzhaltertext": [
+        "Κείμενο υποδείγματος"
+      ],
+      "Badge-Beschriftung": [
+        "Ετικέτα σήματος"
+      ],
+      "Dienstname": [
+        "Όνομα υπηρεσίας"
+      ],
+      "Unternehmensname": [
+        "Επωνυμία εταιρείας"
+      ],
+      "Link zur Meldestelle": [
+        "Σύνδεσμος προς το κανάλι αναφορών"
+      ],
+      "Menschenrechte (%)": [
+        "Ανθρώπινα δικαιώματα (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Περιβάλλον (%)"
+      ],
+      "Governance (%)": [
+        "Διακυβέρνηση (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Ετικέτα έκδοσης"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Εμφάνιση διακόπτη υψηλής αντίθεσης"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Εμφάνιση διακόπτη γραμματοσειράς ανάγνωσης"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Εμφάνιση κουμπιών μεγέθους κειμένου"
+      ],
+      "Badge-Text": [
+        "Κείμενο ετικέτας"
+      ],
+      "Skalierungsfaktor": [
+        "Συντελεστής κλίμακας"
+      ],
+      "Basisschriftgröße": [
+        "Βασικό μέγεθος γραμματοσειράς"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "Γραμμή εργαλείων προσβασιμότητας WM"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Κουμπιά για υψηλή αντίθεση στα μπλοκ του WM Suite, γραμματοσειρά ανάγνωσης εγκατεστημένη στη συσκευή του επισκέπτη και μεγαλύτερο κείμενο. Η επιλογή μένει στο πρόγραμμα περιήγησης."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "προσβασιμότητα"
+      ],
+      "block keyword\u0004contrast": [
+        "αντίθεση"
+      ],
+      "block keyword\u0004dyslexia": [
+        "δυσλεξία"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "Δήλωση προσβασιμότητας WM"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Εμφανίζει τη δήλωση προσβασιμότητας που δημιουργεί το WM BFSG Compliance Dashboard από τις ρυθμίσεις σας. Χωρίς αυτό το πρόσθετο οι επισκέπτες δεν βλέπουν τίποτα."
+      ],
+      "block keyword\u0004erklaerung": [
+        "δήλωση"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "Σήμα ρυθμίσεων συγκατάθεσης WM"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Σύνδεσμος σε μορφή σήματος που ανοίγει τον διάλογο συγκατάθεσης του WM Sovereign Consent Vault. Χωρίς αυτό το πρόσθετο οι επισκέπτες δεν βλέπουν τίποτα."
+      ],
+      "block keyword\u0004privacy": [
+        "ιδιωτικότητα"
+      ],
+      "block keyword\u0004consent": [
+        "συγκατάθεση"
+      ],
+      "block keyword\u0004dsgvo": [
+        "γκπδ"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "cookies"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "Λήψη SBOM WM"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Σύνδεσμος λήψης για το CycloneDX SBOM που γράφει το wp wm-hub sbom. Οι επισκέπτες δεν βλέπουν τίποτα μέχρι να εισαχθεί URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "ασφάλεια"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "Κουμπί κράτησης εκδήλωσης WM"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Κουμπί προς τη σελίδα κράτησης που εισάγετε, με προαιρετική σημείωση από κάτω. Οι επισκέπτες δεν βλέπουν τίποτα μέχρι να εισαχθεί URL."
+      ],
+      "block keyword\u0004booking": [
+        "κράτηση"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "κουμπί"
+      ],
+      "block keyword\u0004tickets": [
+        "εισιτήρια"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "Ατομική κάρτα εκδήλωσης WM"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Κάρτα εκδήλωσης με τον τίτλο, την ημερομηνία, τον τόπο, την τιμή και τις ελεύθερες θέσεις που εισάγετε, και κουμπί προς την καθορισμένη σελίδα κράτησης. Τίποτα δεν διαβάζεται ζωντανά."
+      ],
+      "block keyword\u0004event": [
+        "εκδήλωση"
+      ],
+      "block keyword\u0004card": [
+        "κάρτα"
+      ],
+      "block keyword\u0004ticket": [
+        "εισιτήριο"
+      ],
+      "block keyword\u0004conference": [
+        "συνέδριο"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "Πλέγμα εκδηλώσεων WM"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Παραθέτει τις ενεργές εκδηλώσεις του WM Cyber Events Core, καθεμία με σύνδεσμο προς τη σελίδα της. Χωρίς αυτό το πρόσθετο οι επισκέπτες δεν βλέπουν τίποτα."
+      ],
+      "block keyword\u0004grid": [
+        "πλέγμα"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "Πίνακας δεικτών ESG & LkSG WM"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Τρία ποσοστά που εισάγετε (ανθρώπινα δικαιώματα, περιβάλλον, διακυβέρνηση) κάτω από μια επικεφαλίδα για την εφοδιαστική αλυσίδα. Το μπλοκ δεν υπολογίζει ούτε ελέγχει τίποτα."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "εφοδιαστική αλυσίδα"
+      ],
+      "block keyword\u0004compliance": [
+        "συμμορφωση"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "Περιέκτης ρευστής τυπογραφίας WM"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Κοντέινερ για αρθρωτή τυπογραφική κλίμακα. Σε αυτή την έκδοση δεν δέχεται εσωτερικά μπλοκ και κανένα φύλλο στυλ δεν διαβάζει τις ρυθμίσεις του, οπότε δεν επηρεάζει τη σελίδα."
+      ],
+      "block keyword\u0004typography": [
+        "τυπογραφία"
+      ],
+      "block keyword\u0004fluid": [
+        "ρευστό"
+      ],
+      "block keyword\u0004modular scale": [
+        "αναλογική κλίμακα"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "Ταινία ειδήσεων WM"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Κυλιόμενη γραμμή με το δικό σας κείμενο και κουμπί παύσης. Σταματά όταν ο δείκτης βρίσκεται από πάνω και μένει ακίνητη για επισκέπτες που ζητούν μειωμένη κίνηση."
+      ],
+      "block keyword\u0004ticker": [
+        "μπάρα"
+      ],
+      "block keyword\u0004marquee": [
+        "κύλιση"
+      ],
+      "block keyword\u0004news": [
+        "ειδήσεις"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "έκτακτο"
+      ],
+      "block keyword\u0004accessibility": [
+        "προσβασιμότητα"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "Έλεγχος μορφής Peppol ID WM"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Ελέγχει στο πρόγραμμα περιήγησης αν ένα ID έχει τη μορφή Peppol Σχήμα:ID. Δεν αναζητά τον συμμετέχοντα στο δίκτυο Peppol."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "ηλεκτρονική τιμολόγηση"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "Κυρίαρχο κέντρο απορρήτου WM"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Επικεφαλίδα και το κουμπί που ανοίγει τον διάλογο συγκατάθεσης του WM Sovereign Consent Vault. Χωρίς αυτό το πρόσθετο οι επισκέπτες δεν βλέπουν τίποτα."
+      ],
+      "block keyword\u0004preferences": [
+        "προτιμήσεις"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "Φόρμα διαγραφής άρθρου 17 GDPR WM"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Εμφανίζει τη φόρμα αιτημάτων διαγραφής του WM DSGVO Privacy Eraser. Χωρίς αυτό το πρόσθετο οι επισκέπτες δεν βλέπουν τίποτα."
+      ],
+      "block keyword\u0004eraser": [
+        "διαγραφή"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "απαλοιφή"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "Σύμβολο κράτησης θέσης για εξωτερικό περιεχόμενο WM"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Σύμβολο κράτησης θέσης με κουμπί φόρτωσης. Τοποθετήστε την ενσωμάτωση σε στοιχείο template με το ID προορισμού: τίποτα μέσα του δεν φορτώνεται πριν από το κλικ."
+      ],
+      "block keyword\u0004media": [
+        "μέσα"
+      ],
+      "block keyword\u0004placeholder": [
+        "πλαίσιο κράτησης"
+      ],
+      "block keyword\u0004blocker": [
+        "φραγή"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "Κάρτα πύλης αναφορών HinSchG WM"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Κάρτα συνδέσμου προς το κανάλι αναφορών: το μπλοκ της πύλης στην ίδια σελίδα ή μια διεύθυνση που εισάγετε."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-νομος"
+      ],
+      "block keyword\u0004whistleblower": [
+        "αναφερων"
+      ],
+      "block keyword\u0004meldung": [
+        "αναφορά"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "καταγγελία"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "Πύλη αναφορών HinSchG WM"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Εμφανίζει την πύλη αναφορών του WM HinSchG Whistleblower Desk. Χωρίς αυτό το πρόσθετο οι επισκέπτες δεν βλέπουν τίποτα."
+      ],
+      "block keyword\u0004wizard": [
+        "οδηγός"
+      ]
+    }
+  }
+}

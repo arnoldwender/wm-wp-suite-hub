@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "lv",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Uzņēmuma vadības panelis)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "WM Suite spraudņu reģistrs un stāvokļa pārskats, CycloneDX 1.6 programmatūras komponentu saraksts un audita tabula, kuras ieraksti ir saķēdēti ar HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "WM Suite Uzņēmuma komplekts"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Vadības panelis un statuss"
+      ],
+      "Cockpit & Status": [
+        "Panelis un statuss"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Risinājumu pakotnes"
+      ],
+      "Solution Packs": [
+        "Risinājumu pakotnes"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Audita žurnāls"
+      ],
+      "Audit-Log": [
+        "Audita žurnāls"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Jums nav pietiekamu tiesību piekļūt šai lapai."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Uzņēmuma komplekta panelis"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Moduļi pēc regulējuma"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Uzņēmuma komplekta panelis"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Audita ķēde ir vesela: pārbaudīti %d ieraksti"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Audita ķēde pārtraukta pie ieraksta #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Katrs ieraksts ir saistīts ar iepriekšējo ar HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Aktīvie moduļi"
+      ],
+      "Health Score": [
+        "Veselības rādītājs"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Aktīvie WM Suite satelītmoduļi"
+      ],
+      "%d Bereitgestellt": [
+        "%d izvietoti"
+      ],
+      "Suite Cockpit öffnen": [
+        "Atvērt komplekta paneli"
+      ],
+      "Nicht aktiv": [
+        "Nav aktīvs"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Pilnībā aktīvs (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Daļēji aktīvs (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d moduļi pieejami"
+      ],
+      "Zustand der zuständigen Module": [
+        "Atbildīgo moduļu statuss"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Rāda, kurš WM Suite spraudnis ir aktīvs un kādu statusu tas ziņo. Tas nav atbilstības novērtējums."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Pāriet uz galveno saturu"
+      ],
+      "WM Suite Hub Command Console": [
+        "WM Suite Hub komandu konsole"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Reģistrēto WM Suite spraudņu stāvoklis, programmatūras komponentu saraksts (CycloneDX 1.6) un ar HMAC-SHA256 saķēdēta audita tabula."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Atsvaidzināt flotes statusu"
+      ],
+      "Aktualisieren": [
+        "Atsvaidzināt"
+      ],
+      "Audit-Integrität prüfen": [
+        "Pārbaudīt audita integritāti"
+      ],
+      "Cockpit Navigation": [
+        "Paneļa navigācija"
+      ],
+      "Cockpit Übersicht": [
+        "Paneļa pārskats"
+      ],
+      "Satelliten-Flotte": [
+        "Satelītu flote"
+      ],
+      "Audit-Protokoll": [
+        "Audita žurnāls"
+      ],
+      "Design & Themes": [
+        "Dizains un motīvi"
+      ],
+      "Suite Theme:": [
+        "Komplekta motīvs:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Izvēlēties WM Suite motīvu"
+      ],
+      "Schnellnavigation": [
+        "Ātrā navigācija"
+      ],
+      "Direkt zu:": [
+        "Doties uz:"
+      ],
+      "Kurzanleitung": [
+        "Īsais ceļvedis"
+      ],
+      "Metriken & Status": [
+        "Rādītāji un statuss"
+      ],
+      "Theme-Einstellungen": [
+        "Motīva iestatījumi"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Kas ir WM Suite Hub un kā pārvaldīt spraudņus?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub ir centrālais"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "visu WM Suite WordPress spraudņu pārvaldības un kontroles centrs"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Tas rāda reģistrēto moduļu ziņoto statusu, izveido programmatūras komponentu sarakstu CycloneDX 1.6 formātā un ar HMAC-SHA256 saķēdē tam ziņotos notikumus: izmaiņas bez vietnes atslēgas kļūst nosakāmas. Tas nevērtē juridisko atbilstību."
+      ],
+      "Schnellzugriff:": [
+        "Ātrā piekļuve:"
+      ],
+      "Aktive Module prüfen": [
+        "Pārbaudīt aktīvos moduļus"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Skatīt audita žurnālu"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Mainīt motīvu un izskatu"
+      ],
+      "Systemmetriken": [
+        "Sistēmas rādītāji"
+      ],
+      "GESAMTSTATUS": [
+        "KOPĒJAIS STATUSS"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Reģistrēto moduļu svērtais statuss (veselīgs 100, ierobežots 60, nav konfigurēts 30, kļūda 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "SATELĪTU SARAKSTS"
+      ],
+      "Registriert": [
+        "Reģistrēts"
+      ],
+      "Gesund": [
+        "Veselīgs"
+      ],
+      "Warnungen": [
+        "Brīdinājumi"
+      ],
+      "Kritisch": [
+        "Kritisks"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "IZPILDES VIDE"
+      ],
+      "ja": [
+        "jā"
+      ],
+      "nein": [
+        "nē"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Pastāvīgā objektu kešatmiņa"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Flotes statuss un satelītmoduļi"
+      ],
+      "Module aktiv": [
+        "aktīvi moduļi"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Nav reģistrētu satelītmoduļu"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Tiklīdz WM Suite spraudņi tiek aktivizēti, tie automātiski pievienojas caur filtru wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Atkarības:"
+      ],
+      "Konfiguration": [
+        "Konfigurācija"
+      ],
+      "Selbsttest": [
+        "Pašpārbaude"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Ķēdes integritāte: Nav pārbaudīta (noklikšķiniet Pārbaudīt audita integritāti)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Audita žurnāla tabula"
+      ],
+      "Zeitstempel": [
+        "Laikspiedols"
+      ],
+      "Modul": [
+        "Modulis"
+      ],
+      "Ereignistyp": [
+        "Notikuma veids"
+      ],
+      "Benutzer": [
+        "Lietotājs"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "SHA-256 HMAC paraksts"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Ielādē audita žurnālus..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Dizaina sistēma un motīva izvēles"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Izvēlieties globālo krāsu shēmu vadības panelim un visiem WM Suite satelītspraudņiem. Pēc noklusējuma tiek izmantots CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Noklusējums"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Tumšs Obsidian Midnight baneris apvienojumā ar WordPress vadības kartītēm un skaidru kontrastu."
+      ],
+      "Als Standard aktivieren": [
+        "Iestatīt kā noklusējumu"
+      ],
+      "Klassisch": [
+        "Klasisks"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: iebūvētā WordPress Admin krāsu palete (#2271b1 zila, #f0f0f1 fons, standarta WP veidlapas)."
+      ],
+      "Aktivieren": [
+        "Aktivizēt"
+      ],
+      "Dark Mode": [
+        "Tumšais režīms"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Pilns tumšais režīms (#050811 fons) ar caurspīdīgām kartītēm un ziliem akcentiem."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Tīra melna, balta un drošības dzeltena augstam kontrastam."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Datu glabāšana un atinstalēšana"
+      ],
+      "Aufbewahrungsschutz": [
+        "Glabāšanas aizsardzība"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Dzēšot spraudni, neatgriezeniski noņemt visus datus"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "Pēc noklusējuma WM Suite Hub atinstalēšanas laikā saglabā HMAC-SHA256 audita tabulu, lomas un iestatījumus. Ieslēdziet šo iespēju tikai tad, ja vēlaties neatgriezeniski izdzēst visas tabulas un opcijas."
+      ],
+      "Audit-Verifikation": [
+        "Audita pārbaude"
+      ],
+      "Schließen": [
+        "Aizvērt"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Tematiskas WM Suite spraudņu pakotnes: to atkarību secību nosaka Kāna topoloģiskā kārtošana, un pirmspārbaude vispirms pārbauda serveri. Šajā versijā instalēšanas nav; spraudņi tiek instalēti pa vienam."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Dublikātu noņemšana šajā lapā:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "Noņemti skripti: %1$d, stilu lapas: %2$d (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Pakotnes saturs un moduļu arhitektūra (%d):"
+      ],
+      "Aktiviert": [
+        "Aktivizēts"
+      ],
+      "Im Paket enthalten": [
+        "Iekļauts pakotnē"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Matemātiska DAG instalēšanas secība (Kāna kārtošana):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Neviens no šiem spraudņiem neprasa citu; instalēšanas secība ir brīva."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Sākt pirmspārbaudi komplektam %s"
+      ],
+      "Pre-Flight Check": [
+        "Pirmspārbaude"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Pārbauda PHP versiju, Sodium paplašinājumu, atmiņas ierobežojumu, rakstīšanas tiesības un OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Izmēģinājuma simulācija"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Piekļuve liegta. Nepietiekamas tiesības WM Suite panelim."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Modulis \"%s\" nav reģistrēts vai ir neaktīvs."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Moduļa darbības izpilde neizdevās: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Telemetrijas kešatmiņa ir iztīrīta."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Izvēlēts nederīgs motīvs."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Motīvs ir atjaunināts."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Noklusējums)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Klasisks"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Tumšs"
+      ],
+      "High-Contrast": [
+        "Augsts kontrasts"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Atinstalēšanas iestatījums ir atjaunināts."
+      ],
+      "Bundle nicht gefunden.": [
+        "Pakotne nav atrasta."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Pirmspārbaude neizdevās."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Simulācija veiksmīga: %d pakotnes sakārtotas secībā."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Risinājumu pakotņu instalēšana šajā versijā nav pieejama. Izmantojiet dry_run=true secības aprēķinam."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Piekrišanas sinhronizācija noraidīta: trūkst vai ir beidzies drošības marķieris."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Pārāk daudz piekrišanas notikumu. Mēģiniet vēlreiz pēc minūtes."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Nav nolasāma piekrišanas lēmuma."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Piekrišanu neizdevās reģistrēt."
+      ],
+      "Externer Dienst": [
+        "Ārējs pakalpojums"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Bloķēts ārējs saturs: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "%s saturs ir bloķēts"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Ielādēt un iespējot %s vienu reizi"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Šī satura ielādei nepieciešama jūsu piekrišana saskaņā ar TDDDG 25. pantu un VDAR."
+      ],
+      "Inhalt laden & entsperren": [
+        "Ielādēt un atbloķēt saturu"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Ielādējot saturu, jūs piekrītat datu nodošanai trešās puses pakalpojumu sniedzējam."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Radās kļūda saziņā ar Hub."
+      ],
+      "HTTP-Fehler %s": [
+        "HTTP kļūda %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Motīvs nomainīts."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Kļūda, saglabājot motīvu: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Nav reģistrētu audita notikumu."
+      ],
+      "Benutzer #%s": [
+        "Lietotājs #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Kļūda, ielādējot žurnālus: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Notiek audita ķēdes pārbaude…"
+      ],
+      "Audit-Kette intakt": [
+        "Audita ķēde ir vesela"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Visi %d ieraksti atbilst savam HMAC-SHA256 parakstam un iepriekšējam ierakstam: neviens nav mainīts, dzēsts vai pārkārtots bez vietnes atslēgas."
+      ],
+      "Letzter Hash: %s": [
+        "Pēdējais jaucējkods: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Audita ķēde pārtraukta"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Audita ķēdes pārbaude"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Pārbaude neizdevās"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Telemetrijas dati atjaunināti."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Kļūda, atsvaidzinot: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Pirmspārbaude: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Kļūda pirmspārbaudē:"
+      ],
+      "Prüfpunkt": [
+        "Pārbaudes punkts"
+      ],
+      "Soll": [
+        "Paredzētais"
+      ],
+      "Ist": [
+        "Faktiskais"
+      ],
+      "Status": [
+        "Statuss"
+      ],
+      "Erfüllt": [
+        "Izpildīts"
+      ],
+      "Nicht erfüllt": [
+        "Nav izpildīts"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Aprēķinātā instalēšanas secība:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Atkarības nav deklarētas, secība ir brīva:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Izmēģinājuma simulācija %s notiek…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Izmēģinājuma simulācija pabeigta."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Izmēģinājuma simulācija neizdevās: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Atinstalēšanas iestatījums saglabāts."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Kļūda, saglabājot: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Rezultāts %1$s: %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Darbība veiksmīgi izpildīta."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Kļūda moduļa darbībā: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Bez aktīva spraudņa „%s” šis bloks apmeklētājiem neko nerāda."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Vēl nav konfigurēts – ierakstiet „%s” bloka iestatījumos. Līdz tam apmeklētāji bloku neredz."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Piekļūstamības iestatījumi"
+      ],
+      "Kontrast": [
+        "Kontrasts"
+      ],
+      "Leseschrift": [
+        "Lasīšanas fonts"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Privātuma iestatījumi"
+      ],
+      "SBOM-Download-URL": [
+        "SBOM lejupielādes URL"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Programmatūras komponentu saraksts (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Lejupielādēt CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Rezervēšanas lapa (URL)"
+      ],
+      "Zur Buchung": [
+        "Uz rezervāciju"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Pasākuma kartīte vēl nav konfigurēta – ierakstiet nosaukumu un pasākuma datus bloka iestatījumos."
+      ],
+      "Ausgebucht": [
+        "Pilnībā rezervēts"
+      ],
+      "Nur noch %d Plätze": [
+        "Atlikušas tikai %d vietas"
+      ],
+      "%d freie Plätze": [
+        "%d brīvas vietas"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "„%s” neziņo par aktīviem pasākumiem; līdz tam apmeklētāji bloku neredz."
+      ],
+      "Max. %d Plätze": [
+        "Maks. %d vietas"
+      ],
+      "Zur Veranstaltung": [
+        "Uz pasākumu"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Pārbaudīti LkSG rādītāji vēl nav ievadīti – ierakstiet vērtības bloka iestatījumos."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Piegādes ķēdes uzticamības pārbaude (LkSG un CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Cilvēktiesības"
+      ],
+      "Umweltschutz": [
+        "Vides aizsardzība"
+      ],
+      "Gute Governance": [
+        "Laba pārvaldība"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Šis konteiners redaktorā nepieņem saturu un neietekmē lapu; apmeklētāji to neredz."
+      ],
+      "Ticker-Meldungen": [
+        "Ziņu joslas virsraksti"
+      ],
+      "Nachrichten-Ticker": [
+        "Ziņu josla"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Apturēt vai atsākt joslu"
+      ],
+      "Pausieren": [
+        "Apturēt"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Pārlūkā pārbauda, vai identifikators atbilst formātam Shēma:ID (piem., 0208:0843657437). Vai dalībnieks ir sasniedzams Peppol tīklā, šis bloks nepārbauda."
+      ],
+      "Peppol ID": [
+        "Peppol ID"
+      ],
+      "Prüfen": [
+        "Pārbaudīt"
+      ],
+      "Ziel-Element-ID": [
+        "Mērķa elementa ID"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Ielādējot šo saturu, dati tiek nosūtīti pakalpojuma sniedzējam."
+      ],
+      "Inhalt einmalig laden": [
+        "Ielādēt saturu vienreiz"
+      ],
+      "Hinweis abgeben": [
+        "Iesniegt ziņojumu"
+      ],
+      "WM Suite Hub Telemetry": [
+        "WM Suite Hub telemetrija"
+      ],
+      "Telemetry Field": [
+        "Telemetrijas lauks"
+      ],
+      "Health Score (%)": [
+        "Veselības rādītājs (%)"
+      ],
+      "Global Status": [
+        "Kopējais statuss"
+      ],
+      "Active Spokes Count": [
+        "Aktīvo satelītu skaits"
+      ],
+      "Hub Version": [
+        "Hub versija"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Formāts derīgs (Shēma:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Nederīgs ID formāts"
+      ],
+      "Pausiert": [
+        "Apturēts"
+      ],
+      "Läuft": [
+        "Darbojas"
+      ],
+      "Compliance Officer (DPO)": [
+        "Atbilstības speciālists (DPO)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Ieraksts #%d neatsaucas uz iepriekšējo ierakstu: kāds agrāks ieraksts ir dzēsts, ievietots vai mainīts."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Ieraksta #%d paraksts nesakrīt: ieraksts ir mainīts vai vietnes atslēga (AUTH_SALT) vairs nav tā, ar kuru tas tika rakstīts."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Audita tabula ir tukša."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "Pārbaudīti %d ieraksti, ķēde ir nepārtraukta."
+      ],
+      "Eingeschränkt": [
+        "Ierobežots"
+      ],
+      "Nicht konfiguriert": [
+        "Nav konfigurēts"
+      ],
+      "Fehler": [
+        "Kļūda"
+      ],
+      "Warnung": [
+        "Brīdinājums"
+      ],
+      "Unbekannt": [
+        "Nezināms"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub nepieciešams PHP 8.2 vai jaunāks. Lūdzu, atjauniniet PHP vidi."
+      ],
+      "Block-Einstellungen": [
+        "Bloka iestatījumi"
+      ],
+      "Spaltenanzahl": [
+        "Kolonnu skaits"
+      ],
+      "Maximale Einträge": [
+        "Maksimālais vienumu skaits"
+      ],
+      "Veranstaltungstitel": [
+        "Pasākuma nosaukums"
+      ],
+      "Kategorie": [
+        "Kategorija"
+      ],
+      "Datum": [
+        "Datums"
+      ],
+      "Veranstaltungsort": [
+        "Norises vieta"
+      ],
+      "Freie Plätze": [
+        "Brīvās vietas"
+      ],
+      "Preis": [
+        "Cena"
+      ],
+      "Button-Beschriftung": [
+        "Pogas uzraksts"
+      ],
+      "Hinweis unter dem Button": [
+        "Piezīme zem pogas"
+      ],
+      "Überschrift": [
+        "Virsraksts"
+      ],
+      "Platzhaltertext": [
+        "Vietturis"
+      ],
+      "Badge-Beschriftung": [
+        "Nozīmītes teksts"
+      ],
+      "Dienstname": [
+        "Pakalpojuma nosaukums"
+      ],
+      "Unternehmensname": [
+        "Uzņēmuma nosaukums"
+      ],
+      "Link zur Meldestelle": [
+        "Saite uz ziņošanas kanālu"
+      ],
+      "Menschenrechte (%)": [
+        "Cilvēktiesības (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Vide (%)"
+      ],
+      "Governance (%)": [
+        "Pārvaldība (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Versijas iezīme"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Rādīt augsta kontrasta slēdzi"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Rādīt lasīšanas fonta slēdzi"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Rādīt teksta izmēra pogas"
+      ],
+      "Badge-Text": [
+        "Iezīmes teksts"
+      ],
+      "Skalierungsfaktor": [
+        "Mēroga koeficients"
+      ],
+      "Basisschriftgröße": [
+        "Pamatfonta izmērs"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "WM Piekļūstamības rīkjosla"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Pogas augstam kontrastam WM Suite blokos, apmeklētāja ierīcē instalēts lasīšanas fonts un lielāks teksts. Izvēle paliek pārlūkā."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "piekļūstamība"
+      ],
+      "block keyword\u0004contrast": [
+        "kontrasts"
+      ],
+      "block keyword\u0004dyslexia": [
+        "disleksija"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "WM Piekļūstamības paziņojums"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Rāda piekļūstamības paziņojumu, ko WM BFSG Compliance Dashboard izveido no jūsu iestatījumiem. Bez šī spraudņa apmeklētāji neko neredz."
+      ],
+      "block keyword\u0004erklaerung": [
+        "paziņojums"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "WM Piekrišanas iestatījumu žetons"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Žetona saite, kas atver WM Sovereign Consent Vault piekrišanas dialogu. Bez šī spraudņa apmeklētāji neko neredz."
+      ],
+      "block keyword\u0004privacy": [
+        "personas-dati"
+      ],
+      "block keyword\u0004consent": [
+        "piekrišana"
+      ],
+      "block keyword\u0004dsgvo": [
+        "vdar"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "sīkdatnes"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "WM SBOM lejupielāde"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Lejupielādes saite uz CycloneDX SBOM, ko raksta wp wm-hub sbom. Apmeklētāji neko neredz, kamēr nav ievadīts URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "drošība"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "WM Pasākuma rezervēšanas poga"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Poga uz jūsu ievadīto rezervēšanas lapu ar neobligātu piezīmi zem tās. Apmeklētāji neko neredz, kamēr nav ievadīts URL."
+      ],
+      "block keyword\u0004booking": [
+        "rezervēšana"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "poga"
+      ],
+      "block keyword\u0004tickets": [
+        "biļetes"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "WM Pasākuma kartīte"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Pasākuma kartīte ar jūsu ievadīto nosaukumu, datumu, vietu, cenu un brīvajām vietām, kā arī poga uz norādīto rezervēšanas lapu. Nekas netiek nolasīts tiešsaistē."
+      ],
+      "block keyword\u0004event": [
+        "pasākums"
+      ],
+      "block keyword\u0004card": [
+        "kartīte"
+      ],
+      "block keyword\u0004ticket": [
+        "biļete"
+      ],
+      "block keyword\u0004conference": [
+        "konference"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "WM Pasākumu režģis"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Uzskaita WM Cyber Events Core aktīvos pasākumus, katru ar saiti uz tā lapu. Bez šī spraudņa apmeklētāji neko neredz."
+      ],
+      "block keyword\u0004grid": [
+        "režģis"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "WM LkSG un ESG rādītāju kartīte"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Trīs jūsu ievadīti procenti (cilvēktiesības, vide, pārvaldība) zem virsraksta par piegādes ķēdi. Bloks neko neaprēķina un nepārbauda."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "piegādes ķēde"
+      ],
+      "block keyword\u0004compliance": [
+        "atbilstiba"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "WM Plūstošas tipogrāfijas konteiners"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Konteiners modulārai tipogrāfiskai skalai. Šajā versijā tas nepieņem iekšējus blokus, un neviena stilu lapa nenolasa tā iestatījumus, tāpēc tas neietekmē lapu."
+      ],
+      "block keyword\u0004typography": [
+        "tipogrāfija"
+      ],
+      "block keyword\u0004fluid": [
+        "plūstošs"
+      ],
+      "block keyword\u0004modular scale": [
+        "modulārā skala"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "WM Ziņu josla"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Slīdoša rinda ar jūsu tekstu un pauzes pogu. Tā apstājas, kad pele ir virs tās, un stāv uz vietas apmeklētājiem, kuri vēlas samazinātu kustību."
+      ],
+      "block keyword\u0004ticker": [
+        "josla"
+      ],
+      "block keyword\u0004marquee": [
+        "ritināšana"
+      ],
+      "block keyword\u0004news": [
+        "ziņas"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "svarīgi"
+      ],
+      "block keyword\u0004accessibility": [
+        "piekļūstamība"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "WM Peppol ID formāta pārbaude"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Pārlūkā pārbauda, vai ID ir Peppol forma Shēma:ID. Dalībnieku Peppol tīklā nemeklē."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "e-rēķini"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "WM Suverēns privātuma centrs"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Virsraksts un poga, kas atver WM Sovereign Consent Vault piekrišanas dialogu. Bez šī spraudņa apmeklētāji neko neredz."
+      ],
+      "block keyword\u0004preferences": [
+        "izvēles"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "WM VDAR 17. panta dzēšanas veidlapa"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Rāda WM DSGVO Privacy Eraser dzēšanas pieprasījumu veidlapu. Bez šī spraudņa apmeklētāji neko neredz."
+      ],
+      "block keyword\u0004eraser": [
+        "dzēšana"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "noņemšana"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "WM Ārējā satura vietturis"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Vietturis ar ielādes pogu. Ievietojiet iegultni template elementā ar mērķa ID: nekas tajā netiek ielādēts pirms klikšķa."
+      ],
+      "block keyword\u0004media": [
+        "mediji"
+      ],
+      "block keyword\u0004placeholder": [
+        "vietturis"
+      ],
+      "block keyword\u0004blocker": [
+        "bloķētājs"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "WM HinSchG trauksmes cēlēju kartīte"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Saites kartīte uz ziņošanas kanālu: portāla bloks tajā pašā lapā vai jūsu ievadīta adrese."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-likums"
+      ],
+      "block keyword\u0004whistleblower": [
+        "trauksmes-celejs"
+      ],
+      "block keyword\u0004meldung": [
+        "ziņojums"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "ziņošana"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "WM HinSchG trauksmes cēlēju portāls"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Rāda WM HinSchG Whistleblower Desk ziņošanas portālu. Bez šī spraudņa apmeklētāji neko neredz."
+      ],
+      "block keyword\u0004wizard": [
+        "vednis"
+      ]
+    }
+  }
+}

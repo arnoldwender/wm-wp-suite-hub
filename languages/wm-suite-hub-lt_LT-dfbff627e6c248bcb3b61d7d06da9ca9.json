@@ -1,0 +1,1059 @@
+{
+  "translation-revision-date": "2026-11-21T10:03:48+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-suite-hub",
+        "lang": "lt_LT",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);"
+      },
+      "WM Suite Hub (Enterprise Cockpit)": [
+        "WM Suite Hub (Įmonės valdymo pultas)"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-suite-hub/"
+      ],
+      "Registry and health overview of the WM Suite plugins, a CycloneDX 1.6 software bill of materials and an audit table whose entries are chained with HMAC-SHA256.": [
+        "WM Suite įskiepių registras ir būsenos apžvalga, CycloneDX 1.6 programinės įrangos komponentų sąrašas ir audito lentelė, kurios įrašai susieti grandine naudojant HMAC-SHA256."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "WM Enterprise Suite": [
+        "WM Suite Įmonės paketas"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "WM Suite — Cockpit & Status": [
+        "WM Suite — Pultas ir būsena"
+      ],
+      "Cockpit & Status": [
+        "Pultas ir būsena"
+      ],
+      "WM Suite — Solution Packs": [
+        "WM Suite — Sprendimų paketai"
+      ],
+      "Solution Packs": [
+        "Sprendimų paketai"
+      ],
+      "WM Suite — Audit-Protokoll": [
+        "WM Suite — Audito žurnalas"
+      ],
+      "Audit-Log": [
+        "Audito žurnalas"
+      ],
+      "Sie haben keine ausreichenden Berechtigungen für den Zugriff auf diese Seite.": [
+        "Neturite pakankamų teisių šiam puslapiui pasiekti."
+      ],
+      "WM Suite — Enterprise Suite Cockpit": [
+        "WM Suite — Įmonės paketo pultas"
+      ],
+      "WM Suite — Module nach Regelwerk": [
+        "WM Suite — Moduliai pagal reglamentus"
+      ],
+      "Enterprise Suite Cockpit": [
+        "Įmonės paketo pultas"
+      ],
+      "Audit-Kette intakt: %d Einträge geprüft": [
+        "Audito grandinė nepažeista: patikrinta įrašų: %d"
+      ],
+      "Audit-Kette unterbrochen bei Eintrag #%d": [
+        "Audito grandinė nutrūko ties įrašu #%d"
+      ],
+      "Jeder Eintrag ist mit HMAC-SHA256 an den vorherigen gebunden.": [
+        "Kiekvienas įrašas susietas su ankstesniuoju naudojant HMAC-SHA256."
+      ],
+      "Aktive Module": [
+        "Aktyvūs moduliai"
+      ],
+      "Health Score": [
+        "Būklės balas"
+      ],
+      "Aktive WM Suite Spoke-Module": [
+        "Aktyvūs WM Suite palydoviniai moduliai"
+      ],
+      "%d Bereitgestellt": [
+        "%d įdiegta"
+      ],
+      "Suite Cockpit öffnen": [
+        "Atidaryti paketo pultą"
+      ],
+      "Nicht aktiv": [
+        "Neaktyvus"
+      ],
+      "Vollständig aktiv (%1$d/%2$d)": [
+        "Visiškai aktyvus (%1$d/%2$d)"
+      ],
+      "Teilweise aktiv (%1$d/%2$d)": [
+        "Iš dalies aktyvus (%1$d/%2$d)"
+      ],
+      "%d Module verfügbar": [
+        "%d prieinamų modulių"
+      ],
+      "Zustand der zuständigen Module": [
+        "Atsakingų modulių būsena"
+      ],
+      "Zeigt, welches WM-Suite-Plugin aktiv ist und welchen Zustand es meldet. Keine Konformitätsbewertung.": [
+        "Rodo, kuris WM Suite įskiepis aktyvus ir kokią būseną jis praneša. Tai nėra atitikties vertinimas."
+      ],
+      "Zum Hauptinhalt springen": [
+        "Pereiti prie pagrindinio turinio"
+      ],
+      "WM Suite Hub Command Console": [
+        "WM Suite Hub komandų konsolė"
+      ],
+      "Zustand der registrierten WM-Suite-Plugins, Software-Stückliste (CycloneDX 1.6) und eine mit HMAC-SHA256 verkettete Audit-Tabelle.": [
+        "Užregistruotų WM Suite įskiepių būsena, programinės įrangos komponentų sąrašas (CycloneDX 1.6) ir HMAC-SHA256 grandine susieta audito lentelė."
+      ],
+      "Flottenstatus aktualisieren": [
+        "Atnaujinti parko būseną"
+      ],
+      "Aktualisieren": [
+        "Atnaujinti"
+      ],
+      "Audit-Integrität prüfen": [
+        "Tikrinti audito vientisumą"
+      ],
+      "Cockpit Navigation": [
+        "Pulto naršymas"
+      ],
+      "Cockpit Übersicht": [
+        "Pulto apžvalga"
+      ],
+      "Satelliten-Flotte": [
+        "Palydovų parkas"
+      ],
+      "Audit-Protokoll": [
+        "Audito žurnalas"
+      ],
+      "Design & Themes": [
+        "Dizainas ir temos"
+      ],
+      "Suite Theme:": [
+        "Paketo tema:"
+      ],
+      "WM Suite Theme auswählen": [
+        "Pasirinkti WM Suite temą"
+      ],
+      "Schnellnavigation": [
+        "Greitasis naršymas"
+      ],
+      "Direkt zu:": [
+        "Pereiti į:"
+      ],
+      "Kurzanleitung": [
+        "Trumpa atmintinė"
+      ],
+      "Metriken & Status": [
+        "Rodikliai ir būsena"
+      ],
+      "Theme-Einstellungen": [
+        "Temos nuostatos"
+      ],
+      "Was ist das WM Suite Hub und wie steuern Sie Ihre Plugins?": [
+        "Kas yra WM Suite Hub ir kaip valdyti savo įskiepius?"
+      ],
+      "Das WM Suite Hub ist die zentrale": [
+        "WM Suite Hub yra centrinis"
+      ],
+      "Gouvernanz- und Kontrollzentrale aller WM Suite WordPress-Plugins": [
+        "visų WM Suite WordPress įskiepių valdymo ir kontrolės centras"
+      ],
+      ". Es zeigt den Zustand, den die registrierten Module melden, erzeugt eine Software-Stückliste im Format CycloneDX 1.6 und verkettet die Ereignisse, die ihm gemeldet werden, mit HMAC-SHA256: Änderungen ohne den Schlüssel der Website werden erkennbar. Es bewertet keine Rechtskonformität.": [
+        ". Jis rodo registruotų modulių pranešamą būseną, sukuria programinės įrangos komponentų sąrašą CycloneDX 1.6 formatu ir HMAC-SHA256 sujungia į grandinę jam praneštus įvykius: be svetainės rakto atlikti pakeitimai tampa aptinkami. Jis nevertina teisinės atitikties."
+      ],
+      "Schnellzugriff:": [
+        "Greita prieiga:"
+      ],
+      "Aktive Module prüfen": [
+        "Tikrinti aktyvius modulius"
+      ],
+      "Audit-Protokoll ansehen": [
+        "Peržiūrėti audito žurnalą"
+      ],
+      "Theme & Erscheinungsbild wechseln": [
+        "Keisti temą ir išvaizdą"
+      ],
+      "Systemmetriken": [
+        "Sistemos rodikliai"
+      ],
+      "GESAMTSTATUS": [
+        "BENDRA BŪSENA"
+      ],
+      "Gewichteter Zustand der registrierten Module (gesund 100, eingeschränkt 60, nicht konfiguriert 30, Fehler 0).": [
+        "Registruotų modulių svertinė būsena (tvarkingas 100, ribotas 60, nesukonfigūruotas 30, klaida 0)."
+      ],
+      "SATELLITEN-INVENTAR": [
+        "PALYDOVŲ SĄRAŠAS"
+      ],
+      "Registriert": [
+        "Užregistruota"
+      ],
+      "Gesund": [
+        "Tvarkingas"
+      ],
+      "Warnungen": [
+        "Įspėjimai"
+      ],
+      "Kritisch": [
+        "Kritinis"
+      ],
+      "LAUFZEITUMGEBUNG": [
+        "VYKDYMO APLINKA"
+      ],
+      "ja": [
+        "taip"
+      ],
+      "nein": [
+        "ne"
+      ],
+      "Persistenter Objekt-Cache": [
+        "Nuolatinė objektų talpykla"
+      ],
+      "Flottenstatus & Satelliten-Module": [
+        "Parko būsena ir palydoviniai moduliai"
+      ],
+      "Module aktiv": [
+        "aktyvūs moduliai"
+      ],
+      "Keine Satelliten-Module registriert": [
+        "Nėra registruotų palydovinių modulių"
+      ],
+      "Sobald WM Suite Plugins aktiviert werden, verbinden sie sich automatisch über den Filter wm_register_suite_module.": [
+        "Vos įjungus WM Suite įskiepius, jie automatiškai prisijungia per filtrą wm_register_suite_module."
+      ],
+      "Abhängigkeiten:": [
+        "Priklausomybės:"
+      ],
+      "Konfiguration": [
+        "Konfigūracija"
+      ],
+      "Selbsttest": [
+        "Savikontrolė"
+      ],
+      "Kettenintegrität: Nicht geprüft (Klicken Sie auf Audit-Integrität prüfen)": [
+        "Grandinės vientisumas: Nepatikrinta (spustelėkite Tikrinti audito vientisumą)"
+      ],
+      "Audit-Log-Tabelle": [
+        "Audito žurnalo lentelė"
+      ],
+      "Zeitstempel": [
+        "Laiko žyma"
+      ],
+      "Modul": [
+        "Modulis"
+      ],
+      "Ereignistyp": [
+        "Įvykio tipas"
+      ],
+      "Benutzer": [
+        "Naudotojas"
+      ],
+      "SHA-256 HMAC Signatur": [
+        "SHA-256 HMAC parašas"
+      ],
+      "Lade Audit-Protokolle...": [
+        "Įkeliami audito įrašai..."
+      ],
+      "Design-System & Theme-Präferenzen": [
+        "Dizaino sistema ir temos nuostatos"
+      ],
+      "Wählen Sie das globale Farbschema für das Cockpit und alle WM Suite Satelliten-Plugins. Standardmäßig wird das Enterprise-Design von CyberEvents verwendet, das sich nahtlos in die native WordPress-Admin-Oberfläche einfügt.": [
+        "Pasirinkite visuotinę spalvų schemą pultui ir visiems WM Suite palydoviniams įskiepiams. Pagal numatytuosius nustatymus taikoma CyberEvents Enterprise."
+      ],
+      "Standard": [
+        "Numatytoji"
+      ],
+      "Obsidian Midnight Slate Command Banner kombiniert mit nativen WordPress Admin Oberflächenkarten und klaren Kontrasten.": [
+        "Tamsi Obsidian Midnight juosta kartu su savosiomis WordPress administravimo kortelėmis ir ryškiu kontrastu."
+      ],
+      "Als Standard aktivieren": [
+        "Nustatyti kaip numatytąją"
+      ],
+      "Klassisch": [
+        "Klasikinė"
+      ],
+      "100% native WordPress Admin Farbpalette (#2271b1 Blue, #f0f0f1 Canvas, standardisierte WP Formulare).": [
+        "100%: savoji WordPress Admin spalvų paletė (#2271b1 mėlyna, #f0f0f1 fonas, standartinės WP formos)."
+      ],
+      "Aktivieren": [
+        "Įjungti"
+      ],
+      "Dark Mode": [
+        "Tamsusis režimas"
+      ],
+      "Vollständiger Dunkelmodus (#050811 Canvas) mit Glassmorphism-Karten und blauen Akzenten.": [
+        "Visiškas tamsusis režimas (#050811 fonas) su pusiau permatomomis kortelėmis ir mėlynais akcentais."
+      ],
+      "Reines Schwarz, Weiß und Sicherheitsgelb für hohen Kontrast.": [
+        "Gryna juoda, balta ir saugos geltona didelio kontrasto režimui."
+      ],
+      "Datenaufbewahrung & Deinstallation": [
+        "Duomenų saugojimas ir šalinimas"
+      ],
+      "Aufbewahrungsschutz": [
+        "Saugojimo apsauga"
+      ],
+      "Alle Daten beim Löschen des Plugins unwiderruflich entfernen": [
+        "Šalinant įskiepį negrįžtamai ištrinti visus duomenis"
+      ],
+      "Standardmäßig bewahrt WM Suite Hub die HMAC-SHA256-Audit-Tabelle, Rollen und Einstellungen bei einer Deinstallation auf. Aktivieren Sie diese Option nur, wenn alle Tabellen und Optionen beim Entfernen des Plugins endgültig gelöscht werden sollen.": [
+        "Pagal numatytuosius nustatymus WM Suite Hub pašalinimo metu išsaugo HMAC-SHA256 audito lentelę, vaidmenis ir nuostatas. Įjunkite šią parinktį tik jei norite galutinai ištrinti visas lenteles ir parinktis."
+      ],
+      "Audit-Verifikation": [
+        "Audito patikra"
+      ],
+      "Schließen": [
+        "Uždaryti"
+      ],
+      "Thematische Pakete aus WM-Suite-Plugins: Die Reihenfolge ihrer Abhängigkeiten löst Kahns topologische Sortierung auf, und der Pre-Flight Check prüft vorab den Server. Eine Installation gibt es in dieser Version nicht; die Plugins werden einzeln installiert.": [
+        "Teminiai WM Suite įskiepių paketai: jų priklausomybių eilės tvarką nustato Kahno topologinis rūšiavimas, o išankstinė patikra pirmiausia patikrina serverį. Šioje versijoje diegimo nėra; įskiepiai diegiami po vieną."
+      ],
+      "Deduplizierung auf dieser Seite:": [
+        "Dublikatų šalinimas šiame puslapyje:"
+      ],
+      "%1$d Skripte und %2$d Stylesheets entfernt (%3$s KB)": [
+        "Pašalinta skriptų: %1$d, stilių failų: %2$d (%3$s KB)"
+      ],
+      "Paketinhalt & Modul-Architektur (%d):": [
+        "Paketo turinys ir modulių architektūra (%d):"
+      ],
+      "Aktiviert": [
+        "Įjungta"
+      ],
+      "Im Paket enthalten": [
+        "Įtraukta į paketą"
+      ],
+      "Mathematische DAG-Installationsfolge (Kahn-Sortierung):": [
+        "Matematinė DAG diegimo tvarka (Kahno rikiavimas):"
+      ],
+      "Keines dieser Plugins setzt ein anderes voraus; die Reihenfolge der Installation ist frei.": [
+        "Nė vienam iš šių įskiepių nereikia kito; diegimo eilės tvarka laisva."
+      ],
+      "Pre-Flight Check für %s starten": [
+        "Pradėti išankstinę patikrą paketui %s"
+      ],
+      "Pre-Flight Check": [
+        "Išankstinė patikra"
+      ],
+      "Prüfe PHP-Version, Sodium-Erweiterung, Speicherlimit, Schreibrechte und OPcache …": [
+        "Tikrinama PHP versija, Sodium plėtinys, atminties riba, rašymo teisės ir OPcache …"
+      ],
+      "Dry-Run Simulation": [
+        "Bandomasis modeliavimas"
+      ],
+      "Zugriff verweigert. Unzureichende Berechtigungen für das WM Suite Cockpit.": [
+        "Prieiga uždrausta. Nepakanka teisių WM Suite pultui."
+      ],
+      "Modul \"%s\" ist nicht registriert oder inaktiv.": [
+        "Modulis \"%s\" neregistruotas arba neaktyvus."
+      ],
+      "Ausführung der Modulaktion fehlgeschlagen: %s": [
+        "Nepavyko įvykdyti modulio veiksmo: %s"
+      ],
+      "Telemetrie-Zwischenspeicher erfolgreich geleert.": [
+        "Telemetrijos podėlis išvalytas."
+      ],
+      "Ungültiges Theme ausgewählt.": [
+        "Pasirinkta netinkama tema."
+      ],
+      "Theme erfolgreich aktualisiert.": [
+        "Tema sėkmingai atnaujinta."
+      ],
+      "CyberEvents Enterprise (Standard)": [
+        "CyberEvents Enterprise (Numatytoji)"
+      ],
+      "WordPress Native Classic": [
+        "WordPress Klasikinė"
+      ],
+      "Obsidian Midnight Dark": [
+        "Obsidian Midnight Tamsi"
+      ],
+      "High-Contrast": [
+        "Didelis kontrastas"
+      ],
+      "Deinstallations-Einstellung aktualisiert.": [
+        "Šalinimo nuostata atnaujinta."
+      ],
+      "Bundle nicht gefunden.": [
+        "Paketas nerastas."
+      ],
+      "Pre-Flight Überprüfung fehlgeschlagen.": [
+        "Išankstinė patikra nepavyko."
+      ],
+      "Dry-Run erfolgreich: %d Pakete geordnet aufgelöst.": [
+        "Modeliavimas pavyko: %d paketų išrikiuota."
+      ],
+      "Die Installation von Solution Packs ist in dieser Version noch nicht verfügbar. Nutzen Sie dry_run=true für die Auflösung der Reihenfolge.": [
+        "Sprendimų paketų diegimas šioje versijoje negalimas. Naudokite dry_run=true eilės tvarkai nustatyti."
+      ],
+      "Consent-Synchronisation abgelehnt: fehlender oder abgelaufener Sicherheits-Token.": [
+        "Sutikimo sinchronizavimas atmestas: trūksta arba baigėsi saugos žetonas."
+      ],
+      "Zu viele Consent-Ereignisse. Bitte in einer Minute erneut versuchen.": [
+        "Per daug sutikimo įvykių. Bandykite dar kartą po minutės."
+      ],
+      "Keine lesbare Einwilligungsentscheidung.": [
+        "Nėra perskaitomo sutikimo sprendimo."
+      ],
+      "Die Einwilligung konnte nicht protokolliert werden.": [
+        "Sutikimo užregistruoti nepavyko."
+      ],
+      "Externer Dienst": [
+        "Išorinė paslauga"
+      ],
+      "Blockierter externer Inhalt: %s": [
+        "Užblokuotas išorinis turinys: %s"
+      ],
+      "Inhalt von %s blockiert": [
+        "%s turinys užblokuotas"
+      ],
+      "%s einmalig laden und aktivieren": [
+        "Įkelti ir leisti %s vieną kartą"
+      ],
+      "Um diesen Inhalt zu laden, ist Ihre Einwilligung gemäß § 25 TDDDG und DSGVO erforderlich.": [
+        "Norint įkelti šį turinį, būtinas jūsų sutikimas pagal TDDDG 25 § ir BDAR."
+      ],
+      "Inhalt laden & entsperren": [
+        "Įkelti ir atrakinti turinį"
+      ],
+      "Mit dem Laden akzeptieren Sie die Datenübertragung an den Drittanbieter.": [
+        "Įkeldami sutinkate su duomenų perdavimu trečiosios šalies teikėjui."
+      ],
+      "Ein Fehler bei der Kommunikation mit dem Hub ist aufgetreten.": [
+        "Bendraujant su Hub įvyko klaida."
+      ],
+      "HTTP-Fehler %s": [
+        "HTTP klaida %s"
+      ],
+      "Theme erfolgreich gewechselt.": [
+        "Tema pakeista."
+      ],
+      "Fehler beim Speichern des Themes: %s": [
+        "Klaida išsaugant temą: %s"
+      ],
+      "Keine Audit-Ereignisse protokolliert.": [
+        "Audito įvykių neužregistruota."
+      ],
+      "Benutzer #%s": [
+        "Naudotojas #%s"
+      ],
+      "Fehler beim Laden der Logs: %s": [
+        "Klaida įkeliant žurnalus: %s"
+      ],
+      "Die Audit-Kette wird geprüft …": [
+        "Tikrinama audito grandinė…"
+      ],
+      "Audit-Kette intakt": [
+        "Audito grandinė nepažeista"
+      ],
+      "Alle %d Einträge passen zu ihrer HMAC-SHA256-Signatur und zu ihrem Vorgänger: Keiner wurde ohne den Schlüssel der Website geändert, gelöscht oder umsortiert.": [
+        "Visi įrašai (%d) atitinka savo HMAC-SHA256 parašą ir ankstesnįjį įrašą: nė vienas nebuvo pakeistas, ištrintas ar perrikiuotas be svetainės rakto."
+      ],
+      "Letzter Hash: %s": [
+        "Paskutinė maiša: %s"
+      ],
+      "Audit-Kette unterbrochen": [
+        "Audito grandinė nutrūko"
+      ],
+      "Prüfung der Audit-Kette": [
+        "Audito grandinės patikra"
+      ],
+      "Prüfung fehlgeschlagen": [
+        "Patikra nepavyko"
+      ],
+      "Telemetriedaten erfolgreich aktualisiert.": [
+        "Telemetrijos duomenys atnaujinti."
+      ],
+      "Fehler beim Aktualisieren: %s": [
+        "Klaida atnaujinant: %s"
+      ],
+      "Pre-Flight: %s": [
+        "Išankstinė patikra: %s"
+      ],
+      "Fehler bei der Pre-Flight-Prüfung:": [
+        "Išankstinės patikros klaida:"
+      ],
+      "Prüfpunkt": [
+        "Patikros punktas"
+      ],
+      "Soll": [
+        "Tikėtina"
+      ],
+      "Ist": [
+        "Faktiška"
+      ],
+      "Status": [
+        "Būsena"
+      ],
+      "Erfüllt": [
+        "Įvykdyta"
+      ],
+      "Nicht erfüllt": [
+        "Neįvykdyta"
+      ],
+      "Berechnete Installationsreihenfolge:": [
+        "Apskaičiuota diegimo tvarka:"
+      ],
+      "Keine Abhängigkeiten deklariert, Reihenfolge frei:": [
+        "Priklausomybių nedeklaruota, tvarka laisva:"
+      ],
+      "Dry-Run für %s läuft …": [
+        "Vykdomas bandomasis modeliavimas: %s…"
+      ],
+      "Dry-Run abgeschlossen.": [
+        "Bandomasis modeliavimas baigtas."
+      ],
+      "Dry-Run fehlgeschlagen: %s": [
+        "Bandomasis modeliavimas nepavyko: %s"
+      ],
+      "Deinstallations-Einstellung gespeichert.": [
+        "Pašalinimo nustatymas išsaugotas."
+      ],
+      "Fehler beim Speichern: %s": [
+        "Klaida išsaugant: %s"
+      ],
+      "Ergebnis für %1$s: %2$s": [
+        "Rezultatas (%1$s): %2$s"
+      ],
+      "Aktion erfolgreich ausgeführt.": [
+        "Veiksmas sėkmingai atliktas."
+      ],
+      "Fehler bei der Modulaktion: %s": [
+        "Modulio veiksmo klaida: %s"
+      ],
+      "Ohne aktives Plugin „%s“ zeigt dieser Block Besuchern nichts an.": [
+        "Be aktyvaus įskiepio „%s“ šis blokas lankytojams nieko nerodo."
+      ],
+      "Noch nicht konfiguriert — bitte „%s“ im Block-Inspektor eintragen. Besucher sehen den Block bis dahin nicht.": [
+        "Dar nesukonfigūruota – įrašykite „%s“ bloko nustatymuose. Iki tol lankytojai bloko nemato."
+      ],
+      "Barrierefreiheits-Einstellungen": [
+        "Prieinamumo nuostatos"
+      ],
+      "Kontrast": [
+        "Kontrastas"
+      ],
+      "Leseschrift": [
+        "Skaitymo šriftas"
+      ],
+      "Datenschutz-Einstellungen": [
+        "Privatumo nustatymai"
+      ],
+      "SBOM-Download-URL": [
+        "SBOM atsisiuntimo URL"
+      ],
+      "Software-Stückliste (SBOM)": [
+        "Programinės įrangos komponentų sąrašas (SBOM)"
+      ],
+      "CycloneDX 1.6 SBOM herunterladen": [
+        "Atsisiųsti CycloneDX 1.6 SBOM"
+      ],
+      "Buchungsseite (URL)": [
+        "Rezervavimo puslapis (URL)"
+      ],
+      "Zur Buchung": [
+        "Į rezervaciją"
+      ],
+      "Veranstaltungskarte noch nicht konfiguriert — bitte Titel und Veranstaltungsdaten im Block-Inspektor eintragen.": [
+        "Renginio kortelė dar nesukonfigūruota – įrašykite pavadinimą ir renginio duomenis bloko nustatymuose."
+      ],
+      "Ausgebucht": [
+        "Visos vietos užimtos"
+      ],
+      "Nur noch %d Plätze": [
+        "Liko tik %d vietos"
+      ],
+      "%d freie Plätze": [
+        "%d laisvos vietos"
+      ],
+      "„%s“ meldet keine aktiven Veranstaltungen; Besucher sehen den Block bis dahin nicht.": [
+        "„%s“ nepraneša apie aktyvius renginius; iki tol lankytojai bloko nemato."
+      ],
+      "Max. %d Plätze": [
+        "Daugiausia %d vietų"
+      ],
+      "Zur Veranstaltung": [
+        "Į renginį"
+      ],
+      "Noch keine geprüften LkSG-Kennzahlen eingetragen — bitte Werte im Block-Inspektor hinterlegen.": [
+        "Patikrintų LkSG rodiklių dar neįrašyta – įrašykite reikšmes bloko nustatymuose."
+      ],
+      "Lieferketten-Sorgfaltspflicht (LkSG & CSDDD)": [
+        "Tiekimo grandinės deramas patikrinimas (LkSG ir CSDDD)"
+      ],
+      "Menschenrechte": [
+        "Žmogaus teisės"
+      ],
+      "Umweltschutz": [
+        "Aplinkos apsauga"
+      ],
+      "Gute Governance": [
+        "Geroji valdysena"
+      ],
+      "Dieser Container nimmt im Editor keine Inhalte auf und wirkt nicht auf die Seite; Besucher sehen ihn nicht.": [
+        "Šis konteineris redaktoriuje nepriima turinio ir neturi poveikio puslapiui; lankytojai jo nemato."
+      ],
+      "Ticker-Meldungen": [
+        "Naujienų juostos pranešimai"
+      ],
+      "Nachrichten-Ticker": [
+        "Naujienų juosta"
+      ],
+      "Ticker anhalten oder fortsetzen": [
+        "Pristabdyti arba tęsti juostą"
+      ],
+      "Pausieren": [
+        "Pristabdyti"
+      ],
+      "Prüft im Browser, ob die Kennung dem Format Schema:ID entspricht (z. B. 0208:0843657437). Ob der Teilnehmer im Peppol-Netz erreichbar ist, prüft dieser Block nicht.": [
+        "Naršyklėje patikrina, ar identifikatorius atitinka formatą Schema:ID (pvz., 0208:0843657437). Ar dalyvis pasiekiamas Peppol tinkle, šis blokas netikrina."
+      ],
+      "Peppol ID": [
+        "Peppol ID"
+      ],
+      "Prüfen": [
+        "Tikrinti"
+      ],
+      "Ziel-Element-ID": [
+        "Paskirties elemento ID"
+      ],
+      "Beim Laden dieses Inhalts werden Daten an den Anbieter übertragen.": [
+        "Įkeliant šį turinį duomenys perduodami teikėjui."
+      ],
+      "Inhalt einmalig laden": [
+        "Įkelti turinį vieną kartą"
+      ],
+      "Hinweis abgeben": [
+        "Pateikti pranešimą"
+      ],
+      "WM Suite Hub Telemetry": [
+        "WM Suite Hub telemetrija"
+      ],
+      "Telemetry Field": [
+        "Telemetrijos laukas"
+      ],
+      "Health Score (%)": [
+        "Būklės balas (%)"
+      ],
+      "Global Status": [
+        "Bendra būsena"
+      ],
+      "Active Spokes Count": [
+        "Aktyvių palydovų skaičius"
+      ],
+      "Hub Version": [
+        "Hub versija"
+      ],
+      "Format gültig (Schema:ID)": [
+        "Formatas tinkamas (Schema:ID)"
+      ],
+      "Ungültiges ID-Format": [
+        "Neteisingas ID formatas"
+      ],
+      "Pausiert": [
+        "Pristabdyta"
+      ],
+      "Läuft": [
+        "Veikia"
+      ],
+      "Compliance Officer (DPO)": [
+        "Atitikties pareigūnas (DAP)"
+      ],
+      "Eintrag #%d verweist nicht auf seinen Vorgänger: Ein Eintrag davor wurde gelöscht, eingefügt oder geändert.": [
+        "Įrašas #%d nenurodo į ankstesnįjį: ankstesnis įrašas buvo ištrintas, įterptas arba pakeistas."
+      ],
+      "Die Signatur von Eintrag #%d stimmt nicht: Der Eintrag wurde geändert, oder der Schlüssel der Website (AUTH_SALT) ist nicht mehr der, mit dem er geschrieben wurde.": [
+        "Įrašo #%d parašas nesutampa: įrašas buvo pakeistas arba svetainės raktas (AUTH_SALT) nebėra tas, kuriuo įrašas buvo parašytas."
+      ],
+      "Die Audit-Tabelle ist leer.": [
+        "Audito lentelė tuščia."
+      ],
+      "%d Einträge geprüft, die Kette ist lückenlos.": [
+        "Patikrinta įrašų: %d, grandinė ištisinė."
+      ],
+      "Eingeschränkt": [
+        "Ribotas"
+      ],
+      "Nicht konfiguriert": [
+        "Nesukonfigūruotas"
+      ],
+      "Fehler": [
+        "Klaida"
+      ],
+      "Warnung": [
+        "Įspėjimas"
+      ],
+      "Unbekannt": [
+        "Nežinomas"
+      ],
+      "WM Suite Hub requires PHP 8.2 or higher. Please upgrade your PHP runtime.": [
+        "WM Suite Hub reikalinga PHP 8.2 ar naujesnė versija. Atnaujinkite PHP aplinką."
+      ],
+      "Block-Einstellungen": [
+        "Bloko nuostatos"
+      ],
+      "Spaltenanzahl": [
+        "Stulpelių skaičius"
+      ],
+      "Maximale Einträge": [
+        "Didžiausias įrašų skaičius"
+      ],
+      "Veranstaltungstitel": [
+        "Renginio pavadinimas"
+      ],
+      "Kategorie": [
+        "Kategorija"
+      ],
+      "Datum": [
+        "Data"
+      ],
+      "Veranstaltungsort": [
+        "Renginio vieta"
+      ],
+      "Freie Plätze": [
+        "Laisvos vietos"
+      ],
+      "Preis": [
+        "Kaina"
+      ],
+      "Button-Beschriftung": [
+        "Mygtuko užrašas"
+      ],
+      "Hinweis unter dem Button": [
+        "Pastaba po mygtuku"
+      ],
+      "Überschrift": [
+        "Antraštė"
+      ],
+      "Platzhaltertext": [
+        "Vietos rezervavimo tekstas"
+      ],
+      "Badge-Beschriftung": [
+        "Ženkliuko tekstas"
+      ],
+      "Dienstname": [
+        "Paslaugos pavadinimas"
+      ],
+      "Unternehmensname": [
+        "Įmonės pavadinimas"
+      ],
+      "Link zur Meldestelle": [
+        "Nuoroda į pranešimų kanalą"
+      ],
+      "Menschenrechte (%)": [
+        "Žmogaus teisės (%)"
+      ],
+      "Umweltschutz (%)": [
+        "Aplinka (%)"
+      ],
+      "Governance (%)": [
+        "Valdysena (%)"
+      ],
+      "Versionskennzeichnung": [
+        "Versijos žyma"
+      ],
+      "Kontrastschalter anzeigen": [
+        "Rodyti didelio kontrasto jungiklį"
+      ],
+      "Leseschrift-Schalter anzeigen": [
+        "Rodyti skaitymo šrifto jungiklį"
+      ],
+      "Schriftgrößen-Schalter anzeigen": [
+        "Rodyti teksto dydžio mygtukus"
+      ],
+      "Badge-Text": [
+        "Žymos tekstas"
+      ],
+      "Skalierungsfaktor": [
+        "Mastelio santykis"
+      ],
+      "Basisschriftgröße": [
+        "Bazinis šrifto dydis"
+      ],
+      "block title\u0004WM Accessibility Toolbar": [
+        "WM Prieinamumo įrankių juosta"
+      ],
+      "block description\u0004Buttons for high contrast in the WM Suite blocks, a reading font installed on the visitor's device, and larger text. The choice stays in the browser.": [
+        "Didelio kontrasto mygtukai WM Suite blokuose, lankytojo įrenginyje įdiegtas skaitymo šriftas ir didesnis tekstas. Pasirinkimas lieka naršyklėje."
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004bfsg": [
+        "bfsg"
+      ],
+      "block keyword\u0004barrierefreiheit": [
+        "prieinamumas"
+      ],
+      "block keyword\u0004contrast": [
+        "kontrastas"
+      ],
+      "block keyword\u0004dyslexia": [
+        "disleksija"
+      ],
+      "block title\u0004WM Accessibility Statement": [
+        "WM Prieinamumo pareiškimas"
+      ],
+      "block description\u0004Shows the accessibility statement that WM BFSG Compliance Dashboard builds from your settings. Without that plugin, visitors see nothing.": [
+        "Rodo prieinamumo pareiškimą, kurį WM BFSG Compliance Dashboard sudaro pagal jūsų nustatymus. Be šio įskiepio lankytojai nieko nemato."
+      ],
+      "block keyword\u0004erklaerung": [
+        "pareiškimas"
+      ],
+      "block keyword\u0004wcag": [
+        "wcag"
+      ],
+      "block keyword\u0004mlbf": [
+        "mlbf"
+      ],
+      "block title\u0004WM Consent Settings Badge": [
+        "WM Sutikimo nustatymų ženklelis"
+      ],
+      "block description\u0004Badge link that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Ženklelio nuoroda, atverianti WM Sovereign Consent Vault sutikimo dialogą. Be šio įskiepio lankytojai nieko nemato."
+      ],
+      "block keyword\u0004privacy": [
+        "asmens-duomenys"
+      ],
+      "block keyword\u0004consent": [
+        "sutikimas"
+      ],
+      "block keyword\u0004dsgvo": [
+        "bdar"
+      ],
+      "block keyword\u0004tdddg": [
+        "tdddg"
+      ],
+      "block keyword\u0004cookies": [
+        "slapukai"
+      ],
+      "block title\u0004WM SBOM Download": [
+        "WM SBOM atsisiuntimas"
+      ],
+      "block description\u0004Download link for the CycloneDX SBOM that wp wm-hub sbom writes. Visitors see nothing until a URL is entered.": [
+        "Atsisiuntimo nuoroda į CycloneDX SBOM, kurį įrašo wp wm-hub sbom. Lankytojai nieko nemato, kol neįrašytas URL."
+      ],
+      "block keyword\u0004cra": [
+        "cra"
+      ],
+      "block keyword\u0004sbom": [
+        "sbom"
+      ],
+      "block keyword\u0004cyclonedx": [
+        "cyclonedx"
+      ],
+      "block keyword\u0004bsi": [
+        "bsi"
+      ],
+      "block keyword\u0004security": [
+        "saugumas"
+      ],
+      "block title\u0004WM Event Booking CTA Button": [
+        "WM Renginio registracijos mygtukas"
+      ],
+      "block description\u0004Button to the booking page you enter, with an optional note under it. Visitors see nothing until a URL is entered.": [
+        "Mygtukas į jūsų įrašytą rezervavimo puslapį su neprivaloma pastaba po juo. Lankytojai nieko nemato, kol neįrašytas URL."
+      ],
+      "block keyword\u0004booking": [
+        "registracija"
+      ],
+      "block keyword\u0004cta": [
+        "cta"
+      ],
+      "block keyword\u0004button": [
+        "mygtukas"
+      ],
+      "block keyword\u0004tickets": [
+        "bilietai"
+      ],
+      "block title\u0004WM Atomic Event Card": [
+        "WM Renginio kortelė"
+      ],
+      "block description\u0004Event card with the title, date, place, price and free seats you type in, and a button to the booking page you enter. Nothing is read live.": [
+        "Renginio kortelė su jūsų įrašytu pavadinimu, data, vieta, kaina ir laisvomis vietomis bei mygtuku į nurodytą rezervavimo puslapį. Niekas neskaitoma realiuoju laiku."
+      ],
+      "block keyword\u0004event": [
+        "renginys"
+      ],
+      "block keyword\u0004card": [
+        "kortelė"
+      ],
+      "block keyword\u0004ticket": [
+        "bilietas"
+      ],
+      "block keyword\u0004conference": [
+        "konferencija"
+      ],
+      "block title\u0004WM Event Grid Container": [
+        "WM Renginių tinklelis"
+      ],
+      "block description\u0004Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.": [
+        "Išvardija aktyvius WM Cyber Events Core renginius, kiekvieną su nuoroda į jo puslapį. Be šio įskiepio lankytojai nieko nemato."
+      ],
+      "block keyword\u0004grid": [
+        "tinklelis"
+      ],
+      "block keyword\u0004wm suite": [
+        "wm suite"
+      ],
+      "block title\u0004WM LkSG ESG Supply Chain Scorecard": [
+        "WM LkSG ir ESG rodiklių kortelė"
+      ],
+      "block description\u0004Three percentages you type in (human rights, environment, governance) under a supply chain heading. The block computes and checks nothing.": [
+        "Trys jūsų įrašyti procentai (žmogaus teisės, aplinka, valdysena) po antrašte apie tiekimo grandinę. Blokas nieko neskaičiuoja ir netikrina."
+      ],
+      "block keyword\u0004lksg": [
+        "lksg"
+      ],
+      "block keyword\u0004esg": [
+        "esg"
+      ],
+      "block keyword\u0004csddd": [
+        "csddd"
+      ],
+      "block keyword\u0004lieferkette": [
+        "tiekimo grandinė"
+      ],
+      "block keyword\u0004compliance": [
+        "atitiktis"
+      ],
+      "block title\u0004WM Modular Scale Fluid Type Container": [
+        "WM Sklandžios tipografijos konteineris"
+      ],
+      "block description\u0004Container for a modular type scale. In this version it takes no inner blocks and no stylesheet reads its settings, so it has no effect on the page.": [
+        "Konteineris moduliniam tipografiniam masteliui. Šioje versijoje jis nepriima vidinių blokų ir joks stilių failas neskaito jo nustatymų, todėl jis neturi poveikio puslapiui."
+      ],
+      "block keyword\u0004typography": [
+        "tipografija"
+      ],
+      "block keyword\u0004fluid": [
+        "sklandus"
+      ],
+      "block keyword\u0004modular scale": [
+        "modulinė skalė"
+      ],
+      "block keyword\u0004clamp": [
+        "clamp"
+      ],
+      "block keyword\u0004container queries": [
+        "container queries"
+      ],
+      "block title\u0004WM Newsticker": [
+        "WM Naujienų juosta"
+      ],
+      "block description\u0004Scrolling line of your own text with a pause button. It stops on hover and stands still for visitors who ask for reduced motion.": [
+        "Slenkanti eilutė su jūsų tekstu ir pauzės mygtuku. Ji sustoja, kai pelė virš jos, ir stovi vietoje lankytojams, kurie prašo mažesnio judėjimo."
+      ],
+      "block keyword\u0004ticker": [
+        "juosta"
+      ],
+      "block keyword\u0004marquee": [
+        "slinkimas"
+      ],
+      "block keyword\u0004news": [
+        "naujienos"
+      ],
+      "block keyword\u0004eilmeldung": [
+        "skubi žinia"
+      ],
+      "block keyword\u0004accessibility": [
+        "prieinamumas"
+      ],
+      "block title\u0004WM Peppol ID Format Check": [
+        "WM Peppol ID formato patikra"
+      ],
+      "block description\u0004Checks in the browser whether an ID has the Peppol form Scheme:ID. It does not look the participant up in the Peppol network.": [
+        "Naršyklėje patikrina, ar ID turi Peppol formą Schema:ID. Dalyvio Peppol tinkle neieško."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004xrechnung": [
+        "xrechnung"
+      ],
+      "block keyword\u0004zugferd": [
+        "zugferd"
+      ],
+      "block keyword\u0004geba": [
+        "geba"
+      ],
+      "block keyword\u0004e-invoicing": [
+        "e. sąskaitų faktūrų išrašymas"
+      ],
+      "block title\u0004WM Sovereign Privacy Center": [
+        "WM Suverenus privatumo centras"
+      ],
+      "block description\u0004Heading and the button that opens the consent dialog of WM Sovereign Consent Vault. Without that plugin, visitors see nothing.": [
+        "Antraštė ir mygtukas, atveriantis WM Sovereign Consent Vault sutikimo dialogą. Be šio įskiepio lankytojai nieko nemato."
+      ],
+      "block keyword\u0004preferences": [
+        "nuostatos"
+      ],
+      "block title\u0004WM DSGVO Art. 17 Privacy Eraser Form": [
+        "WM BDAR 17 str. duomenų ištrynimo forma"
+      ],
+      "block description\u0004Shows the erasure request form of WM DSGVO Privacy Eraser. Without that plugin, visitors see nothing.": [
+        "Rodo WM DSGVO Privacy Eraser ištrynimo prašymų formą. Be šio įskiepio lankytojai nieko nemato."
+      ],
+      "block keyword\u0004eraser": [
+        "ištrynimas"
+      ],
+      "block keyword\u0004art17": [
+        "art17"
+      ],
+      "block keyword\u0004loeschung": [
+        "pašalinimas"
+      ],
+      "block title\u0004WM External Content Placeholder": [
+        "WM Išorinio turinio vietos rezervavimo ženklas"
+      ],
+      "block description\u0004Placeholder with a load button. Put the embed into a template element with the target ID: nothing in it loads before the click.": [
+        "Vietos rezervavimo ženklas su įkėlimo mygtuku. Įdėkite įterptį į template elementą su tiksliniu ID: niekas jame neįkeliama iki paspaudimo."
+      ],
+      "block keyword\u0004media": [
+        "medija"
+      ],
+      "block keyword\u0004placeholder": [
+        "vietaženklis"
+      ],
+      "block keyword\u0004blocker": [
+        "blokatorius"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal Card": [
+        "WM HinSchG pranešėjų portalo kortelė"
+      ],
+      "block description\u0004Link card to the reporting channel: the portal block on the same page, or an address you enter.": [
+        "Nuorodos kortelė į pranešimų kanalą: portalo blokas tame pačiame puslapyje arba jūsų įrašytas adresas."
+      ],
+      "block keyword\u0004hinschg": [
+        "hinschg-istatymas"
+      ],
+      "block keyword\u0004whistleblower": [
+        "pranesejas"
+      ],
+      "block keyword\u0004meldung": [
+        "pranešimas"
+      ],
+      "block keyword\u0004hinweisgeber": [
+        "informavimas"
+      ],
+      "block title\u0004WM HinSchG Whistleblower Portal": [
+        "WM HinSchG pranešėjų portalas"
+      ],
+      "block description\u0004Shows the reporting portal of WM HinSchG Whistleblower Desk. Without that plugin, visitors see nothing.": [
+        "Rodo WM HinSchG Whistleblower Desk pranešimų portalą. Be šio įskiepio lankytojai nieko nemato."
+      ],
+      "block keyword\u0004wizard": [
+        "vedlys"
+      ]
+    }
+  }
+}

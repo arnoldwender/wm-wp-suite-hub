@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/event-grid",
+	"version": "1.2.6",
+	"title": "WM Event Grid Container",
+	"category": "wm-suite",
+	"icon": "calendar-alt",
+	"description": "Lists the active events of WM Cyber Events Core, each with a link to its event page. Without that plugin, visitors see nothing.",
+	"keywords": ["event", "grid", "conference", "tickets", "wm suite"],
+	"textdomain": "wm-suite-hub",
+	"editorScript": "wm-suite-hub-blocks-editor",
+	"attributes": {
+		"columns": {
+			"type": "number",
+			"default": 3
+		},
+		"limit": {
+			"type": "number",
+			"default": 6
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	}
+}
